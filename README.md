@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/vibe-master-ai/my-iptv/main/my-iptv.m3u
 
 Метадані й альтернативні назви: [iptv-org/api](https://github.com/iptv-org/api).
 
-Також перевірено [MaximKiselev/iptv](https://github.com/MaximKiselev/iptv), але не використано через старий знімок (16 грудня 2025) та відсутні ID/мовні теги у більшості тематичних рядків. [Romzes25/playlistTV](https://github.com/Romzes25/playlistTV/blob/main/playlistFilms.m3u) відхилено: це окремі MP4/VOD-файли. [Phoenix89S/IpTV_playlist_2026Ru](https://github.com/Phoenix89S/IpTV_playlist_2026Ru/blob/main/8.m3u) відхилено як поточний скан-список із численними рядками без ID/доказу мови та нестійкими токенізованими адресами. `cartoons.m3u` з naggdd містить окремі MP4, тому не використаний як список телеканалів.
+Також перевірено [MaximKiselev/iptv](https://github.com/MaximKiselev/iptv), але не використано через старий знімок (16 грудня 2025) та відсутні ID/мовні теги у більшості тематичних рядків. [Romzes25/playlistTV](https://github.com/Romzes25/playlistTV/blob/main/playlistFilms.m3u) відхилено: це окремі MP4/VOD-файли. [Phoenix89S/IpTV_playlist_2026Ru](https://github.com/Phoenix89S/IpTV_playlist_2026Ru/blob/main/8.m3u) відхилено як поточний скан-список із численними рядками без ID/доказу мови та нестійкими токенізованими адресами. [LsMacox/iptv](https://github.com/LsMacox/iptv), [BpaTa/iptv](https://github.com/BpaTa/iptv) та [andrey4100/iptv](https://github.com/andrey4100/iptv) перевірено як однакові StreamVault-генеровані дзеркала без `tvg-language`; вони не додають незалежного мовного доказу. `cartoons.m3u` з naggdd містить окремі MP4, тому не використаний як список телеканалів.
 
 ## Відбір
 
