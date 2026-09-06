@@ -6,17 +6,21 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import URLError
-from urllib.parse import urlsplit
+from urllib.parse import parse_qs, urlsplit
 import json
 import ipaddress
 import hashlib
 import re
 import time
+import base64
 
 ROOT = Path(__file__).resolve().parent
 EXTRA_PATH = ROOT / 'extra_channels.json'
 OUT = ROOT / 'my-iptv.m3u'
 POLICY = 'movies-cartoons-ukr-rus-ua-broadcast-educational-series-v6'
+DYVY_API_URL = 'https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500'
+DYVY_REPO = 'DyvyTV official public API'
+DYVY_CHANNELS_PATH = ROOT / 'dyvy_channels.json'
 SOURCES = [
     ('iptv-org/iptv', f'https://iptv-org.github.io/iptv/categories/{category}.m3u', None)
     for category in ('movies', 'animation', 'kids', 'series', 'documentary', 'education', 'science', 'travel', 'outdoor')
@@ -41,6 +45,11 @@ SOURCES = [
 # accidentally opt into the broadcast policy.
 UKRAINE_SOURCE = ('iptv-org/iptv', 'https://iptv-org.github.io/iptv/countries/ua.m3u', 'UA')
 SOURCES.append(UKRAINE_SOURCE)
+# The API is a public player catalogue used by the official 24tv/DyvyTV embed.
+# Only entries in dyvy_channels.json are admitted, and only the portable origin
+# HLS encoded in the player's public ``m`` parameter is emitted.  IP-bound JWT
+# CDN links and package-protected entries are deliberately excluded.
+SOURCES.append((DYVY_REPO, DYVY_API_URL, 'UA'))
 # iptv-org currently leaves these two Ukrainian broadcasters uncategorized in
 # channels.json and marks their country-playlist rows as Undefined.  Their exact
 # UA feeds still carry Ukrainian language metadata, so keep this narrow fallback
@@ -102,7 +111,11 @@ LANG_MAP = {'ukr':'ukr','uk':'ukr','ukrainian':'ukr','українська':'ukr
 def fetch(url):
     for attempt in range(3):
         try:
-            with urlopen(Request(url, headers={'User-Agent':'iptv-aggregator/2.0'}), timeout=30) as r:
+            headers = {'User-Agent':'iptv-aggregator/2.0'}
+            if url == DYVY_API_URL:
+                headers.update({'Accept':'application/json', 'X-localization':'uk',
+                                'X-OTT-Provider-ID':'777905'})
+            with urlopen(Request(url, headers=headers), timeout=30) as r:
                 return r.read().decode('utf-8-sig')
         except (URLError, TimeoutError):
             if attempt == 2:
@@ -147,6 +160,58 @@ def set_attr(line, name, value):
     metadata, title = split_extinf(line)
     metadata = re.sub(r'\s+' + re.escape(name) + r'="[^"]*"', '', metadata, flags=re.I)
     return f'{metadata} {name}="{value}",{title}'
+
+
+def dyvy_playlist(text, reviewed=None):
+    """Convert reviewed public DyvyTV API rows into portable M3U entries.
+
+    Dyvy's player API returns two kinds of links: a direct origin URL embedded
+    in the public ``m`` parameter for FAST channels, and JWT URLs bound to the
+    API caller's IP for some live channels.  The latter are not portable and
+    are intentionally omitted from the published playlist.
+    """
+    payload = json.loads(text)
+    rows = payload.get('data', []) if isinstance(payload, dict) else payload
+    reviewed = reviewed if reviewed is not None else _dyvy_reviewed()
+    output = ['#EXTM3U']
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        slug = row.get('slug', '')
+        policy = reviewed.get(slug)
+        if not policy or row.get('type') not in ('live', 'fast') or not row.get('link'):
+            continue
+        # Never turn a package-gated row into a public URL.
+        if row.get('package_block'):
+            continue
+        parts = urlsplit(row['link'])
+        params = dict((k, v[0]) for k, v in parse_qs(parts.query).items())
+        direct = ''
+        if params.get('m'):
+            try:
+                direct = base64.urlsafe_b64decode(params['m'] + '=' * (-len(params['m']) % 4)).decode('utf-8')
+            except (ValueError, UnicodeDecodeError):
+                continue
+        elif (parts.hostname or '').lower() == 'playout-stream.adt-playout.top':
+            direct = row['link']
+        dparts = urlsplit(direct)
+        if (dparts.scheme, (dparts.hostname or '').lower()) != ('https', 'playout-stream.adt-playout.top'):
+            continue
+        if not dparts.path.lower().endswith('.m3u8') or not public_stream(direct):
+            continue
+        title = str(row.get('name') or policy['name']).replace('"', "'").strip()
+        group = f"{policy['kind']} | UKR"
+        cid = f'Dyvy.{slug}.ua'
+        output.append(f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{title}" tvg-language="ukr" group-title="{group}",{title}')
+        output.append(direct)
+    return '\n'.join(output) + '\n'
+
+
+def _dyvy_reviewed():
+    if not DYVY_CHANNELS_PATH.exists():
+        return {}
+    rows = json.loads(DYVY_CHANNELS_PATH.read_text(encoding='utf-8'))
+    return {row['slug']: row for row in rows if isinstance(row, dict) and row.get('slug')}
 
 
 def normalize(name):
@@ -208,7 +273,8 @@ def main():
     entries, seen, audit = [], set(), []
     counts, contributions = Counter(), Counter()
     for repo, source, country_hint in SOURCES:
-        for meta, url in parse_entries(texts[source]):
+        source_text = dyvy_playlist(texts[source]) if source == DYVY_API_URL else texts[source]
+        for meta, url in parse_entries(source_text):
             if not public_stream(url) or re.search(r'\.(mp4|mkv|avi)(?:\?|$)', url, re.I):
                 continue
             line = meta[0]
@@ -219,7 +285,11 @@ def main():
             extra = extra_by_url.get(cinema_stream_key(url))
             cid = attr(line,'tvg-id').split('@')[0]
             alias_used = False
-            if cid not in database:
+            if repo == DYVY_REPO:
+                # dyvy_playlist emits an allowlisted synthetic ID; do not try
+                # to resolve it through the iptv-org title catalogue.
+                pass
+            elif cid not in database:
                 alias = SOURCE_TITLE_ALIASES.get(repo, {}).get(normalize(title), '')
                 if alias:
                     cid = alias
@@ -231,7 +301,10 @@ def main():
                     cid = next(iter(possible)) if len(possible) == 1 else ''
             if extra:
                 cid = ''  # Exact reviewed cinema stream overrides a colliding broadcast-channel name.
+            reviewed_dyvy = _dyvy_reviewed().get(cid.removeprefix('Dyvy.').removesuffix('.ua')) if cid.startswith('Dyvy.') else None
             channel = database.get(cid, {})
+            if reviewed_dyvy:
+                channel = {'country': 'UA', 'categories': [reviewed_dyvy['catalog_category']]}
             if channel.get('is_nsfw'):
                 continue
             raw_languages = attr(line,'tvg-language').lower()
@@ -255,11 +328,15 @@ def main():
             if not langs:
                 continue
             categories = set(channel.get('categories', []))
+            if reviewed_dyvy:
+                evidence = reviewed_dyvy['source']
             if not cid and extra:
                 categories.add(extra['category'])
                 cid = 'OnlineCinema.' + hashlib.sha256(normalize(extra['name']).encode()).hexdigest()[:12]
             categories.update(x.strip().lower() for x in attr(line,'group-title').split(';'))
-            if 'animation' in categories or cid in CARTOON_IDS:
+            if reviewed_dyvy:
+                kind = reviewed_dyvy['kind']
+            elif 'animation' in categories or cid in CARTOON_IDS:
                 kind = 'Мультфільми'
             elif 'series' in categories or cid in SERIES_FALLBACK_IDS:
                 kind = 'Серіали'

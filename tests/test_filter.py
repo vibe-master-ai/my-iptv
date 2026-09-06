@@ -1,4 +1,5 @@
 import json
+import base64
 import sys
 import tempfile
 import unittest
@@ -10,6 +11,22 @@ import identity_audit as identity
 
 
 class FilterTest(unittest.TestCase):
+    def test_dyvy_public_api_keeps_only_reviewed_portable_origins(self):
+        direct = 'https://playout-stream.adt-playout.top/player/video/test/1/master.m3u8?subs=1'
+        wrapped = 'https://777905.live.tvstitch.com/catchup/stream.m3u8?m=' + base64.urlsafe_b64encode(direct.encode()).decode()
+        rows = [
+            {'slug':'allowed', 'name':'Allowed', 'type':'fast', 'link':wrapped},
+            {'slug':'gated', 'name':'Gated', 'type':'fast', 'package_block':{'name':'Authorized'}, 'link':wrapped},
+            {'slug':'jwt', 'name':'IP bound', 'type':'live', 'link':'https://cdn.dyvyapp.com/x/video.m3u8?token=jwt'},
+        ]
+        reviewed = {'allowed': {'name':'Allowed','kind':'Пізнавальні'},
+                    'gated': {'name':'Gated','kind':'Пізнавальні'},
+                    'jwt': {'name':'IP bound','kind':'Українське ТБ'}}
+        result = m.parse_entries(m.dyvy_playlist(json.dumps({'data':rows}), reviewed=reviewed))
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0][1], direct)
+        self.assertEqual(m.attr(result[0][0][0], 'tvg-language'), 'ukr')
+
     def test_nonportable_streams_are_excluded(self):
         self.assertFalse(m.public_stream('http://127.0.0.1:6878/ace/getstream'))
         self.assertFalse(m.public_stream('http://192.168.1.2/live'))

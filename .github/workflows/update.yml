@@ -9,6 +9,7 @@ on:
       - 'iptv_filter.py'
       - 'tests/**'
       - 'extra_channels.json'
+      - 'dyvy_channels.json'
       - '.github/workflows/update.yml'
 permissions:
   contents: write

@@ -59,6 +59,7 @@ MANUAL_REJECTIONS = {
     # URL changes in upstream snapshots.
     'ViasatExplore.ua': 'Observed Bulgarian tariff/entitlement splash instead of the advertised channel (user visual review).',
 }
+VISUAL_AUDIT_PATH = ROOT / 'dyvy_identity_audit.json'
 
 
 def _manifest(url):
@@ -81,15 +82,26 @@ def review(row, entry):
     """Annotate one checker row; status becomes identity_failed only on evidence."""
     meta, url = entry
     result = dict(row)
+    prior_identity_status = row.get('identity_status', '')
     result['technical_status'] = row.get('status', '')
     result['identity_checked_at'] = datetime.now(timezone.utc).isoformat()
-    result['identity_status'] = 'reviewed_metadata_only'
+    result['identity_status'] = (prior_identity_status if row.get('status') == 'identity_failed'
+                                 and prior_identity_status else 'reviewed_metadata_only')
     result['identity_reason'] = ''
     result['identity_method'] = 'ffprobe metadata; HLS manifest text where available'
     result['redirect_url'] = ''
     result['manifest_flags'] = []
     if row.get('status') != 'working':
-        result['identity_status'] = 'not_applicable'
+        # Preserve a prior wrong-content verdict when the technical status was
+        # reused by expand_check.py.  Re-running this audit must not erase the
+        # evidence that removed a known promo/entitlement stream.
+        if row.get('status') == 'identity_failed' and prior_identity_status:
+            for field in ('identity_reason', 'identity_method', 'identity_evidence',
+                          'redirect_url', 'manifest_flags'):
+                if field in row:
+                    result[field] = row[field]
+        else:
+            result['identity_status'] = 'not_applicable'
         return result
 
     host = (urlsplit(url).hostname or '').lower()
@@ -109,6 +121,23 @@ def review(row, entry):
         result['identity_reason'] = MANUAL_REJECTIONS['ViasatExplore.ua']
         result['identity_evidence'] = 'manual visual review recorded 2026-09-06'
         return result
+
+    # New Dyvy additions have a separate sampled-frame/OCR record.  Keep this
+    # URL-specific so future API refreshes must earn a fresh visual review.
+    if row.get('channel_id', '').startswith('Dyvy.') and VISUAL_AUDIT_PATH.exists():
+        visual_rows = {item.get('url'): item for item in json.loads(VISUAL_AUDIT_PATH.read_text())}
+        visual = visual_rows.get(url)
+        if visual:
+            result['identity_method'] = visual.get('method', 'sampled frames and OCR')
+            result['identity_evidence'] = visual.get('sample', 'dyvy_identity_audit.json')
+            result['identity_reason'] = 'Sampled visual channel/topic content; no promo or entitlement marker detected.'
+            if visual.get('status') == 'visual_failed':
+                result['status'] = 'identity_failed'
+                result['identity_status'] = 'rejected_visual_marker'
+                result['identity_reason'] = 'Sampled frame OCR matched a promotional or entitlement marker.'
+            else:
+                result['identity_status'] = 'reviewed_visual_sample'
+            return result
 
     body, redirected, fetch_error = _manifest(url)
     result['redirect_url'] = redirected

@@ -11243,5 +11243,335 @@
     "source": "https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ua.m3u",
     "url": "http://46.175.163.130/ks_plus/index.m3u8",
     "language_evidence": "exact feed language metadata"
+  },
+  {
+    "name": "Drama Prime HD",
+    "channel_id": "Dyvy.drama-prime-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/07cdfd23373b17c6b337251c22b7ea57/15836/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Action Prime HD",
+    "channel_id": "Dyvy.action-prime-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/e3796ae838835da0b6f6ea37bcf8bcb7/16146/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Comedy Prime HD",
+    "channel_id": "Dyvy.comedy-prime-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/92c8c96e4c37100777c7190b76d28233/15608/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Гумор ТБ HD",
+    "channel_id": "Dyvy.gumor-tb-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Українське ТБ",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/53c3bce66e43be4f209556518c2fcb54/22372/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Біографер",
+    "channel_id": "Dyvy.biografer.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/a8f15eda80c50adb0e71943adc8015cf/4362/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Life Experience",
+    "channel_id": "Dyvy.life-experience.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36681/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Hobby",
+    "channel_id": "Dyvy.hobby.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/35448/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Handyman",
+    "channel_id": "Dyvy.handyman.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36562/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Орел і решка",
+    "channel_id": "Dyvy.orel-i-reska.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2534/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Орел & Решка: The BEST",
+    "channel_id": "Dyvy.orel-reska-the-best.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7504/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Орел і Решка. Морський сезон",
+    "channel_id": "Dyvy.orel-i-reska-morskii-sezon.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/fa7cdfad1a5aaf8370ebeda47a1ff1c3/6734/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Корисна програма HD",
+    "channel_id": "Dyvy.korisna-programa-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/cedebb6e872f539bef8c3f919874e9d7/7997/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Про Київ",
+    "channel_id": "Dyvy.pro-kiyiv.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/26076/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Хащі",
+    "channel_id": "Dyvy.xashhi.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/f2217062e9a397a1dca429e7d70bc6ca/2873/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Світ авто/мото техніки HD",
+    "channel_id": "Dyvy.svit-avtomoto-texniki-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/11b9842e0a271ff252c1903e7132cd68/19220/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Beyond Discovery",
+    "channel_id": "Dyvy.beyond-discovery.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34610/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "PC tipps",
+    "channel_id": "Dyvy.pc-tipps.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36457/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Речдок",
+    "channel_id": "Dyvy.recdok.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/6c8349cc7260ae62e3b1396831a8398f/2618/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Речдок. Велика справа",
+    "channel_id": "Dyvy.recdok-velika-sprava.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/3636638817772e42b59d74cff571fbb3/6841/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Нюхач HD",
+    "channel_id": "Dyvy.niuxac-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/31fefc0e570cb3860f2a6d4b38c6490d/6292/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Клон",
+    "channel_id": "Dyvy.klon.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/05049e90fa4f5039a8cadc6acbb4b2cc/33709/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Мелодрами UA",
+    "channel_id": "Dyvy.melodrami-ua.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/bf8229696f7a3bb4700cfddef19fa23f/6095/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Найкращі мелодрами",
+    "channel_id": "Dyvy.naikrashhi-melodrami.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/115f89503138416a242f40fb7d7f338e/6326/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Драма ТБ",
+    "channel_id": "Dyvy.drama-tb.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/f7e6c85504ce6e82442c770f7c8606f0/6033/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Медичні серіали",
+    "channel_id": "Dyvy.medicni-seriali.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Серіали",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e/6180/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Козаки HD",
+    "channel_id": "Dyvy.kozaki-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/432aca3a1e345e339f35a30c8f65edce/22927/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Мішо та Робін HD",
+    "channel_id": "Dyvy.miso-ta-robin-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/8d3bba7425e7c98c50f52ca1b52d3735/22962/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Газун: Звірячі пригоди HD",
+    "channel_id": "Dyvy.gazun-zviriaci-prigodi-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/320722549d1751cf3f247855f937b982/22965/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Книга-мандрівка HD",
+    "channel_id": "Dyvy.kniga-mandrivka-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/caf1a3dfb505ffed0d024130f58c5cfa/23104/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+  },
+  {
+    "name": "Малюк HD",
+    "channel_id": "Dyvy.maliuk-hd.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
+    "url": "https://playout-stream.adt-playout.top/player/video/eddea82ad2755b24c4e168c5fc2ebd40/30691/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
   }
 ]
