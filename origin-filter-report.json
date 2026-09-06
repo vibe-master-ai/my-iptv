@@ -9,7 +9,7 @@
     "note": "No reliable public EPG sample was required for this change; official channel descriptions are the primary evidence. EPG samples may support future reviews but cannot guarantee every future live programme.",
     "minimum_samples": 3
   },
-  "generated_at": "2026-09-06T18:26:53.260478+00:00",
+  "generated_at": "2026-09-06T18:34:13.484439+00:00",
   "removed_streams": 813,
   "removed_channel_ids": [
     "312Kino.kg",
