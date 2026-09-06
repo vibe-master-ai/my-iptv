@@ -2305,17 +2305,6 @@
     "language_evidence": "explicit language tag"
   },
   {
-    "name": "Amedia Hit (1080p)",
-    "channel_id": "AmediaHit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "http://flussonic.linkintel.ru/amedia-hit/index.m3u8",
-    "language_evidence": "explicit language tag"
-  },
-  {
     "name": "Big Planet (576p)",
     "channel_id": "BigPlanet.ru",
     "languages": [
@@ -2349,6 +2338,28 @@
     "language_evidence": "explicit language tag"
   },
   {
+    "name": "Hit (1080p)",
+    "channel_id": "Hit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "http://stream.mcquack.net/363/index.m3u8",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Indiyskoye Kino (576p)",
+    "channel_id": "IndiyskoyeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv",
+    "language_evidence": "explicit language tag"
+  },
+  {
     "name": "Istoriya (576p)",
     "channel_id": "Istoriya.ru",
     "languages": [
@@ -2357,17 +2368,6 @@
     "category": "Пізнавальні",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv",
-    "language_evidence": "explicit language tag"
-  },
-  {
-    "name": "KinoHit (576p)",
-    "channel_id": "KinoHit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://fs.uplink.kz/kinohit/mono.m3u8?token=onlinetv",
     "language_evidence": "explicit language tag"
   },
   {
@@ -2415,6 +2415,17 @@
     "language_evidence": "explicit language tag"
   },
   {
+    "name": "Moya Planeta (1080p)",
+    "channel_id": "MoyaPlaneta.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "http://stream.mcquack.net/124/index.m3u8",
+    "language_evidence": "explicit language tag"
+  },
+  {
     "name": "Mult (1080p)",
     "channel_id": "Mult.ru",
     "languages": [
@@ -2426,14 +2437,14 @@
     "language_evidence": "explicit language tag"
   },
   {
-    "name": "Multimania (576p)",
-    "channel_id": "Multimania.ru",
+    "name": "Mult i muzyka (576p)",
+    "channel_id": "Multimuzyka.ru",
     "languages": [
       "rus"
     ],
     "category": "Мультфільми",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8",
+    "url": "http://stream.mcquack.net/82/index.m3u8",
     "language_evidence": "explicit language tag"
   },
   {
@@ -2459,6 +2470,17 @@
     "language_evidence": "explicit language tag"
   },
   {
+    "name": "Rodnoe Kino (576p)",
+    "channel_id": "RodnoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv",
+    "language_evidence": "explicit language tag"
+  },
+  {
     "name": "RT Documentary (1080p)",
     "channel_id": "RTDocumentary.ru",
     "languages": [
@@ -2466,7 +2488,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8",
+    "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8",
     "language_evidence": "explicit language tag"
   },
   {
@@ -2511,6 +2533,17 @@
     "category": "Мультфільми",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "http://109.94.1.3:8080/132/index.m3u8",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "TiJi (576p)",
+    "channel_id": "TiJi.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8",
     "language_evidence": "explicit language tag"
   },
   {
@@ -3017,6 +3050,17 @@
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
     "url": "https://stream8.cinerama.uz/1237/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "RTД",
+    "channel_id": "RTDocumentary.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5804,6 +5848,270 @@
     "language_evidence": "language playlist channel ID"
   },
   {
+    "name": "НТВ Хит",
+    "channel_id": "NTVHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a05y/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Моя планета HD",
+    "channel_id": "MoyaPlaneta.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a07o/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Глазами Туриста HD",
+    "channel_id": "GlazamiTurista.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06n/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Охота и Рыбалка",
+    "channel_id": "Okhotairybalka.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a065/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "viju+ Planet",
+    "channel_id": "vijuPlusPlanet.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06s/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "viju TV1000 romantica",
+    "channel_id": "vijuTV1000romantica.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06v/index.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "VIP Megahit",
+    "channel_id": "vijuPlusMegahit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06j/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "VIP Premiere",
+    "channel_id": "vijuPlusPremiere.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06i/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "VIP Serial",
+    "channel_id": "vijuPlusSerial.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06t/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Amedia 2 HD",
+    "channel_id": "A2.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a07l/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киноман",
+    "channel_id": "Kinoman.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a05v/index.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "КИНОМИКС HD",
+    "channel_id": "Kinomix.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06q/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Иллюзион+",
+    "channel_id": "IllusionPlus.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a05t/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "ИНДИЙСКОЕ КИНО",
+    "channel_id": "IndiyskoyeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a062/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "МУЖСКОЕ КИНО",
+    "channel_id": "Muzhskoekino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a07t/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Amedia Hit HD",
+    "channel_id": "AmediaHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06l/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мосфильм. Золотая коллекция",
+    "channel_id": "MosfilmGoldCollection.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a07p/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": ".Red HD",
+    "channel_id": "SonyChannel.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a07k/index.m3u8",
+    "language_evidence": "reviewed source title alias + channel feed language metadata"
+  },
+  {
+    "name": "Кино ТВ HD",
+    "channel_id": "KinoTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06r/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Доктор",
+    "channel_id": "Doctor.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06d/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Кинеко HD",
+    "channel_id": "Kineko.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a063/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Кино 24",
+    "channel_id": "Kino24.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a07c/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мульт HD",
+    "channel_id": "Mult.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a06m/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "В гостях у сказки",
+    "channel_id": "Vgostyakhuskazki.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://5.134.87.9:8000/play/a061/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
     "name": "НТВ Сериал",
     "channel_id": "NTVSeries.ru",
     "languages": [
@@ -7444,6 +7752,105 @@
     "language_evidence": "language playlist channel ID"
   },
   {
+    "name": "ДетвораПлюс HD",
+    "channel_id": "DetvoraPlus.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Velvet. Ментовские Сериалы HD",
+    "channel_id": "VelvetMentovskiyeSerialy.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Velvet. Советское кино HD",
+    "channel_id": "VelvetSovetskoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Velvet. Золотая коллекция HD",
+    "channel_id": "VelvetGoldenCollection.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Velvet. Европейское кино HD",
+    "channel_id": "VelvetEuropeanMovies.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Velvet. Сериалы Хиты HD",
+    "channel_id": "VelvetSeriesHits.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Velvet. Ужасы HD",
+    "channel_id": "VelvetScary.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://cdn.rostelekom-tv.xyz/live/NImhIFLevxCbtcP-.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Velvet. Мировые сериалы HD",
+    "channel_id": "VelvetWorldSeries.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Velvet. Сваты HD",
+    "channel_id": "VelvetSvaty.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
     "name": "Моя планета",
     "channel_id": "MoyaPlaneta.ru",
     "languages": [
@@ -7488,6 +7895,17 @@
     "language_evidence": "language playlist channel ID"
   },
   {
+    "name": "Кинохит",
+    "channel_id": "KinoHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://fs.uplink.kz/kinohit/mono.m3u8?token=onlinetv",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
     "name": "Киноужас",
     "channel_id": "Kinouzhas.ru",
     "languages": [
@@ -7499,17 +7917,6 @@
     "language_evidence": "language playlist channel ID"
   },
   {
-    "name": "Индийское кино",
-    "channel_id": "IndiyskoyeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
     "name": "Киномикс",
     "channel_id": "Kinomix.ru",
     "languages": [
@@ -7518,17 +7925,6 @@
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "https://fs.uplink.kz/kinomix/mono.m3u8?token=onlinetv",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Родное кино",
-    "channel_id": "RodnoeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -11252,7 +11648,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/a8f15eda80c50adb0e71943adc8015cf/4362/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/a8f15eda80c50adb0e71943adc8015cf/4364/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11263,7 +11659,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36682/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36683/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11274,7 +11670,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/35448/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/35445/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11285,7 +11681,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36564/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36551/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11296,7 +11692,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2535/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2539/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11307,7 +11703,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7600/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7637/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11318,7 +11714,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/fa7cdfad1a5aaf8370ebeda47a1ff1c3/6734/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/fa7cdfad1a5aaf8370ebeda47a1ff1c3/6763/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11329,7 +11725,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/26064/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/24086/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11340,7 +11736,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/f2217062e9a397a1dca429e7d70bc6ca/2873/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/f2217062e9a397a1dca429e7d70bc6ca/2888/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11351,7 +11747,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34611/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34617/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11362,7 +11758,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36462/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36488/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
@@ -11373,7 +11769,7 @@
     ],
     "category": "Серіали",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/05049e90fa4f5039a8cadc6acbb4b2cc/33709/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/05049e90fa4f5039a8cadc6acbb4b2cc/33768/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   }
 ]
