@@ -1,21 +1,21 @@
 {
   "policy": "movies-cartoons-ukr-rus-ua-broadcast-educational-series-v6",
-  "updated_at": "2026-09-06T09:44:15.273781+00:00",
-  "streams": 1051,
-  "unique_channel_ids": 413,
+  "updated_at": "2026-09-06T09:52:35.317825+00:00",
+  "streams": 1033,
+  "unique_channel_ids": 395,
   "categories": {
     "Фільми | UKR": 9,
     "Фільми | RUS": 538,
     "Серіали | RUS": 86,
-    "Серіали | UKR": 14,
+    "Серіали | UKR": 4,
     "Мультфільми | RUS": 113,
     "Серіали | RUS/UKR": 4,
     "Фільми | RUS/UKR": 1,
-    "Мультфільми | UKR": 12,
+    "Мультфільми | UKR": 7,
     "Пізнавальні | RUS": 190,
-    "Пізнавальні | UKR": 25,
+    "Пізнавальні | UKR": 23,
     "Пізнавальні | RUS/UKR": 4,
-    "Українське ТБ | UKR": 50,
+    "Українське ТБ | UKR": 49,
     "Українське ТБ | RUS/UKR": 5
   },
   "source_contributions": {
@@ -29,6 +29,6 @@
     "Spirt007/Tvru": 16,
     "egno/egno.github.io": 4,
     "Adam-ZS/iptv-ru-ua": 54,
-    "DyvyTV official public API": 30
+    "DyvyTV official public API": 12
   }
 }
