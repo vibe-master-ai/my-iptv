@@ -1,9 +1,12 @@
 import json
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 import iptv_filter as m
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'checks'))
+import identity_audit as identity
 
 
 class FilterTest(unittest.TestCase):
@@ -217,5 +220,24 @@ class FilterTest(unittest.TestCase):
         self.assertNotIn('https://example.com/scifi', by_url)
         self.assertNotIn('https://example.com/sports', by_url)
         self.assertNotIn('https://example.com/foreign', by_url)
+
+    def test_identity_audit_rejects_known_promo_and_entitlement_sources(self):
+        def row(cid):
+            return {
+                'status': 'working', 'channel_id': cid, 'name': cid,
+                'url': '', 'group': 'Пізнавальні | RUS',
+            }
+
+        promo_meta = ['#EXTINF:-1 tvg-id="DiscoveryChannel.ru",Discovery']
+        promo = identity.review(row('DiscoveryChannel.ru'),
+                                (promo_meta, 'https://stream8.cinerama.uz/1039/index.m3u8'))
+        self.assertEqual(promo['status'], 'identity_failed')
+        self.assertEqual(promo['identity_status'], 'rejected_wrong_content')
+
+        entitlement_meta = ['#EXTINF:-1 tvg-id="ViasatExplore.ua",Viasat Explore']
+        entitlement = identity.review(row('ViasatExplore.ua'),
+                                      (entitlement_meta, 'http://777905.live.tvstitch.com/playlist.m3u8?token=test'))
+        self.assertEqual(entitlement['status'], 'identity_failed')
+        self.assertIn('tariff', entitlement['identity_reason'])
 
 if __name__ == '__main__': unittest.main()

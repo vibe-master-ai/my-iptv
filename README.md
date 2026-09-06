@@ -43,6 +43,8 @@ https://raw.githubusercontent.com/vibe-master-ai/my-iptv/main/my-iptv.m3u
 
 Відбір перевіряє метадані, не розпізнає звук ефіру. Доступність окремих потоків і геообмеження залежать від джерел. Відео не зберігається в цьому репозиторії.
 
+Окремий [identity-аудит](checks/identity_audit.py) доповнює ffprobe/ffmpeg: для технічно робочих HLS перевіряються manifest і redirect, а очевидні promo/entitlement splash відхиляються. Після візуальної перевірки Cinerama-промо з verified snapshot вилучено 84 `stream8.cinerama.uz` URL, а також один Viasat Explore URL з болгарським тарифним повідомленням; альтернативні джерела залишено. Для решти потоків це metadata/manifest review, не повна перевірка кожного кадру, програми або мови звуку.
+
 Локально: Python 3, `python3 iptv_filter.py`. Перевірки: `python3 -m unittest discover -s tests`.
 
 ## Перевірка відтворення
