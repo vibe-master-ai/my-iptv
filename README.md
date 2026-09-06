@@ -1,17 +1,34 @@
-# IPTV: Movies, Animation, Kids — UA / RU / EN
+# Фільми та мультфільми — українською й російською
 
-Add this playlist URL to IPTVX / VIXO:
+Єдиний URL для IPTVX / VIXO:
 
 https://raw.githubusercontent.com/vibe-master-ai/my-iptv/main/my-iptv.m3u
 
-The playlist is regenerated daily at 04:23 UTC by GitHub Actions, independently of any local computer. Scheduled runs may be delayed by GitHub. A successful run updates status.json even when stream URLs are unchanged.
+Щоденне оновлення: 04:23 UTC через GitHub Actions, незалежно від комп'ютера. GitHub може затримувати запуски. Ручний запуск: Actions → Update IPTV playlist → Run workflow.
 
-Sources: https://github.com/iptv-org/iptv and https://github.com/iptv-org/api.
+## Джерела
 
-Filtering retains Movies, Animation and Kids streams matched to the Ukrainian, Russian or English language playlists, or channels whose country is UA/RU in the channel database. Country fallback intentionally allows channels with missing language metadata. Identical stream URLs are deduplicated across categories; alternative URLs for a channel are retained.
+Перевірено 6 вересня 2026 року; усі чотири репозиторії мали оновлення цього дня:
 
-Downloads are retried; invalid or empty sources and unexpectedly large drops fail the update, preserving the published playlist. Status and manual update: repository Actions → Update IPTV playlist → Run workflow.
+- [iptv-org/iptv](https://github.com/iptv-org/iptv): Movies, Animation, Kids та мовні індекси ukr/rus.
+- [dearbulut/iptv](https://github.com/dearbulut/iptv): плейлисти UA/RU з мовними й категорійними тегами.
+- [Free-TV/IPTV](https://github.com/Free-TV/IPTV): український та російський плейлисти.
+- [naggdd/iptv](https://github.com/naggdd/iptv): ru.m3u, зіставлений із каталогом каналів.
 
-Playlist generation does not verify playback. Some streams may be offline or geographically restricted. This repository contains public stream links, not video hosting.
+Метадані й альтернативні назви: [iptv-org/api](https://github.com/iptv-org/api).
 
-Local use: Python 3, run `python3 iptv_filter.py`.
+Також перевірено Adam-ZS/iptv-ru-ua (оновлення 5 вересня): поточний список переважно загальний/новинний, тому не доданий. MaximKiselev/iptv не використано через старе оновлення (16 грудня 2025). cartoons.m3u з naggdd містить окремі MP4, тому не використаний як список телеканалів.
+
+## Відбір
+
+Мова визначається явним тегом або відповідністю URL/ID мовному індексу ukr/rus. Самої країни UA/RU недостатньо. Явний тег іншої мови виключає потік навіть при збігу ID. Канали без достатніх мовних даних пропускаються. Для записів без ID використовується однозначний збіг назви/альтернативної назви з каталогом; у російському джерелі naggdd — російська версія каналу.
+
+Категорії: Movies, Animation та окремо перелічені мультканали з Kids (наприклад, Мульт, Карусель, TiJi). Усі Kids автоматично не включаються. Загальні, новинні, спортивні, музичні та навчальні канали без відповідної категорії виключаються.
+
+Повтори URL прибираються. Альтернативні потоки одного каналу збережено, тому кількість посилань більша за кількість каналів. Групи розділені за темою та мовою. RUS/UKR означає, що каталог зазначає обидві мови, а не гарантію двох аудіодоріжок.
+
+`status.json` містить час оновлення й статистику; `channel-audit.json` — джерело та підставу відбору кожного запису. Збій джерела або різке падіння кількості потоків зупиняє публікацію, зберігаючи попередній плейлист.
+
+Відбір перевіряє метадані, не розпізнає звук ефіру. Доступність окремих потоків і геообмеження залежать від джерел. Відео не зберігається в цьому репозиторії.
+
+Локально: Python 3, `python3 iptv_filter.py`. Перевірки: `python3 -m unittest discover -s tests`.

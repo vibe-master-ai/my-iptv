@@ -1,179 +1,183 @@
 #!/usr/bin/env python3
-# Builds a filtered M3U from the public iptv-org playlists.
-# Keeps only Movies / Animation / Kids channels that are
-# Ukrainian, Russian or English (with UA/RU country fallback).
-
-from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
-from pathlib import Path
-import re
-import sys
-import json
-import time
+"""Aggregate public movie/cartoon streams with evidenced Ukrainian/Russian metadata."""
+from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
+from pathlib import Path
+from urllib.request import Request, urlopen
+from urllib.error import URLError
+from urllib.parse import urlsplit
+import json
+import re
+import time
 
-CATEGORY_SOURCES = {
-    "🎬 Movies": "https://iptv-org.github.io/iptv/categories/movies.m3u",
-    "🧸 Animation": "https://iptv-org.github.io/iptv/categories/animation.m3u",
-    "👶 Kids": "https://iptv-org.github.io/iptv/categories/kids.m3u",
-}
+ROOT = Path(__file__).resolve().parent
+OUT = ROOT / 'my-iptv.m3u'
+POLICY = 'movies-cartoons-ukr-rus-v2'
+SOURCES = [
+    ('iptv-org/iptv', f'https://iptv-org.github.io/iptv/categories/{category}.m3u', None)
+    for category in ('movies', 'animation', 'kids')
+] + [
+    ('dearbulut/iptv', f'https://dearbulut.github.io/iptv/playlists/country/{country}.m3u', None)
+    for country in ('ua', 'ru')
+] + [
+    ('Free-TV/IPTV', f'https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_{country}.m3u8', None)
+    for country in ('ukraine', 'russia')
+] + [('naggdd/iptv', 'https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u', 'RU')]
+# Kids alone is too broad: retain cartoon-oriented channels, not every children's channel.
+CARTOON_IDS = set('''PlusPlus.ua PixelTV.ua MalyatkoTV.ua NIKIJunior.ua NIKIKids.ua
+Karusel.ru Mult.ru Multilandia.ru Multimania.ru Multimuzyka.ru Kinomult.ru
+Nickelodeon.ru NickJr.ru NicktoonsCIS.ru TiJi.ru GulliGirl.ru STSkids.ru
+KapitanFantastika.ru Ryzhiy.ru Vgostyakhuskazki.ru SuperGeroi.ru O.ru
+Detskiymir.ru Unikum.ru Smotrim100Detskoe.ru'''.split())
+LANG_MAP = {'ukr':'ukr','uk':'ukr','ukrainian':'ukr','українська':'ukr',
+            'rus':'rus','ru':'rus','russian':'rus','русский':'rus'}
 
-LANGUAGE_SOURCES = {
-    "Ukrainian": "https://iptv-org.github.io/iptv/languages/ukr.m3u",
-    "Russian": "https://iptv-org.github.io/iptv/languages/rus.m3u",
-    "English": "https://iptv-org.github.io/iptv/languages/eng.m3u",
-}
 
-TARGET_LANGS = {"ukrainian", "russian", "english", "ukr", "rus", "eng"}
-# Fallback so Ukrainian/Russian channels without clean language metadata are not lost.
-TARGET_COUNTRIES = {"UA", "RU"}
-
-OUT = Path(__file__).with_name("my-iptv.m3u")
-
-
-def fetch(url: str) -> str:
-    req = Request(
-        url,
-        headers={
-            "User-Agent": "Mozilla/5.0 iptv-filter/1.0",
-            "Accept": "*/*",
-        },
-    )
+def fetch(url):
     for attempt in range(3):
         try:
-            with urlopen(req, timeout=30) as r:
-                return r.read().decode("utf-8", errors="strict")
+            with urlopen(Request(url, headers={'User-Agent':'iptv-aggregator/2.0'}), timeout=30) as r:
+                return r.read().decode('utf-8-sig')
         except (URLError, TimeoutError):
             if attempt == 2:
                 raise
             time.sleep(2 ** attempt)
 
 
-
-def parse_entries(text: str):
-    lines = [line.strip() for line in text.replace("\r\n", "\n").split("\n")]
-    entries = []
-    pending = []
-    for line in lines:
-        if not line or line == "#EXTM3U":
-            continue
-        if line.startswith("#EXTINF:"):
+def parse_entries(text):
+    if not text.lstrip().startswith('#EXTM3U'):
+        raise ValueError('Not an M3U playlist')
+    entries, pending = [], []
+    for line in text.splitlines():
+        line = line.strip()
+        if line.startswith('#EXTINF:'):
             pending = [line]
-        elif pending and line.startswith("#"):
+        elif pending and line.startswith('#'):
             pending.append(line)
-        elif pending:
-            # stream URL following EXTINF (+ optional #EXTVLCOPT etc.)
-            entries.append((pending[:], line))
+        elif pending and line:
+            entries.append((pending, line))
             pending = []
+    if not entries:
+        raise ValueError('Empty source playlist')
     return entries
 
 
-def attr(extinf: str, name: str) -> str:
-    m = re.search(rf'{re.escape(name)}="([^"]*)"', extinf, flags=re.I)
-    return m.group(1).strip() if m else ""
+def attr(line, name):
+    m = re.search(r'(?:^|\s)' + re.escape(name) + r'="([^"]*)"', line, re.I)
+    return m.group(1).strip() if m else ''
 
 
-def set_group(extinf: str, group: str) -> str:
-    if re.search(r'group-title="[^"]*"', extinf, flags=re.I):
-        return re.sub(r'group-title="[^"]*"', f'group-title="{group}"', extinf, flags=re.I)
-    comma = extinf.find(",")
-    if comma == -1:
-        return extinf + f' group-title="{group}"'
-    return extinf[:comma] + f' group-title="{group}"' + extinf[comma:]
+def split_extinf(line):
+    quoted = False
+    for i, char in enumerate(line):
+        if char == '"':
+            quoted = not quoted
+        elif char == ',' and not quoted:
+            return line[:i], line[i+1:].strip()
+    raise ValueError('EXTINF missing channel name')
 
 
-def split_meta(value: str):
-    return {x.strip() for x in re.split(r"[;,/|]", value) if x.strip()}
+def set_attr(line, name, value):
+    metadata, title = split_extinf(line)
+    metadata = re.sub(r'\s+' + re.escape(name) + r'="[^"]*"', '', metadata, flags=re.I)
+    return f'{metadata} {name}="{value}",{title}'
+
+
+def normalize(name):
+    name = re.sub(r'\((?:\d+|\d+[pi]|офиц)\)|\[(?:geo-blocked|not 24/7)\]', '', name, flags=re.I)
+    name = re.sub(r'\b(?:HD|SD|FHD|UHD|4K)\b', '', name, flags=re.I)
+    return re.sub(r'[^\w]', '', name.casefold())
 
 
 def main():
-    channels = json.loads(fetch("https://iptv-org.github.io/api/channels.json"))
+    urls = ['https://iptv-org.github.io/api/channels.json'] + [
+        f'https://iptv-org.github.io/iptv/languages/{lang}.m3u' for lang in ('ukr','rus')
+    ] + [url for _,url,_ in SOURCES]
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        texts = dict(zip(urls, pool.map(fetch, urls)))
+    channels = json.loads(texts[urls[0]])
     if not isinstance(channels, list) or not channels:
-        raise ValueError("Invalid channel metadata; keeping previous playlist")
-    country_ids = {c["id"] for c in channels if c.get("country") in TARGET_COUNTRIES}
-    print("Fetching language indexes…")
-    allowed_ids = set()
-    allowed_urls = set()
-
-    for lang, url in LANGUAGE_SOURCES.items():
-        text = fetch(url)
-        if not text.lstrip().startswith("#EXTM3U") or not parse_entries(text):
-            raise ValueError(f"Invalid or empty source: {url}")
-        for meta_lines, stream_url in parse_entries(text):
-            extinf = meta_lines[0]
-            tvg_id = attr(extinf, "tvg-id")
-            if tvg_id:
-                allowed_ids.add(tvg_id)
-            allowed_urls.add(stream_url)
-        print(f"  ✓ {lang}")
-
-    output = ["#EXTM3U"]
-    seen = set()
-    counts = {}
-
-    print("Fetching category playlists…")
-    for group, url in CATEGORY_SOURCES.items():
-        text = fetch(url)
-        if not text.lstrip().startswith("#EXTM3U") or not parse_entries(text):
-            raise ValueError(f"Invalid or empty source: {url}")
-        count = 0
-
-        for meta_lines, stream_url in parse_entries(text):
-            extinf = meta_lines[0]
-            tvg_id = attr(extinf, "tvg-id")
-            lang_raw = attr(extinf, "tvg-language")
-            country_raw = attr(extinf, "tvg-country")
-
-            langs = {x.lower() for x in split_meta(lang_raw)}
-            countries = {x.upper() for x in split_meta(country_raw)}
-
-            language_match = bool(langs & TARGET_LANGS)
-            language_playlist_match = bool(
-                stream_url in allowed_urls or (tvg_id and tvg_id in allowed_ids)
-            )
-            country_fallback = bool(countries & TARGET_COUNTRIES) or tvg_id.split("@")[0] in country_ids
-
-            if not (language_match or language_playlist_match or country_fallback):
+        raise ValueError('Invalid channel database')
+    database = {c['id']:c for c in channels}
+    id_lang, url_lang = defaultdict(set), defaultdict(set)
+    for lang in ('ukr','rus'):
+        for meta, url in parse_entries(texts[f'https://iptv-org.github.io/iptv/languages/{lang}.m3u']):
+            cid = attr(meta[0], 'tvg-id').split('@')[0]
+            if cid:
+                id_lang[cid].add(lang)
+            url_lang[url].add(lang)
+    names = defaultdict(set)
+    for c in channels:
+        for name in [c['name']] + c.get('alt_names', []):
+            names[normalize(name)].add(c['id'])
+    entries, seen, audit = [], set(), []
+    counts, contributions = Counter(), Counter()
+    for repo, source, country_hint in SOURCES:
+        for meta, url in parse_entries(texts[source]):
+            if urlsplit(url).scheme not in ('http','https') or re.search(r'\.(mp4|mkv|avi)(?:\?|$)', url, re.I):
                 continue
-
-            # Keep alternative streams but never repeat the same stream URL.
-            key = stream_url
-            if key in seen:
+            line = meta[0]
+            _, title = split_extinf(line)
+            cid = attr(line,'tvg-id').split('@')[0]
+            if cid not in database:
+                possible = names[normalize(title)]
+                if country_hint:
+                    possible = {i for i in possible if database[i]['country'] == country_hint}
+                cid = next(iter(possible)) if len(possible) == 1 else ''
+            channel = database.get(cid, {})
+            if channel.get('is_nsfw'):
                 continue
-            seen.add(key)
+            raw_languages = attr(line,'tvg-language').lower()
+            if raw_languages:
+                langs = {LANG_MAP[x] for x in re.split(r'[;,/|\s]+',raw_languages) if x in LANG_MAP}
+                evidence = 'explicit language tag'
+            else:
+                langs = url_lang[url] or id_lang[cid]
+                evidence = 'language playlist URL' if url_lang[url] else 'language playlist channel ID'
+            if not langs:
+                continue
+            categories = set(channel.get('categories', []))
+            categories.update(x.strip().lower() for x in attr(line,'group-title').split(';'))
+            if 'animation' in categories or cid in CARTOON_IDS:
+                kind = 'Мультфільми'
+            elif 'movies' in categories:
+                kind = 'Фільми'
+            else:
+                continue
+            if url in seen:
+                continue
+            seen.add(url)
+            language = '/'.join(x.upper() for x in sorted(langs))
+            group = f'{kind} | {language}'
+            line = set_attr(line, 'group-title', group)
+            line = set_attr(line, 'tvg-language', ';'.join(sorted(langs)))
+            if cid and not attr(line,'tvg-id'):
+                line = set_attr(line,'tvg-id',cid)
+            entries.append((group, title, [line] + meta[1:], url))
+            counts[group] += 1
+            contributions[repo] += 1
+            audit.append({'name':title,'channel_id':cid,'languages':sorted(langs),
+                          'category':kind,'source':source,'language_evidence':evidence})
+    if not entries or not any('ukr' in e['languages'] for e in audit) or not all(any(e['category']==k for e in audit) for k in ('Фільми','Мультфільми')):
+        raise ValueError('Missing required language/category coverage; preserving published playlist')
+    previous_path = ROOT / 'status.json'
+    previous = json.loads(previous_path.read_text()) if previous_path.exists() else {}
+    if previous.get('policy') == POLICY and len(entries) < previous['streams'] * 0.5:
+        raise ValueError('Unexpected loss of over half of streams; preserving published playlist')
+    output = ['#EXTM3U']
+    for _,_,meta,url in sorted(entries, key=lambda x:(x[0],x[1].casefold(),x[3])):
+        output.extend(meta + [url])
+    tmp = OUT.with_suffix('.tmp')
+    tmp.write_text('\n'.join(output)+'\n',encoding='utf-8')
+    tmp.replace(OUT)
+    status = {'policy':POLICY,'updated_at':datetime.now(timezone.utc).isoformat(),
+              'streams':len(entries),'unique_channel_ids':len({e['channel_id'] for e in audit if e['channel_id']}),
+              'categories':dict(counts),'source_contributions':dict(contributions)}
+    previous_path.write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'channel-audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
+    print(json.dumps(status,ensure_ascii=False,indent=2))
 
-            meta_lines[0] = set_group(extinf, group)
-            output.extend(meta_lines)
-            output.append(stream_url)
-            count += 1
 
-        counts[group] = count
-        print(f"  ✓ {group}: {count}")
-
-    if not counts or any(count == 0 for count in counts.values()):
-        raise ValueError("An output category is empty; keeping previous playlist")
-    previous_count = OUT.read_text().count("#EXTINF:") if OUT.exists() else 0
-    if sum(counts.values()) < previous_count * 0.5:
-        raise ValueError("Playlist unexpectedly lost over half its streams; keeping previous playlist")
-    temporary = OUT.with_suffix(".tmp")
-    temporary.write_text("\n".join(output) + "\n", encoding="utf-8")
-    temporary.replace(OUT)
-    OUT.with_name("status.json").write_text(json.dumps({
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "streams": sum(counts.values()), "categories": counts,
-    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
-    total = sum(counts.values())
-    print()
-    print(f"Done: {OUT}")
-    print(f"Total channels: {total}")
-    for group, count in counts.items():
-        print(f"  {group}: {count}")
-
-
-if __name__ == "__main__":
-    try:
-        main()
-    except (HTTPError, URLError, TimeoutError) as e:
-        print(f"Network error: {e}", file=sys.stderr)
-        sys.exit(1)
+if __name__ == '__main__':
+    main()

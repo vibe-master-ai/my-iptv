@@ -1,0 +1,2344 @@
+[
+  {
+    "name": "4ever Cinema (1080p)",
+    "channel_id": "4everCinema.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "312 Кино (406p)",
+    "channel_id": "312Kino.kg",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "alpha Cinema (1080p)",
+    "channel_id": "alphaCinema.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Amedia Hit (1080p)",
+    "channel_id": "AmediaHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Amedia Premium (720p)",
+    "channel_id": "AmediaPremium.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Blokbaster HD (1080p)",
+    "channel_id": "Blokbaster.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Bollywood HD (1080p)",
+    "channel_id": "BollywoodHD.ro",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Bollywood HD Russia (576p)",
+    "channel_id": "BollywoodHD.ro",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Bolt (576p)",
+    "channel_id": "Bolt.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Bolt (1080p)",
+    "channel_id": "Bolt.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Cine+",
+    "channel_id": "CinePlus.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Cine+ Hit",
+    "channel_id": "CinePlusHit.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Cine+ Legend",
+    "channel_id": "CinePlusLegend.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Cinema (576p)",
+    "channel_id": "Cinema.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Dom kino (576p)",
+    "channel_id": "Domkino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Dom kino International (576p)",
+    "channel_id": "Domkino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Dom kino Premium HD (1080p)",
+    "channel_id": "DomkinoPremium.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Dorama (576p)",
+    "channel_id": "Dorama.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Dorama HD (1080p)",
+    "channel_id": "Dorama.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Enter-Film (1080p)",
+    "channel_id": "EnterFilm.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Evrokino (576p)",
+    "channel_id": "Evrokino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Evrokino HD (1080p)",
+    "channel_id": "Evrokino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "FAN (1080p)",
+    "channel_id": "FAN.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "FILMBOX+ One Bulgaria",
+    "channel_id": "FILMBOXPlusOne.pl",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "FILMBOX+ One Czechia",
+    "channel_id": "FILMBOXPlusOne.pl",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "FILMBOX+ One Magyar",
+    "channel_id": "FILMBOXPlusOne.pl",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "FILMBOX+ One Nederland",
+    "channel_id": "FILMBOXPlusOne.pl",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "FILMBOX+ One Romania (576p)",
+    "channel_id": "FILMBOXPlusOne.pl",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
+    "channel_id": "FILMBOXPlusOne.pl",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "FilmUA Live",
+    "channel_id": "FilmUALive.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "FilmUADrama (1080p)",
+    "channel_id": "FilmUADrama.ua",
+    "languages": [
+      "rus",
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Hit HD (1080p)",
+    "channel_id": "Hit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Hollywood HD (1080p)",
+    "channel_id": "Hollywood.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Horoshee Kino (720p)",
+    "channel_id": "HorosheeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Indiyskoye Kino (576p)",
+    "channel_id": "IndiyskoyeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kino 1 (1080p)",
+    "channel_id": "Kino1.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kino 2 (1080p)",
+    "channel_id": "Kino2.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kino 24 (720p)",
+    "channel_id": "Kino24.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kino TV HD (1080p)",
+    "channel_id": "KinoTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "KinoHit (576p)",
+    "channel_id": "KinoHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinoliving (1080p)",
+    "channel_id": "Kinoliving.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinomix (576p)",
+    "channel_id": "Kinomix.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinopokaz (576p)",
+    "channel_id": "Kinopokaz.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinopokaz HD (1080p)",
+    "channel_id": "Kinopokaz.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinopremyera (1080p)",
+    "channel_id": "Kinopremyera.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinopremyera HD (1080p)",
+    "channel_id": "Kinopremyera.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinosemja (576p)",
+    "channel_id": "Kinosemja.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinoseriya (1080p)",
+    "channel_id": "Kinoseriya.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinosvidanie (576p)",
+    "channel_id": "Kinosvidanie.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinouzhas (576p)",
+    "channel_id": "Kinouzhas.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kinowood (1080p)",
+    "channel_id": "Kinowood.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Mosfilm Gold Collection (576p)",
+    "channel_id": "MosfilmGoldCollection.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Movify Kino (576p)",
+    "channel_id": "MovifyKino.lv",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Muzhskoe kino (576p)",
+    "channel_id": "Muzhskoekino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Nash Kinomir (576p)",
+    "channel_id": "NashKinomir.de",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Nashe HD (576p)",
+    "channel_id": "Nashe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Nashe Lubimoe Kino (576p)",
+    "channel_id": "NasheLubimoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Nashe Lubimoe Kino Ukraine (1080p)",
+    "channel_id": "NasheLubimoeKinoUkraine.ua",
+    "languages": [
+      "rus",
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Nashe muzhskoe HD (1080p)",
+    "channel_id": "Nashemuzhskoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Nashe Novoe Kino (1080p)",
+    "channel_id": "NasheNovoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Ostrosyuzhetnoye HD (1080p)",
+    "channel_id": "Ostrosyuzhetnoye.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Patriot (720p)",
+    "channel_id": "Patriot.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Premialnoe HD (1080p)",
+    "channel_id": "Premialnoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Pro100TV (576p)",
+    "channel_id": "Pro100TV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Rodnoe Kino (576p)",
+    "channel_id": "RodnoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Russkiy Bestseller (576p)",
+    "channel_id": "RusskiyBestseller.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Russkiy Detektiv (576p)",
+    "channel_id": "RusskiyDetektiv.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Russkiy Illusion (576p)",
+    "channel_id": "RusskiyIllusion.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Shokiruyushchee HD (1080p)",
+    "channel_id": "Shokiruyushchee.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Shot TV (576p)",
+    "channel_id": "ShotTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Silk Way Cinema (1080p) [Geo-blocked]",
+    "channel_id": "SilkWayCinema.kz",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Smotrim 100% Klassika (720p)",
+    "channel_id": "Smotrim100Klassika.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Star Cinema",
+    "channel_id": "StarCinema.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Star Family (1080p)",
+    "channel_id": "StarFamily.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "START Air (576p)",
+    "channel_id": "STARTAir.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "START World (576p)",
+    "channel_id": "STARTWorld.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "TV 21 (576p)",
+    "channel_id": "TV21.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "TV 21 International (576p)",
+    "channel_id": "TV21International.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "TV1000 Russian Kino Global",
+    "channel_id": "TV1000RussianKinoGlobal.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Viasat Kino",
+    "channel_id": "ViasatKino.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Viasat Kino Action",
+    "channel_id": "ViasatKinoAction.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Viasat Kino Balkan (1080p)",
+    "channel_id": "ViasatKino.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viasat Kino Comedy",
+    "channel_id": "ViasatKinoComedy.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Viasat Kino Romania",
+    "channel_id": "ViasatKino.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viasat Kino World",
+    "channel_id": "ViasatKinoWorld.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Viasat Serial",
+    "channel_id": "ViasatSerial.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "viju TV1000 (576p)",
+    "channel_id": "vijuTV1000.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "viju TV1000 action (576p)",
+    "channel_id": "vijuTV1000action.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "viju TV1000 russkoe (576p)",
+    "channel_id": "vijuTV1000russkoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "viju+ Megahit HD (1080p)",
+    "channel_id": "vijuPlusMegahit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "viju+ Premiere HD (1080p)",
+    "channel_id": "vijuPlusPremiere.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Детское кино International [Not 24/7]",
+    "channel_id": "Detskoekino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Дом Кино Премиум HD (1080p)",
+    "channel_id": "DomkinoPremium.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Иллюзион+ (576p)",
+    "channel_id": "IllusionPlus.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Кинеко (1080p)",
+    "channel_id": "Kineko.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Кино 1 International [Not 24/7]",
+    "channel_id": "Kino1.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "КИНО ТВ (720p)",
+    "channel_id": "KinoTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "КИНОСАТ (576p)",
+    "channel_id": "KinoSat.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Новый Русский (720p)",
+    "channel_id": "NovyiRusskii.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Русский Роман (1080p)",
+    "channel_id": "Russkiyroman.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноАзия [Not 24/7]",
+    "channel_id": "CityEdenKinoAsia.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноАрт [Not 24/7]",
+    "channel_id": "CityEdenKinoArt.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноДетектив [Not 24/7]",
+    "channel_id": "CityEdenKinoDetektiv.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноДрама [Not 24/7]",
+    "channel_id": "CityEdenKinoDrama.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноКлассика [Not 24/7]",
+    "channel_id": "CityEdenKinoKlassika.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноКомедия [Not 24/7]",
+    "channel_id": "CityEdenKinoKomediya.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноМистика [Not 24/7]",
+    "channel_id": "CityEdenKinoMistika.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноСемья [Not 24/7]",
+    "channel_id": "CityEdenKinoSemya.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноФантастика [Not 24/7]",
+    "channel_id": "CityEdenKinoFantastika.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Сити Эдем КиноЭкшен [Not 24/7]",
+    "channel_id": "CityEdenKinoAction.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Феникс плюс Кино (576p)",
+    "channel_id": "FeniksplusKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Solnce (576p)",
+    "channel_id": "Solnce.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/animation.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Tooku (1080p)",
+    "channel_id": "Tooku.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/animation.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Мультимания (576p)",
+    "channel_id": "Multimania.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/animation.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Gulli Girl (720p)",
+    "channel_id": "GulliGirl.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Kapitan Fantastika (1080p)",
+    "channel_id": "KapitanFantastika.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Mult i muzyka (576p)",
+    "channel_id": "Multimuzyka.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Mult International (576p)",
+    "channel_id": "Mult.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Multilandia (576p)",
+    "channel_id": "Multilandia.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Nick Jr. (576p)",
+    "channel_id": "NickJr.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Nickelodeon (576p)",
+    "channel_id": "Nickelodeon.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Nicktoons CIS (1080p)",
+    "channel_id": "NicktoonsCIS.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "O! (576p)",
+    "channel_id": "O.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "O! International (576p)",
+    "channel_id": "O.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Pixel TV (1080p)",
+    "channel_id": "PixelTV.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Ryzhiy (576i)",
+    "channel_id": "Ryzhiy.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Smotrim 100% Detskoe (720p)",
+    "channel_id": "Smotrim100Detskoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "STS kids (1080p)",
+    "channel_id": "STSkids.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "STS kids International (576p)",
+    "channel_id": "STSkids.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "SuperGeroi (1080p)",
+    "channel_id": "SuperGeroi.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "TiJi (576p)",
+    "channel_id": "TiJi.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "V gostyakh u skazki (1080p)",
+    "channel_id": "Vgostyakhuskazki.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Мульт (1080p)",
+    "channel_id": "Mult.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Amedia Hit (1080p)",
+    "channel_id": "AmediaHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "FAN (1080p)",
+    "channel_id": "FAN.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "KinoHit (576p)",
+    "channel_id": "KinoHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Kinomix (1080p)",
+    "channel_id": "Kinomix.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Kinosvidanie (1080p)",
+    "channel_id": "Kinosvidanie.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Kino TV (1080p)",
+    "channel_id": "KinoTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Mosfilm Gold Collection (1080p)",
+    "channel_id": "MosfilmGoldCollection.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Mult (1080p)",
+    "channel_id": "Mult.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Multimania (576p)",
+    "channel_id": "Multimania.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Russkiy roman (1080p)",
+    "channel_id": "Russkiyroman.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Solnce (576p)",
+    "channel_id": "Solnce.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "STS kids (1080p)",
+    "channel_id": "STSkids.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "SuperGeroi (576p)",
+    "channel_id": "SuperGeroi.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Unikum (576p)",
+    "channel_id": "Unikum.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "V gostyakh u skazki (1080p)",
+    "channel_id": "Vgostyakhuskazki.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Піксель TV",
+    "channel_id": "PixelTV.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_ukraine.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мосфильм Золотая коллекция (1)",
+    "channel_id": "MosfilmGoldCollection.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Дом Кино",
+    "channel_id": "Domkino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Дом Кино (2)",
+    "channel_id": "Domkino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Дом Кино (3)",
+    "channel_id": "Domkino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Дом Кино Премиум",
+    "channel_id": "DomkinoPremium.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju TV1000",
+    "channel_id": "vijuTV1000.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju TV1000 (2)",
+    "channel_id": "vijuTV1000.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju TV1000 Русское",
+    "channel_id": "vijuTV1000russkoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju TV1000 Русское (2)",
+    "channel_id": "vijuTV1000russkoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju TV1000 Русское (3)",
+    "channel_id": "vijuTV1000russkoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju TV1000 Action",
+    "channel_id": "vijuTV1000action.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju TV1000 Action (2)",
+    "channel_id": "vijuTV1000action.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Кинопремьера",
+    "channel_id": "Kinopremyera.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Кинохит",
+    "channel_id": "KinoHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киносерия",
+    "channel_id": "Kinoseriya.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киносерия (2)",
+    "channel_id": "Kinoseriya.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киносерия (3)",
+    "channel_id": "Kinoseriya.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Русский роман",
+    "channel_id": "Russkiyroman.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Русский роман (2)",
+    "channel_id": "Russkiyroman.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Русский роман (3)",
+    "channel_id": "Russkiyroman.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Русский детектив",
+    "channel_id": "RusskiyDetektiv.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Солнце",
+    "channel_id": "Solnce.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Солнце (2)",
+    "channel_id": "Solnce.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мульт",
+    "channel_id": "Mult.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мульт (2)",
+    "channel_id": "Mult.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Cinema",
+    "channel_id": "Cinema.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Cinema (2)",
+    "channel_id": "Cinema.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мужское кино",
+    "channel_id": "Muzhskoekino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мужское кино (2)",
+    "channel_id": "Muzhskoekino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "СТС Kids",
+    "channel_id": "STSkids.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Nickelodeon",
+    "channel_id": "Nickelodeon.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мультиландия",
+    "channel_id": "Multilandia.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мультиландия (2)",
+    "channel_id": "Multilandia.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мультиландия (3)",
+    "channel_id": "Multilandia.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мультимузыка",
+    "channel_id": "Multimuzyka.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Рыжий",
+    "channel_id": "Ryzhiy.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "О!",
+    "channel_id": "O.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Уникум",
+    "channel_id": "Unikum.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Уникум (2)",
+    "channel_id": "Unikum.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "В гостях у сказки",
+    "channel_id": "Vgostyakhuskazki.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Tiji",
+    "channel_id": "TiJi.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Gulli Girl",
+    "channel_id": "GulliGirl.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Капитан Фантастика",
+    "channel_id": "KapitanFantastika.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Дорама",
+    "channel_id": "Dorama.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Кино ТВ",
+    "channel_id": "KinoTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Кино ТВ (2)",
+    "channel_id": "KinoTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju+ Premiere",
+    "channel_id": "vijuPlusPremiere.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju+ Megahit",
+    "channel_id": "vijuPlusMegahit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Amedia Hit",
+    "channel_id": "AmediaHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Amedia Hit (2)",
+    "channel_id": "AmediaHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Amedia Hit (3)",
+    "channel_id": "AmediaHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Amedia Premium",
+    "channel_id": "AmediaPremium.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Amedia Premium (2)",
+    "channel_id": "AmediaPremium.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Amedia Premium (3)",
+    "channel_id": "AmediaPremium.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Феникс+ Кино",
+    "channel_id": "FeniksplusKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Star Cinema",
+    "channel_id": "StarCinema.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киномикс",
+    "channel_id": "Kinomix.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киномикс (2)",
+    "channel_id": "Kinomix.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киномикс (3)",
+    "channel_id": "Kinomix.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киносвидание (2)",
+    "channel_id": "Kinosvidanie.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киносвидание (3)",
+    "channel_id": "Kinosvidanie.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киносемья",
+    "channel_id": "Kinosemja.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киносемья (2)",
+    "channel_id": "Kinosemja.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Родное кино",
+    "channel_id": "RodnoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Родное кино (2)",
+    "channel_id": "RodnoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Родное кино (3)",
+    "channel_id": "RodnoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Наше новое кино",
+    "channel_id": "NasheNovoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Кинопоказ",
+    "channel_id": "Kinopokaz.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Кинопоказ (2)",
+    "channel_id": "Kinopokaz.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Любимое кино",
+    "channel_id": "NasheLubimoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Hollywood",
+    "channel_id": "Hollywood.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Иллюзион+",
+    "channel_id": "IllusionPlus.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Иллюзион+ (2)",
+    "channel_id": "IllusionPlus.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Иллюзион+ (3)",
+    "channel_id": "IllusionPlus.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Русский бестселлер",
+    "channel_id": "RusskiyBestseller.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Индийское кино",
+    "channel_id": "IndiyskoyeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Индийское кино (2)",
+    "channel_id": "IndiyskoyeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Индийское кино (3)",
+    "channel_id": "IndiyskoyeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Еврокино",
+    "channel_id": "Evrokino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Еврокино (2)",
+    "channel_id": "Evrokino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Еврокино (3)",
+    "channel_id": "Evrokino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Еврокино (4)",
+    "channel_id": "Evrokino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Киноужас",
+    "channel_id": "Kinouzhas.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "KinoMix",
+    "channel_id": "Kinomix.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Детское кино",
+    "channel_id": "Detskoekino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "language_evidence": "language playlist channel ID"
+  }
+]

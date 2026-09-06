@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-09-06T06:40:02.211734+00:00",
-  "streams": 566,
+  "policy": "movies-cartoons-ukr-rus-v2",
+  "updated_at": "2026-09-06T06:46:45.383503+00:00",
+  "streams": 234,
+  "unique_channel_ids": 116,
   "categories": {
-    "🎬 Movies": 334,
-    "🧸 Animation": 70,
-    "👶 Kids": 162
+    "Фільми | UKR": 9,
+    "Фільми | RUS": 172,
+    "Мультфільми | RUS": 49,
+    "Фільми | RUS/UKR": 2,
+    "Мультфільми | UKR": 2
+  },
+  "source_contributions": {
+    "iptv-org/iptv": 133,
+    "dearbulut/iptv": 15,
+    "Free-TV/IPTV": 1,
+    "naggdd/iptv": 85
   }
 }
