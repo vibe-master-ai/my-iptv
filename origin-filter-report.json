@@ -2,7 +2,7 @@
   "policy_version": 1,
   "policy": "movies-cartoons-ukr-rus-ua-broadcast-educational-series-v7-foreign-movie-origin",
   "scope": "Фільми with rus localization and reviewed online cinema streams",
-  "generated_at": "2026-09-06T16:59:01.822436+00:00",
+  "generated_at": "2026-09-06T16:59:56.549285+00:00",
   "removed_streams": 718,
   "removed_channel_ids": [
     "312Kino.kg",
