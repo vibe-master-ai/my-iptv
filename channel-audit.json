@@ -11253,7 +11253,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/a8f15eda80c50adb0e71943adc8015cf/4362/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Life Experience",
@@ -11263,8 +11263,8 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36681/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36682/master.m3u8?subs=1",
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Hobby",
@@ -11275,7 +11275,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/35448/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Handyman",
@@ -11286,7 +11286,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36564/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Орел і решка",
@@ -11297,7 +11297,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2535/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Орел & Решка: The BEST",
@@ -11308,7 +11308,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7600/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Орел і Решка. Морський сезон",
@@ -11319,7 +11319,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/fa7cdfad1a5aaf8370ebeda47a1ff1c3/6734/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Про Київ",
@@ -11330,7 +11330,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/26064/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Хащі",
@@ -11341,7 +11341,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/f2217062e9a397a1dca429e7d70bc6ca/2873/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Beyond Discovery",
@@ -11352,7 +11352,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34611/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "PC tipps",
@@ -11363,7 +11363,7 @@
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36462/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   },
   {
     "name": "Клон",
@@ -11374,6 +11374,6 @@
     "category": "Серіали",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
     "url": "https://playout-stream.adt-playout.top/player/video/05049e90fa4f5039a8cadc6acbb4b2cc/33709/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest"
+    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest"
   }
 ]
