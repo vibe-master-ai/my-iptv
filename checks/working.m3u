@@ -241,7 +241,7 @@ http://dtv.vol.net.ua/H2-HD/index.m3u8
 #EXTINF:-1 tvg-id="Dyvy.hobby.ua" tvg-name="Hobby" group-title="Пізнавальні | UKR" tvg-language="ukr",Hobby
 https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/35448/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Dyvy.life-experience.ua" tvg-name="Life Experience" group-title="Пізнавальні | UKR" tvg-language="ukr",Life Experience
-https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36681/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36682/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Dyvy.pc-tipps.ua" tvg-name="PC tipps" group-title="Пізнавальні | UKR" tvg-language="ukr",PC tipps
 https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36462/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Rybalka.ua@SD" tvg-logo="https://i.imgur.com/NafW0xT.png" group-title="Пізнавальні | UKR" tvg-language="ukr",Rybalka (1080p)

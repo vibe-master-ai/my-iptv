@@ -1,6 +1,6 @@
 # Перевірка IPTV: фільми, мультфільми, серіали, українське та пізнавальне ТБ UKR/RUS
 
-Завершено: 2026-09-06T09:54:39.851561+00:00 (UTC).
+Завершено: 2026-09-06T09:57:32.956904+00:00 (UTC).
 
 Перевірено з поточної мережі Mac. Для незмінених URL збережено результати попереднього проходу цього ж ранку; нові URL перевірено окремо. Час кожної перевірки вказано в CSV/JSON. Для онлайн-кінозалів мова припускається за описом джерела; це не перевірка звуку. Для кожного URL: ffprobe читає структуру/кодеки; ffmpeg пробує декодувати 3 відеокадри та до 2 секунд потоку з аудіо, якщо воно є. При невдачі додатково перевіряється HTTP-відповідь. Окремий identity-аудит перевірив HLS manifest/redirect для доступних HLS; для всіх 12 нових Dyvy-потоків поточного main додатково знято три кадри та виконано OCR/візуальну перевірку. Для решти довгого списку семантична відповідність кожної передачі та мови звуку не гарантована. Технічна доступність не є висновком про ліцензію чи право на розповсюдження.
 
@@ -852,7 +852,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 320 | History Ukraine | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://dtv.vol.net.ua/History_HD/index.m3u8) |
 | 321 | History2 Ukraine (360p) | ✅ Працює | Video decoded successfully; audio stream present h264 640×360 | [Потік](http://dtv.vol.net.ua/H2-HD/index.m3u8) |
 | 322 | Hobby | ✅ Працює | Video decoded successfully; audio stream present h264 854×480 | [Потік](https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/35448/master.m3u8?subs=1) |
-| 323 | Life Experience | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36681/master.m3u8?subs=1) |
+| 323 | Life Experience | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36682/master.m3u8?subs=1) |
 | 324 | National Geographic Wild (720p) | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://46.32.176.50/natgeowild/index.m3u8) |
 | 325 | PC tipps | ✅ Працює | Video decoded successfully; audio stream present h264 854×480 | [Потік](https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36462/master.m3u8?subs=1) |
 | 326 | Rybalka (1080p) | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://dash2.antik.sk/live/test_rybalka_tv_atktv/playlist.m3u8) |

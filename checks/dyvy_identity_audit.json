@@ -39,7 +39,7 @@
     "index": 322,
     "name": "Life Experience",
     "slug": "life-experience",
-    "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36681/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36682/master.m3u8?subs=1",
     "status": "visual_reviewed",
     "frame_count": 3,
     "sample": "identity_evidence/dyvy-life-experience.jpg",
@@ -79,7 +79,7 @@
     "status": "visual_reviewed",
     "frame_count": 3,
     "sample": "identity_evidence/dyvy-orel-reska-the-best.jpg",
-    "ocr": "— ;",
+    "ocr": "— ,",
     "ocr_flags": [],
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
