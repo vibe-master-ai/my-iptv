@@ -59,4 +59,87 @@ class FilterTest(unittest.TestCase):
                     with self.assertRaises(ValueError): m.main()
                 self.assertEqual((root/'my-iptv.m3u').read_bytes(),previous)
 
+    def test_ukrainian_broadcasts_require_ua_source_category_and_language(self):
+        channels = [
+            {'id': 'Film.ua', 'name': 'Film UA', 'country': 'UA', 'categories': ['movies']},
+            {'id': 'Toon.ua', 'name': 'Toon UA', 'country': 'UA', 'categories': ['animation']},
+            {'id': 'General.ua', 'name': 'General UA', 'country': 'UA', 'categories': ['general']},
+            {'id': 'Entertainment.ua', 'name': 'Entertainment UA', 'country': 'UA', 'categories': ['entertainment']},
+            {'id': 'STB.ua', 'name': 'STB', 'country': 'UA', 'categories': []},
+            {'id': 'TET.ua', 'name': 'TET', 'country': 'UA', 'categories': []},
+            {'id': 'Mixed.ua', 'name': 'Mixed UA', 'country': 'UA', 'categories': ['general', 'sports']},
+            {'id': 'RussianGeneral.ua', 'name': 'Russian General', 'country': 'UA', 'categories': ['general']},
+            {'id': 'RussianCountry.ru', 'name': 'Russian Country', 'country': 'RU', 'categories': ['general']},
+            {'id': 'Sports.ua', 'name': 'Sports UA', 'country': 'UA', 'categories': ['sports']},
+            {'id': 'Foreign.ua', 'name': 'Foreign UA', 'country': 'UA', 'categories': ['general']},
+        ]
+
+        def entry(cid, url, extra=''):
+            return f'#EXTINF:-1 tvg-id="{cid}@SD" {extra},{cid}\nhttps://example.com/{url}\n'
+
+        ua = '#EXTM3U\n' + ''.join([
+            entry('Film.ua', 'film'),
+            entry('Toon.ua', 'toon'),
+            entry('General.ua', 'general'),
+            entry('Entertainment.ua', 'entertainment'),
+            entry('STB.ua', 'stb'),
+            entry('TET.ua', 'tet'),
+            entry('Mixed.ua', 'mixed'),
+            entry('RussianGeneral.ua', 'russian'),
+            entry('RussianCountry.ru', 'russian-country'),
+            entry('Sports.ua', 'sports'),
+            entry('Foreign.ua', 'foreign', 'tvg-language="eng"'),
+        ])
+        ukr = '#EXTM3U\n' + entry('General.ua', 'general')
+        rus = '#EXTM3U\n' + entry('RussianGeneral.ua', 'russian')
+        feeds = [
+            {'channel': 'Film.ua', 'id': 'SD', 'languages': ['ukr']},
+            {'channel': 'Toon.ua', 'id': 'SD', 'languages': ['ukr']},
+            {'channel': 'General.ua', 'id': 'SD', 'languages': ['ukr']},
+            {'channel': 'Entertainment.ua', 'id': 'SD', 'languages': ['ukr']},
+            {'channel': 'STB.ua', 'id': 'SD', 'languages': ['ukr']},
+            {'channel': 'TET.ua', 'id': 'SD', 'languages': ['ukr']},
+            {'channel': 'Mixed.ua', 'id': 'SD', 'languages': ['ukr', 'rus']},
+            {'channel': 'RussianGeneral.ua', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'RussianCountry.ru', 'id': 'SD', 'languages': ['ukr']},
+            {'channel': 'Sports.ua', 'id': 'SD', 'languages': ['ukr']},
+            {'channel': 'Foreign.ua', 'id': 'SD', 'languages': ['ukr']},
+        ]
+
+        def fetch(url):
+            if url.endswith('channels.json'):
+                return json.dumps(channels)
+            if url.endswith('feeds.json'):
+                return json.dumps(feeds)
+            if url.endswith('/languages/ukr.m3u'):
+                return ukr
+            if url.endswith('/languages/rus.m3u'):
+                return rus
+            return ua
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            with patch.object(m, 'EXTRA_PATH', root/'extra_channels.json'), \
+                 patch.object(m, 'ROOT', root), patch.object(m, 'OUT', root/'my-iptv.m3u'), \
+                 patch.object(m, 'fetch', side_effect=fetch), \
+                 patch.object(m, 'SOURCES', [('iptv-org/iptv', 'https://example.com/ua.m3u', 'UA')]):
+                m.main()
+                result = m.parse_entries((root/'my-iptv.m3u').read_text())
+
+        by_url = {url: (meta, m.attr(meta[0], 'group-title')) for meta, url in result}
+        self.assertIn('https://example.com/general', by_url)
+        self.assertIn('https://example.com/entertainment', by_url)
+        self.assertIn('https://example.com/stb', by_url)
+        self.assertIn('https://example.com/tet', by_url)
+        self.assertIn('https://example.com/mixed', by_url)
+        self.assertNotIn('https://example.com/russian', by_url)
+        self.assertNotIn('https://example.com/russian-country', by_url)
+        self.assertNotIn('https://example.com/sports', by_url)
+        self.assertNotIn('https://example.com/foreign', by_url)
+        self.assertEqual(by_url['https://example.com/general'][1], 'Українське ТБ | UKR')
+        self.assertEqual(by_url['https://example.com/entertainment'][1], 'Українське ТБ | UKR')
+        self.assertEqual(by_url['https://example.com/stb'][1], 'Українське ТБ | UKR')
+        self.assertEqual(by_url['https://example.com/tet'][1], 'Українське ТБ | UKR')
+        self.assertEqual(by_url['https://example.com/mixed'][1], 'Українське ТБ | RUS/UKR')
+
 if __name__ == '__main__': unittest.main()

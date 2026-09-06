@@ -1,22 +1,22 @@
 {
   "checked_from": "2026-09-06T06:49:47.216882+00:00",
-  "checked_at": "2026-09-06T07:24:06.987519+00:00",
-  "total_streams": 692,
+  "checked_at": "2026-09-06T08:06:19.953960+00:00",
+  "total_streams": 746,
   "stream_results": {
-    "working": 397,
-    "unavailable": 193,
-    "restricted": 56,
-    "unstable": 44,
+    "working": 441,
+    "unavailable": 201,
+    "restricted": 57,
+    "unstable": 45,
     "unconfirmed": 2
   },
   "working_languages": {
     "RUS": 379,
-    "UKR": 15,
-    "RUS/UKR": 3
+    "UKR": 55,
+    "RUS/UKR": 7
   },
-  "catalog_channels": 141,
+  "catalog_channels": 195,
   "online_cinemas": 94,
   "online_cinemas_working": 66,
-  "total_channels": 235,
-  "channels_with_working_stream": 182
+  "total_channels": 289,
+  "channels_with_working_stream": 226
 }

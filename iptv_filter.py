@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aggregate public movie/cartoon streams with evidenced Ukrainian/Russian metadata."""
+"""Aggregate public movie/cartoon and Ukrainian broadcast streams with evidenced metadata."""
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -16,7 +16,7 @@ import time
 ROOT = Path(__file__).resolve().parent
 EXTRA_PATH = ROOT / 'extra_channels.json'
 OUT = ROOT / 'my-iptv.m3u'
-POLICY = 'movies-cartoons-ukr-rus-v3'
+POLICY = 'movies-cartoons-ukr-rus-ua-broadcast-v4'
 SOURCES = [
     ('iptv-org/iptv', f'https://iptv-org.github.io/iptv/categories/{category}.m3u', None)
     for category in ('movies', 'animation', 'kids')
@@ -32,6 +32,16 @@ SOURCES = [
     ('substanc1/iptv-ukraine', 'https://raw.githubusercontent.com/substanc1/iptv-ukraine/main/streams/ua.m3u', None),
     ('Spirt007/Tvru', 'https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u', None),
     ('egno/egno.github.io', 'https://raw.githubusercontent.com/egno/egno.github.io/master/kino.m3u', None)]
+# This catalog supplies the general/entertainment Ukrainian broadcast group.  It is
+# kept as a country-specific source so the broader Russian country playlist cannot
+# accidentally opt into the broadcast policy.
+UKRAINE_SOURCE = ('iptv-org/iptv', 'https://iptv-org.github.io/iptv/countries/ua.m3u', 'UA')
+SOURCES.append(UKRAINE_SOURCE)
+# iptv-org currently leaves these two Ukrainian broadcasters uncategorized in
+# channels.json and marks their country-playlist rows as Undefined.  Their exact
+# UA feeds still carry Ukrainian language metadata, so keep this narrow fallback
+# for the requested mainstream channels rather than admitting every Undefined row.
+UKRAINIAN_BROADCAST_FALLBACK_IDS = {'STB.ua', 'TET.ua'}
 # Kids alone is too broad: retain cartoon-oriented channels, not every children's channel.
 CARTOON_IDS = set('''PLUSPLUS.ua PixelTV.ua MalyatkoTV.ua NikiJunior.ua NikiKids.ua CinePlusKids.ua
 KSTVNinjaTurtles.ua KSTVPawPatrol.ua KSTVSpongeBob.ua
@@ -199,6 +209,11 @@ def main():
                 kind = 'Мультфільми'
             elif 'movies' in categories:
                 kind = 'Фільми'
+            elif (country_hint == 'UA' and channel.get('country') == 'UA'
+                  and (categories & {'general', 'entertainment'}
+                       or cid in UKRAINIAN_BROADCAST_FALLBACK_IDS)
+                  and 'ukr' in langs):
+                kind = 'Українське ТБ'
             else:
                 continue
             if url in seen:
