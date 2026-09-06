@@ -1367,7 +1367,7 @@
     "channel_id": "KinoMult.ru",
     "group": "Мультфільми | RUS",
     "url": "http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/20009/index.m3u8",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; no audio stream detected",
     "video": {
       "codec_name": "h264",
@@ -1382,11 +1382,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:25.271259+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
+    "identity_status": "rejected_entitlement_splash",
+    "identity_reason": "pay for a subscription",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
     "redirect_url": "http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/20009/index.m3u8",
-    "manifest_flags": []
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/paid-gate-0022.jpg",
+    "paid_gate_classification": "entitlement_or_paywall",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 50,
@@ -3038,7 +3041,7 @@
     "channel_id": "CinePlusKids.ua",
     "group": "Мультфільми | UKR",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -3056,11 +3059,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:25.633559+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540&session=df42c31c5be6ca0fd7371c65949c361a",
-    "manifest_flags": []
+    "identity_status": "rejected_visual_placeholder",
+    "identity_reason": "Sampled frame is a generic tvstitch holding slate with no channel logo or programme; advertised channel identity is not evidenced. same provider holding slate: no advertised channel logo/programme content",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540&session=ad94d3ea3c186c8b1f7ce7b210683398",
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/tvstitch-041-CinePlusKids.jpg",
+    "paid_gate_classification": "provider_promo_or_identity_review",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 114,
@@ -8802,7 +8808,7 @@
     "channel_id": "ViasatHistory.ua",
     "group": "Пізнавальні | UKR",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ%3D%3D&master=78",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -8820,11 +8826,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:27.069628+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ%3D%3D&master=78&session=df42c31c5be6ca0fd7371c65949c361a",
-    "manifest_flags": []
+    "identity_status": "rejected_visual_placeholder",
+    "identity_reason": "Sampled frame is a generic tvstitch holding slate with no channel logo or programme; advertised channel identity is not evidenced. same provider holding slate: no advertised channel logo/programme content",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ%3D%3D&master=78&session=ad94d3ea3c186c8b1f7ce7b210683398",
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/tvstitch-117-ViasatHistory.jpg",
+    "paid_gate_classification": "provider_promo_or_identity_review",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 328,
@@ -8859,7 +8868,7 @@
     "channel_id": "ViasatNature.ua",
     "group": "Пізнавальні | UKR",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMxMTAmc3Q9dTZrbUNadl9LWlpqMllkWVJRbDVBdw%3D%3D&master=77",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -8877,11 +8886,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:27.071912+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMxMTAmc3Q9dTZrbUNadl9LWlpqMllkWVJRbDVBdw%3D%3D&master=77&session=df42c31c5be6ca0fd7371c65949c361a",
-    "manifest_flags": []
+    "identity_status": "rejected_visual_placeholder",
+    "identity_reason": "Sampled frame is a generic tvstitch holding slate with no channel logo or programme; advertised channel identity is not evidenced. same provider holding slate: no advertised channel logo/programme content",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMxMTAmc3Q9dTZrbUNadl9LWlpqMllkWVJRbDVBdw%3D%3D&master=77&session=ad94d3ea3c186c8b1f7ce7b210683398",
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/tvstitch-118-ViasatNature.jpg",
+    "paid_gate_classification": "provider_promo_or_identity_review",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 330,
@@ -9387,7 +9399,7 @@
     "channel_id": "A2.ru",
     "group": "Серіали | RUS",
     "url": "http://45.145.32.13:20440/kineko/index.m3u8?token=test",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -9405,11 +9417,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:27.149380+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
+    "identity_status": "rejected_http_unavailable",
+    "identity_reason": "HTTP 404; retry HTTP statuses: [403, 403]",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
     "redirect_url": "http://45.145.32.13:20440/kineko/index.m3u8?token=test",
-    "manifest_flags": []
+    "manifest_flags": [],
+    "identity_evidence": "paid_gate_audit.json",
+    "paid_gate_classification": "inaccessible_http",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 348,
@@ -10576,7 +10591,7 @@
     "channel_id": "ViasatSerial.ua",
     "group": "Серіали | RUS",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDUvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA2MDExNzAmc3Q9VS12czVHQmhOdF9WQXJ4bHVYVzR2dw%3D%3D&master=599",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -10594,11 +10609,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:27.499265+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDUvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA2MDExNzAmc3Q9VS12czVHQmhOdF9WQXJ4bHVYVzR2dw%3D%3D&master=599&session=df42c31c5be6ca0fd7371c65949c361a",
-    "manifest_flags": []
+    "identity_status": "rejected_visual_placeholder",
+    "identity_reason": "Sampled frame is a generic tvstitch holding slate with no channel logo or programme; advertised channel identity is not evidenced. same provider holding slate: no advertised channel logo/programme content",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDUvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA2MDExNzAmc3Q9VS12czVHQmhOdF9WQXJ4bHVYVzR2dw%3D%3D&master=599&session=ad94d3ea3c186c8b1f7ce7b210683398",
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/tvstitch-153-ViasatSerial.jpg",
+    "paid_gate_classification": "provider_promo_or_identity_review",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 390,
@@ -12797,7 +12815,7 @@
     "channel_id": "SoncePlus.ua",
     "group": "Українське ТБ | UKR",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTI1LjIzOjcwMDAvY2g0My90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTU3LjEyOC4yMzYuMjIzJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1NTE0NiZzdD02SC1HSlEtemw4X1NCQjMzRjVLTUpn&master=1103",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -12815,11 +12833,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:28.118156+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTI1LjIzOjcwMDAvY2g0My90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTU3LjEyOC4yMzYuMjIzJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1NTE0NiZzdD02SC1HSlEtemw4X1NCQjMzRjVLTUpn&master=1103&session=df42c31c5be6ca0fd7371c65949c361a",
-    "manifest_flags": []
+    "identity_status": "rejected_visual_placeholder",
+    "identity_reason": "Sampled frame is a generic tvstitch holding slate with no channel logo or programme; advertised channel identity is not evidenced. same provider holding slate: no advertised channel logo/programme content",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTI1LjIzOjcwMDAvY2g0My90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTU3LjEyOC4yMzYuMjIzJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1NTE0NiZzdD02SC1HSlEtemw4X1NCQjMzRjVLTUpn&master=1103&session=ad94d3ea3c186c8b1f7ce7b210683398",
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/tvstitch-211-SoncePlus.jpg",
+    "paid_gate_classification": "provider_promo_or_identity_review",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 468,
@@ -18435,7 +18456,7 @@
     "channel_id": "ViasatKino.ua",
     "group": "Фільми | RUS",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -18453,11 +18474,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:28.862277+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104&session=df42c31c5be6ca0fd7371c65949c361a",
-    "manifest_flags": []
+    "identity_status": "rejected_visual_placeholder",
+    "identity_reason": "Sampled frame is a generic tvstitch holding slate with no channel logo or programme; advertised channel identity is not evidenced. same provider holding slate: no advertised channel logo/programme content",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104&session=ad94d3ea3c186c8b1f7ce7b210683398",
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/tvstitch-339-ViasatKino.jpg",
+    "paid_gate_classification": "provider_promo_or_identity_review",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 674,
@@ -18495,7 +18519,7 @@
     "channel_id": "ViasatKinoAction.ua",
     "group": "Фільми | RUS",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -18513,11 +18537,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:28.947422+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105&session=df42c31c5be6ca0fd7371c65949c361a",
-    "manifest_flags": []
+    "identity_status": "rejected_visual_placeholder",
+    "identity_reason": "Sampled frame is a generic tvstitch holding slate with no channel logo or programme; advertised channel identity is not evidenced. same provider holding slate: no advertised channel logo/programme content",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105&session=ad94d3ea3c186c8b1f7ce7b210683398",
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/tvstitch-341-ViasatKinoAction.jpg",
+    "paid_gate_classification": "provider_promo_or_identity_review",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 676,
@@ -18525,7 +18552,7 @@
     "channel_id": "ViasatKinoComedy.ua",
     "group": "Фільми | RUS",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -18543,11 +18570,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:28.981420+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249&session=df42c31c5be6ca0fd7371c65949c361a",
-    "manifest_flags": []
+    "identity_status": "rejected_visual_placeholder",
+    "identity_reason": "Sampled frame is a generic tvstitch holding slate with no channel logo or programme; advertised channel identity is not evidenced. same provider holding slate: no advertised channel logo/programme content",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249&session=ad94d3ea3c186c8b1f7ce7b210683398",
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/tvstitch-342-ViasatKinoComedy.jpg",
+    "paid_gate_classification": "provider_promo_or_identity_review",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 677,
@@ -18615,7 +18645,7 @@
     "channel_id": "ViasatKinoWorld.ua",
     "group": "Фільми | RUS",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -18633,11 +18663,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:29.093432+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102&session=df42c31c5be6ca0fd7371c65949c361a",
-    "manifest_flags": []
+    "identity_status": "rejected_visual_placeholder",
+    "identity_reason": "Sampled frame is a generic tvstitch holding slate with no channel logo or programme; advertised channel identity is not evidenced. same provider holding slate: no advertised channel logo/programme content",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102&session=ad94d3ea3c186c8b1f7ce7b210683398",
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/tvstitch-345-ViasatKinoWorld.jpg",
+    "paid_gate_classification": "provider_promo_or_identity_review",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 680,
@@ -19901,7 +19934,7 @@
     "channel_id": "Detskoekino.ru",
     "group": "Фільми | RUS",
     "url": "https://autopilot.catcast.tv/content/38720/index.m3u8",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -19919,11 +19952,16 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:29.215796+00:00",
-    "identity_status": "reviewed_metadata_only",
-    "identity_reason": "HLS manifest could not be sampled after technical decode: HTTP 503",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
+    "identity_status": "rejected_http_unavailable",
+    "identity_reason": "HTTP 503; retry HTTP statuses: [503, 503]",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
     "redirect_url": "https://v2.catcast.tv/content/38720/index.m3u8",
-    "manifest_flags": []
+    "manifest_flags": [
+      "html_error_page"
+    ],
+    "identity_evidence": "paid_gate_audit.json",
+    "paid_gate_classification": "inaccessible_http",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 728,
@@ -20764,7 +20802,7 @@
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
     "url": "http://vod.tuva.ru/eurokino/index.m3u8",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "h264",
@@ -20782,11 +20820,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:29.511575+00:00",
-    "identity_status": "reviewed_metadata_only",
-    "identity_reason": "HLS manifest could not be sampled after technical decode: URLError: <urlopen error timed out>",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "",
-    "manifest_flags": []
+    "identity_status": "rejected_network_timeout",
+    "identity_reason": "curl: (28) Failed to connect to vod.tuva.ru port 80 after 5002 ms: Timeout was reached\n; retry HTTP statuses: [0, 0, 0]",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://vod.tuva.ru/eurokino/index.m3u8",
+    "manifest_flags": [],
+    "identity_evidence": "paid_gate_audit.json",
+    "paid_gate_classification": "inaccessible_network",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 761,
@@ -21717,7 +21758,7 @@
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
     "url": "http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "mpeg2video",
@@ -21738,11 +21779,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:29.723532+00:00",
-    "identity_status": "reviewed_metadata_only",
-    "identity_reason": "HLS manifest could not be sampled after technical decode: URLError: <urlopen error timed out>",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "",
-    "manifest_flags": []
+    "identity_status": "rejected_network_timeout",
+    "identity_reason": "curl: (28) Failed to connect to vod.tuva.ru port 80 after 5004 ms: Timeout was reached\n; retry HTTP statuses: [0, 0, 0]",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8",
+    "manifest_flags": [],
+    "identity_evidence": "paid_gate_audit.json",
+    "paid_gate_classification": "inaccessible_network",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 797,
@@ -21750,7 +21794,7 @@
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
     "url": "https://vod.tuva.ru/kinotv/index.m3u8",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "mpeg2video",
@@ -21771,11 +21815,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:29.732237+00:00",
-    "identity_status": "reviewed_metadata_only",
-    "identity_reason": "HLS manifest could not be sampled after technical decode: URLError: <urlopen error timed out>",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "",
-    "manifest_flags": []
+    "identity_status": "rejected_network_timeout",
+    "identity_reason": "curl: (28) Failed to connect to vod.tuva.ru port 443 after 5006 ms: Timeout was reached\n; retry HTTP statuses: [0, 0, 0]",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "https://vod.tuva.ru/kinotv/index.m3u8",
+    "manifest_flags": [],
+    "identity_evidence": "paid_gate_audit.json",
+    "paid_gate_classification": "inaccessible_network",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 798,
@@ -25667,7 +25714,7 @@
     "channel_id": "NashKinopokaz.ru",
     "group": "Фільми | RUS",
     "url": "http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2434/index.m3u8",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; no audio stream detected",
     "video": {
       "codec_name": "h264",
@@ -25682,11 +25729,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:31.642922+00:00",
-    "identity_status": "reviewed_metadata_manifest",
-    "identity_reason": "",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
+    "identity_status": "rejected_entitlement_splash",
+    "identity_reason": "pay for a subscription",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
     "redirect_url": "http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2434/index.m3u8",
-    "manifest_flags": []
+    "manifest_flags": [],
+    "identity_evidence": "identity_evidence/paid-gate/paid-gate-0459.jpg",
+    "paid_gate_classification": "entitlement_or_paywall",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 944,
@@ -26918,7 +26968,7 @@
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
     "url": "http://vod.tuva.ru/rusroman/index.m3u8",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "mpeg2video",
@@ -26939,11 +26989,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:31.994514+00:00",
-    "identity_status": "reviewed_metadata_only",
-    "identity_reason": "HLS manifest could not be sampled after technical decode: URLError: <urlopen error timed out>",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "",
-    "manifest_flags": []
+    "identity_status": "rejected_network_timeout",
+    "identity_reason": "curl: (28) Failed to connect to vod.tuva.ru port 80 after 5006 ms: Timeout was reached\n; retry HTTP statuses: [0, 0, 0]",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "http://vod.tuva.ru/rusroman/index.m3u8",
+    "manifest_flags": [],
+    "identity_evidence": "paid_gate_audit.json",
+    "paid_gate_classification": "inaccessible_network",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 991,
@@ -27030,7 +27083,7 @@
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
     "url": "https://vod.tuva.ru/rusroman/index.m3u8",
-    "status": "working",
+    "status": "identity_failed",
     "reason": "Video decoded successfully; audio stream present",
     "video": {
       "codec_name": "mpeg2video",
@@ -27051,11 +27104,14 @@
     "error": "",
     "technical_status": "working",
     "identity_checked_at": "2026-09-06T09:57:32.046866+00:00",
-    "identity_status": "reviewed_metadata_only",
-    "identity_reason": "HLS manifest could not be sampled after technical decode: URLError: <urlopen error timed out>",
-    "identity_method": "ffprobe metadata; HLS manifest text where available",
-    "redirect_url": "",
-    "manifest_flags": []
+    "identity_status": "rejected_network_timeout",
+    "identity_reason": "curl: (28) Failed to connect to vod.tuva.ru port 443 after 5006 ms: Timeout was reached\n; retry HTTP statuses: [0, 0, 0]",
+    "identity_method": "paid-gate audit: HTTP/redirect/manifest plus sampled frame and OCR",
+    "redirect_url": "https://vod.tuva.ru/rusroman/index.m3u8",
+    "manifest_flags": [],
+    "identity_evidence": "paid_gate_audit.json",
+    "paid_gate_classification": "inaccessible_network",
+    "paid_gate_audit_checked_at": "2026-09-06T12:55:53.569779+00:00"
   },
   {
     "index": 995,

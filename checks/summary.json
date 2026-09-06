@@ -4,26 +4,30 @@
   "identity_checked_at": "2026-09-06T09:57:32.956904+00:00",
   "total_streams": 1033,
   "stream_results": {
-    "working": 509,
+    "working": 491,
     "unavailable": 296,
-    "identity_failed": 85,
+    "identity_failed": 103,
     "restricted": 87,
     "unstable": 54,
     "unconfirmed": 2
   },
   "working_languages": {
-    "RUS": 422,
-    "UKR": 76,
+    "RUS": 408,
+    "UKR": 72,
     "RUS/UKR": 11
   },
   "catalog_channels": 301,
   "online_cinemas": 94,
   "online_cinemas_working": 66,
   "total_channels": 395,
-  "channels_with_working_stream": 305,
-  "identity_reviewed_working": 509,
-  "identity_failed": 85,
+  "channels_with_working_stream": 297,
+  "identity_reviewed_working": 491,
+  "identity_failed": 103,
   "identity_failed_by_reason": {
-    "rejected_wrong_content": 85
+    "rejected_wrong_content": 85,
+    "rejected_entitlement_splash": 2,
+    "rejected_visual_placeholder": 9,
+    "rejected_http_unavailable": 2,
+    "rejected_network_timeout": 5
   }
 }

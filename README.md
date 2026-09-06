@@ -53,6 +53,8 @@ https://raw.githubusercontent.com/vibe-master-ai/my-iptv/main/my-iptv.m3u
 
 Окремий [identity-аудит](checks/identity_audit.py) доповнює ffprobe/ffmpeg: для технічно робочих HLS перевіряються manifest і redirect, а очевидні promo/entitlement splash відхиляються. Після візуальної перевірки Cinerama-промо з verified snapshot вилучено 84 `stream8.cinerama.uz` URL, а також один Viasat Explore URL з болгарським тарифним повідомленням; альтернативні джерела залишено. Для решти потоків це metadata/manifest review, не повна перевірка кожного кадру, програми або мови звуку.
 
+Поточний [paid-gate аудит](checks/paid_gate_audit.json) охопив усі 509 URL попереднього verified snapshot: HTTP/redirect/manifest перевірено для кожного, а startup-кадр з OCR знято для кожного технічно робочого URL. До нового snapshot не включено 18 записів: 2 явних екрани оплати підписки (`Киномульт`, `Наш кинопоказ HD`), 9 однакових tvstitch placeholder/slate кадрів, 2 повторні HTTP-помилки та 5 повторних timeout `vod.tuva.ru`. Збережені [докази кадрів](checks/identity_evidence/paid-gate/) та [детальний JSON](checks/paid_gate_audit.json). Чистий marker-аудит не доводить відповідність каналу кожній передачі, мову аудіо або право на розповсюдження.
+
 Локально: Python 3, `python3 iptv_filter.py`. Перевірки: `python3 -m unittest discover -s tests`.
 
 ## Перевірка відтворення

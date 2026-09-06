@@ -10,7 +10,10 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 
 Нові записи DyvyTV: [візуальний аудит 12 потоків](dyvy_identity_audit.json) та [контактний лист кадрів](identity_evidence/dyvy-visual-montage.jpg). API‑записи з IP‑прив’язаним JWT або без переносимого origin HLS (Eco TV, Cars&Stars TV, Суспільне Культура, Конкурент Україна, LUX TV) не опубліковано.
 
-**509 із 1033 потоків декодуються; 305 із 395 каналів мають хоча б один робочий потік.**
+Окремий paid-gate аудит 2026-09-06T12:55:53.569779+00:00: повторно перевірено HTTP/redirect/manifest для всіх 509 URL та знято startup-кадр з OCR для кожного технічно робочого URL. Вилучено 18 записів: 2 явних paywall-кадри, 9 provider placeholder, 2 HTTP-помилки та 5 повторні мережеві тайм-аути. 491 URL не дали gate/error-маркера; це не доводить семантичну відповідність каналу або права на розповсюдження.
+[Детальний paid-gate audit](paid_gate_audit.json) · [Кадри paywall/placeholder](identity_evidence/paid-gate/).
+
+**491 із 1033 потоків декодуються; 297 із 395 каналів мають хоча б один робочий потік.**
 
 Генератор основного плейлиста вже оновив snapshot; ця перевірка лише формує знімок робочих потоків. [Знімок лише перевірених робочих потоків](working.m3u) актуальний на момент цієї перевірки й не оновлюється щодня. [Детальний CSV](results.csv) · [JSON з помилками й кодеками](results.json).
 
@@ -18,9 +21,9 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 
 | Результат | Кількість |
 |---|---:|
-| ✅ Працює | 509 |
+| ✅ Працює | 491 |
 | ❌ Недоступний | 296 |
-| 🚫 Помилковий вміст / не підтверджено | 85 |
+| 🚫 Помилковий вміст / не підтверджено | 103 |
 | 🔒 Обмежено доступ | 87 |
 | ⚠️ Нестабільний / не підтверджено | 54 |
 | ❓ Не підтверджено | 2 |
@@ -40,7 +43,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 4everTheater.ua | 1/1 | ✅ Є робочий потік |
 | 5minuttishiny.ru | 1/1 | ✅ Є робочий потік |
 | 6sotok.ua | 1/1 | ✅ Є робочий потік |
-| A2.ru | 3/8 | ✅ Є робочий потік |
+| A2.ru | 2/8 | ✅ Є робочий потік |
 | alphaCinema.ru | 0/1 | ❌ Недоступний |
 | AMCEurope.uk | 0/1 | ⚠️ Нестабільний / не підтверджено |
 | AmediaHit.ru | 5/9 | ✅ Є робочий потік |
@@ -65,7 +68,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | Cinema.ru | 2/4 | ✅ Є робочий потік |
 | CinePlus.ua | 1/1 | ✅ Є робочий потік |
 | CinePlusHit.ua | 1/1 | ✅ Є робочий потік |
-| CinePlusKids.ua | 1/1 | ✅ Є робочий потік |
+| CinePlusKids.ua | 0/1 | 🚫 Помилковий вміст / не підтверджено |
 | CinePlusLegend.ua | 1/1 | ✅ Є робочий потік |
 | CityEdenKinoAction.ru | 1/1 | ✅ Є робочий потік |
 | CityEdenKinoArt.ru | 1/1 | ✅ Є робочий потік |
@@ -80,7 +83,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | CityEdenKinoSemya.ru | 0/1 | ❌ Недоступний |
 | CityEdenTeleNovella.ru | 1/1 | ✅ Є робочий потік |
 | DaVinci.ru | 1/3 | ✅ Є робочий потік |
-| Detskoekino.ru | 2/3 | ✅ Є робочий потік |
+| Detskoekino.ru | 1/3 | ✅ Є робочий потік |
 | Dialogiorybalke.ru | 0/3 | ❌ Недоступний |
 | Dikayaokhota.ru | 0/3 | 🚫 Помилковий вміст / не підтверджено; 🔒 Обмежено доступ |
 | Dikayarybalka.ru | 0/2 | 🔒 Обмежено доступ |
@@ -109,7 +112,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | EkoTV.ua | 1/1 | ✅ Є робочий потік |
 | EnterFilm.ua | 1/1 | ✅ Є робочий потік |
 | EpicDrama.uk | 0/1 | ❌ Недоступний |
-| Evrokino.ru | 5/13 | ✅ Є робочий потік |
+| Evrokino.ru | 4/13 | ✅ Є робочий потік |
 | FAN.ru | 3/6 | ✅ Є робочий потік |
 | Fauna.ua | 1/1 | ✅ Є робочий потік |
 | FeniksplusKino.ru | 1/4 | ✅ Є робочий потік |
@@ -153,7 +156,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | Kinoliving.ua | 1/1 | ✅ Є робочий потік |
 | Kinoman.ru | 0/1 | ❌ Недоступний |
 | Kinomix.ru | 7/14 | ✅ Є робочий потік |
-| KinoMult.ru | 2/2 | ✅ Є робочий потік |
+| KinoMult.ru | 1/2 | ✅ Є робочий потік |
 | Kinopokaz.ru | 3/7 | ✅ Є робочий потік |
 | Kinopremyera.ru | 2/7 | ✅ Є робочий потік |
 | KinoSat.ru | 2/5 | ✅ Є робочий потік |
@@ -161,7 +164,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | Kinoseriya.ru | 4/10 | ✅ Є робочий потік |
 | KinoSezon.ru | 2/3 | ✅ Є робочий потік |
 | Kinosvidanie.ru | 3/12 | ✅ Є робочий потік |
-| KinoTV.ru | 7/14 | ✅ Є робочий потік |
+| KinoTV.ru | 5/14 | ✅ Є робочий потік |
 | Kinouzhas.ru | 1/6 | ✅ Є робочий потік |
 | Kinowood.ua | 1/1 | ✅ Є робочий потік |
 | KonkurentUkraine.ua | 1/1 | ✅ Є робочий потік |
@@ -195,7 +198,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | Nashemuzhskoe.ru | 0/1 | 🔒 Обмежено доступ |
 | NasheNovoeKino.ru | 4/10 | ✅ Є робочий потік |
 | NashKinomir.de | 1/1 | ✅ Є робочий потік |
-| NashKinopokaz.ru | 1/1 | ✅ Є робочий потік |
+| NashKinopokaz.ru | 0/1 | 🚫 Помилковий вміст / не підтверджено |
 | NationalGeographic.ru | 1/2 | ✅ Є робочий потік |
 | NationalGeographicWild.ru | 1/2 | ✅ Є робочий потік |
 | NationalGeographicWild.ua | 0/1 | ❌ Недоступний |
@@ -340,7 +343,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | RusskiyBestseller.ru | 3/7 | ✅ Є робочий потік |
 | RusskiyDetektiv.ru | 2/6 | ✅ Є робочий потік |
 | RusskiyIllusion.ru | 5/7 | ✅ Є робочий потік |
-| Russkiyroman.ru | 6/14 | ✅ Є робочий потік |
+| Russkiyroman.ru | 4/14 | ✅ Є робочий потік |
 | Rybalka.ua | 1/1 | ✅ Є робочий потік |
 | Rybolov.ru | 0/1 | 🔒 Обмежено доступ |
 | Ryzhiy.ru | 0/3 | 🚫 Помилковий вміст / не підтверджено; 🔒 Обмежено доступ |
@@ -360,7 +363,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | SmotrimChestnyyDetektiv.ru | 1/1 | ✅ Є робочий потік |
 | Solnce.ru | 4/5 | ✅ Є робочий потік |
 | Sonce.ua | 1/1 | ✅ Є робочий потік |
-| SoncePlus.ua | 1/1 | ✅ Є робочий потік |
+| SoncePlus.ua | 0/1 | 🚫 Помилковий вміст / не підтверджено |
 | SonyChannel.ru | 3/7 | ✅ Є робочий потік |
 | SonyTurbo.ru | 1/3 | ✅ Є робочий потік |
 | SovetskoeKino.ru | 2/3 | ✅ Є робочий потік |
@@ -403,13 +406,13 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | Unikum.ru | 2/9 | ✅ Є робочий потік |
 | Vgostyakhuskazki.ru | 3/7 | ✅ Є робочий потік |
 | ViasatExplore.ua | 0/1 | 🚫 Помилковий вміст / не підтверджено |
-| ViasatHistory.ua | 1/2 | ✅ Є робочий потік |
-| ViasatKino.ua | 2/2 | ✅ Є робочий потік |
-| ViasatKinoAction.ua | 1/1 | ✅ Є робочий потік |
-| ViasatKinoComedy.ua | 3/3 | ✅ Є робочий потік |
-| ViasatKinoWorld.ua | 1/1 | ✅ Є робочий потік |
-| ViasatNature.ua | 1/2 | ✅ Є робочий потік |
-| ViasatSerial.ua | 1/1 | ✅ Є робочий потік |
+| ViasatHistory.ua | 0/2 | 🚫 Помилковий вміст / не підтверджено; ❌ Недоступний |
+| ViasatKino.ua | 1/2 | ✅ Є робочий потік |
+| ViasatKinoAction.ua | 0/1 | 🚫 Помилковий вміст / не підтверджено |
+| ViasatKinoComedy.ua | 2/3 | ✅ Є робочий потік |
+| ViasatKinoWorld.ua | 0/1 | 🚫 Помилковий вміст / не підтверджено |
+| ViasatNature.ua | 0/2 | 🚫 Помилковий вміст / не підтверджено; ❌ Недоступний |
+| ViasatSerial.ua | 0/1 | 🚫 Помилковий вміст / не підтверджено |
 | vijuExplore.ru | 1/3 | ✅ Є робочий потік |
 | vijuHistory.ru | 1/4 | ✅ Є робочий потік |
 | vijuNature.ru | 2/3 | ✅ Є робочий потік |
@@ -579,7 +582,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 47 | Капитан Фантастика | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8) |
 | 48 | Капитан фантастика HD | ❌ Недоступний | HTTP 404: stream not found  | [Потік](http://arbiter.bolshoe.tv/?path=abr1/GingerHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==) |
 | 49 | Капитан Фантастика HD | 🔒 Обмежено доступ | HTTP 403: access denied (possible geo/auth restriction)  | [Потік](http://hls.stb.md/KAPITAN_FANTASTIKA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I) |
-| 50 | Киномульт | ✅ Працює | Video decoded successfully; no audio stream detected h264 1920×1080 | [Потік](http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/20009/index.m3u8) |
+| 50 | Киномульт | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; no audio stream detected h264 1920×1080 | [Потік](http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/20009/index.m3u8) |
 | 51 | Малыш | ✅ Працює | Video decoded successfully; audio stream present h264 720×576 | [Потік](https://flussonic.mkpnet.ru/tv-66968914d630446e/video.m3u8) |
 | 52 | Мульт | ✅ Працює | Video decoded successfully; audio stream present mpeg2video 720×576 | [Потік](http://185.46.16.239:8000/Mult) |
 | 53 | Мульт | ❌ Недоступний | Network error: timeout: timed out  | [Потік](http://195.64.140.147:10132/132) |
@@ -643,7 +646,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 111 | Уникум | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8) |
 | 112 | Уникум (2) | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>  | [Потік](http://31148.rafail1982.uz/Detskiy/index.m3u8) |
 | 113 | Уникум HD | ❌ Недоступний | HTTP 404: stream not found  | [Потік](http://arbiter.bolshoe.tv/?path=abr1/detckiyHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==) |
-| 114 | Cine+ Kids | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540) |
+| 114 | Cine+ Kids | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540) |
 | 115 | Niki Junior | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 61] Connection refused>  | [Потік](http://158.101.222.193:88/georgia_play.php?id=nikijunior) |
 | 116 | Niki Junior (1080p) | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://stream.mcquack.net/262/index.m3u8) |
 | 117 | Niki Kids (1080p) | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://stream.mcquack.net/271/index.m3u8) |
@@ -857,9 +860,9 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 325 | PC tipps | ✅ Працює | Video decoded successfully; audio stream present h264 854×480 | [Потік](https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36462/master.m3u8?subs=1) |
 | 326 | Rybalka (1080p) | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://dash2.antik.sk/live/test_rybalka_tv_atktv/playlist.m3u8) |
 | 327 | Viasat Explore | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMyOTgmc3Q9eWVMNVRuX0tiUlAwVWd0UjctYTBMZw%3D%3D&master=79) |
-| 328 | Viasat History | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ%3D%3D&master=78) |
+| 328 | Viasat History | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ%3D%3D&master=78) |
 | 329 | Viasat History (576p) | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://dtv.vol.net.ua/Viasat-History/index.m3u8) |
-| 330 | Viasat Nature | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMxMTAmc3Q9dTZrbUNadl9LWlpqMllkWVJRbDVBdw%3D%3D&master=77) |
+| 330 | Viasat Nature | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMxMTAmc3Q9dTZrbUNadl9LWlpqMllkWVJRbDVBdw%3D%3D&master=77) |
 | 331 | Viasat Nature (576p) | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://dtv.vol.net.ua/Viasat-Nature/index.m3u8) |
 | 332 | Біографер | ✅ Працює | Video decoded successfully; audio stream present h264 854×480 | [Потік](https://playout-stream.adt-playout.top/player/video/a8f15eda80c50adb0e71943adc8015cf/4362/master.m3u8?subs=1) |
 | 333 | Орел & Решка: The BEST | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7600/master.m3u8?subs=1) |
@@ -877,7 +880,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 345 | 5 minut tishiny (1080p) | ✅ Працює | Video decoded successfully; audio stream present h264 640×360 | [Потік](https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8) |
 | 346 | Amedia 2 | ❌ Недоступний | Network error: timeout: timed out  | [Потік](http://195.64.140.147:10060/60) |
 | 347 | Amedia 2 | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>  | [Потік](http://31148.rafail1982.uz/A2/index.m3u8) |
-| 348 | Amedia 2 | ✅ Працює | Video decoded successfully; audio stream present h264 720×576 | [Потік](http://45.145.32.13:20440/kineko/index.m3u8?token=test) |
+| 348 | Amedia 2 | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 720×576 | [Потік](http://45.145.32.13:20440/kineko/index.m3u8?token=test) |
 | 349 | Amedia 2 | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://iptv.mega.net.ru:8888/A2/index.m3u8) |
 | 350 | Amedia 2 | ✅ Працює | Video decoded successfully; audio stream present h264 720×576 | [Потік](https://flussonic.mkpnet.ru/tv-cad19a32f4a82824/video.m3u8) |
 | 351 | Amedia 2 (576p) | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://31.148.48.15/A2/index.m3u8) |
@@ -919,7 +922,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 387 | Smotrim 100% Lyubov (720p) | ⚠️ Нестабільний / не підтверджено | HLS playlist responds, but video could not be read  | [Потік](https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8) |
 | 388 | Smotrim 100% Muzhskoe (720p) | ⚠️ Нестабільний / не підтверджено | HLS playlist responds, but video could not be read  | [Потік](https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8) |
 | 389 | TVRUS+ | ⚠️ Нестабільний / не підтверджено | Video metadata found, but decoding failed or timed out h264 720×576 | [Потік](http://83.228.75.166:8000/play/a0aq) |
-| 390 | Viasat Serial | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDUvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA2MDExNzAmc3Q9VS12czVHQmhOdF9WQXJ4bHVYVzR2dw%3D%3D&master=599) |
+| 390 | Viasat Serial | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDUvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA2MDExNzAmc3Q9VS12czVHQmhOdF9WQXJ4bHVYVzR2dw%3D%3D&master=599) |
 | 391 | viju TV1000 romantica | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=ow4POWusg5YWczvB4Gak7A&e=1789049075&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5) |
 | 392 | Viju+ Serial | 🔒 Обмежено доступ | HTTP 403: access denied (possible geo/auth restriction)  | [Потік](https://s70378.cdn.ngenix.net/vip_serial/index.m3u8) |
 | 393 | viju+ Serial HD (1080p) | 🔒 Обмежено доступ | HTTP 403: access denied (possible geo/auth restriction)  | [Потік](http://stream.mcquack.net/311/index.m3u8) |
@@ -997,7 +1000,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 465 | Pershyi (1080p) | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](https://api-tv.ipnet.ua/api/v1/manifest/2118742505.m3u8) |
 | 466 | Renome (576p) | ✅ Працює | Video decoded successfully; audio stream present h264 720×576 | [Потік](http://85.238.112.40:8810/hls_sec/online/list-renome.m3u8) |
 | 467 | Sonce | ✅ Працює | Video decoded successfully; audio stream present h264 960×540 | [Потік](https://ext.cdn.nashnet.tv/228.0.0.165/index.m3u8) |
-| 468 | Sonce+ | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTI1LjIzOjcwMDAvY2g0My90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTU3LjEyOC4yMzYuMjIzJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1NTE0NiZzdD02SC1HSlEtemw4X1NCQjMzRjVLTUpn&master=1103) |
+| 468 | Sonce+ | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTI1LjIzOjcwMDAvY2g0My90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTU3LjEyOC4yMzYuMjIzJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1NTE0NiZzdD02SC1HSlEtemw4X1NCQjMzRjVLTUpn&master=1103) |
 | 469 | STB (1080p) | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://stream.mcquack.net/156/index.m3u8) |
 | 470 | Suspilne. Krym (1080p) | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://stream.mcquack.net/436/index.m3u8) |
 | 471 | Suspilne. Kyiv (360p) | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](https://live-nstu.cdn-03.cosmonova.net.ua/mobile-app/main/nstu-kyiv/master.m3u8) |
@@ -1203,13 +1206,13 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 671 | VHS Power | ⚠️ Нестабільний / не підтверджено | HLS playlist responds, but video could not be read  | [Потік](http://kinowalk.hopto.org/noir_live) |
 | 672 | VHS кино | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](http://kinowalk.hopto.org/and7610_live) |
 | 673 | VHS кино | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://kinowalk.hopto.org/and7610_live) |
-| 674 | Viasat Kino | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104) |
+| 674 | Viasat Kino | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104) |
 | 675 | Viasat Kino (1080p) | ✅ Працює | Video decoded successfully; audio stream present h264 960×540 | [Потік](http://176.61.157.250/TV1000/index.m3u8) |
-| 676 | Viasat Kino Action | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105) |
-| 677 | Viasat Kino Comedy | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249) |
+| 676 | Viasat Kino Action | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105) |
+| 677 | Viasat Kino Comedy | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249) |
 | 678 | Viasat Kino Comedy | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://ukr.ukrainske.tv/493/keytvainua/video.m3u8) |
 | 679 | Viasat Kino Comedy HD | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://ukr2.ukrainske.tv/493/video.m3u8) |
-| 680 | Viasat Kino World | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102) |
+| 680 | Viasat Kino World | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102) |
 | 681 | Video Channel | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](http://kinowalk.hopto.org/video_channel_live) |
 | 682 | Video Channel | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://kinowalk.hopto.org/video_channel_live) |
 | 683 | Video Serial | ⚠️ Нестабільний / не підтверджено | HLS playlist responds, but video could not be read  | [Потік](http://kinowalk.hopto.org/video_serial_live) |
@@ -1257,7 +1260,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 725 | Видеокассета VHS | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](http://kinowalk.hopto.org/vhs90e_live) |
 | 726 | Детское кино | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://kino-1.catcast.tv/content/40427/index.m3u8) |
 | 727 | Детское кино | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](https://mhd116.iptv2022.com/x/eOGQqllX8It6NZgaLsd8Xw,1788763889/streaming/det_kino/324/1/index.m3u8) |
-| 728 | Детское кино International [Not 24/7] | ✅ Працює | Video decoded successfully; audio stream present h264 768×432 | [Потік](https://autopilot.catcast.tv/content/38720/index.m3u8) |
+| 728 | Детское кино International [Not 24/7] | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 768×432 | [Потік](https://autopilot.catcast.tv/content/38720/index.m3u8) |
 | 729 | Дом Кино | ❌ Недоступний | Network error: timeout: timed out  | [Потік](http://195.64.140.147:10057/57) |
 | 730 | Дом кино | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://31.210.208.171:8080/dom_kino/index.m3u8?token=+W2MSER) |
 | 731 | Дом кино | ✅ Працює | Video decoded successfully; audio stream present h264 704×396 | [Потік](http://5.9.11.197:57419/chu-111/mpegts) |
@@ -1290,7 +1293,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 758 | Еврокино | ✅ Працює | Video decoded successfully; audio stream present h264 720×576 | [Потік](http://45.145.32.13:20440/eurokino/index.m3u8?token=test) |
 | 759 | Еврокино | ❓ Не підтверджено | HTTP responds, but no video stream detected  | [Потік](http://5.9.11.197:57419/chu-113/mpegts) |
 | 760 | Еврокино | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 61] Connection refused>  | [Потік](http://tv.ttk.mx:9030) |
-| 761 | Еврокино | ✅ Працює | Video decoded successfully; audio stream present h264 720×576 | [Потік](http://vod.tuva.ru/eurokino/index.m3u8) |
+| 761 | Еврокино | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present h264 720×576 | [Потік](http://vod.tuva.ru/eurokino/index.m3u8) |
 | 762 | Еврокино (2) | ✅ Працює | Video decoded successfully; audio stream present h264 720×576 | [Потік](http://176.118.197.101/Evrokino/index.m3u8) |
 | 763 | Еврокино (3) | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>  | [Потік](http://tinyurl.com/TvZaTak65?id=eurokino) |
 | 764 | Еврокино (4) | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>  | [Потік](http://31148.rafail1982.uz/Evrokino/index.m3u8) |
@@ -1326,8 +1329,8 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 794 | КИНО ТВ | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://31.210.208.171:8080/kinotv/index.m3u8?token=+W2MSER) |
 | 795 | Кино ТВ | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://5.9.11.197:57419/chu-117/mpegts) |
 | 796 | Кино ТВ | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 61] Connection refused>  | [Потік](http://tv.ttk.mx:9046) |
-| 797 | Кино ТВ | ✅ Працює | Video decoded successfully; audio stream present mpeg2video 720×576 | [Потік](http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8) |
-| 798 | Кино ТВ (2) | ✅ Працює | Video decoded successfully; audio stream present mpeg2video 720×576 | [Потік](https://vod.tuva.ru/kinotv/index.m3u8) |
+| 797 | Кино ТВ | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present mpeg2video 720×576 | [Потік](http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8) |
+| 798 | Кино ТВ (2) | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present mpeg2video 720×576 | [Потік](https://vod.tuva.ru/kinotv/index.m3u8) |
 | 799 | КИНО ТВ (720p) | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://31.148.48.15/Kino_TV_HD/index.m3u8) |
 | 800 | Кино ТВ HD | 🔒 Обмежено доступ | HTTP 403: access denied (possible geo/auth restriction)  | [Потік](http://hls1.stb.md/KINOTV_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I) |
 | 801 | Кино ТВ HD | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 61] Connection refused>  | [Потік](http://tv.ttk.mx:9113) |
@@ -1473,7 +1476,7 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 941 | Мы из 90-х | ⚠️ Нестабільний / не підтверджено | HLS playlist responds, but video could not be read  | [Потік](https://kinowalk.hopto.org/miiz90x_live) |
 | 942 | Назад в СССР | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](http://kinowalk.hopto.org/backtotheussr_live) |
 | 943 | Назад в СССР | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://kinowalk.hopto.org/backtotheussr_live) |
-| 944 | Наш кинопоказ HD | ✅ Працює | Video decoded successfully; no audio stream detected h264 1920×1080 | [Потік](http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2434/index.m3u8) |
+| 944 | Наш кинопоказ HD | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; no audio stream detected h264 1920×1080 | [Потік](http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2434/index.m3u8) |
 | 945 | НАШЕ НОВОЕ КИНО | ✅ Працює | Video decoded successfully; audio stream present h264 720×576 | [Потік](http://185.46.16.239:8000/Nickelodeon) |
 | 946 | Наше Новое Кино | ❌ Недоступний | Network error: timeout: timed out  | [Потік](http://195.64.140.147:10053/53) |
 | 947 | НАШЕ НОВОЕ КИНО | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://31.210.208.171:8080/nashe_novoe_kino/index.m3u8?token=+W2MSER) |
@@ -1520,11 +1523,11 @@ HTTP 403/401/451 означає відмову доступу; геоблоку�
 | 988 | Русский роман | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>  | [Потік](http://31148.rafail1982.uz/Russkiy_Roman/index.m3u8) |
 | 989 | Русский роман | ✅ Працює | Video decoded successfully; audio stream present h264 1920×1080 | [Потік](http://5.9.11.197:57419/chu-136/mpegts) |
 | 990 | Русский Роман | ❌ Недоступний | HTTP 404: stream not found  | [Потік](http://arbiter.bolshoe.tv/?path=streaming/rus_roman/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==) |
-| 991 | Русский Роман | ✅ Працює | Video decoded successfully; audio stream present mpeg2video 720×576 | [Потік](http://vod.tuva.ru/rusroman/index.m3u8) |
+| 991 | Русский Роман | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present mpeg2video 720×576 | [Потік](http://vod.tuva.ru/rusroman/index.m3u8) |
 | 992 | Русский роман | ✅ Працює | Video decoded successfully; audio stream present h264 720×576 | [Потік](https://flussonic.mkpnet.ru/tv-c90a71c34cc779ac/video.m3u8) |
 | 993 | Русский Роман (1080p) | ❌ Недоступний | Network error: URLError: <urlopen error timed out>  | [Потік](http://31.148.48.15/Russkiy_Roman_HD/index.m3u8) |
 | 994 | Русский роман (2) | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>  | [Потік](http://31148.rafail1982.uz/Russkiy_Roman_HD/index.m3u8) |
-| 995 | Русский роман (3) | ✅ Працює | Video decoded successfully; audio stream present mpeg2video 720×576 | [Потік](https://vod.tuva.ru/rusroman/index.m3u8) |
+| 995 | Русский роман (3) | 🚫 Помилковий вміст / не підтверджено | Video decoded successfully; audio stream present mpeg2video 720×576 | [Потік](https://vod.tuva.ru/rusroman/index.m3u8) |
 | 996 | Русский роман HD | ❌ Недоступний | Network error: URLError: <urlopen error [Errno 61] Connection refused>  | [Потік](http://tv.ttk.mx:9085) |
 | 997 | Сити Эдем КиноАзия [Not 24/7] | ✅ Працює | Video decoded successfully; audio stream present h264 0×0 | [Потік](https://cityeden.catcast.tv/content/34393/index.m3u8) |
 | 998 | Сити Эдем КиноАрт [Not 24/7] | ✅ Працює | Video decoded successfully; audio stream present h264 1280×720 | [Потік](https://cityeden.catcast.tv/content/38398/index.m3u8) |

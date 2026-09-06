@@ -8,6 +8,7 @@ from unittest.mock import patch
 import iptv_filter as m
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'checks'))
 import identity_audit as identity
+import paid_gate_audit as paid
 
 
 class FilterTest(unittest.TestCase):
@@ -256,5 +257,20 @@ class FilterTest(unittest.TestCase):
                                       (entitlement_meta, 'http://777905.live.tvstitch.com/playlist.m3u8?token=test'))
         self.assertEqual(entitlement['status'], 'identity_failed')
         self.assertIn('tariff', entitlement['identity_reason'])
+
+    def test_paid_gate_audit_detects_visible_subscription_and_http_failures(self):
+        flags = paid._text_flags('Вам необходимо оплатить подписку. You need to pay for a subscription.')
+        self.assertIn('pay for a subscription', flags)
+        row = {'status': 'working', 'reason': 'decoded'}
+        self.assertEqual(
+            paid._classification(row, {'http_status': 200, 'manifest_flags': []},
+                                 {'ocr_flags': ['pay for a subscription']})[0],
+            'entitlement_or_paywall')
+        self.assertEqual(
+            paid._classification(row, {'http_status': 503, 'manifest_flags': []}, {})[0],
+            'inaccessible_http')
+        self.assertEqual(
+            paid._classification(row, {'http_status': 0, 'manifest_flags': []}, {})[0],
+            'inaccessible_network')
 
 if __name__ == '__main__': unittest.main()
