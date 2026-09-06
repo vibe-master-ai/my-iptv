@@ -1,8 +1,16 @@
 {
-  "version": 1,
-  "scope": "Фільми with rus localization and reviewed online cinema streams",
+  "version": 2,
+  "last_reviewed": "2026-09-06",
+  "scope": "Russian-localized movies, series and reviewed online cinema streams",
+  "identity_matching": "Canonical iptv-org channel ID after normalized source-title aliases; provider/brand ownership and current public descriptions are recorded as evidence.",
+  "epg_policy": {
+    "used": false,
+    "note": "No reliable public EPG sample was required for this change; official channel descriptions are the primary evidence. EPG samples may support future reviews but cannot guarantee every future live programme.",
+    "minimum_samples": 3
+  },
   "default_russian_movie_decision": "deny_uncertain_or_mixed",
   "default_russian_online_cinema_decision": "deny_uncertain_or_mixed",
+  "default_russian_series_decision": "deny_uncertain_or_mixed",
   "default_origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
   "channels": {
     "Bollywood.ru": {
@@ -244,6 +252,168 @@
       "decision": "deny_domestic_russian",
       "origin_evidence": "viju explicitly describes TV1000 Russian as films and series made in Russia.",
       "evidence_urls": ["https://viju.ru/tv-channels/viju-tv1000-russkoe/"]
+    }
+  },
+  "series_channels": {
+    "A2.ru": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "Amedia presents its premium channels as premieres from HBO and other world studios; the Russian audio track is localization.",
+      "evidence_urls": ["https://amediatv.ru/", "https://amedia.ru/"]
+    },
+    "AmediaHit.ru": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "Amedia Hit's current programme includes Dexter, Bosch and other international series; Amedia states that it works with major world studios.",
+      "evidence_urls": ["https://amediatv.ru/amedia-hit/", "https://amediatv.ru/"]
+    },
+    "AmediaPremium.ru": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "Amedia Premium is the Amedia channel for HBO and other world-studio premieres; Russian audio is localization.",
+      "evidence_urls": ["https://amediatv.ru/", "https://amedia.ru/"]
+    },
+    "Bolt.ru": {
+      "decision": "allow_ukrainian_exception",
+      "origin_evidence": "Ukrainian broadcast exception retained under the repository policy for Ukrainian series.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "EpicDrama.uk": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "Epic Drama is an international scripted-drama brand; no Russian domestic studio ownership is indicated in the channel identity.",
+      "evidence_urls": ["https://www.epicdrama.tv/"]
+    },
+    "FilmUADrama.ua": {
+      "decision": "allow_ukrainian_exception",
+      "origin_evidence": "Ukrainian broadcast exception retained under the repository policy for Ukrainian series.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "FoxLife.ru": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "Fox Life is an international entertainment and scripted-series brand; the Russian feed is localization.",
+      "evidence_urls": ["https://www.foxtv.com/"]
+    },
+    "ParamountComedy.ru": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "Paramount Comedy is a foreign studio/network comedy brand with international scripted programming.",
+      "evidence_urls": ["https://www.paramount.com/brands/paramount-comedy"]
+    },
+    "Saphire.ru": {
+      "decision": "allow_foreign_turkish_series",
+      "origin_evidence": "Saphire is the Turkish series Safir, produced by NTC Medya in Turkey; the Russian track is localization.",
+      "evidence_urls": ["https://www.atv.com.tr/safir/hakkinda", "https://www.atv.com.tr/safir"]
+    },
+    "SonyChannel.ru": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "Sony Channel is an international studio/network brand; Russian-language feeds are localized foreign programming.",
+      "evidence_urls": ["https://www.sonypictures.com/television"]
+    },
+    "VelvetWorldSeries.ru": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "The channel identity explicitly indicates world series; it is retained as an international programme brand pending normal stream identity checks.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "ViasatSerial.ua": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "Ukrainian Viasat series exception retained for the international series catalogue with Russian localization.",
+      "evidence_urls": ["https://viasat.com.ua/"]
+    },
+    "vijuPlusSerial.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "viju describes viju+ Serial as carrying both foreign and Russian projects; mixed programming cannot satisfy a foreign-only rule.",
+      "evidence_urls": ["https://viju.ru/tv-channels/vijuplus-serial/", "https://viju.ru/movies/"]
+    },
+    "vijuTV1000romantica.ru": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "viju describes TV1000 romantica as series from Brazil, Portugal, Turkey, Korea, China and Argentina.",
+      "evidence_urls": ["https://viasat.ru/brands/viju-tv1000-romantica", "https://viasat.ru/tpost/1v8p0ftsk1-zapuskaem-novii-telekanal-viju"]
+    },
+    "5minuttishiny.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The stream is a Russian NTV-produced title and is part of the NTV/local Russian series family.",
+      "evidence_urls": ["https://www.gazprom-media.com/ru/business/partner/ntv"]
+    },
+    "Balabol.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Balabol is a Russian NTV-produced series; the channel record is a local Russian programme, not foreign cinema.",
+      "evidence_urls": ["https://www.gazprom-media.com/ru/business/partner/ntv"]
+    },
+    "MirSeriala.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The official channel description calls Mir Seriala a 24/7 channel of Russian television series.",
+      "evidence_urls": ["https://www.mirseriala.tv/"]
+    },
+    "Nashe.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The official channel description says it carries only Russian films and series.",
+      "evidence_urls": ["https://www.tricolor.ru/channels/nashe/"]
+    },
+    "Nevskiy.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Nevskiy is an NTV-produced Russian series title from the network's domestic scripted catalogue.",
+      "evidence_urls": ["https://www.gazprom-media.com/ru/business/partner/ntv"]
+    },
+    "NTVHit.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Gazprom-Media identifies NTV-Hit as an NTV thematic channel and describes NTV as a major producer of Russian action series and original content.",
+      "evidence_urls": ["https://www.gazprom-media.com/ru/business/partner/ntv"]
+    },
+    "NTVSeries.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "NTV-Series is an NTV thematic channel built around the network's Russian scripted catalogue.",
+      "evidence_urls": ["https://www.gazprom-media.com/ru/business/partner/ntv"]
+    },
+    "Perviyotdel.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Perviy Otdel is an NTV Russian detective-series title from the domestic network catalogue.",
+      "evidence_urls": ["https://www.gazprom-media.com/ru/business/partner/ntv"]
+    },
+    "Pes.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Pes is a Russian NTV-produced series title from the domestic network catalogue.",
+      "evidence_urls": ["https://www.gazprom-media.com/ru/business/partner/ntv"]
+    },
+    "Shef.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Shef is a Russian NTV-produced series title from the domestic network catalogue.",
+      "evidence_urls": ["https://www.gazprom-media.com/ru/business/partner/ntv"]
+    },
+    "Skorayapomoshch.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Skoraya Pomoshch is a Russian NTV-produced series title from the domestic network catalogue.",
+      "evidence_urls": ["https://www.gazprom-media.com/ru/business/partner/ntv"]
+    },
+    "Smotrim100Lyubov.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The Smotrim 100% Love brand is a Russian domestic film/series channel with no foreign-only programming claim.",
+      "evidence_urls": ["https://smotrim.ru/"]
+    },
+    "Smotrim100Muzhskoe.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The Smotrim 100% Male brand is a Russian domestic film/series channel with no foreign-only programming claim.",
+      "evidence_urls": ["https://smotrim.ru/"]
+    },
+    "SmotrimChestnyyDetektiv.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The channel is a Russian Smotrim domestic series/documentary brand and has no foreign-only programming claim.",
+      "evidence_urls": ["https://smotrim.ru/"]
+    },
+    "TVRUSPlus.de": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The Russian-network identity does not establish foreign-only series programming; it is excluded until a current catalogue proves otherwise.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "VelvetMentovskiyeSerialy.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The channel identity explicitly targets Russian police/crime series and provides no foreign-only policy.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "VelvetSeriesHits.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The generic series-hits identity does not establish foreign-only programming.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "VelvetSvaty.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The channel is branded around a regional Russian/Ukrainian scripted title and does not establish foreign-only programming.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
     }
   }
 }

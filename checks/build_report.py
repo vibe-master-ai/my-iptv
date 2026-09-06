@@ -60,7 +60,7 @@ if paid_audit:
     ]
 if origin_report:
     lines += [
-        f"Окремий origin-аудит фільмів: вилучено {origin_report.get('removed_streams', 0)} російськомовних фільмових/онлайн-кінозальних URL ({len(origin_report.get('removed_channel_ids', []))} ID), залишено {len(origin_report.get('retained_foreign_movie_channel_ids', []))} каналів із доказаним іноземним або українським походженням. Російська доріжка трактована як локалізація; mixed/uncertain записи вилучено з foreign-only фільмової вибірки.",
+        f"Окремий origin-аудит фільмів і серіалів: вилучено {origin_report.get('removed_streams', 0)} російськомовних фільмових/серіальних/онлайн-кінозальних URL ({len(origin_report.get('removed_channel_ids', []))} ID), залишено {len(origin_report.get('retained_foreign_movie_channel_ids', []))} каналів із доказаним іноземним або українським походженням. Російська доріжка трактована як локалізація; mixed/uncertain записи вилучено з foreign-only фільмової та серіальної вибірки.",
         '[Політика походження](../content_origin_policy.json) · [Точний origin-звіт](../origin-filter-report.json).', '',
     ]
 lines += [

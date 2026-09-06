@@ -46,7 +46,7 @@ class FilterTest(unittest.TestCase):
         self.assertEqual(review['decision'], 'deny_uncertain_or_mixed')
         self.assertIn('foreign-only', review['origin_evidence'])
         outside = m.origin_review('Unknown.ru', 'Серіали', {'rus'}, None, policy)
-        self.assertEqual(outside['decision'], 'outside_russian_movie_scope')
+        self.assertEqual(outside['decision'], 'deny_uncertain_or_mixed')
 
     def test_quoted_comma_and_stream_options(self):
         line = '#EXTINF:-1 tvg-name="Film, One",Film, One'
@@ -240,8 +240,22 @@ class FilterTest(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
+            (root / 'content_origin_policy.json').write_text(json.dumps({
+                'version': 1,
+                'channels': {},
+                'series_channels': {
+                    'Series.ru': {'decision': 'allow_test_foreign', 'origin_evidence': 'test fixture', 'evidence_urls': []},
+                    'SonyChannel.ru': {'decision': 'allow_test_foreign', 'origin_evidence': 'test fixture', 'evidence_urls': []},
+                    'ParamountComedy.ru': {'decision': 'allow_test_foreign', 'origin_evidence': 'test fixture', 'evidence_urls': []},
+                },
+                'default_russian_movie_decision': 'deny_uncertain_or_mixed',
+                'default_russian_series_decision': 'deny_uncertain_or_mixed',
+                'default_russian_online_cinema_decision': 'deny_uncertain_or_mixed',
+                'default_origin_evidence': 'test fixture default',
+            }))
             with patch.object(m, 'EXTRA_PATH', root/'extra_channels.json'), \
                  patch.object(m, 'ROOT', root), patch.object(m, 'OUT', root/'my-iptv.m3u'), \
+                 patch.object(m, 'ORIGIN_POLICY_PATH', root/'content_origin_policy.json'), \
                  patch.object(m, 'fetch', side_effect=fetch), \
                  patch.object(m, 'SOURCES', [('Dimonovich/TV', 'https://example.com/source.m3u', None)]):
                 m.main()

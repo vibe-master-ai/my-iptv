@@ -30,6 +30,7 @@ jobs:
         run: |
           python -m unittest discover -s tests
           python iptv_filter.py
+          python checks/policy_regression.py
       - name: Publish playlist and update timestamp
         run: |
           git config user.name 'github-actions[bot]'

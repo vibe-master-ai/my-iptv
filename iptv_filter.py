@@ -261,28 +261,37 @@ def load_origin_policy():
 def origin_review(cid, kind, langs, extra, policy):
     """Return the origin decision and evidence for one generated entry."""
     outside_scope = {
-        'decision': 'outside_russian_movie_scope',
-        'origin_evidence': 'Origin restriction applies only to Russian-language movie and online-cinema records.',
+        'decision': 'outside_foreign_origin_scope',
+        'origin_evidence': 'Origin restriction applies only to Russian-language movie, series and online-cinema records.',
         'evidence_urls': [],
+        'last_reviewed': policy.get('last_reviewed', ''),
     }
-    if kind != 'Фільми' or 'rus' not in langs:
+    if kind not in ('Фільми', 'Серіали') or 'rus' not in langs:
         return outside_scope
     if extra:
         decision = policy.get('default_russian_online_cinema_decision', 'deny_uncertain_or_mixed')
         evidence = policy.get('default_origin_evidence', '')
         return {'decision': decision, 'origin_evidence': evidence,
-                'evidence_urls': []}
-    record = policy.get('channels', {}).get(cid)
+                'evidence_urls': [], 'last_reviewed': policy.get('last_reviewed', '')}
+    if kind == 'Фільми':
+        records = policy.get('channels', {})
+        default_decision = policy.get('default_russian_movie_decision', 'deny_uncertain_or_mixed')
+    else:
+        records = policy.get('series_channels', {})
+        default_decision = policy.get('default_russian_series_decision', 'deny_uncertain_or_mixed')
+    record = records.get(cid)
     if not record:
         return {
-            'decision': policy.get('default_russian_movie_decision', 'deny_uncertain_or_mixed'),
+            'decision': default_decision,
             'origin_evidence': policy.get('default_origin_evidence', ''),
             'evidence_urls': [],
+            'last_reviewed': policy.get('last_reviewed', ''),
         }
     return {
-        'decision': record.get('decision', policy.get('default_russian_movie_decision', 'deny_uncertain_or_mixed')),
+        'decision': record.get('decision', default_decision),
         'origin_evidence': record.get('origin_evidence', policy.get('default_origin_evidence', '')),
         'evidence_urls': record.get('evidence_urls', []),
+        'last_reviewed': record.get('last_reviewed', policy.get('last_reviewed', '')),
     }
 
 
@@ -414,6 +423,7 @@ def main():
                     'decision': origin['decision'],
                     'origin_evidence': origin['origin_evidence'],
                     'evidence_urls': origin['evidence_urls'],
+                    'last_reviewed': origin['last_reviewed'],
                     'language_evidence': evidence,
                 })
                 continue
@@ -433,7 +443,8 @@ def main():
                           'category':kind,'source':source,'url':url,'language_evidence':evidence,
                           'origin_decision':origin['decision'],
                           'origin_evidence':origin['origin_evidence'],
-                          'origin_evidence_urls':origin['evidence_urls']})
+                          'origin_evidence_urls':origin['evidence_urls'],
+                          'origin_last_reviewed':origin['last_reviewed']})
     if not entries or not any('ukr' in e['languages'] for e in audit) or not all(any(e['category']==k for e in audit) for k in ('Фільми','Мультфільми')):
         raise ValueError('Missing required language/category coverage; preserving published playlist')
     previous_path = ROOT / 'status.json'
@@ -460,6 +471,9 @@ def main():
         'policy_version': origin_policy.get('version'),
         'policy': POLICY,
         'scope': origin_policy.get('scope'),
+        'last_reviewed': origin_policy.get('last_reviewed', ''),
+        'identity_matching': origin_policy.get('identity_matching', ''),
+        'epg_policy': origin_policy.get('epg_policy', {}),
         'generated_at': datetime.now(timezone.utc).isoformat(),
         'removed_streams': len(origin_exclusions),
         'removed_channel_ids': sorted({item['channel_id'] for item in origin_exclusions}),
