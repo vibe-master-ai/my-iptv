@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "scope": "Фільми with rus localization and reviewed online cinema streams",
+  "default_russian_movie_decision": "deny_uncertain_or_mixed",
+  "default_russian_online_cinema_decision": "deny_uncertain_or_mixed",
+  "default_origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+  "channels": {
+    "Bollywood.ru": {
+      "decision": "allow_foreign_indian_cinema",
+      "origin_evidence": "The channel identity is Indian cinema; its films are produced outside Russia and are offered in Russian localization.",
+      "evidence_urls": ["https://www.red-media.ru/wp-content/uploads/2022/03/Indijskoe-kino.pdf"]
+    },
+    "BollywoodHD.ro": {
+      "decision": "allow_foreign_indian_cinema",
+      "origin_evidence": "Universal TV describes Bollywood HD as programming from Indian studios, outside Russia.",
+      "evidence_urls": ["https://universaltv.ru/channel/Bollywood-HD"]
+    },
+    "Cinema.ru": {
+      "decision": "allow_foreign_world_cinema",
+      "origin_evidence": "The current Cinema channel description and schedule present world cinema and international titles.",
+      "evidence_urls": ["https://cinetv.ru/"]
+    },
+    "Dorama.ru": {
+      "decision": "allow_foreign_asian_cinema",
+      "origin_evidence": "The channel is dedicated to films and series from South Korea, Japan, China and Taiwan, with Russian voice localization.",
+      "evidence_urls": ["https://beetv.kz/ru-KZ/channels/dorama", "https://lanet.tv/channels/dorama/"]
+    },
+    "Evrokino.ru": {
+      "decision": "allow_foreign_european_cinema",
+      "origin_evidence": "The broadcaster describes Evrokino as a channel of European cinema, with European premieres and films.",
+      "evidence_urls": ["https://www.tv-stream.ru/channels/eurokino", "https://ntvplus.tv/channel/evrokino-192"]
+    },
+    "FILMBOXPlusOne.pl": {
+      "decision": "allow_foreign_international_cinema",
+      "origin_evidence": "FilmBox describes its programming as international film and television, including Hollywood and world cinema.",
+      "evidence_urls": ["https://www.filmbox.nl/1511"]
+    },
+    "FilmBox.nl": {
+      "decision": "allow_foreign_international_cinema",
+      "origin_evidence": "FilmBox describes its programming as international film and television, including Hollywood and world cinema.",
+      "evidence_urls": ["https://www.filmbox.nl/1511"]
+    },
+    "FlixSnip.ru": {
+      "decision": "allow_foreign_international_cinema",
+      "origin_evidence": "FlixSnip presents international short films from creators around the world.",
+      "evidence_urls": ["https://www.flixsnip.com/flixsnip", "https://www.flixsnip.com/home-tmmd2"]
+    },
+    "Hollywood.ru": {
+      "decision": "allow_foreign_hollywood_cinema",
+      "origin_evidence": "Universal TV describes Hollywood as premium content from MGM, Sony Pictures and Warner Bros.",
+      "evidence_urls": ["https://universaltv.ru/channel/Hollywood"]
+    },
+    "IndiyskoyeKino.ru": {
+      "decision": "allow_foreign_indian_cinema",
+      "origin_evidence": "The channel identity is Indian cinema; this is foreign cinema with Russian localization.",
+      "evidence_urls": ["https://www.red-media.ru/wp-content/uploads/2022/03/Indijskoe-kino.pdf"]
+    },
+    "Kino1.ua": {
+      "decision": "allow_ukrainian_exception",
+      "origin_evidence": "Ukrainian channel exception retained under the repository policy for Ukrainian movie broadcasters.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "Kino2.ua": {
+      "decision": "allow_ukrainian_exception",
+      "origin_evidence": "Ukrainian channel exception retained under the repository policy for Ukrainian movie broadcasters.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "KinoHit.ru": {
+      "decision": "allow_foreign_world_cinema",
+      "origin_evidence": "The current channel description calls KinoHit popular foreign cinema and the schedule describes films from Hollywood, Europe and Asia.",
+      "evidence_urls": ["https://www.nastroykino.ru/kinohit/", "https://ntvplus.tv/channel/kinohit-55"]
+    },
+    "SilkWayCinema.kz": {
+      "decision": "allow_foreign_kazakh_cinema",
+      "origin_evidence": "Silk Way Cinema states that most of its film programming is produced in Kazakhstan and by Kazakhfilm; Russian audio is localization, not Russian origin.",
+      "evidence_urls": ["https://silkwaycinema.tv/ru/o-kanale-2/", "https://silkwaycinema.tv/ru/tv-programmy-2/"]
+    },
+    "SonyTurbo.ru": {
+      "decision": "allow_foreign_international_cinema",
+      "origin_evidence": "Sony Turbo programming is an international action-movie channel built around non-Russian studio titles.",
+      "evidence_urls": ["https://www.content-review.com/articles/20181/"]
+    },
+    "STARTWorld.ru": {
+      "decision": "allow_foreign_international_series",
+      "origin_evidence": "START World describes series from France, Belgium, Chile and Turkey; it is retained as foreign programming even when catalog metadata places it under movies.",
+      "evidence_urls": ["https://start.ru/channel/start-world"]
+    },
+    "TV1000RussianKinoGlobal.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The channel identity explicitly says Russian cinema; it is excluded regardless of the global distribution suffix.",
+      "evidence_urls": ["https://viju.ru/tv-channels/"]
+    },
+    "ViasatKino.ua": {
+      "decision": "allow_foreign_world_cinema",
+      "origin_evidence": "Viasat describes the channel as world cinema, including Hollywood hits and international titles; the Russian track is localization.",
+      "evidence_urls": ["https://viasat.com.ua/channel/ViasatKinohd"]
+    },
+    "ViasatKinoAction.ua": {
+      "decision": "allow_foreign_world_cinema",
+      "origin_evidence": "Viasat describes the channel as Hollywood and European action cinema.",
+      "evidence_urls": ["https://viasat.com.ua/index.php/channel/ViasatKinoAction_HD"]
+    },
+    "ViasatKinoComedy.ua": {
+      "decision": "allow_foreign_world_cinema",
+      "origin_evidence": "The current Viasat schedule is built around international comedy films.",
+      "evidence_urls": ["https://viasat.com.ua/channel/ViasatKinoComedy"]
+    },
+    "ViasatKinoWorld.ua": {
+      "decision": "allow_foreign_world_cinema",
+      "origin_evidence": "Viasat identifies this as Ukrainian and world cinema; it is retained as a Ukrainian/world exception with Russian localization.",
+      "evidence_urls": ["https://viasat.com.ua/channel/ViasatKinoWorld"]
+    },
+    "VelvetEuropeanMovies.ru": {
+      "decision": "allow_foreign_european_cinema",
+      "origin_evidence": "The channel identity explicitly limits the catalogue to European movies.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "vijuPlusMegahit.ru": {
+      "decision": "allow_foreign_world_cinema",
+      "origin_evidence": "viju describes Megahit as world masterpieces, international blockbusters and Oscar-winning cinema.",
+      "evidence_urls": ["https://viju.ru/tv-channels/vijuplus-megahit/"]
+    },
+    "vijuTV1000.ru": {
+      "decision": "allow_foreign_world_cinema",
+      "origin_evidence": "viju states that TV1000 is built around foreign hits and current international titles.",
+      "evidence_urls": ["https://viju.ru/tv-channels/viju-tv1000/"]
+    },
+    "vijuTV1000action.ru": {
+      "decision": "allow_foreign_world_cinema",
+      "origin_evidence": "viju describes TV1000 Action as Hollywood and world action cinema.",
+      "evidence_urls": ["https://viju.ru/tv-channels/viju-tv1000-action/"]
+    },
+    "Domkino.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Dom Kino describes a library of domestic Russian films and Russian cinema.",
+      "evidence_urls": ["https://domkino.tv/", "https://domkino.tv/about"]
+    },
+    "DomkinoPremium.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Dom Kino Premium belongs to the Dom Kino domestic Russian cinema brand.",
+      "evidence_urls": ["https://domkino.tv/"]
+    },
+    "IllusionPlus.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Russian Illusion describes its programming as modern Russian cinema.",
+      "evidence_urls": ["https://www.tv-stream.ru/channels/rusillusion"]
+    },
+    "MosfilmGoldCollection.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Mosfilm Gold Collection is based on Soviet and Russian classics from Mosfilm.",
+      "evidence_urls": ["https://mosfilmgold.ru/news/kinokanal-mosfilm-zolotaia-kollektsiia-nachal-svoio-veshchanie"]
+    },
+    "NasheLubimoeKino.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The channel brand does not establish foreign-only programming; no current public evidence separates foreign films from domestic repertoire.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "NasheLubimoeKinoUkraine.ua": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The Ukraine-labelled feed is still the Nashe Lubimoe Kino brand and does not establish a foreign-only catalogue.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "NasheNovoeKino.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Nastroy Kino describes the channel as modern Russian cinema and domestic films.",
+      "evidence_urls": ["https://www.nastroykino.ru/nashe-novoe-kino"]
+    },
+    "RodnoeKino.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Nastroy Kino describes Rodnoe Kino as Soviet and Russian box-office leaders.",
+      "evidence_urls": ["https://www.nastroykino.ru/rodnoe-kino/"]
+    },
+    "RusskiyBestseller.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The channel is explicitly focused on contemporary Russian series and Russian actors/directors.",
+      "evidence_urls": ["https://bestrussia.tv/"]
+    },
+    "RusskiyDetektiv.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The Russian Detective brand is a domestic Russian genre channel; no foreign-only policy is stated.",
+      "evidence_urls": ["https://bestrussia.tv/"]
+    },
+    "RusskiyIllusion.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Russian Illusion is a Russian cinema brand and is excluded from the foreign-film subset.",
+      "evidence_urls": ["https://www.tv-stream.ru/channels/rusillusion"]
+    },
+    "Russkiyroman.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The published program is built around Russian domestic TV films and melodramas.",
+      "evidence_urls": ["https://rusroman.ru/program", "https://www.telekarta.tv/tvprogram/channels/russkij-roman/"]
+    },
+    "SovetskoeKino.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The channel identity explicitly denotes Soviet cinema, which belongs to the Russian/Soviet domestic catalogue requested for removal.",
+      "evidence_urls": ["https://iptv-org.github.io/api/channels.json"]
+    },
+    "STARTAir.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "START describes START Air as carrying original START projects; current listings are Russian productions.",
+      "evidence_urls": ["https://starttv.ru/"]
+    },
+    "StarCinema.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "Current channel descriptions identify Star Cinema as based on domestic production from Star Media.",
+      "evidence_urls": ["https://smotreshka.tv/channels/5d9743f4b7ee6b7b58d34f83/about"]
+    },
+    "TV21.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "TV 21 says it shows world cinema but its current description includes both foreign and Russian films; mixed schedules cannot satisfy the foreign-only rule.",
+      "evidence_urls": ["https://tv21m.ru/"]
+    },
+    "TV21International.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "TV 21 International uses the same mixed world and Russian film catalogue; no foreign-only schedule is established.",
+      "evidence_urls": ["https://tv21m.ru/"]
+    },
+    "Kino1.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "Kino 1 International is described with Soviet/Russian and CIS premieres, so it is not foreign-only.",
+      "evidence_urls": ["https://rodnoetv.ru/show-tv/kino-1-international"]
+    },
+    "Kino1International.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "Kino 1 International is described with Soviet/Russian and CIS premieres, so it is not foreign-only.",
+      "evidence_urls": ["https://rodnoetv.ru/show-tv/kino-1-international"]
+    },
+    "Kinomix.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "Nastroy Kino describes Kinomix as a mix of foreign and Russian cinema; mixed schedules are excluded.",
+      "evidence_urls": ["https://www.nastroykino.ru/kinomiks/"]
+    },
+    "Kinopremyera.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "Nastroy Kino listings include both foreign and Russian premieres, so the channel cannot guarantee foreign-only content.",
+      "evidence_urls": ["https://www.nastroykino.ru/kinopremyera", "https://www.nastroykino.ru/news/44524/"]
+    },
+    "vijuPlusPremiere.ru": {
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The current viju+ Premiere schedule includes Russian productions alongside international premieres; it is excluded as mixed.",
+      "evidence_urls": ["https://viju.ru/tv-channels/vijuplus-premiere/", "https://viju.ru/movies/"]
+    },
+    "vijuTV1000russkoe.ru": {
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "viju explicitly describes TV1000 Russian as films and series made in Russia.",
+      "evidence_urls": ["https://viju.ru/tv-channels/viju-tv1000-russkoe/"]
+    }
+  }
+}

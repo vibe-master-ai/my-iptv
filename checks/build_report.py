@@ -15,6 +15,8 @@ for r in results:
 labels={'working':'✅ Працює','restricted':'🔒 Обмежено доступ','unstable':'⚠️ Нестабільний / не підтверджено','unavailable':'❌ Недоступний','unconfirmed':'❓ Не підтверджено','identity_failed':'🚫 Помилковий вміст / не підтверджено'}
 paid_audit_path = root / 'paid_gate_audit.json'
 paid_audit = json.loads(paid_audit_path.read_text()) if paid_audit_path.exists() else None
+origin_report_path = root.parent / 'origin-filter-report.json'
+origin_report = json.loads(origin_report_path.read_text()) if origin_report_path.exists() else None
 channels=defaultdict(list)
 for r in results:channels[r['channel_id'] or r['name']].append(r)
 working=[r for r in results if r['status']=='working']
@@ -55,6 +57,11 @@ if paid_audit:
     lines += [
         f"Окремий paid-gate аудит {paid_audit.get('audit_finished_at', '')}: повторно перевірено HTTP/redirect/manifest для всіх {len(paid_audit.get('entries', []))} URL та знято startup-кадр з OCR для кожного технічно робочого URL. Вилучено {removed} записів: {paid_counts.get('entitlement_or_paywall', 0)} явних paywall-кадри, {paid_counts.get('provider_promo_or_identity_review', 0)} provider placeholder, {paid_counts.get('inaccessible_http', 0)} HTTP-помилки та {paid_counts.get('inaccessible_network', 0)} повторні мережеві тайм-аути. {paid_counts.get('decodable_no_gate_marker', 0)} URL не дали gate/error-маркера; це не доводить семантичну відповідність каналу або права на розповсюдження.",
         '[Детальний paid-gate audit](paid_gate_audit.json) · [Кадри paywall/placeholder](identity_evidence/paid-gate/).', '',
+    ]
+if origin_report:
+    lines += [
+        f"Окремий origin-аудит фільмів: вилучено {origin_report.get('removed_streams', 0)} російськомовних фільмових/онлайн-кінозальних URL ({len(origin_report.get('removed_channel_ids', []))} ID), залишено {len(origin_report.get('retained_foreign_movie_channel_ids', []))} каналів із доказаним іноземним або українським походженням. Російська доріжка трактована як локалізація; mixed/uncertain записи вилучено з foreign-only фільмової вибірки.",
+        '[Політика походження](../content_origin_policy.json) · [Точний origin-звіт](../origin-filter-report.json).', '',
     ]
 lines += [
 f"**{len(working)} із {len(results)} потоків декодуються; {summary['channels_with_working_stream']} із {len(channels)} каналів мають хоча б один робочий потік.**",'',

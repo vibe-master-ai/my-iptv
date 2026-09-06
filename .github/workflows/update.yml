@@ -10,6 +10,7 @@ on:
       - 'tests/**'
       - 'extra_channels.json'
       - 'dyvy_channels.json'
+      - 'content_origin_policy.json'
       - '.github/workflows/update.yml'
 permissions:
   contents: write
@@ -33,7 +34,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add my-iptv.m3u status.json channel-audit.json
+          git add my-iptv.m3u status.json channel-audit.json origin-filter-report.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh IPTV playlist"
             git push

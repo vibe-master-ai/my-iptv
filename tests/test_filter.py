@@ -35,6 +35,19 @@ class FilterTest(unittest.TestCase):
         self.assertFalse(m.public_stream('acestream://hash'))
         self.assertTrue(m.public_stream('https://example.com/live.m3u8'))
 
+    def test_russian_movie_origin_filter_defaults_to_conservative_exclusion(self):
+        policy = {
+            'channels': {},
+            'default_russian_movie_decision': 'deny_uncertain_or_mixed',
+            'default_russian_online_cinema_decision': 'deny_uncertain_or_mixed',
+            'default_origin_evidence': 'No foreign-only evidence in fixture',
+        }
+        review = m.origin_review('Unknown.ru', 'Фільми', {'rus'}, None, policy)
+        self.assertEqual(review['decision'], 'deny_uncertain_or_mixed')
+        self.assertIn('foreign-only', review['origin_evidence'])
+        outside = m.origin_review('Unknown.ru', 'Серіали', {'rus'}, None, policy)
+        self.assertEqual(outside['decision'], 'outside_russian_movie_scope')
+
     def test_quoted_comma_and_stream_options(self):
         line = '#EXTINF:-1 tvg-name="Film, One",Film, One'
         self.assertEqual(m.split_extinf(line)[1], 'Film, One')
@@ -68,7 +81,14 @@ class FilterTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)
             (root/'extra_channels.json').write_text(json.dumps({'cinema':{'name':'Cinema Test','languages':['rus'],'category':'movies','evidence':'test curated source','urls':['https://example.com/cinema','https://example.com/cinema-alt']}}))
-            with patch.object(m,'EXTRA_PATH',root/'extra_channels.json'), patch.object(m,'ROOT',root), patch.object(m,'OUT',root/'my-iptv.m3u'), patch.object(m,'fetch',side_effect=fetch), patch.object(m,'SOURCES',[('test','https://example.com/input',None)]):
+            (root/'content_origin_policy.json').write_text(json.dumps({
+                'version': 1,
+                'channels': {'New.ru': {'decision': 'allow_test_foreign', 'origin_evidence': 'test fixture', 'evidence_urls': []}},
+                'default_russian_movie_decision': 'deny_uncertain_or_mixed',
+                'default_russian_online_cinema_decision': 'allow_test_online_cinema',
+                'default_origin_evidence': 'test fixture default',
+            }))
+            with patch.object(m,'EXTRA_PATH',root/'extra_channels.json'), patch.object(m,'ROOT',root), patch.object(m,'OUT',root/'my-iptv.m3u'), patch.object(m,'ORIGIN_POLICY_PATH',root/'content_origin_policy.json'), patch.object(m,'fetch',side_effect=fetch), patch.object(m,'SOURCES',[('test','https://example.com/input',None)]):
                 m.main()
                 result=m.parse_entries((root/'my-iptv.m3u').read_text())
                 self.assertEqual({url for _,url in result},{'https://example.com/film','https://example.com/toon','https://example.com/new','https://example.com/plusplus','https://example.com/niki','https://example.com/cinema','https://example.com/cinema-alt'})

@@ -17,7 +17,9 @@ import base64
 ROOT = Path(__file__).resolve().parent
 EXTRA_PATH = ROOT / 'extra_channels.json'
 OUT = ROOT / 'my-iptv.m3u'
-POLICY = 'movies-cartoons-ukr-rus-ua-broadcast-educational-series-v6'
+POLICY = 'movies-cartoons-ukr-rus-ua-broadcast-educational-series-v7-foreign-movie-origin'
+ORIGIN_POLICY_PATH = ROOT / 'content_origin_policy.json'
+ORIGIN_REPORT_PATH = ROOT / 'origin-filter-report.json'
 DYVY_API_URL = 'https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500'
 DYVY_REPO = 'DyvyTV official public API'
 DYVY_CHANNELS_PATH = ROOT / 'dyvy_channels.json'
@@ -240,7 +242,52 @@ def cinema_stream_key(url):
     return parts.netloc.lower() + parts.path if parts.hostname == 'kinowalk.hopto.org' else url
 
 
+def load_origin_policy():
+    """Load the evidence-backed foreign-film origin policy.
+
+    The origin filter is deliberately conservative: an unlisted Russian movie
+    channel is treated as mixed/uncertain and is excluded from the foreign-film
+    subset.  Channels outside Russian-language movies and reviewed online
+    cinemas do not use this policy.
+    """
+    if not ORIGIN_POLICY_PATH.exists():
+        raise ValueError(f'Missing content origin policy: {ORIGIN_POLICY_PATH}')
+    policy = json.loads(ORIGIN_POLICY_PATH.read_text(encoding='utf-8'))
+    if not isinstance(policy, dict) or not isinstance(policy.get('channels'), dict):
+        raise ValueError('Invalid content origin policy')
+    return policy
+
+
+def origin_review(cid, kind, langs, extra, policy):
+    """Return the origin decision and evidence for one generated entry."""
+    outside_scope = {
+        'decision': 'outside_russian_movie_scope',
+        'origin_evidence': 'Origin restriction applies only to Russian-language movie and online-cinema records.',
+        'evidence_urls': [],
+    }
+    if kind != 'Фільми' or 'rus' not in langs:
+        return outside_scope
+    if extra:
+        decision = policy.get('default_russian_online_cinema_decision', 'deny_uncertain_or_mixed')
+        evidence = policy.get('default_origin_evidence', '')
+        return {'decision': decision, 'origin_evidence': evidence,
+                'evidence_urls': []}
+    record = policy.get('channels', {}).get(cid)
+    if not record:
+        return {
+            'decision': policy.get('default_russian_movie_decision', 'deny_uncertain_or_mixed'),
+            'origin_evidence': policy.get('default_origin_evidence', ''),
+            'evidence_urls': [],
+        }
+    return {
+        'decision': record.get('decision', policy.get('default_russian_movie_decision', 'deny_uncertain_or_mixed')),
+        'origin_evidence': record.get('origin_evidence', policy.get('default_origin_evidence', '')),
+        'evidence_urls': record.get('evidence_urls', []),
+    }
+
+
 def main():
+    origin_policy = load_origin_policy()
     urls = ['https://iptv-org.github.io/api/channels.json', 'https://iptv-org.github.io/api/feeds.json'] + [
         f'https://iptv-org.github.io/iptv/languages/{lang}.m3u' for lang in ('ukr','rus')
     ] + [url for _,url,_ in SOURCES]
@@ -271,6 +318,7 @@ def main():
     extra_channels = json.loads(EXTRA_PATH.read_text()) if EXTRA_PATH.exists() else {}
     extra_by_url = {cinema_stream_key(u):v for v in extra_channels.values() for u in v.get('urls', [])}
     entries, seen, audit = [], set(), []
+    origin_exclusions = []
     counts, contributions = Counter(), Counter()
     for repo, source, country_hint in SOURCES:
         source_text = dyvy_playlist(texts[source]) if source == DYVY_API_URL else texts[source]
@@ -352,6 +400,23 @@ def main():
                 kind = 'Українське ТБ'
             else:
                 continue
+            origin = origin_review(cid, kind, langs, extra, origin_policy)
+            if origin['decision'].startswith('deny_'):
+                report_cid = cid or 'Unresolved.' + hashlib.sha256(normalize(title).encode()).hexdigest()[:12]
+                origin_exclusions.append({
+                    'name': title,
+                    'channel_id': report_cid,
+                    'channel_id_raw': cid,
+                    'languages': sorted(langs),
+                    'category': kind,
+                    'source': source,
+                    'url': url,
+                    'decision': origin['decision'],
+                    'origin_evidence': origin['origin_evidence'],
+                    'evidence_urls': origin['evidence_urls'],
+                    'language_evidence': evidence,
+                })
+                continue
             if url in seen:
                 continue
             seen.add(url)
@@ -365,7 +430,10 @@ def main():
             counts[group] += 1
             contributions[repo] += 1
             audit.append({'name':title,'channel_id':cid,'languages':sorted(langs),
-                          'category':kind,'source':source,'url':url,'language_evidence':evidence})
+                          'category':kind,'source':source,'url':url,'language_evidence':evidence,
+                          'origin_decision':origin['decision'],
+                          'origin_evidence':origin['origin_evidence'],
+                          'origin_evidence_urls':origin['evidence_urls']})
     if not entries or not any('ukr' in e['languages'] for e in audit) or not all(any(e['category']==k for e in audit) for k in ('Фільми','Мультфільми')):
         raise ValueError('Missing required language/category coverage; preserving published playlist')
     previous_path = ROOT / 'status.json'
@@ -383,6 +451,24 @@ def main():
               'categories':dict(counts),'source_contributions':dict(contributions)}
     previous_path.write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n')
     (ROOT/'channel-audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
+    by_decision = Counter(item['decision'] for item in origin_exclusions)
+    retained_foreign = sorted({
+        item['channel_id'] for item in audit
+        if item.get('origin_decision', '').startswith('allow_')
+    })
+    origin_report = {
+        'policy_version': origin_policy.get('version'),
+        'policy': POLICY,
+        'scope': origin_policy.get('scope'),
+        'generated_at': datetime.now(timezone.utc).isoformat(),
+        'removed_streams': len(origin_exclusions),
+        'removed_channel_ids': sorted({item['channel_id'] for item in origin_exclusions}),
+        'removed_by_decision': dict(sorted(by_decision.items())),
+        'retained_foreign_movie_channel_ids': retained_foreign,
+        'removed_entries': origin_exclusions,
+        'note': 'Foreign means the channel programming policy is evidenced as non-Russian-origin content; a Russian audio track is localization. Live programming may change and this does not classify each future film frame-by-frame.',
+    }
+    (ROOT / 'origin-filter-report.json').write_text(json.dumps(origin_report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(status,ensure_ascii=False,indent=2))
 
 

@@ -237,8 +237,11 @@ def audit(recheck_technical: bool = False) -> list[dict]:
                      and 200 <= attempt["http_status"] < 300
                      and not attempt.get("manifest_flags")), None)
         if good:
-            good["retries"] = attempts
-            http[i] = good
+            # Do not attach the attempts list to one of its own members:
+            # that creates a circular object and prevents JSON serialization.
+            selected = dict(good)
+            selected["retries"] = [dict(attempt) for attempt in attempts]
+            http[i] = selected
     frames: list[dict] = [{} for _ in entries]
     working = [i for i, row in enumerate(technical) if row.get("status") == "working"]
     with cf.ThreadPoolExecutor(max_workers=12) as pool:
