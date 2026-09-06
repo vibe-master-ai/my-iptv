@@ -1,0 +1,394 @@
+{
+  "kinowalk": {
+    "name": "Kinowalk",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "legion": {
+    "name": "Legion",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "video_prokat": {
+    "name": "Video_Prokat",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "movietoper": {
+    "name": "MovieToper",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "timetohorror": {
+    "name": "TimeToHorror",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "timetomovie": {
+    "name": "TimeToMovie",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "blockbusterstime": {
+    "name": "Blockbusters Time",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "kinolampa": {
+    "name": "Kinolampa",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "videoarsenal": {
+    "name": "VideoArsenal",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "kinojam": {
+    "name": "Kino Jam",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "scripach": {
+    "name": "Scripach",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "selecaotv": {
+    "name": "SeleCaoTV",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "selecaotv1": {
+    "name": "SeleCaoTV1",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "serialtv": {
+    "name": "SerialTV",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "serial4u": {
+    "name": "Serial4u",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "киноужас": {
+    "name": "Киноужас",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "коновал": {
+    "name": "Коновал",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "alexfilms": {
+    "name": "Alex.Films",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "jtxonline": {
+    "name": "JTX Online",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "первыйряд": {
+    "name": "Первый ряд",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "baragozz": {
+    "name": "Baragozz",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "кассета": {
+    "name": "Кассета",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "мыиз90х": {
+    "name": "Мы из 90-х",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "aisman": {
+    "name": "Aisman",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "vhsforever": {
+    "name": "VHS Forever",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "lampotv": {
+    "name": "LampoTV",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "videochannel": {
+    "name": "Video Channel",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "swat2k": {
+    "name": "swat2k",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "wfliq": {
+    "name": "Wfliq",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "snoochiesboochies": {
+    "name": "Snoochies Boochies",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "комедии": {
+    "name": "Комедии",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "эквилибриум": {
+    "name": "Эквилибриум",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "chowamigo": {
+    "name": "ChowAmigo",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "topmoment": {
+    "name": "TopMoment",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "назадвссср": {
+    "name": "Назад в СССР",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "videovk": {
+    "name": "VideoVk",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "inmuna": {
+    "name": "InMuNa",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "vhsкино": {
+    "name": "VHS кино",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "cinematime": {
+    "name": "Cinema Time",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "igrocomp": {
+    "name": "IGROComp",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "kycman": {
+    "name": "Kycman",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "djzour": {
+    "name": "dj Zour",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "кинононстоп": {
+    "name": "КиноНонСтоп",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "priest_kod": {
+    "name": "Priest_kod",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "амбергейт": {
+    "name": "Амбергейт",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "кинопроектор": {
+    "name": "Кинопроектор",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "tоny": {
+    "name": "Tоny",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "kinofon": {
+    "name": "Kinofon",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  },
+  "kinomix": {
+    "name": "KinoMix",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+  }
+}

@@ -1,19 +1,22 @@
 {
-  "policy": "movies-cartoons-ukr-rus-v2",
-  "updated_at": "2026-09-06T06:48:22.408904+00:00",
-  "streams": 234,
-  "unique_channel_ids": 116,
+  "policy": "movies-cartoons-ukr-rus-v3",
+  "updated_at": "2026-09-06T07:12:14.866320+00:00",
+  "streams": 604,
+  "unique_channel_ids": 181,
   "categories": {
-    "Фільми | UKR": 9,
-    "Фільми | RUS": 172,
-    "Мультфільми | RUS": 49,
-    "Фільми | RUS/UKR": 2,
-    "Мультфільми | UKR": 2
+    "Фільми | UKR": 10,
+    "Фільми | RUS": 472,
+    "Мультфільми | RUS": 111,
+    "Фільми | RUS/UKR": 4,
+    "Мультфільми | UKR": 7
   },
   "source_contributions": {
-    "iptv-org/iptv": 133,
-    "dearbulut/iptv": 15,
+    "iptv-org/iptv": 131,
+    "dearbulut/iptv": 16,
     "Free-TV/IPTV": 1,
-    "naggdd/iptv": 85
+    "naggdd/iptv": 137,
+    "smolnp/IPTVru": 29,
+    "Dimonovich/TV": 288,
+    "substanc1/iptv-ukraine": 2
   }
 }

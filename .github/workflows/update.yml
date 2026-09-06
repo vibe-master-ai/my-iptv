@@ -8,6 +8,7 @@ on:
     paths:
       - 'iptv_filter.py'
       - 'tests/**'
+      - 'extra_channels.json'
       - '.github/workflows/update.yml'
 permissions:
   contents: write
