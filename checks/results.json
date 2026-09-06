@@ -1128,6 +1128,29 @@
     "name": "Мульт",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
+    "url": "http://flussonic.mkpnet.ru/tv-c8b065a591077c26/video.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 576
+    },
+    "audio": {
+      "codec_name": "mp2",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 15.7,
+    "checked_at": "2026-09-06T07:23:25.896249+00:00",
+    "error": ""
+  },
+  {
+    "index": 56,
+    "name": "Мульт",
+    "channel_id": "Mult.ru",
+    "group": "Мультфільми | RUS",
     "url": "http://hls.stb.md/MULIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I",
     "status": "restricted",
     "reason": "HTTP 403: access denied (possible geo/auth restriction)",
@@ -1139,7 +1162,7 @@
     "error": "http://hls.stb.md/MULIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 56,
+    "index": 57,
     "name": "Мульт",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1154,7 +1177,7 @@
     "error": "[tcp @ 0x91906c000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Mul_t/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 57,
+    "index": 58,
     "name": "Мульт",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1169,7 +1192,7 @@
     "error": "[tcp @ 0xaed070080] Connection to tcp://tv.ttk.mx:9054 failed: Connection refused\nhttp://tv.ttk.mx:9054: Connection refused\n"
   },
   {
-    "index": 58,
+    "index": 59,
     "name": "Мульт",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1192,7 +1215,7 @@
     "error": ""
   },
   {
-    "index": 59,
+    "index": 60,
     "name": "Мульт",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1215,7 +1238,7 @@
     "error": ""
   },
   {
-    "index": 60,
+    "index": 61,
     "name": "Мульт",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1238,7 +1261,7 @@
     "error": ""
   },
   {
-    "index": 61,
+    "index": 62,
     "name": "Мульт (1080p)",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1258,7 +1281,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 63,
     "name": "Мульт (2)",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1278,7 +1301,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 64,
     "name": "Мульт HD",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1301,7 +1324,7 @@
     "error": "ed\n    Last message repeated 1 times\n[h264 @ 0xbe8ca4380] decode_slice_header error\n[h264 @ 0xbe8ca4380] no frame!\n[h264 @ 0xbe8ca4380] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbe8ca4380] decode_slice_header error\n[h264 @ 0xbe8ca4380] no frame!\n[h264 @ 0xbe8ca4380] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbe8ca4380] decode_slice_header error\n[h264 @ 0xbe8ca4380] no frame!\n[h264 @ 0xbe8ca4380] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbe8ca4380] decode_slice_header error\n[h264 @ 0xbe8ca4380] no frame!\n[h264 @ 0xbe8ca4380] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbe8ca4380] decode_slice_header error\n[h264 @ 0xbe8ca4380] no frame!\n[h264 @ 0xbe8ca4380] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbe8ca4380] decode_slice_header error\n[h264 @ 0xbe8ca4380] no frame!\n[h264 @ 0xbe8ca4380] reference picture missing during reorder\n[h264 @ 0xbe8ca4380] Missing reference picture, default is 65542\n[h264 @ 0xbe8ca4380] reference picture missing during reorder\n[h264 @ 0xbe8ca4380] Missing reference picture, default is 65541\n[h264 @ 0xbe8ca5f80] mmco: unref short failure\n    Last message repeated 1 times\n[h264 @ 0xbe8ca5f80] number of reference frames (0+5) exceeds max (4; probably corrupt input), discarding one\n[h264 @ 0xbe8ca6a00] reference picture missing during reorder\n    Last message repeated 1 times\n[h264 @ 0xbe8ca6a00] Missing reference picture, default is 65542\n    Last message repeated 1 times\n[h264 @ 0xbe8ca6d80] reference"
   },
   {
-    "index": 64,
+    "index": 65,
     "name": "МУЛЬТ HD",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1316,7 +1339,7 @@
     "error": "[tcp @ 0x70ac88000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/mult_HD/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 65,
+    "index": 66,
     "name": "Мульт HD",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1331,7 +1354,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr2/tlum_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 66,
+    "index": 67,
     "name": "Мульт HD",
     "channel_id": "Mult.ru",
     "group": "Мультфільми | RUS",
@@ -1346,7 +1369,7 @@
     "error": "[tcp @ 0x879064080] Connection to tcp://tv.ttk.mx:9086 failed: Connection refused\nhttp://tv.ttk.mx:9086: Connection refused\n"
   },
   {
-    "index": 67,
+    "index": 68,
     "name": "Мульт и Музыка",
     "channel_id": "Multimuzyka.ru",
     "group": "Мультфільми | RUS",
@@ -1361,7 +1384,7 @@
     "error": "[tcp @ 0x95ac0c680] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Mul_timuzika/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 68,
+    "index": 69,
     "name": "Мультиландия",
     "channel_id": "Multilandia.ru",
     "group": "Мультфільми | RUS",
@@ -1376,7 +1399,7 @@
     "error": "http://195.64.140.147:10135/135: Operation timed out\n"
   },
   {
-    "index": 69,
+    "index": 70,
     "name": "Мультиландия",
     "channel_id": "Multilandia.ru",
     "group": "Мультфільми | RUS",
@@ -1396,7 +1419,7 @@
     }
   },
   {
-    "index": 70,
+    "index": 71,
     "name": "Мультиландия",
     "channel_id": "Multilandia.ru",
     "group": "Мультфільми | RUS",
@@ -1419,7 +1442,7 @@
     "error": ""
   },
   {
-    "index": 71,
+    "index": 72,
     "name": "Мультиландия",
     "channel_id": "Multilandia.ru",
     "group": "Мультфільми | RUS",
@@ -1442,7 +1465,7 @@
     "error": ""
   },
   {
-    "index": 72,
+    "index": 73,
     "name": "Мультиландия",
     "channel_id": "Multilandia.ru",
     "group": "Мультфільми | RUS",
@@ -1462,7 +1485,7 @@
     "error": ""
   },
   {
-    "index": 73,
+    "index": 74,
     "name": "Мультиландия",
     "channel_id": "Multilandia.ru",
     "group": "Мультфільми | RUS",
@@ -1477,7 +1500,7 @@
     "error": "[tcp @ 0x8bac70080] Connection to tcp://mhd116.iptv2022.com:443 failed: Operation timed out\nhttps://mhd116.iptv2022.com/x/bLogxD922711KjKNOqvPiQ,1788763889/streaming/multimania/324/1/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 74,
+    "index": 75,
     "name": "Мультиландия",
     "channel_id": "Multilandia.ru",
     "group": "Мультфільми | RUS",
@@ -1500,7 +1523,7 @@
     "error": ""
   },
   {
-    "index": 75,
+    "index": 76,
     "name": "Мультиландия (2)",
     "channel_id": "Multilandia.ru",
     "group": "Мультфільми | RUS",
@@ -1523,7 +1546,7 @@
     "error": ""
   },
   {
-    "index": 76,
+    "index": 77,
     "name": "Мультиландия (3)",
     "channel_id": "Multilandia.ru",
     "group": "Мультфільми | RUS",
@@ -1543,7 +1566,7 @@
     }
   },
   {
-    "index": 77,
+    "index": 78,
     "name": "Мультимания (576p)",
     "channel_id": "Multimania.ru",
     "group": "Мультфільми | RUS",
@@ -1558,7 +1581,7 @@
     "error": "[tcp @ 0xa3cc07b60] Failed to resolve hostname sirius.greenhosting.ru: nodename nor servname provided, or not known\nhttps://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8: Input/output error\n"
   },
   {
-    "index": 78,
+    "index": 79,
     "name": "Мультимузыка",
     "channel_id": "Multimuzyka.ru",
     "group": "Мультфільми | RUS",
@@ -1573,7 +1596,7 @@
     "error": "http://195.64.140.147:10134/134: Operation timed out\n"
   },
   {
-    "index": 79,
+    "index": 80,
     "name": "Мультимузыка",
     "channel_id": "Multimuzyka.ru",
     "group": "Мультфільми | RUS",
@@ -1593,7 +1616,7 @@
     }
   },
   {
-    "index": 80,
+    "index": 81,
     "name": "Мультимузыка",
     "channel_id": "Multimuzyka.ru",
     "group": "Мультфільми | RUS",
@@ -1608,7 +1631,7 @@
     "error": "[tcp @ 0x7a4c0c680] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/mult_i_muzika/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 81,
+    "index": 82,
     "name": "Мультимузыка",
     "channel_id": "Multimuzyka.ru",
     "group": "Мультфільми | RUS",
@@ -1631,7 +1654,7 @@
     "error": ""
   },
   {
-    "index": 82,
+    "index": 83,
     "name": "Мультимузыка",
     "channel_id": "Multimuzyka.ru",
     "group": "Мультфільми | RUS",
@@ -1646,7 +1669,7 @@
     "error": "[tcp @ 0xba0c0c700] Connection to tcp://tv.ttk.mx:9045 failed: Connection refused\nhttp://tv.ttk.mx:9045: Connection refused\n"
   },
   {
-    "index": 83,
+    "index": 84,
     "name": "О!",
     "channel_id": "O.ru",
     "group": "Мультфільми | RUS",
@@ -1661,7 +1684,7 @@
     "error": "http://195.64.140.147:10124/124: Operation timed out\n"
   },
   {
-    "index": 84,
+    "index": 85,
     "name": "О!",
     "channel_id": "O.ru",
     "group": "Мультфільми | RUS",
@@ -1681,7 +1704,7 @@
     }
   },
   {
-    "index": 85,
+    "index": 86,
     "name": "О!",
     "channel_id": "O.ru",
     "group": "Мультфільми | RUS",
@@ -1704,7 +1727,7 @@
     "error": ""
   },
   {
-    "index": 86,
+    "index": 87,
     "name": "О!",
     "channel_id": "O.ru",
     "group": "Мультфільми | RUS",
@@ -1719,7 +1742,7 @@
     "error": "[tcp @ 0xc66c4c080] Connection to tcp://tv.ttk.mx:9092 failed: Connection refused\nhttp://tv.ttk.mx:9092: Connection refused\n"
   },
   {
-    "index": 87,
+    "index": 88,
     "name": "Рыжий",
     "channel_id": "Ryzhiy.ru",
     "group": "Мультфільми | RUS",
@@ -1734,7 +1757,7 @@
     "error": "http://hls.stb.md/RIJII_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 88,
+    "index": 89,
     "name": "Рыжий",
     "channel_id": "Ryzhiy.ru",
     "group": "Мультфільми | RUS",
@@ -1757,7 +1780,7 @@
     "error": ""
   },
   {
-    "index": 89,
+    "index": 90,
     "name": "Смотрим 100% Детское",
     "channel_id": "Smotrim100Detskoe.ru",
     "group": "Мультфільми | RUS",
@@ -1772,7 +1795,7 @@
     "error": "[tcp @ 0xaccc74080] Connection to tcp://stream.smotrim.ru:443 failed: Operation timed out\nhttps://stream.smotrim.ru/fasttv_hls/fasttv05/playlist_3.m3u8: Operation timed out\n"
   },
   {
-    "index": 90,
+    "index": 91,
     "name": "Солнце",
     "channel_id": "Solnce.ru",
     "group": "Мультфільми | RUS",
@@ -1795,7 +1818,7 @@
     "error": ""
   },
   {
-    "index": 91,
+    "index": 92,
     "name": "Солнце",
     "channel_id": "Solnce.ru",
     "group": "Мультфільми | RUS",
@@ -1818,7 +1841,7 @@
     "error": ""
   },
   {
-    "index": 92,
+    "index": 93,
     "name": "Солнце (2)",
     "channel_id": "Solnce.ru",
     "group": "Мультфільми | RUS",
@@ -1841,7 +1864,7 @@
     "error": ""
   },
   {
-    "index": 93,
+    "index": 94,
     "name": "СТС Kids",
     "channel_id": "STSkids.ru",
     "group": "Мультфільми | RUS",
@@ -1856,7 +1879,7 @@
     "error": "http://195.64.140.147:10129/129: Operation timed out\n"
   },
   {
-    "index": 94,
+    "index": 95,
     "name": "СТС Kids",
     "channel_id": "STSkids.ru",
     "group": "Мультфільми | RUS",
@@ -1876,7 +1899,7 @@
     }
   },
   {
-    "index": 95,
+    "index": 96,
     "name": "СТС Kids",
     "channel_id": "STSkids.ru",
     "group": "Мультфільми | RUS",
@@ -1899,7 +1922,7 @@
     "error": ""
   },
   {
-    "index": 96,
+    "index": 97,
     "name": "СТС Kids",
     "channel_id": "STSkids.ru",
     "group": "Мультфільми | RUS",
@@ -1914,7 +1937,7 @@
     "error": "http://hls.stb.md/CTC_KIDS_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 97,
+    "index": 98,
     "name": "СТС Kids",
     "channel_id": "STSkids.ru",
     "group": "Мультфільми | RUS",
@@ -1937,7 +1960,7 @@
     "error": ""
   },
   {
-    "index": 98,
+    "index": 99,
     "name": "СТС Kids",
     "channel_id": "STSkids.ru",
     "group": "Мультфільми | RUS",
@@ -1960,7 +1983,30 @@
     "error": ""
   },
   {
-    "index": 99,
+    "index": 100,
+    "name": "СТС Kids HD",
+    "channel_id": "STSkids.ru",
+    "group": "Мультфільми | RUS",
+    "url": "http://195.26.83.96:7006/play/a00z/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 576
+    },
+    "audio": {
+      "codec_name": "mp2",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.7,
+    "checked_at": "2026-09-06T07:23:14.929990+00:00",
+    "error": ""
+  },
+  {
+    "index": 101,
     "name": "СТС Kids HD",
     "channel_id": "STSkids.ru",
     "group": "Мультфільми | RUS",
@@ -1975,7 +2021,7 @@
     "error": "[tcp @ 0xbf5074000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/CTC_Kids_HD/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 100,
+    "index": 102,
     "name": "Супергерои",
     "channel_id": "SuperGeroi.ru",
     "group": "Мультфільми | RUS",
@@ -1998,7 +2044,7 @@
     "error": ""
   },
   {
-    "index": 101,
+    "index": 103,
     "name": "Супергерои",
     "channel_id": "SuperGeroi.ru",
     "group": "Мультфільми | RUS",
@@ -2021,7 +2067,7 @@
     "error": " referenced\n    Last message repeated 1 times\n[h264 @ 0xbb5060a80] decode_slice_header error\n[h264 @ 0xbb5060a80] no frame!\n[h264 @ 0xbb5060a80] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbb5060a80] decode_slice_header error\n[h264 @ 0xbb5060a80] no frame!\n[h264 @ 0xbb5060a80] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbb5060a80] decode_slice_header error\n[h264 @ 0xbb5060a80] no frame!\n[h264 @ 0xbb5060a80] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbb5060a80] decode_slice_header error\n[h264 @ 0xbb5060a80] no frame!\n[h264 @ 0xbb5060a80] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbb5060a80] decode_slice_header error\n[h264 @ 0xbb5060a80] no frame!\n[h264 @ 0xbb5060a80] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0xbb5060a80] decode_slice_header error\n[h264 @ 0xbb5060a80] no frame!\n[h264 @ 0xbb5060a80] mmco: unref short failure\n    Last message repeated 1 times\n[h264 @ 0xbb5060a80] number of reference frames (0+5) exceeds max (4; probably corrupt input), discarding one\n[h264 @ 0xbb5060a80] mmco: unref short failure\n    Last message repeated 1 times\n[h264 @ 0xbb5062680] reference picture missing during reorder\n[h264 @ 0xbb5062680] Missing reference picture, default is 2147483647\n[h264 @ 0xbb5062d80] mmco: unref short failure\n    Last message repeated 1 times\n[h264 @ 0xbb5062d80] number of reference frames (0+5) exceeds max (4; probably corrupt input), discarding one\n[h264 @ 0xbb5062d80] reference picture missing during reorder\n[h26"
   },
   {
-    "index": 102,
+    "index": 104,
     "name": "Супергерои",
     "channel_id": "SuperGeroi.ru",
     "group": "Мультфільми | RUS",
@@ -2036,7 +2082,7 @@
     "error": "[tcp @ 0xbc906c080] Connection to tcp://tv.ttk.mx:9194 failed: Connection refused\nhttp://tv.ttk.mx:9194: Connection refused\n"
   },
   {
-    "index": 103,
+    "index": 105,
     "name": "Уникум",
     "channel_id": "Unikum.ru",
     "group": "Мультфільми | RUS",
@@ -2059,7 +2105,7 @@
     "error": ""
   },
   {
-    "index": 104,
+    "index": 106,
     "name": "Уникум",
     "channel_id": "Unikum.ru",
     "group": "Мультфільми | RUS",
@@ -2074,7 +2120,7 @@
     "error": "http://195.64.140.147:10131/131: Operation timed out\n"
   },
   {
-    "index": 105,
+    "index": 107,
     "name": "Уникум",
     "channel_id": "Unikum.ru",
     "group": "Мультфільми | RUS",
@@ -2089,7 +2135,7 @@
     "error": "Playback check exceeded time limit"
   },
   {
-    "index": 106,
+    "index": 108,
     "name": "Уникум",
     "channel_id": "Unikum.ru",
     "group": "Мультфільми | RUS",
@@ -2104,7 +2150,7 @@
     "error": "[tcp @ 0x7e8c4c080] Connection to tcp://tv.ttk.mx:9026 failed: Connection refused\nhttp://tv.ttk.mx:9026: Connection refused\n"
   },
   {
-    "index": 107,
+    "index": 109,
     "name": "Уникум",
     "channel_id": "Unikum.ru",
     "group": "Мультфільми | RUS",
@@ -2127,7 +2173,7 @@
     "error": ""
   },
   {
-    "index": 108,
+    "index": 110,
     "name": "Уникум",
     "channel_id": "Unikum.ru",
     "group": "Мультфільми | RUS",
@@ -2150,7 +2196,7 @@
     "error": ""
   },
   {
-    "index": 109,
+    "index": 111,
     "name": "Уникум (2)",
     "channel_id": "Unikum.ru",
     "group": "Мультфільми | RUS",
@@ -2165,7 +2211,7 @@
     "error": "[tcp @ 0xb2ac50000] Failed to resolve hostname 31148.rafail1982.uz: nodename nor servname provided, or not known\nhttp://31148.rafail1982.uz/Detskiy/index.m3u8: Input/output error\n"
   },
   {
-    "index": 110,
+    "index": 112,
     "name": "Уникум HD",
     "channel_id": "Unikum.ru",
     "group": "Мультфільми | RUS",
@@ -2180,7 +2226,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr1/detckiyHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 111,
+    "index": 113,
     "name": "Cine+ Kids",
     "channel_id": "CinePlusKids.ua",
     "group": "Мультфільми | UKR",
@@ -2203,7 +2249,7 @@
     "error": ""
   },
   {
-    "index": 112,
+    "index": 114,
     "name": "Niki Junior",
     "channel_id": "NikiJunior.ua",
     "group": "Мультфільми | UKR",
@@ -2218,7 +2264,7 @@
     "error": "[tcp @ 0x7b6c50000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=nikijunior: Connection refused\n"
   },
   {
-    "index": 113,
+    "index": 115,
     "name": "Niki Junior (1080p)",
     "channel_id": "NikiJunior.ua",
     "group": "Мультфільми | UKR",
@@ -2241,7 +2287,7 @@
     "error": ""
   },
   {
-    "index": 114,
+    "index": 116,
     "name": "Niki Kids (1080p)",
     "channel_id": "NikiKids.ua",
     "group": "Мультфільми | UKR",
@@ -2264,7 +2310,7 @@
     "error": ""
   },
   {
-    "index": 115,
+    "index": 117,
     "name": "Pixel TV (1080p)",
     "channel_id": "PixelTV.ua",
     "group": "Мультфільми | UKR",
@@ -2287,7 +2333,7 @@
     "error": ""
   },
   {
-    "index": 116,
+    "index": 118,
     "name": "PLUSPLUS (1080p)",
     "channel_id": "PLUSPLUS.ua",
     "group": "Мультфільми | UKR",
@@ -2310,7 +2356,7 @@
     "error": ""
   },
   {
-    "index": 117,
+    "index": 119,
     "name": "Піксель TV",
     "channel_id": "PixelTV.ua",
     "group": "Мультфільми | UKR",
@@ -2333,7 +2379,7 @@
     "error": ""
   },
   {
-    "index": 118,
+    "index": 120,
     "name": "312 Кино (406p)",
     "channel_id": "312Kino.kg",
     "group": "Фільми | RUS",
@@ -2353,7 +2399,7 @@
     }
   },
   {
-    "index": 119,
+    "index": 121,
     "name": "Aisman",
     "channel_id": "OnlineCinema.f535de5af32e",
     "group": "Фільми | RUS",
@@ -2376,7 +2422,7 @@
     "error": ""
   },
   {
-    "index": 120,
+    "index": 122,
     "name": "Aisman",
     "channel_id": "OnlineCinema.f535de5af32e",
     "group": "Фільми | RUS",
@@ -2399,7 +2445,7 @@
     "error": ""
   },
   {
-    "index": 121,
+    "index": 123,
     "name": "Alex.Films",
     "channel_id": "OnlineCinema.2249357f99d8",
     "group": "Фільми | RUS",
@@ -2422,7 +2468,7 @@
     "error": ""
   },
   {
-    "index": 122,
+    "index": 124,
     "name": "Alex.Films",
     "channel_id": "OnlineCinema.2249357f99d8",
     "group": "Фільми | RUS",
@@ -2445,7 +2491,7 @@
     "error": ""
   },
   {
-    "index": 123,
+    "index": 125,
     "name": "alpha Cinema (1080p)",
     "channel_id": "alphaCinema.ru",
     "group": "Фільми | RUS",
@@ -2460,7 +2506,7 @@
     "error": "[tcp @ 0xa94cac080] Failed to resolve hostname live.15plusmg.ru: nodename nor servname provided, or not known\nhttps://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8: Input/output error\n"
   },
   {
-    "index": 124,
+    "index": 126,
     "name": "Amedia Hit",
     "channel_id": "AmediaHit.ru",
     "group": "Фільми | RUS",
@@ -2475,7 +2521,7 @@
     "error": "[tcp @ 0xbd106c000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=amediahit: Connection refused\n"
   },
   {
-    "index": 125,
+    "index": 127,
     "name": "Amedia Hit",
     "channel_id": "AmediaHit.ru",
     "group": "Фільми | RUS",
@@ -2498,7 +2544,7 @@
     "error": ""
   },
   {
-    "index": 126,
+    "index": 128,
     "name": "Amedia Hit",
     "channel_id": "AmediaHit.ru",
     "group": "Фільми | RUS",
@@ -2521,7 +2567,7 @@
     "error": ""
   },
   {
-    "index": 127,
+    "index": 129,
     "name": "Amedia Hit (1080p)",
     "channel_id": "AmediaHit.ru",
     "group": "Фільми | RUS",
@@ -2549,7 +2595,7 @@
     }
   },
   {
-    "index": 128,
+    "index": 130,
     "name": "Amedia Hit (1080p)",
     "channel_id": "AmediaHit.ru",
     "group": "Фільми | RUS",
@@ -2572,7 +2618,7 @@
     "error": ""
   },
   {
-    "index": 129,
+    "index": 131,
     "name": "Amedia Hit (2)",
     "channel_id": "AmediaHit.ru",
     "group": "Фільми | RUS",
@@ -2587,7 +2633,7 @@
     "error": "[tcp @ 0x96aca8000] Failed to resolve hostname tinyurl.com: nodename nor servname provided, or not known\nhttp://tinyurl.com/TvZaTak65?id=amediahit: Input/output error\n"
   },
   {
-    "index": 130,
+    "index": 132,
     "name": "Amedia Hit (3)",
     "channel_id": "AmediaHit.ru",
     "group": "Фільми | RUS",
@@ -2607,7 +2653,7 @@
     }
   },
   {
-    "index": 131,
+    "index": 133,
     "name": "Amedia Hit HD",
     "channel_id": "AmediaHit.ru",
     "group": "Фільми | RUS",
@@ -2630,7 +2676,7 @@
     "error": ""
   },
   {
-    "index": 132,
+    "index": 134,
     "name": "Amedia Hit HD",
     "channel_id": "AmediaHit.ru",
     "group": "Фільми | RUS",
@@ -2653,7 +2699,7 @@
     "error": ""
   },
   {
-    "index": 133,
+    "index": 135,
     "name": "Amedia Premium",
     "channel_id": "AmediaPremium.ru",
     "group": "Фільми | RUS",
@@ -2668,7 +2714,7 @@
     "error": "[tcp @ 0x9d0cac000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=amediapremium: Connection refused\n"
   },
   {
-    "index": 134,
+    "index": 136,
     "name": "Amedia Premium",
     "channel_id": "AmediaPremium.ru",
     "group": "Фільми | RUS",
@@ -2691,7 +2737,7 @@
     "error": ""
   },
   {
-    "index": 135,
+    "index": 137,
     "name": "Amedia Premium",
     "channel_id": "AmediaPremium.ru",
     "group": "Фільми | RUS",
@@ -2714,7 +2760,7 @@
     "error": ""
   },
   {
-    "index": 136,
+    "index": 138,
     "name": "Amedia Premium",
     "channel_id": "AmediaPremium.ru",
     "group": "Фільми | RUS",
@@ -2737,7 +2783,7 @@
     "error": ""
   },
   {
-    "index": 137,
+    "index": 139,
     "name": "Amedia Premium (2)",
     "channel_id": "AmediaPremium.ru",
     "group": "Фільми | RUS",
@@ -2752,7 +2798,7 @@
     "error": "[tcp @ 0xb78cc8000] Failed to resolve hostname tinyurl.com: nodename nor servname provided, or not known\nhttp://tinyurl.com/TvZaTak65?id=amediapremium: Input/output error\n"
   },
   {
-    "index": 138,
+    "index": 140,
     "name": "Amedia Premium (3)",
     "channel_id": "AmediaPremium.ru",
     "group": "Фільми | RUS",
@@ -2772,7 +2818,7 @@
     }
   },
   {
-    "index": 139,
+    "index": 141,
     "name": "Amedia Premium (720p)",
     "channel_id": "AmediaPremium.ru",
     "group": "Фільми | RUS",
@@ -2792,7 +2838,7 @@
     }
   },
   {
-    "index": 140,
+    "index": 142,
     "name": "Amedia Premium HD",
     "channel_id": "AmediaPremium.ru",
     "group": "Фільми | RUS",
@@ -2807,7 +2853,7 @@
     "error": "[tcp @ 0x9e6818000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Amedia_Premium_HD/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 141,
+    "index": 143,
     "name": "Amedia Premium HD",
     "channel_id": "AmediaPremium.ru",
     "group": "Фільми | RUS",
@@ -2830,7 +2876,7 @@
     "error": ""
   },
   {
-    "index": 142,
+    "index": 144,
     "name": "Baragozz",
     "channel_id": "OnlineCinema.5a5be11b2b7d",
     "group": "Фільми | RUS",
@@ -2853,7 +2899,30 @@
     "error": ""
   },
   {
-    "index": 143,
+    "index": 145,
+    "name": "Baragozz_TV",
+    "channel_id": "OnlineCinema.5a5be11b2b7d",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/baragozz_tv_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 15.4,
+    "checked_at": "2026-09-06T07:23:25.598754+00:00",
+    "error": ""
+  },
+  {
+    "index": 146,
     "name": "Blockbusters Time",
     "channel_id": "OnlineCinema.60b9aa575103",
     "group": "Фільми | RUS",
@@ -2876,7 +2945,7 @@
     "error": ""
   },
   {
-    "index": 144,
+    "index": 147,
     "name": "Blockbusters Time",
     "channel_id": "OnlineCinema.60b9aa575103",
     "group": "Фільми | RUS",
@@ -2899,7 +2968,7 @@
     "error": ""
   },
   {
-    "index": 145,
+    "index": 148,
     "name": "Blokbaster HD (1080p)",
     "channel_id": "Blokbaster.ru",
     "group": "Фільми | RUS",
@@ -2922,7 +2991,7 @@
     "error": ""
   },
   {
-    "index": 146,
+    "index": 149,
     "name": "Bollywood HD",
     "channel_id": "Bollywood.ru",
     "group": "Фільми | RUS",
@@ -2937,7 +3006,7 @@
     "error": "[tcp @ 0x82accc000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Bollywood_HD/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 147,
+    "index": 150,
     "name": "Bollywood HD (1080p)",
     "channel_id": "BollywoodHD.ro",
     "group": "Фільми | RUS",
@@ -2957,7 +3026,7 @@
     }
   },
   {
-    "index": 148,
+    "index": 151,
     "name": "Bollywood HD Russia (576p)",
     "channel_id": "BollywoodHD.ro",
     "group": "Фільми | RUS",
@@ -2980,7 +3049,7 @@
     "error": ""
   },
   {
-    "index": 149,
+    "index": 152,
     "name": "Bolt (576p)",
     "channel_id": "Bolt.ru",
     "group": "Фільми | RUS",
@@ -3003,7 +3072,22 @@
     "error": ""
   },
   {
-    "index": 150,
+    "index": 153,
+    "name": "BOSSFILM",
+    "channel_id": "OnlineCinema.4f39446368e1",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/bossfilm_live",
+    "status": "unavailable",
+    "reason": "HTTP 404: stream not found",
+    "video": null,
+    "audio": null,
+    "http_status": 404,
+    "seconds": 0.8,
+    "checked_at": "2026-09-06T07:23:11.017615+00:00",
+    "error": "http://kinowalk.hopto.org/bossfilm_live: Server returned 404 Not Found\n"
+  },
+  {
+    "index": 154,
     "name": "ChowAmigo",
     "channel_id": "OnlineCinema.3bb2f44321ea",
     "group": "Фільми | RUS",
@@ -3026,7 +3110,7 @@
     "error": ""
   },
   {
-    "index": 151,
+    "index": 155,
     "name": "ChowAmigo",
     "channel_id": "OnlineCinema.3bb2f44321ea",
     "group": "Фільми | RUS",
@@ -3049,7 +3133,7 @@
     "error": ""
   },
   {
-    "index": 152,
+    "index": 156,
     "name": "Cinema",
     "channel_id": "Cinema.ru",
     "group": "Фільми | RUS",
@@ -3072,7 +3156,7 @@
     "error": ""
   },
   {
-    "index": 153,
+    "index": 157,
     "name": "Cinema",
     "channel_id": "Cinema.ru",
     "group": "Фільми | RUS",
@@ -3087,7 +3171,7 @@
     "error": "[tcp @ 0x97ec0c700] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Cinema/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 154,
+    "index": 158,
     "name": "Cinema (2)",
     "channel_id": "Cinema.ru",
     "group": "Фільми | RUS",
@@ -3110,7 +3194,7 @@
     "error": ""
   },
   {
-    "index": 155,
+    "index": 159,
     "name": "Cinema (576p)",
     "channel_id": "Cinema.ru",
     "group": "Фільми | RUS",
@@ -3136,7 +3220,7 @@
     "error": ""
   },
   {
-    "index": 156,
+    "index": 160,
     "name": "Cinema Time",
     "channel_id": "OnlineCinema.bf941da350ef",
     "group": "Фільми | RUS",
@@ -3159,7 +3243,7 @@
     "error": ""
   },
   {
-    "index": 157,
+    "index": 161,
     "name": "Cinema Time",
     "channel_id": "OnlineCinema.bf941da350ef",
     "group": "Фільми | RUS",
@@ -3182,7 +3266,7 @@
     "error": ""
   },
   {
-    "index": 158,
+    "index": 162,
     "name": "dj Zour",
     "channel_id": "OnlineCinema.60e19f24b77e",
     "group": "Фільми | RUS",
@@ -3205,7 +3289,7 @@
     "error": ""
   },
   {
-    "index": 159,
+    "index": 163,
     "name": "dj Zour",
     "channel_id": "OnlineCinema.60e19f24b77e",
     "group": "Фільми | RUS",
@@ -3228,7 +3312,7 @@
     "error": ""
   },
   {
-    "index": 160,
+    "index": 164,
     "name": "Dom kino (576p)",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -3243,7 +3327,7 @@
     "error": "http://stream.mcquack.net/236/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 161,
+    "index": 165,
     "name": "Dom kino International (576p)",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -3266,7 +3350,7 @@
     "error": ""
   },
   {
-    "index": 162,
+    "index": 166,
     "name": "Dom kino Premium HD (1080p)",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -3281,7 +3365,7 @@
     "error": "http://stream.mcquack.net/108/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 163,
+    "index": 167,
     "name": "Dorama (576p)",
     "channel_id": "Dorama.ru",
     "group": "Фільми | RUS",
@@ -3304,7 +3388,7 @@
     "error": ""
   },
   {
-    "index": 164,
+    "index": 168,
     "name": "Dorama HD (1080p)",
     "channel_id": "Dorama.ru",
     "group": "Фільми | RUS",
@@ -3327,7 +3411,37 @@
     "error": ""
   },
   {
-    "index": 165,
+    "index": 169,
+    "name": "Dushevnoe HD (1080p)",
+    "channel_id": "Dushevnoe.ru",
+    "group": "Фільми | RUS",
+    "url": "http://stream.mcquack.net/213/index.m3u8",
+    "status": "restricted",
+    "reason": "HTTP 403: access denied (possible geo/auth restriction)",
+    "video": null,
+    "audio": null,
+    "http_status": 403,
+    "seconds": 0.3,
+    "checked_at": "2026-09-06T07:23:10.498373+00:00",
+    "error": "http://stream.mcquack.net/213/index.m3u8: Server returned 403 Forbidden (access denied)\n"
+  },
+  {
+    "index": 170,
+    "name": "DVD online",
+    "channel_id": "OnlineCinema.ffbb0cbe8a11",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/kinostream_rezerv_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 0.7,
+    "checked_at": "2026-09-06T07:23:10.933271+00:00",
+    "error": "http://kinowalk.hopto.org/kinostream_rezerv_live: Server returned 5XX Server Error reply\n"
+  },
+  {
+    "index": 171,
     "name": "Evrokino (576p)",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -3350,7 +3464,7 @@
     "error": ""
   },
   {
-    "index": 166,
+    "index": 172,
     "name": "Evrokino HD (1080p)",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -3365,7 +3479,7 @@
     "error": "http://stream.mcquack.net/385/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 167,
+    "index": 173,
     "name": "FilmBox",
     "channel_id": "FilmBox.nl",
     "group": "Фільми | RUS",
@@ -3380,7 +3494,7 @@
     "error": "Playback check exceeded time limit"
   },
   {
-    "index": 168,
+    "index": 174,
     "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
     "channel_id": "FILMBOXPlusOne.pl",
     "group": "Фільми | RUS",
@@ -3395,7 +3509,30 @@
     "error": "https://s70378.cdn.ngenix.net/filmbox/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 169,
+    "index": 175,
+    "name": "FilmsSerialsEveryDay",
+    "channel_id": "OnlineCinema.a794bfc472c6",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/filmsserialseveryday_live",
+    "status": "unstable",
+    "reason": "Video metadata found, but decoding failed or timed out",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 30.0,
+    "checked_at": "2026-09-06T07:23:40.192942+00:00",
+    "error": "Playback check exceeded time limit"
+  },
+  {
+    "index": 176,
     "name": "Flixsnip",
     "channel_id": "FlixSnip.ru",
     "group": "Фільми | RUS",
@@ -3418,7 +3555,7 @@
     "error": ""
   },
   {
-    "index": 170,
+    "index": 177,
     "name": "Hit HD (1080p)",
     "channel_id": "Hit.ru",
     "group": "Фільми | RUS",
@@ -3441,7 +3578,7 @@
     "error": ""
   },
   {
-    "index": 171,
+    "index": 178,
     "name": "HollywooD",
     "channel_id": "Hollywood.ru",
     "group": "Фільми | RUS",
@@ -3456,7 +3593,7 @@
     "error": "[tcp @ 0xc58ca8000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Hollywood/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 172,
+    "index": 179,
     "name": "Hollywood",
     "channel_id": "Hollywood.ru",
     "group": "Фільми | RUS",
@@ -3479,7 +3616,7 @@
     "error": ""
   },
   {
-    "index": 173,
+    "index": 180,
     "name": "Hollywood",
     "channel_id": "Hollywood.ru",
     "group": "Фільми | RUS",
@@ -3502,7 +3639,7 @@
     "error": ""
   },
   {
-    "index": 174,
+    "index": 181,
     "name": "HollyWood HD",
     "channel_id": "Hollywood.ru",
     "group": "Фільми | RUS",
@@ -3517,7 +3654,7 @@
     "error": "http://195.64.140.147:10079/79: Operation timed out\n"
   },
   {
-    "index": 175,
+    "index": 182,
     "name": "Hollywood HD",
     "channel_id": "Hollywood.ru",
     "group": "Фільми | RUS",
@@ -3540,7 +3677,7 @@
     "error": ""
   },
   {
-    "index": 176,
+    "index": 183,
     "name": "HOLLYWOOD HD",
     "channel_id": "Hollywood.ru",
     "group": "Фільми | RUS",
@@ -3555,7 +3692,7 @@
     "error": "http://5.188.159.128:8070/HOLLYWOOD_HD/index.m3u8: Server returned 404 Not Found\n"
   },
   {
-    "index": 177,
+    "index": 184,
     "name": "HollywooD HD",
     "channel_id": "Hollywood.ru",
     "group": "Фільми | RUS",
@@ -3570,7 +3707,7 @@
     "error": "[tcp @ 0x9eec0c680] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Hollywood_HD/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 178,
+    "index": 185,
     "name": "Hollywood HD (1080p)",
     "channel_id": "Hollywood.ru",
     "group": "Фільми | RUS",
@@ -3590,7 +3727,7 @@
     }
   },
   {
-    "index": 179,
+    "index": 186,
     "name": "Horoshee Kino (720p)",
     "channel_id": "HorosheeKino.ru",
     "group": "Фільми | RUS",
@@ -3618,7 +3755,7 @@
     }
   },
   {
-    "index": 180,
+    "index": 187,
     "name": "IGROComp",
     "channel_id": "OnlineCinema.4675eb1623a5",
     "group": "Фільми | RUS",
@@ -3641,7 +3778,30 @@
     "error": ""
   },
   {
-    "index": 181,
+    "index": 188,
+    "name": "IGROComp Films",
+    "channel_id": "OnlineCinema.4675eb1623a5",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/igrocomp_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 26.6,
+    "checked_at": "2026-09-06T07:23:36.849638+00:00",
+    "error": ""
+  },
+  {
+    "index": 189,
     "name": "Indiyskoye Kino (576p)",
     "channel_id": "IndiyskoyeKino.ru",
     "group": "Фільми | RUS",
@@ -3664,7 +3824,7 @@
     "error": ""
   },
   {
-    "index": 182,
+    "index": 190,
     "name": "InMuNa",
     "channel_id": "OnlineCinema.7a88c9c3eb73",
     "group": "Фільми | RUS",
@@ -3679,7 +3839,22 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttps://kinowalk.hopto.org/inmuna_live: Invalid data found when processing input\n"
   },
   {
-    "index": 183,
+    "index": 191,
+    "name": "InMuNa Live",
+    "channel_id": "OnlineCinema.7a88c9c3eb73",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/inmuna_live",
+    "status": "unavailable",
+    "reason": "HTTP 503: server error",
+    "video": null,
+    "audio": null,
+    "http_status": 503,
+    "seconds": 0.4,
+    "checked_at": "2026-09-06T07:23:10.677240+00:00",
+    "error": "http://kinowalk.hopto.org/inmuna_live: Server returned 5XX Server Error reply\n"
+  },
+  {
+    "index": 192,
     "name": "JTX Online",
     "channel_id": "OnlineCinema.cf0f8a351a9f",
     "group": "Фільми | RUS",
@@ -3702,7 +3877,7 @@
     "error": ""
   },
   {
-    "index": 184,
+    "index": 193,
     "name": "JTX Online",
     "channel_id": "OnlineCinema.cf0f8a351a9f",
     "group": "Фільми | RUS",
@@ -3725,7 +3900,30 @@
     "error": ""
   },
   {
-    "index": 185,
+    "index": 194,
+    "name": "K1n0man1a",
+    "channel_id": "OnlineCinema.dbf0577418c1",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/kinomania_stream_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 25.5,
+    "checked_at": "2026-09-06T07:23:35.706535+00:00",
+    "error": ""
+  },
+  {
+    "index": 195,
     "name": "Kino 1 (1080p)",
     "channel_id": "Kino1.ua",
     "group": "Фільми | RUS",
@@ -3748,7 +3946,7 @@
     "error": ""
   },
   {
-    "index": 186,
+    "index": 196,
     "name": "Kino 2 (1080p)",
     "channel_id": "Kino2.ua",
     "group": "Фільми | RUS",
@@ -3771,7 +3969,7 @@
     "error": ""
   },
   {
-    "index": 187,
+    "index": 197,
     "name": "Kino 24",
     "channel_id": "Kino24.ru",
     "group": "Фільми | RUS",
@@ -3794,7 +3992,7 @@
     "error": ""
   },
   {
-    "index": 188,
+    "index": 198,
     "name": "Kino 24 (720p)",
     "channel_id": "Kino24.ru",
     "group": "Фільми | RUS",
@@ -3809,7 +4007,7 @@
     "error": "[tcp @ 0xc98c0c680] Failed to resolve hostname sirius.greenhosting.ru: nodename nor servname provided, or not known\nhttp://sirius.greenhosting.ru/Kino24Ru/video.m3u8: Input/output error\n"
   },
   {
-    "index": 189,
+    "index": 199,
     "name": "Kino Jam",
     "channel_id": "OnlineCinema.91d6834c4fe2",
     "group": "Фільми | RUS",
@@ -3832,7 +4030,7 @@
     "error": ""
   },
   {
-    "index": 190,
+    "index": 200,
     "name": "Kino TV (1080p)",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -3855,7 +4053,7 @@
     "error": ""
   },
   {
-    "index": 191,
+    "index": 201,
     "name": "Kino TV HD (1080p)",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -3878,7 +4076,37 @@
     "error": ""
   },
   {
-    "index": 192,
+    "index": 202,
+    "name": "KinoFans",
+    "channel_id": "OnlineCinema.f6184d9633a6",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/kinofans_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 0.9,
+    "checked_at": "2026-09-06T07:23:11.180360+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/kinofans_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 203,
+    "name": "KinoFilm",
+    "channel_id": "OnlineCinema.7ba4b7d0a542",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/poe2proxodim_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 1.1,
+    "checked_at": "2026-09-06T07:23:11.292625+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/poe2proxodim_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 204,
     "name": "Kinofon",
     "channel_id": "OnlineCinema.656ede9ba26d",
     "group": "Фільми | RUS",
@@ -3893,7 +4121,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/kinofon_live: Invalid data found when processing input\n"
   },
   {
-    "index": 193,
+    "index": 205,
     "name": "Kinofon",
     "channel_id": "OnlineCinema.656ede9ba26d",
     "group": "Фільми | RUS",
@@ -3908,7 +4136,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttps://kinowalk.hopto.org/kinofon_live: Invalid data found when processing input\n"
   },
   {
-    "index": 194,
+    "index": 206,
     "name": "KinoHit (576p)",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -3923,7 +4151,7 @@
     "error": "http://stream.mcquack.net/126/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 195,
+    "index": 207,
     "name": "KinoHit (576p)",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -3946,7 +4174,7 @@
     "error": ""
   },
   {
-    "index": 196,
+    "index": 208,
     "name": "KinoJam",
     "channel_id": "OnlineCinema.91d6834c4fe2",
     "group": "Фільми | RUS",
@@ -3969,7 +4197,7 @@
     "error": ""
   },
   {
-    "index": 197,
+    "index": 209,
     "name": "Kinojam 1",
     "channel_id": "KinoJam1.ru",
     "group": "Фільми | RUS",
@@ -3984,7 +4212,7 @@
     "error": "http://195.64.140.147:10064/64: Operation timed out\n"
   },
   {
-    "index": 198,
+    "index": 210,
     "name": "kinolampa",
     "channel_id": "OnlineCinema.63b8aca976e8",
     "group": "Фільми | RUS",
@@ -3999,7 +4227,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/kinolampa_live: Invalid data found when processing input\n"
   },
   {
-    "index": 199,
+    "index": 211,
     "name": "Kinolampa",
     "channel_id": "OnlineCinema.63b8aca976e8",
     "group": "Фільми | RUS",
@@ -4014,9 +4242,9 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttps://kinowalk.hopto.org/kinolampa_live: Invalid data found when processing input\n"
   },
   {
-    "index": 200,
+    "index": 212,
     "name": "KinoMix",
-    "channel_id": "Kinomix.ru",
+    "channel_id": "OnlineCinema.c4ef82da72b2",
     "group": "Фільми | RUS",
     "url": "https://kinowalk.hopto.org/yurich_kinomix_live",
     "status": "working",
@@ -4037,7 +4265,7 @@
     "error": ""
   },
   {
-    "index": 201,
+    "index": 213,
     "name": "Kinomix (1080p)",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -4052,7 +4280,7 @@
     "error": "http://stream.mcquack.net/133/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 202,
+    "index": 214,
     "name": "Kinomix (576p)",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -4075,7 +4303,30 @@
     "error": ""
   },
   {
-    "index": 203,
+    "index": 215,
+    "name": "KinoMix Юрич",
+    "channel_id": "OnlineCinema.c4ef82da72b2",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/yurich_kinomix_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 25.3,
+    "checked_at": "2026-09-06T07:23:35.489969+00:00",
+    "error": ""
+  },
+  {
+    "index": 216,
     "name": "Kinopokaz (576p)",
     "channel_id": "Kinopokaz.ru",
     "group": "Фільми | RUS",
@@ -4098,7 +4349,7 @@
     "error": ""
   },
   {
-    "index": 204,
+    "index": 217,
     "name": "Kinopokaz HD (1080p)",
     "channel_id": "Kinopokaz.ru",
     "group": "Фільми | RUS",
@@ -4121,7 +4372,7 @@
     "error": ""
   },
   {
-    "index": 205,
+    "index": 218,
     "name": "Kinopremyera (1080p)",
     "channel_id": "Kinopremyera.ru",
     "group": "Фільми | RUS",
@@ -4144,7 +4395,7 @@
     "error": ""
   },
   {
-    "index": 206,
+    "index": 219,
     "name": "Kinopremyera HD (1080p)",
     "channel_id": "Kinopremyera.ru",
     "group": "Фільми | RUS",
@@ -4167,7 +4418,30 @@
     "error": ""
   },
   {
-    "index": 207,
+    "index": 220,
+    "name": "KinoPro",
+    "channel_id": "OnlineCinema.778279ba4ccd",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/kinopro_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 23.3,
+    "checked_at": "2026-09-06T07:23:33.536382+00:00",
+    "error": ""
+  },
+  {
+    "index": 221,
     "name": "Kinosemja (576p)",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -4182,7 +4456,7 @@
     "error": "http://stream.mcquack.net/170/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 208,
+    "index": 222,
     "name": "Kinoseriya (1080p)",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -4205,7 +4479,22 @@
     "error": ""
   },
   {
-    "index": 209,
+    "index": 223,
+    "name": "Kinoshnik",
+    "channel_id": "OnlineCinema.599cb339acf3",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/kinoshnik_8_live",
+    "status": "unavailable",
+    "reason": "HTTP 503: server error",
+    "video": null,
+    "audio": null,
+    "http_status": 503,
+    "seconds": 0.4,
+    "checked_at": "2026-09-06T07:23:10.677506+00:00",
+    "error": "http://kinowalk.hopto.org/kinoshnik_8_live: Server returned 5XX Server Error reply\n"
+  },
+  {
+    "index": 224,
     "name": "Kinosvidanie (1080p)",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -4220,7 +4509,7 @@
     "error": "http://stream.mcquack.net/171/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 210,
+    "index": 225,
     "name": "Kinosvidanie (576p)",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -4243,7 +4532,7 @@
     "error": ""
   },
   {
-    "index": 211,
+    "index": 226,
     "name": "Kinouzhas (576p)",
     "channel_id": "Kinouzhas.ru",
     "group": "Фільми | RUS",
@@ -4258,7 +4547,7 @@
     "error": "http://stream.mcquack.net/278/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 212,
+    "index": 227,
     "name": "Kinowalk",
     "channel_id": "OnlineCinema.ee02bd8ab8cd",
     "group": "Фільми | RUS",
@@ -4281,7 +4570,37 @@
     "error": ""
   },
   {
-    "index": 213,
+    "index": 228,
+    "name": "Kinowalk prime",
+    "channel_id": "OnlineCinema.052a71748351",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/kinowalk_prime_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 2.2,
+    "checked_at": "2026-09-06T07:23:12.479357+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/kinowalk_prime_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 229,
+    "name": "Kinowalk_tv",
+    "channel_id": "OnlineCinema.ee02bd8ab8cd",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/kinowalk_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 0.9,
+    "checked_at": "2026-09-06T07:23:11.357158+00:00",
+    "error": "http://kinowalk.hopto.org/kinowalk_live: Server returned 5XX Server Error reply\n"
+  },
+  {
+    "index": 230,
     "name": "Kycman",
     "channel_id": "OnlineCinema.82168faa28f1",
     "group": "Фільми | RUS",
@@ -4304,7 +4623,7 @@
     "error": ""
   },
   {
-    "index": 214,
+    "index": 231,
     "name": "Kycman",
     "channel_id": "OnlineCinema.82168faa28f1",
     "group": "Фільми | RUS",
@@ -4327,7 +4646,7 @@
     "error": ""
   },
   {
-    "index": 215,
+    "index": 232,
     "name": "lampoTV",
     "channel_id": "OnlineCinema.e7ac4b01f21f",
     "group": "Фільми | RUS",
@@ -4350,7 +4669,7 @@
     "error": ""
   },
   {
-    "index": 216,
+    "index": 233,
     "name": "LampoTV",
     "channel_id": "OnlineCinema.e7ac4b01f21f",
     "group": "Фільми | RUS",
@@ -4373,7 +4692,7 @@
     "error": ""
   },
   {
-    "index": 217,
+    "index": 234,
     "name": "Legion",
     "channel_id": "OnlineCinema.1614ceeec50a",
     "group": "Фільми | RUS",
@@ -4388,7 +4707,30 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttps://kinowalk.hopto.org/legion-tv_live: Invalid data found when processing input\n"
   },
   {
-    "index": 218,
+    "index": 235,
+    "name": "Maksim Films",
+    "channel_id": "OnlineCinema.fd61251ec9d7",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/mmaxim0vich_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 29.9,
+    "checked_at": "2026-09-06T07:23:40.614466+00:00",
+    "error": ""
+  },
+  {
+    "index": 236,
     "name": "Mosfilm Gold Collection (1080p)",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -4403,7 +4745,7 @@
     "error": "http://stream.mcquack.net/369/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 219,
+    "index": 237,
     "name": "Mosfilm Gold Collection (576p)",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -4418,7 +4760,7 @@
     "error": "http://31.222.235.15/mosfilm/index.m3u8: Server returned 404 Not Found\n"
   },
   {
-    "index": 220,
+    "index": 238,
     "name": "MovieToper",
     "channel_id": "OnlineCinema.068403d57544",
     "group": "Фільми | RUS",
@@ -4441,7 +4783,7 @@
     "error": ""
   },
   {
-    "index": 221,
+    "index": 239,
     "name": "MovieToper",
     "channel_id": "OnlineCinema.068403d57544",
     "group": "Фільми | RUS",
@@ -4464,7 +4806,7 @@
     "error": ""
   },
   {
-    "index": 222,
+    "index": 240,
     "name": "Movify Kino (576p)",
     "channel_id": "MovifyKino.lv",
     "group": "Фільми | RUS",
@@ -4479,7 +4821,7 @@
     "error": "[tcp @ 0x92b074080] Failed to resolve hostname void.greenhosting.ru: nodename nor servname provided, or not known\nhttps://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8: Input/output error\n"
   },
   {
-    "index": 223,
+    "index": 241,
     "name": "Muzhskoe kino (576p)",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -4494,7 +4836,7 @@
     "error": "http://stream.mcquack.net/107/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 224,
+    "index": 242,
     "name": "Nash Kinomir (576p)",
     "channel_id": "NashKinomir.de",
     "group": "Фільми | RUS",
@@ -4517,7 +4859,7 @@
     "error": ""
   },
   {
-    "index": 225,
+    "index": 243,
     "name": "Nashe HD (576p)",
     "channel_id": "Nashe.ru",
     "group": "Фільми | RUS",
@@ -4532,7 +4874,7 @@
     "error": "http://stream.mcquack.net/217/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 226,
+    "index": 244,
     "name": "Nashe Lubimoe Kino (576p)",
     "channel_id": "NasheLubimoeKino.ru",
     "group": "Фільми | RUS",
@@ -4555,7 +4897,7 @@
     "error": ""
   },
   {
-    "index": 227,
+    "index": 245,
     "name": "Nashe muzhskoe HD (1080p)",
     "channel_id": "Nashemuzhskoe.ru",
     "group": "Фільми | RUS",
@@ -4570,7 +4912,7 @@
     "error": "http://stream.mcquack.net/362/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 228,
+    "index": 246,
     "name": "Nashe Novoe Kino (1080p)",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -4593,7 +4935,30 @@
     "error": ""
   },
   {
-    "index": 229,
+    "index": 247,
+    "name": "Nostalgia (576p)",
+    "channel_id": "Nostalgia.ru",
+    "group": "Фільми | RUS",
+    "url": "http://hls127.freeott.top:8080/Nostalgiya/video.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 576
+    },
+    "audio": {
+      "codec_name": "mp2",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 1.4,
+    "checked_at": "2026-09-06T07:23:12.121210+00:00",
+    "error": ""
+  },
+  {
+    "index": 248,
     "name": "Ostrosyuzhetnoye HD (1080p)",
     "channel_id": "Ostrosyuzhetnoye.ru",
     "group": "Фільми | RUS",
@@ -4616,7 +4981,7 @@
     "error": ""
   },
   {
-    "index": 230,
+    "index": 249,
     "name": "Patriot (720p)",
     "channel_id": "Patriot.ru",
     "group": "Фільми | RUS",
@@ -4639,7 +5004,7 @@
     "error": ""
   },
   {
-    "index": 231,
+    "index": 250,
     "name": "Premialnoe HD (1080p)",
     "channel_id": "Premialnoe.ru",
     "group": "Фільми | RUS",
@@ -4662,7 +5027,30 @@
     "error": ""
   },
   {
-    "index": 232,
+    "index": 251,
+    "name": "Priest Kod",
+    "channel_id": "OnlineCinema.e9b7cc7ec5e1",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/priest_kod_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 0,
+      "height": 0
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 28.9,
+    "checked_at": "2026-09-06T07:23:39.835485+00:00",
+    "error": ""
+  },
+  {
+    "index": 252,
     "name": "Priest_kod",
     "channel_id": "OnlineCinema.e9b7cc7ec5e1",
     "group": "Фільми | RUS",
@@ -4685,7 +5073,30 @@
     "error": ""
   },
   {
-    "index": 233,
+    "index": 253,
+    "name": "Priklyucheniya HD (1080p)",
+    "channel_id": "Priklyucheniya.ru",
+    "group": "Фільми | RUS",
+    "url": "http://stream.mcquack.net/198/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 1.6,
+    "checked_at": "2026-09-06T07:23:12.654943+00:00",
+    "error": ""
+  },
+  {
+    "index": 254,
     "name": "Quadro 4K",
     "channel_id": "Quadro.ru",
     "group": "Фільми | RUS",
@@ -4700,7 +5111,175 @@
     "error": "[tcp @ 0xa4ec0c780] Connection to tcp://mhd116.iptv2022.com:443 failed: Operation timed out\nhttps://mhd116.iptv2022.com/x/VvdN0rp4o7Nq2vZ5Arv38w,1788763889/streaming/quadrohd/324/1/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 234,
+    "index": 255,
+    "name": "Real State Films",
+    "channel_id": "OnlineCinema.7cce3286bfe3",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/rsf_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 1.0,
+    "checked_at": "2026-09-06T07:23:12.140240+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/rsf_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 256,
+    "name": "Retro (576p)",
+    "channel_id": "Retro.ru",
+    "group": "Фільми | RUS",
+    "url": "http://stream.mcquack.net/191/index.m3u8",
+    "status": "restricted",
+    "reason": "HTTP 403: access denied (possible geo/auth restriction)",
+    "video": null,
+    "audio": null,
+    "http_status": 403,
+    "seconds": 0.2,
+    "checked_at": "2026-09-06T07:23:11.460844+00:00",
+    "error": "http://stream.mcquack.net/191/index.m3u8: Server returned 403 Forbidden (access denied)\n"
+  },
+  {
+    "index": 257,
+    "name": "Retrovision Classic",
+    "channel_id": "OnlineCinema.26b107c82bce",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionclassic/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 480,
+      "height": 360
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.5,
+    "checked_at": "2026-09-06T07:23:15.872802+00:00",
+    "error": ""
+  },
+  {
+    "index": 258,
+    "name": "Retrovision Classic",
+    "channel_id": "OnlineCinema.26b107c82bce",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionclassic/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 480,
+      "height": 360
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 3.6,
+    "checked_at": "2026-09-06T07:23:15.069152+00:00",
+    "error": ""
+  },
+  {
+    "index": 259,
+    "name": "Retrovision Movies",
+    "channel_id": "OnlineCinema.e2839cbc932b",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionmovies/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 3.9,
+    "checked_at": "2026-09-06T07:23:16.052648+00:00",
+    "error": ""
+  },
+  {
+    "index": 260,
+    "name": "Retrovision Movies",
+    "channel_id": "OnlineCinema.e2839cbc932b",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionmovies/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 3.1,
+    "checked_at": "2026-09-06T07:23:15.265061+00:00",
+    "error": ""
+  },
+  {
+    "index": 261,
+    "name": "Retrovision Кинопанорама",
+    "channel_id": "OnlineCinema.7de39dfe7280",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionkinopanorama/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.7,
+    "checked_at": "2026-09-06T07:23:17.227415+00:00",
+    "error": ""
+  },
+  {
+    "index": 262,
+    "name": "Retrovision Кинопанорама",
+    "channel_id": "OnlineCinema.7de39dfe7280",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionkinopanorama/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 3.6,
+    "checked_at": "2026-09-06T07:23:16.227518+00:00",
+    "error": ""
+  },
+  {
+    "index": 263,
     "name": "Rodnoe Kino (576p)",
     "channel_id": "RodnoeKino.ru",
     "group": "Фільми | RUS",
@@ -4715,7 +5294,30 @@
     "error": "http://stream.mcquack.net/242/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 235,
+    "index": 264,
+    "name": "ROMEO Video",
+    "channel_id": "OnlineCinema.dd6f8b3e26cb",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/romantic_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 27.4,
+    "checked_at": "2026-09-06T07:23:42.345073+00:00",
+    "error": ""
+  },
+  {
+    "index": 265,
     "name": "Russkiy Bestseller (576p)",
     "channel_id": "RusskiyBestseller.ru",
     "group": "Фільми | RUS",
@@ -4730,7 +5332,7 @@
     "error": "http://stream.mcquack.net/208/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 236,
+    "index": 266,
     "name": "Russkiy Detektiv (576p)",
     "channel_id": "RusskiyDetektiv.ru",
     "group": "Фільми | RUS",
@@ -4745,7 +5347,7 @@
     "error": "http://stream.mcquack.net/204/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 237,
+    "index": 267,
     "name": "Russkiy Illusion (576p)",
     "channel_id": "RusskiyIllusion.ru",
     "group": "Фільми | RUS",
@@ -4768,7 +5370,7 @@
     "error": ""
   },
   {
-    "index": 238,
+    "index": 268,
     "name": "Russkiy roman (1080p)",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -4783,7 +5385,22 @@
     "error": "http://stream.mcquack.net/266/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 239,
+    "index": 269,
+    "name": "SCORPIO КИНО",
+    "channel_id": "OnlineCinema.713edd449291",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/scorpio05_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 0.9,
+    "checked_at": "2026-09-06T07:23:15.926429+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/scorpio05_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 270,
     "name": "Scripach",
     "channel_id": "OnlineCinema.4561f8a49bfb",
     "group": "Фільми | RUS",
@@ -4806,7 +5423,30 @@
     "error": ""
   },
   {
-    "index": 240,
+    "index": 271,
+    "name": "ScripachTV",
+    "channel_id": "OnlineCinema.4561f8a49bfb",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/scripachtv_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 20.5,
+    "checked_at": "2026-09-06T07:23:35.753523+00:00",
+    "error": ""
+  },
+  {
+    "index": 272,
     "name": "SeleCaoTV",
     "channel_id": "OnlineCinema.39ff567dc99b",
     "group": "Фільми | RUS",
@@ -4829,7 +5469,7 @@
     "error": ""
   },
   {
-    "index": 241,
+    "index": 273,
     "name": "SeleCaoTV",
     "channel_id": "OnlineCinema.39ff567dc99b",
     "group": "Фільми | RUS",
@@ -4852,7 +5492,30 @@
     "error": ""
   },
   {
-    "index": 242,
+    "index": 274,
+    "name": "SeleCaoTV 2",
+    "channel_id": "OnlineCinema.78f6155fcb45",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/selecaotv1_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 23.5,
+    "checked_at": "2026-09-06T07:23:39.402898+00:00",
+    "error": ""
+  },
+  {
+    "index": 275,
     "name": "SeleCaoTV1",
     "channel_id": "OnlineCinema.78f6155fcb45",
     "group": "Фільми | RUS",
@@ -4875,7 +5538,30 @@
     "error": ""
   },
   {
-    "index": 243,
+    "index": 276,
+    "name": "Serial Productions",
+    "channel_id": "OnlineCinema.e8a0006f9436",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/swat2k_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 30.1,
+    "checked_at": "2026-09-06T07:23:46.018251+00:00",
+    "error": ""
+  },
+  {
+    "index": 277,
     "name": "serial4u",
     "channel_id": "OnlineCinema.b494b32f578f",
     "group": "Фільми | RUS",
@@ -4898,7 +5584,7 @@
     "error": ""
   },
   {
-    "index": 244,
+    "index": 278,
     "name": "Serial4u",
     "channel_id": "OnlineCinema.b494b32f578f",
     "group": "Фільми | RUS",
@@ -4921,7 +5607,7 @@
     "error": ""
   },
   {
-    "index": 245,
+    "index": 279,
     "name": "SerialTV",
     "channel_id": "OnlineCinema.721954d3a85b",
     "group": "Фільми | RUS",
@@ -4944,7 +5630,7 @@
     "error": ""
   },
   {
-    "index": 246,
+    "index": 280,
     "name": "SerialTV",
     "channel_id": "OnlineCinema.721954d3a85b",
     "group": "Фільми | RUS",
@@ -4967,7 +5653,7 @@
     "error": ""
   },
   {
-    "index": 247,
+    "index": 281,
     "name": "Shokiruyushchee HD (1080p)",
     "channel_id": "Shokiruyushchee.ru",
     "group": "Фільми | RUS",
@@ -4990,7 +5676,7 @@
     "error": ""
   },
   {
-    "index": 248,
+    "index": 282,
     "name": "SHOT TV",
     "channel_id": "ShotTV.ru",
     "group": "Фільми | RUS",
@@ -5005,7 +5691,7 @@
     "error": "[tcp @ 0x8f8c0c680] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/shottv/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 249,
+    "index": 283,
     "name": "Shot TV",
     "channel_id": "ShotTV.ru",
     "group": "Фільми | RUS",
@@ -5020,7 +5706,22 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr3/shot_tv/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 250,
+    "index": 284,
+    "name": "Shot TV",
+    "channel_id": "ShotTV.ru",
+    "group": "Фільми | RUS",
+    "url": "http://hls127.freeott.top:8080/SHOT_TV/video.m3u",
+    "status": "unavailable",
+    "reason": "HTTP 404: stream not found",
+    "video": null,
+    "audio": null,
+    "http_status": 404,
+    "seconds": 0.2,
+    "checked_at": "2026-09-06T07:23:16.230910+00:00",
+    "error": "http://hls127.freeott.top:8080/SHOT_TV/video.m3u: Server returned 404 Not Found\n"
+  },
+  {
+    "index": 285,
     "name": "Shot TV (576p)",
     "channel_id": "ShotTV.ru",
     "group": "Фільми | RUS",
@@ -5043,7 +5744,7 @@
     "error": ""
   },
   {
-    "index": 251,
+    "index": 286,
     "name": "Silk Way Cinema",
     "channel_id": "SilkWayCinema.kz",
     "group": "Фільми | RUS",
@@ -5058,7 +5759,7 @@
     "error": "[tcp @ 0xb46cb0080] Connection to tcp://mhd116.iptv2022.com:443 failed: Operation timed out\nhttps://mhd116.iptv2022.com/x/KljJhmOwzKuPGd7eobs_Eg,1788763889/streaming/silk_way_cinema/324/1/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 252,
+    "index": 287,
     "name": "Silk Way Cinema (1080p) [Geo-blocked]",
     "channel_id": "SilkWayCinema.kz",
     "group": "Фільми | RUS",
@@ -5081,7 +5782,7 @@
     "error": ""
   },
   {
-    "index": 253,
+    "index": 288,
     "name": "Smotrim 100% Klassika (720p)",
     "channel_id": "Smotrim100Klassika.ru",
     "group": "Фільми | RUS",
@@ -5101,7 +5802,30 @@
     }
   },
   {
-    "index": 254,
+    "index": 289,
+    "name": "SmotrimVmeste",
+    "channel_id": "OnlineCinema.27dd43afe0a4",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/frxnkl1n_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 24.7,
+    "checked_at": "2026-09-06T07:23:40.883247+00:00",
+    "error": ""
+  },
+  {
+    "index": 290,
     "name": "Snoochies Boochies",
     "channel_id": "OnlineCinema.f38102f28165",
     "group": "Фільми | RUS",
@@ -5124,7 +5848,7 @@
     "error": ""
   },
   {
-    "index": 255,
+    "index": 291,
     "name": "Star Cinema",
     "channel_id": "StarCinema.ru",
     "group": "Фільми | RUS",
@@ -5147,7 +5871,7 @@
     "error": ""
   },
   {
-    "index": 256,
+    "index": 292,
     "name": "Star Cinema",
     "channel_id": "StarCinema.ru",
     "group": "Фільми | RUS",
@@ -5170,7 +5894,7 @@
     "error": ""
   },
   {
-    "index": 257,
+    "index": 293,
     "name": "Star Family (1080p)",
     "channel_id": "StarFamily.ru",
     "group": "Фільми | RUS",
@@ -5193,7 +5917,7 @@
     "error": ""
   },
   {
-    "index": 258,
+    "index": 294,
     "name": "Star Family HD",
     "channel_id": "StarFamily.ru",
     "group": "Фільми | RUS",
@@ -5208,7 +5932,7 @@
     "error": "http://hls.stb.md/STARFAMILY_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 259,
+    "index": 295,
     "name": "Start Air",
     "channel_id": "STARTAir.ru",
     "group": "Фільми | RUS",
@@ -5231,7 +5955,7 @@
     "error": ""
   },
   {
-    "index": 260,
+    "index": 296,
     "name": "Start Air",
     "channel_id": "STARTAir.ru",
     "group": "Фільми | RUS",
@@ -5254,7 +5978,7 @@
     "error": ""
   },
   {
-    "index": 261,
+    "index": 297,
     "name": "Start Air",
     "channel_id": "STARTAir.ru",
     "group": "Фільми | RUS",
@@ -5277,7 +6001,7 @@
     "error": ""
   },
   {
-    "index": 262,
+    "index": 298,
     "name": "START Air (576p)",
     "channel_id": "STARTAir.ru",
     "group": "Фільми | RUS",
@@ -5300,7 +6024,7 @@
     "error": ""
   },
   {
-    "index": 263,
+    "index": 299,
     "name": "Start Air HD",
     "channel_id": "STARTAir.ru",
     "group": "Фільми | RUS",
@@ -5315,7 +6039,7 @@
     "error": "http://hls.stb.md/START_AIR_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 264,
+    "index": 300,
     "name": "START World (576p)",
     "channel_id": "STARTWorld.ru",
     "group": "Фільми | RUS",
@@ -5338,7 +6062,7 @@
     "error": ""
   },
   {
-    "index": 265,
+    "index": 301,
     "name": "Start World HD",
     "channel_id": "STARTWorld.ru",
     "group": "Фільми | RUS",
@@ -5353,9 +6077,9 @@
     "error": "http://hls.stb.md/START_WORLD_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 266,
+    "index": 302,
     "name": "swat2k",
-    "channel_id": "OnlineCinema.d2fea7ec86cf",
+    "channel_id": "OnlineCinema.e8a0006f9436",
     "group": "Фільми | RUS",
     "url": "https://kinowalk.hopto.org/swat2k_live",
     "status": "working",
@@ -5376,7 +6100,7 @@
     "error": ""
   },
   {
-    "index": 267,
+    "index": 303,
     "name": "TimeToHorror",
     "channel_id": "OnlineCinema.aef625d0a79e",
     "group": "Фільми | RUS",
@@ -5399,7 +6123,7 @@
     "error": ""
   },
   {
-    "index": 268,
+    "index": 304,
     "name": "TimeToHorror",
     "channel_id": "OnlineCinema.aef625d0a79e",
     "group": "Фільми | RUS",
@@ -5422,7 +6146,7 @@
     "error": ""
   },
   {
-    "index": 269,
+    "index": 305,
     "name": "TimeToMovie",
     "channel_id": "OnlineCinema.fd3f1f66ee82",
     "group": "Фільми | RUS",
@@ -5445,7 +6169,7 @@
     "error": ""
   },
   {
-    "index": 270,
+    "index": 306,
     "name": "TimeToMovie",
     "channel_id": "OnlineCinema.fd3f1f66ee82",
     "group": "Фільми | RUS",
@@ -5468,7 +6192,7 @@
     "error": ""
   },
   {
-    "index": 271,
+    "index": 307,
     "name": "TopMoment",
     "channel_id": "OnlineCinema.e2b43baa387d",
     "group": "Фільми | RUS",
@@ -5491,7 +6215,7 @@
     "error": ""
   },
   {
-    "index": 272,
+    "index": 308,
     "name": "TopMoment",
     "channel_id": "OnlineCinema.e2b43baa387d",
     "group": "Фільми | RUS",
@@ -5514,7 +6238,7 @@
     "error": ""
   },
   {
-    "index": 273,
+    "index": 309,
     "name": "TV 21 (576p)",
     "channel_id": "TV21.ru",
     "group": "Фільми | RUS",
@@ -5537,7 +6261,7 @@
     "error": ""
   },
   {
-    "index": 274,
+    "index": 310,
     "name": "TV 21 International (576p)",
     "channel_id": "TV21International.ru",
     "group": "Фільми | RUS",
@@ -5552,7 +6276,7 @@
     "error": "http://stream.mcquack.net/152/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 275,
+    "index": 311,
     "name": "TV1000 Russian Kino Global",
     "channel_id": "TV1000RussianKinoGlobal.ru",
     "group": "Фільми | RUS",
@@ -5567,7 +6291,7 @@
     "error": "http://213.91.179.28:8000/play/a0bx: Server returned 404 Not Found\n"
   },
   {
-    "index": 276,
+    "index": 312,
     "name": "TV1000 Русское Кино",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -5582,7 +6306,7 @@
     "error": "http://195.64.140.147:10069/69: Operation timed out\n"
   },
   {
-    "index": 277,
+    "index": 313,
     "name": "TV1000 Русское кино",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -5605,7 +6329,7 @@
     "error": ""
   },
   {
-    "index": 278,
+    "index": 314,
     "name": "TV1000 русское кино",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -5620,7 +6344,7 @@
     "error": "[tcp @ 0x7ab050080] Connection to tcp://tv.ttk.mx:9183 failed: Operation timed out\nhttp://tv.ttk.mx:9183: Operation timed out\n"
   },
   {
-    "index": 279,
+    "index": 315,
     "name": "TV1000 Русское Кино",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -5643,7 +6367,7 @@
     "error": ""
   },
   {
-    "index": 280,
+    "index": 316,
     "name": "TV1000 Русское кино HD",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -5658,7 +6382,7 @@
     "error": "http://hls.stb.md/TV1000RU_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 281,
+    "index": 317,
     "name": "Tоny",
     "channel_id": "OnlineCinema.bee02fc75b43",
     "group": "Фільми | RUS",
@@ -5673,7 +6397,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/ordinary_people_live: Invalid data found when processing input\n"
   },
   {
-    "index": 282,
+    "index": 318,
     "name": "Tоny",
     "channel_id": "OnlineCinema.bee02fc75b43",
     "group": "Фільми | RUS",
@@ -5688,7 +6412,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttps://kinowalk.hopto.org/ordinary_people_live: Invalid data found when processing input\n"
   },
   {
-    "index": 283,
+    "index": 319,
     "name": "Ultra HD Cinema",
     "channel_id": "UltraHDCinema.ru",
     "group": "Фільми | RUS",
@@ -5711,7 +6435,7 @@
     "error": ""
   },
   {
-    "index": 284,
+    "index": 320,
     "name": "VHS Forever",
     "channel_id": "OnlineCinema.f8bf269d703b",
     "group": "Фільми | RUS",
@@ -5734,7 +6458,7 @@
     "error": ""
   },
   {
-    "index": 285,
+    "index": 321,
     "name": "VHS Forever",
     "channel_id": "OnlineCinema.f8bf269d703b",
     "group": "Фільми | RUS",
@@ -5757,7 +6481,22 @@
     "error": ""
   },
   {
-    "index": 286,
+    "index": 322,
+    "name": "VHS Power",
+    "channel_id": "OnlineCinema.65a572e3441a",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/noir_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 1.1,
+    "checked_at": "2026-09-06T07:23:17.336414+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/noir_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 323,
     "name": "VHS кино",
     "channel_id": "OnlineCinema.f9cf0de70bb9",
     "group": "Фільми | RUS",
@@ -5780,7 +6519,7 @@
     "error": ""
   },
   {
-    "index": 287,
+    "index": 324,
     "name": "VHS кино",
     "channel_id": "OnlineCinema.f9cf0de70bb9",
     "group": "Фільми | RUS",
@@ -5803,7 +6542,7 @@
     "error": ""
   },
   {
-    "index": 288,
+    "index": 325,
     "name": "Viasat Kino",
     "channel_id": "ViasatKino.ua",
     "group": "Фільми | RUS",
@@ -5826,7 +6565,7 @@
     "error": ""
   },
   {
-    "index": 289,
+    "index": 326,
     "name": "Viasat Kino (1080p)",
     "channel_id": "ViasatKino.ua",
     "group": "Фільми | RUS",
@@ -5849,7 +6588,7 @@
     "error": ""
   },
   {
-    "index": 290,
+    "index": 327,
     "name": "Viasat Kino Action",
     "channel_id": "ViasatKinoAction.ua",
     "group": "Фільми | RUS",
@@ -5872,7 +6611,7 @@
     "error": ""
   },
   {
-    "index": 291,
+    "index": 328,
     "name": "Viasat Kino Comedy",
     "channel_id": "ViasatKinoComedy.ua",
     "group": "Фільми | RUS",
@@ -5895,7 +6634,7 @@
     "error": ""
   },
   {
-    "index": 292,
+    "index": 329,
     "name": "Viasat Kino Comedy",
     "channel_id": "ViasatKinoComedy.ua",
     "group": "Фільми | RUS",
@@ -5918,7 +6657,30 @@
     "error": ""
   },
   {
-    "index": 293,
+    "index": 330,
+    "name": "Viasat Kino Comedy HD",
+    "channel_id": "ViasatKinoComedy.ua",
+    "group": "Фільми | RUS",
+    "url": "http://ukr2.ukrainske.tv/493/video.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 0.9,
+    "checked_at": "2026-09-06T07:23:18.092536+00:00",
+    "error": ""
+  },
+  {
+    "index": 331,
     "name": "Viasat Kino World",
     "channel_id": "ViasatKinoWorld.ua",
     "group": "Фільми | RUS",
@@ -5941,7 +6703,7 @@
     "error": ""
   },
   {
-    "index": 294,
+    "index": 332,
     "name": "Viasat Serial",
     "channel_id": "ViasatSerial.ua",
     "group": "Фільми | RUS",
@@ -5964,7 +6726,7 @@
     "error": ""
   },
   {
-    "index": 295,
+    "index": 333,
     "name": "Video Channel",
     "channel_id": "OnlineCinema.af22de4eed57",
     "group": "Фільми | RUS",
@@ -5987,7 +6749,7 @@
     "error": ""
   },
   {
-    "index": 296,
+    "index": 334,
     "name": "Video Channel",
     "channel_id": "OnlineCinema.af22de4eed57",
     "group": "Фільми | RUS",
@@ -6010,7 +6772,22 @@
     "error": ""
   },
   {
-    "index": 297,
+    "index": 335,
+    "name": "Video Serial",
+    "channel_id": "OnlineCinema.32b38aa8063e",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/video_serial_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 1.2,
+    "checked_at": "2026-09-06T07:23:18.495969+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/video_serial_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 336,
     "name": "Video_Prokat",
     "channel_id": "OnlineCinema.0410a5468a32",
     "group": "Фільми | RUS",
@@ -6033,7 +6810,7 @@
     "error": ""
   },
   {
-    "index": 298,
+    "index": 337,
     "name": "Video_Prokat",
     "channel_id": "OnlineCinema.0410a5468a32",
     "group": "Фільми | RUS",
@@ -6056,7 +6833,7 @@
     "error": ""
   },
   {
-    "index": 299,
+    "index": 338,
     "name": "VideoArsenal",
     "channel_id": "OnlineCinema.2456e4021dbd",
     "group": "Фільми | RUS",
@@ -6079,7 +6856,7 @@
     "error": ""
   },
   {
-    "index": 300,
+    "index": 339,
     "name": "VideoArsenal",
     "channel_id": "OnlineCinema.2456e4021dbd",
     "group": "Фільми | RUS",
@@ -6102,7 +6879,7 @@
     "error": ""
   },
   {
-    "index": 301,
+    "index": 340,
     "name": "VideoVk",
     "channel_id": "OnlineCinema.51f79e427a97",
     "group": "Фільми | RUS",
@@ -6117,7 +6894,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/videovk_live: Invalid data found when processing input\n"
   },
   {
-    "index": 302,
+    "index": 341,
     "name": "VideoVk",
     "channel_id": "OnlineCinema.51f79e427a97",
     "group": "Фільми | RUS",
@@ -6132,7 +6909,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttps://kinowalk.hopto.org/videovk_live: Invalid data found when processing input\n"
   },
   {
-    "index": 303,
+    "index": 342,
     "name": "Viju TV1000",
     "channel_id": "vijuTV1000.ru",
     "group": "Фільми | RUS",
@@ -6155,7 +6932,30 @@
     "error": ""
   },
   {
-    "index": 304,
+    "index": 343,
+    "name": "Viju TV1000",
+    "channel_id": "vijuTV1000.ru",
+    "group": "Фільми | RUS",
+    "url": "https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 19.5,
+    "checked_at": "2026-09-06T07:23:37.542992+00:00",
+    "error": ""
+  },
+  {
+    "index": 344,
     "name": "Viju TV1000 (2)",
     "channel_id": "vijuTV1000.ru",
     "group": "Фільми | RUS",
@@ -6178,7 +6978,7 @@
     "error": ""
   },
   {
-    "index": 305,
+    "index": 345,
     "name": "viju TV1000 (576p)",
     "channel_id": "vijuTV1000.ru",
     "group": "Фільми | RUS",
@@ -6193,7 +6993,7 @@
     "error": "http://stream.mcquack.net/110/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 306,
+    "index": 346,
     "name": "Viju TV1000 Action",
     "channel_id": "vijuTV1000action.ru",
     "group": "Фільми | RUS",
@@ -6216,7 +7016,7 @@
     "error": ""
   },
   {
-    "index": 307,
+    "index": 347,
     "name": "Viju TV1000 Action (2)",
     "channel_id": "vijuTV1000action.ru",
     "group": "Фільми | RUS",
@@ -6239,7 +7039,7 @@
     "error": ""
   },
   {
-    "index": 308,
+    "index": 348,
     "name": "viju TV1000 action (576p)",
     "channel_id": "vijuTV1000action.ru",
     "group": "Фільми | RUS",
@@ -6254,7 +7054,7 @@
     "error": "http://stream.mcquack.net/100/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 309,
+    "index": 349,
     "name": "viju TV1000 russkoe (576p)",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -6277,7 +7077,7 @@
     "error": ""
   },
   {
-    "index": 310,
+    "index": 350,
     "name": "Viju TV1000 русское",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -6292,7 +7092,7 @@
     "error": "[tcp @ 0x9b2cac000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/TV1000_Russkoe_kino/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 311,
+    "index": 351,
     "name": "Viju TV1000 Русское",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -6315,7 +7115,30 @@
     "error": ""
   },
   {
-    "index": 312,
+    "index": 352,
+    "name": "Viju TV1000 Русское",
+    "channel_id": "vijuTV1000russkoe.ru",
+    "group": "Фільми | RUS",
+    "url": "https://stream8.cinerama.uz/1059/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 18.5,
+    "checked_at": "2026-09-06T07:23:36.962535+00:00",
+    "error": ""
+  },
+  {
+    "index": 353,
     "name": "Viju TV1000 Русское (2)",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -6330,7 +7153,7 @@
     "error": "[tcp @ 0xc9ecb0000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=tv1000rukino: Connection refused\n"
   },
   {
-    "index": 313,
+    "index": 354,
     "name": "Viju TV1000 Русское (3)",
     "channel_id": "vijuTV1000russkoe.ru",
     "group": "Фільми | RUS",
@@ -6353,7 +7176,7 @@
     "error": ""
   },
   {
-    "index": 314,
+    "index": 355,
     "name": "Viju+ Megahit",
     "channel_id": "vijuPlusMegahit.ru",
     "group": "Фільми | RUS",
@@ -6368,7 +7191,30 @@
     "error": "https://s70378.cdn.ngenix.net/vip_megahit/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 315,
+    "index": 356,
+    "name": "Viju+ Megahit HD",
+    "channel_id": "vijuPlusMegahit.ru",
+    "group": "Фільми | RUS",
+    "url": "http://192.162.64.99:5200/play/a02e/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080
+    },
+    "audio": {
+      "codec_name": "mp2",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 7.6,
+    "checked_at": "2026-09-06T07:23:33.158565+00:00",
+    "error": ""
+  },
+  {
+    "index": 357,
     "name": "viju+ Megahit HD (1080p)",
     "channel_id": "vijuPlusMegahit.ru",
     "group": "Фільми | RUS",
@@ -6383,7 +7229,45 @@
     "error": "http://stream.mcquack.net/200/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 316,
+    "index": 358,
+    "name": "viju+ Planet HD (1080p)",
+    "channel_id": "vijuPlusPlanet.ru",
+    "group": "Фільми | RUS",
+    "url": "http://stream.mcquack.net/240/index.m3u8",
+    "status": "restricted",
+    "reason": "HTTP 403: access denied (possible geo/auth restriction)",
+    "video": null,
+    "audio": null,
+    "http_status": 403,
+    "seconds": 0.7,
+    "checked_at": "2026-09-06T07:23:26.561724+00:00",
+    "error": "http://stream.mcquack.net/240/index.m3u8: Server returned 403 Forbidden (access denied)\n"
+  },
+  {
+    "index": 359,
+    "name": "Viju+ Premiere",
+    "channel_id": "vijuPlusPremiere.ru",
+    "group": "Фільми | RUS",
+    "url": "http://192.162.64.99:5200/play/a02f/index.m3u8",
+    "status": "unstable",
+    "reason": "Video metadata found, but decoding failed or timed out",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080
+    },
+    "audio": {
+      "codec_name": "mp2",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 8.9,
+    "checked_at": "2026-09-06T07:23:35.485859+00:00",
+    "error": "ced\n[h264 @ 0x9bacd1180] non-existing SPS 0 referenced in buffering period\n[h264 @ 0x9bacd1180] non-existing PPS 0 referenced\n[h264 @ 0x9bacd1180] decode_slice_header error\n[h264 @ 0x9bacd1180] no frame!\n[NULL @ 0x9bacd0380] non-existing SPS 0 referenced in buffering period\n[NULL @ 0x9bacd0380] non-existing PPS 0 referenced\n[h264 @ 0x9bacd1180] non-existing SPS 0 referenced in buffering period\n[h264 @ 0x9bacd1180] non-existing PPS 0 referenced\n[h264 @ 0x9bacd1180] decode_slice_header error\n[h264 @ 0x9bacd1180] no frame!\n[NULL @ 0x9bacd0380] non-existing SPS 0 referenced in buffering period\n[NULL @ 0x9bacd0380] non-existing PPS 0 referenced\n[h264 @ 0x9bacd1180] non-existing SPS 0 referenced in buffering period\n[h264 @ 0x9bacd1180] non-existing PPS 0 referenced\n[h264 @ 0x9bacd1180] decode_slice_header error\n[h264 @ 0x9bacd1180] no frame!\n[NULL @ 0x9bacd0380] non-existing SPS 0 referenced in buffering period\n[NULL @ 0x9bacd0380] non-existing PPS 0 referenced\n[h264 @ 0x9bacd1180] non-existing SPS 0 referenced in buffering period\n[h264 @ 0x9bacd1180] non-existing PPS 0 referenced\n[h264 @ 0x9bacd1180] decode_slice_header error\n[h264 @ 0x9bacd1180] no frame!\n[NULL @ 0x9bacd0380] non-existing SPS 0 referenced in buffering period\n[NULL @ 0x9bacd0380] non-existing PPS 0 referenced\n[h264 @ 0x9bacd1180] non-existing SPS 0 referenced in buffering period\n[h264 @ 0x9bacd1180] non-existing PPS 0 referenced\n[h264 @ 0x9bacd1180] decode_slice_header error\n[h264 @ 0x9bacd1180] no frame!\n[NULL @ 0x9bacd0380] non-existing SPS 0 referenced in buffering period\n[NULL @ 0x9bacd0380] non-existing PPS"
+  },
+  {
+    "index": 360,
     "name": "Viju+ Premiere",
     "channel_id": "vijuPlusPremiere.ru",
     "group": "Фільми | RUS",
@@ -6398,7 +7282,7 @@
     "error": "https://s70378.cdn.ngenix.net/vip_premiere/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 317,
+    "index": 361,
     "name": "viju+ Premiere HD (1080p)",
     "channel_id": "vijuPlusPremiere.ru",
     "group": "Фільми | RUS",
@@ -6413,7 +7297,7 @@
     "error": "http://stream.mcquack.net/202/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 318,
+    "index": 362,
     "name": "VIP Megahit",
     "channel_id": "vijuPlusMegahit.ru",
     "group": "Фільми | RUS",
@@ -6436,7 +7320,7 @@
     "error": ""
   },
   {
-    "index": 319,
+    "index": 363,
     "name": "VIP Megahit HD",
     "channel_id": "vijuPlusMegahit.ru",
     "group": "Фільми | RUS",
@@ -6451,7 +7335,7 @@
     "error": "http://195.64.140.147:10071/71: Operation timed out\n"
   },
   {
-    "index": 320,
+    "index": 364,
     "name": "VIP Megahit HD",
     "channel_id": "vijuPlusMegahit.ru",
     "group": "Фільми | RUS",
@@ -6466,7 +7350,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr2/tv_1000_megahit_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 321,
+    "index": 365,
     "name": "ViP Megahit HD",
     "channel_id": "vijuPlusMegahit.ru",
     "group": "Фільми | RUS",
@@ -6481,7 +7365,7 @@
     "error": "http://hls.stb.md/VIP_MEGAHITHD _H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 322,
+    "index": 366,
     "name": "VIP Megahit HD",
     "channel_id": "vijuPlusMegahit.ru",
     "group": "Фільми | RUS",
@@ -6504,7 +7388,7 @@
     "error": ""
   },
   {
-    "index": 323,
+    "index": 367,
     "name": "VIP Premiere",
     "channel_id": "vijuPlusPremiere.ru",
     "group": "Фільми | RUS",
@@ -6527,7 +7411,7 @@
     "error": ""
   },
   {
-    "index": 324,
+    "index": 368,
     "name": "Vip Premiere",
     "channel_id": "vijuPlusPremiere.ru",
     "group": "Фільми | RUS",
@@ -6550,7 +7434,7 @@
     "error": ""
   },
   {
-    "index": 325,
+    "index": 369,
     "name": "VIP Premiere",
     "channel_id": "vijuPlusPremiere.ru",
     "group": "Фільми | RUS",
@@ -6573,7 +7457,7 @@
     "error": ""
   },
   {
-    "index": 326,
+    "index": 370,
     "name": "VIP Premiere HD",
     "channel_id": "vijuPlusPremiere.ru",
     "group": "Фільми | RUS",
@@ -6588,7 +7472,7 @@
     "error": "http://195.64.140.147:10072/72: Operation timed out\n"
   },
   {
-    "index": 327,
+    "index": 371,
     "name": "VIP Premiere HD",
     "channel_id": "vijuPlusPremiere.ru",
     "group": "Фільми | RUS",
@@ -6603,7 +7487,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr2/tv1000_premium_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 328,
+    "index": 372,
     "name": "ViP Premiere HD",
     "channel_id": "vijuPlusPremiere.ru",
     "group": "Фільми | RUS",
@@ -6618,7 +7502,22 @@
     "error": "http://hls.stb.md/VIP_PREMIERHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 329,
+    "index": 373,
+    "name": "VKTV HD CINEMA",
+    "channel_id": "OnlineCinema.9f5d66eb7022",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/vktv_hd_cinema_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 2.1,
+    "checked_at": "2026-09-06T07:23:35.219332+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/vktv_hd_cinema_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 374,
     "name": "Wfliq",
     "channel_id": "OnlineCinema.53df2052dd32",
     "group": "Фільми | RUS",
@@ -6641,7 +7540,7 @@
     "error": ""
   },
   {
-    "index": 330,
+    "index": 375,
     "name": "Wfliq",
     "channel_id": "OnlineCinema.53df2052dd32",
     "group": "Фільми | RUS",
@@ -6664,7 +7563,30 @@
     "error": ""
   },
   {
-    "index": 331,
+    "index": 376,
+    "name": "ZubrilomFilm",
+    "channel_id": "OnlineCinema.816a4c92abbb",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/zubrilomfilm_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 18.3,
+    "checked_at": "2026-09-06T07:23:51.825514+00:00",
+    "error": ""
+  },
+  {
+    "index": 377,
     "name": "Амбергейт",
     "channel_id": "OnlineCinema.c51385acd5bd",
     "group": "Фільми | RUS",
@@ -6679,7 +7601,30 @@
     "error": "https://kinowalk.hopto.org/ambergate_live: Server returned 404 Not Found\n"
   },
   {
-    "index": 332,
+    "index": 378,
+    "name": "Видеокассета VHS",
+    "channel_id": "OnlineCinema.d76561f85173",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/vhs90e_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 20.2,
+    "checked_at": "2026-09-06T07:23:55.446421+00:00",
+    "error": ""
+  },
+  {
+    "index": 379,
     "name": "Детское кино",
     "channel_id": "Detskoekino.ru",
     "group": "Фільми | RUS",
@@ -6702,7 +7647,7 @@
     "error": ""
   },
   {
-    "index": 333,
+    "index": 380,
     "name": "Детское кино",
     "channel_id": "Detskoekino.ru",
     "group": "Фільми | RUS",
@@ -6717,7 +7662,7 @@
     "error": "[tcp @ 0x96cc0c780] Connection to tcp://mhd116.iptv2022.com:443 failed: Operation timed out\nhttps://mhd116.iptv2022.com/x/eOGQqllX8It6NZgaLsd8Xw,1788763889/streaming/det_kino/324/1/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 334,
+    "index": 381,
     "name": "Детское кино International [Not 24/7]",
     "channel_id": "Detskoekino.ru",
     "group": "Фільми | RUS",
@@ -6740,7 +7685,7 @@
     "error": ""
   },
   {
-    "index": 335,
+    "index": 382,
     "name": "Дом Кино",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6755,7 +7700,7 @@
     "error": "http://195.64.140.147:10057/57: Operation timed out\n"
   },
   {
-    "index": 336,
+    "index": 383,
     "name": "Дом кино",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6770,7 +7715,7 @@
     "error": "[tcp @ 0x702c70000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/dom_kino/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 337,
+    "index": 384,
     "name": "Дом кино",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6793,7 +7738,7 @@
     "error": ""
   },
   {
-    "index": 338,
+    "index": 385,
     "name": "Дом кино",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6816,7 +7761,7 @@
     "error": ""
   },
   {
-    "index": 339,
+    "index": 386,
     "name": "Дом Кино",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6831,7 +7776,7 @@
     "error": "[tcp @ 0xbc2cb0000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Dom_kino/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 340,
+    "index": 387,
     "name": "Дом кино",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6846,7 +7791,7 @@
     "error": "[tcp @ 0x70ec0c780] Connection to tcp://tv.ttk.mx:9079 failed: Connection refused\nhttp://tv.ttk.mx:9079: Connection refused\n"
   },
   {
-    "index": 341,
+    "index": 388,
     "name": "Дом Кино",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6869,7 +7814,7 @@
     "error": ""
   },
   {
-    "index": 342,
+    "index": 389,
     "name": "Дом Кино",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6884,7 +7829,7 @@
     "error": "[tls @ 0xb7ec74000] A TLS fatal alert has been received.\nhttps://streaming.goodstream.cyou/live/44-req_offset_28000000-req_window_0-1k_v5.m3u8: Input/output error\n"
   },
   {
-    "index": 343,
+    "index": 390,
     "name": "Дом Кино",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6907,7 +7852,7 @@
     "error": ""
   },
   {
-    "index": 344,
+    "index": 391,
     "name": "Дом Кино (2)",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6930,7 +7875,7 @@
     "error": ""
   },
   {
-    "index": 345,
+    "index": 392,
     "name": "Дом Кино (3)",
     "channel_id": "Domkino.ru",
     "group": "Фільми | RUS",
@@ -6953,7 +7898,7 @@
     "error": ""
   },
   {
-    "index": 346,
+    "index": 393,
     "name": "Дом Кино Премиум",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -6968,7 +7913,7 @@
     "error": "http://195.64.140.147:10081/81: Operation timed out\n"
   },
   {
-    "index": 347,
+    "index": 394,
     "name": "Дом Кино Премиум",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -6983,7 +7928,7 @@
     "error": "[tcp @ 0x701074000] Failed to resolve hostname 31148.rafail1982.uz: nodename nor servname provided, or not known\nhttp://31148.rafail1982.uz/Dom_Kino_Premium_HD/index.m3u8: Input/output error\n"
   },
   {
-    "index": 348,
+    "index": 395,
     "name": "Дом Кино Премиум",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -7006,7 +7951,7 @@
     "error": ""
   },
   {
-    "index": 349,
+    "index": 396,
     "name": "Дом кино премиум",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -7029,7 +7974,7 @@
     "error": ""
   },
   {
-    "index": 350,
+    "index": 397,
     "name": "Дом Кино Премиум",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -7044,7 +7989,7 @@
     "error": "http://hls.stb.md/DOM_KINO_PREMIUM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 351,
+    "index": 398,
     "name": "Дом кино премиум",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -7067,7 +8012,7 @@
     "error": ""
   },
   {
-    "index": 352,
+    "index": 399,
     "name": "Дом Кино Премиум HD",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -7082,7 +8027,7 @@
     "error": "[tcp @ 0x9e8c50000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Dom_Kino_Premium_HD/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 353,
+    "index": 400,
     "name": "Дом Кино Премиум HD",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -7097,7 +8042,7 @@
     "error": "[tcp @ 0x94d070080] Connection to tcp://tv.ttk.mx:9084 failed: Connection refused\nhttp://tv.ttk.mx:9084: Connection refused\n"
   },
   {
-    "index": 354,
+    "index": 401,
     "name": "Дом Кино Премиум HD (1080p)",
     "channel_id": "DomkinoPremium.ru",
     "group": "Фільми | RUS",
@@ -7117,7 +8062,7 @@
     }
   },
   {
-    "index": 355,
+    "index": 402,
     "name": "ДОРАМА",
     "channel_id": "Dorama.ru",
     "group": "Фільми | RUS",
@@ -7132,7 +8077,7 @@
     "error": "[tcp @ 0xa42cb0000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/dorama/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 356,
+    "index": 403,
     "name": "Дорама",
     "channel_id": "Dorama.ru",
     "group": "Фільми | RUS",
@@ -7155,7 +8100,7 @@
     "error": ""
   },
   {
-    "index": 357,
+    "index": 404,
     "name": "Дорама",
     "channel_id": "Dorama.ru",
     "group": "Фільми | RUS",
@@ -7178,7 +8123,7 @@
     "error": ""
   },
   {
-    "index": 358,
+    "index": 405,
     "name": "Дорама",
     "channel_id": "Dorama.ru",
     "group": "Фільми | RUS",
@@ -7201,7 +8146,7 @@
     "error": ""
   },
   {
-    "index": 359,
+    "index": 406,
     "name": "Дорама",
     "channel_id": "Dorama.ru",
     "group": "Фільми | RUS",
@@ -7224,7 +8169,7 @@
     "error": ""
   },
   {
-    "index": 360,
+    "index": 407,
     "name": "Еврокино",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7239,7 +8184,7 @@
     "error": "[tcp @ 0xbeec70000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=eurokino: Connection refused\n"
   },
   {
-    "index": 361,
+    "index": 408,
     "name": "Еврокино",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7262,7 +8207,7 @@
     "error": ""
   },
   {
-    "index": 362,
+    "index": 409,
     "name": "ЕвроКино",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7277,7 +8222,7 @@
     "error": "http://195.64.140.147:10088/88: Operation timed out\n"
   },
   {
-    "index": 363,
+    "index": 410,
     "name": "ЕВРОКИНО",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7292,7 +8237,7 @@
     "error": "[tcp @ 0x9e6ccc000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/evrokino/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 364,
+    "index": 411,
     "name": "Еврокино",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7315,7 +8260,7 @@
     "error": ""
   },
   {
-    "index": 365,
+    "index": 412,
     "name": "Еврокино",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7330,7 +8275,7 @@
     "error": "Playback check exceeded time limit"
   },
   {
-    "index": 366,
+    "index": 413,
     "name": "Еврокино",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7345,7 +8290,7 @@
     "error": "[tcp @ 0xc4f064080] Connection to tcp://tv.ttk.mx:9030 failed: Connection refused\nhttp://tv.ttk.mx:9030: Connection refused\n"
   },
   {
-    "index": 367,
+    "index": 414,
     "name": "Еврокино",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7368,7 +8313,7 @@
     "error": ""
   },
   {
-    "index": 368,
+    "index": 415,
     "name": "Еврокино (2)",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7391,7 +8336,7 @@
     "error": ""
   },
   {
-    "index": 369,
+    "index": 416,
     "name": "Еврокино (3)",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7406,7 +8351,7 @@
     "error": "[tcp @ 0x7b8c50000] Failed to resolve hostname tinyurl.com: nodename nor servname provided, or not known\nhttp://tinyurl.com/TvZaTak65?id=eurokino: Input/output error\n"
   },
   {
-    "index": 370,
+    "index": 417,
     "name": "Еврокино (4)",
     "channel_id": "Evrokino.ru",
     "group": "Фільми | RUS",
@@ -7421,7 +8366,7 @@
     "error": "[tcp @ 0x86acac000] Failed to resolve hostname 31148.rafail1982.uz: nodename nor servname provided, or not known\nhttp://31148.rafail1982.uz/Evrokino/index.m3u8: Input/output error\n"
   },
   {
-    "index": 371,
+    "index": 418,
     "name": "Иллюзион+",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7444,7 +8389,7 @@
     "error": ""
   },
   {
-    "index": 372,
+    "index": 419,
     "name": "Иллюзион+",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7467,7 +8412,7 @@
     "error": ""
   },
   {
-    "index": 373,
+    "index": 420,
     "name": "Иллюзион+",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7490,7 +8435,7 @@
     "error": ""
   },
   {
-    "index": 374,
+    "index": 421,
     "name": "Иллюзион+",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7505,7 +8450,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr2/illusionplus/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 375,
+    "index": 422,
     "name": "Иллюзион+",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7520,7 +8465,7 @@
     "error": "[tcp @ 0x8f0c0c680] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Illuzion_/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 376,
+    "index": 423,
     "name": "Иллюзион+",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7535,7 +8480,7 @@
     "error": "[tcp @ 0xaef04c080] Connection to tcp://tv.ttk.mx:9028 failed: Connection refused\nhttp://tv.ttk.mx:9028: Connection refused\n"
   },
   {
-    "index": 377,
+    "index": 424,
     "name": "Иллюзион+",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7550,7 +8495,7 @@
     "error": "https://s70378.cdn.ngenix.net/illusion_plus/index.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 378,
+    "index": 425,
     "name": "Иллюзион+ (2)",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7573,7 +8518,7 @@
     "error": ""
   },
   {
-    "index": 379,
+    "index": 426,
     "name": "Иллюзион+ (3)",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7588,7 +8533,7 @@
     "error": "[tcp @ 0x90ec0c700] Failed to resolve hostname 31148.rafail1982.uz: nodename nor servname provided, or not known\nhttp://31148.rafail1982.uz/Illusion_plus/index.m3u8: Input/output error\n"
   },
   {
-    "index": 380,
+    "index": 427,
     "name": "Иллюзион+ (576p)",
     "channel_id": "IllusionPlus.ru",
     "group": "Фільми | RUS",
@@ -7608,7 +8553,7 @@
     }
   },
   {
-    "index": 381,
+    "index": 428,
     "name": "Индийское кино",
     "channel_id": "IndiyskoyeKino.ru",
     "group": "Фільми | RUS",
@@ -7623,7 +8568,7 @@
     "error": "[tcp @ 0x9a4ccc000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=indiyskoekino: Connection refused\n"
   },
   {
-    "index": 382,
+    "index": 429,
     "name": "Индийское Кино",
     "channel_id": "IndiyskoyeKino.ru",
     "group": "Фільми | RUS",
@@ -7646,7 +8591,7 @@
     "error": ""
   },
   {
-    "index": 383,
+    "index": 430,
     "name": "Индийское кино",
     "channel_id": "IndiyskoyeKino.ru",
     "group": "Фільми | RUS",
@@ -7669,7 +8614,7 @@
     "error": ""
   },
   {
-    "index": 384,
+    "index": 431,
     "name": "Индийское кино",
     "channel_id": "IndiyskoyeKino.ru",
     "group": "Фільми | RUS",
@@ -7684,7 +8629,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr1/india/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 385,
+    "index": 432,
     "name": "Индийское кино",
     "channel_id": "IndiyskoyeKino.ru",
     "group": "Фільми | RUS",
@@ -7707,7 +8652,7 @@
     "error": ""
   },
   {
-    "index": 386,
+    "index": 433,
     "name": "Индийское Кино",
     "channel_id": "IndiyskoyeKino.ru",
     "group": "Фільми | RUS",
@@ -7730,7 +8675,7 @@
     "error": ""
   },
   {
-    "index": 387,
+    "index": 434,
     "name": "Индийское кино (2)",
     "channel_id": "IndiyskoyeKino.ru",
     "group": "Фільми | RUS",
@@ -7753,7 +8698,7 @@
     "error": ""
   },
   {
-    "index": 388,
+    "index": 435,
     "name": "Индийское кино (3)",
     "channel_id": "IndiyskoyeKino.ru",
     "group": "Фільми | RUS",
@@ -7773,7 +8718,7 @@
     }
   },
   {
-    "index": 389,
+    "index": 436,
     "name": "Кассета",
     "channel_id": "OnlineCinema.33784332cfeb",
     "group": "Фільми | RUS",
@@ -7796,7 +8741,7 @@
     "error": ""
   },
   {
-    "index": 390,
+    "index": 437,
     "name": "Кинеко",
     "channel_id": "Kineko.ru",
     "group": "Фільми | RUS",
@@ -7811,7 +8756,7 @@
     "error": "http://195.64.140.147:10080/80: Operation timed out\n"
   },
   {
-    "index": 391,
+    "index": 438,
     "name": "Кинеко",
     "channel_id": "Kineko.ru",
     "group": "Фільми | RUS",
@@ -7826,7 +8771,7 @@
     "error": "[tcp @ 0x954cac000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/FOX/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 392,
+    "index": 439,
     "name": "Кинеко (1080p)",
     "channel_id": "Kineko.ru",
     "group": "Фільми | RUS",
@@ -7846,7 +8791,7 @@
     }
   },
   {
-    "index": 393,
+    "index": 440,
     "name": "Кинеко HD",
     "channel_id": "Kineko.ru",
     "group": "Фільми | RUS",
@@ -7861,7 +8806,7 @@
     "error": "[tcp @ 0x95cc0c680] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/kineko/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 394,
+    "index": 441,
     "name": "Кино 1 International",
     "channel_id": "Kino1International.ru",
     "group": "Фільми | RUS",
@@ -7884,7 +8829,7 @@
     "error": ""
   },
   {
-    "index": 395,
+    "index": 442,
     "name": "Кино 1 International [Not 24/7]",
     "channel_id": "Kino1.ru",
     "group": "Фільми | RUS",
@@ -7907,7 +8852,7 @@
     "error": ""
   },
   {
-    "index": 396,
+    "index": 443,
     "name": "Кино ТВ",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -7933,7 +8878,7 @@
     "error": ""
   },
   {
-    "index": 397,
+    "index": 444,
     "name": "Кино ТВ",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -7956,7 +8901,7 @@
     "error": ""
   },
   {
-    "index": 398,
+    "index": 445,
     "name": "Кино ТВ",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -7971,7 +8916,7 @@
     "error": "http://195.64.140.147:10050/50: Connection reset by peer\n"
   },
   {
-    "index": 399,
+    "index": 446,
     "name": "Кино ТВ",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -7991,7 +8936,7 @@
     }
   },
   {
-    "index": 400,
+    "index": 447,
     "name": "КИНО ТВ",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -8006,7 +8951,7 @@
     "error": "[tcp @ 0x9e4c6c000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/kinotv/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 401,
+    "index": 448,
     "name": "Кино ТВ",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -8029,7 +8974,7 @@
     "error": ""
   },
   {
-    "index": 402,
+    "index": 449,
     "name": "Кино ТВ",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -8044,7 +8989,33 @@
     "error": "[tcp @ 0xa5ec0c780] Connection to tcp://tv.ttk.mx:9046 failed: Connection refused\nhttp://tv.ttk.mx:9046: Connection refused\n"
   },
   {
-    "index": 403,
+    "index": 450,
+    "name": "Кино ТВ",
+    "channel_id": "KinoTV.ru",
+    "group": "Фільми | RUS",
+    "url": "http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "mpeg2video",
+      "codec_type": "video",
+      "width": 720,
+      "height": 576,
+      "side_data_list": [
+        {}
+      ]
+    },
+    "audio": {
+      "codec_name": "mp2",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 21.7,
+    "checked_at": "2026-09-06T07:23:57.222102+00:00",
+    "error": ""
+  },
+  {
+    "index": 451,
     "name": "Кино ТВ (2)",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -8070,7 +9041,7 @@
     "error": ""
   },
   {
-    "index": 404,
+    "index": 452,
     "name": "КИНО ТВ (720p)",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -8090,7 +9061,7 @@
     }
   },
   {
-    "index": 405,
+    "index": 453,
     "name": "Кино ТВ HD",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -8105,7 +9076,7 @@
     "error": "http://hls1.stb.md/KINOTV_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 406,
+    "index": 454,
     "name": "Кино ТВ HD",
     "channel_id": "KinoTV.ru",
     "group": "Фільми | RUS",
@@ -8120,7 +9091,582 @@
     "error": "[tcp @ 0xb36c68080] Connection to tcp://tv.ttk.mx:9113 failed: Connection refused\nhttp://tv.ttk.mx:9113: Connection refused\n"
   },
   {
-    "index": 407,
+    "index": 455,
+    "name": "Кинозалы 1",
+    "channel_id": "OnlineCinema.4e3384fdb110",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba82/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 7.6,
+    "checked_at": "2026-09-06T07:23:43.101775+00:00",
+    "error": ""
+  },
+  {
+    "index": 456,
+    "name": "Кинозалы 1",
+    "channel_id": "OnlineCinema.4e3384fdb110",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba82/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 5.1,
+    "checked_at": "2026-09-06T07:23:40.791341+00:00",
+    "error": ""
+  },
+  {
+    "index": 457,
+    "name": "Кинозалы 10",
+    "channel_id": "OnlineCinema.b3c7fee642f2",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-p/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 480
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 13.3,
+    "checked_at": "2026-09-06T07:23:49.005869+00:00",
+    "error": ""
+  },
+  {
+    "index": 458,
+    "name": "Кинозалы 10",
+    "channel_id": "OnlineCinema.b3c7fee642f2",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-p/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 480
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.3,
+    "checked_at": "2026-09-06T07:23:41.116972+00:00",
+    "error": ""
+  },
+  {
+    "index": 459,
+    "name": "Кинозалы 11",
+    "channel_id": "OnlineCinema.36789c1d4f8e",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-v/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 544
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 6.0,
+    "checked_at": "2026-09-06T07:23:43.006656+00:00",
+    "error": ""
+  },
+  {
+    "index": 460,
+    "name": "Кинозалы 11",
+    "channel_id": "OnlineCinema.36789c1d4f8e",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-v/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 544
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 3.9,
+    "checked_at": "2026-09-06T07:23:41.412842+00:00",
+    "error": ""
+  },
+  {
+    "index": 461,
+    "name": "Кинозалы 12",
+    "channel_id": "OnlineCinema.69bbb53de099",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-z/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 696,
+      "height": 320
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.7,
+    "checked_at": "2026-09-06T07:23:44.074148+00:00",
+    "error": ""
+  },
+  {
+    "index": 462,
+    "name": "Кинозалы 12",
+    "channel_id": "OnlineCinema.69bbb53de099",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-z/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 696,
+      "height": 320
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 3.4,
+    "checked_at": "2026-09-06T07:23:43.219283+00:00",
+    "error": ""
+  },
+  {
+    "index": 463,
+    "name": "Кинозалы 13",
+    "channel_id": "OnlineCinema.6baed2a77228",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba64/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 640
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.5,
+    "checked_at": "2026-09-06T07:23:44.657885+00:00",
+    "error": ""
+  },
+  {
+    "index": 464,
+    "name": "Кинозалы 14",
+    "channel_id": "OnlineCinema.4cf95760a580",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba65/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 544
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 6.4,
+    "checked_at": "2026-09-06T07:23:47.056687+00:00",
+    "error": ""
+  },
+  {
+    "index": 465,
+    "name": "Кинозалы 2",
+    "channel_id": "OnlineCinema.487c90bc0822",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-0/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 544
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 5.5,
+    "checked_at": "2026-09-06T07:23:46.277897+00:00",
+    "error": ""
+  },
+  {
+    "index": 466,
+    "name": "Кинозалы 2",
+    "channel_id": "OnlineCinema.487c90bc0822",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-0/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 544
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.1,
+    "checked_at": "2026-09-06T07:23:45.000922+00:00",
+    "error": ""
+  },
+  {
+    "index": 467,
+    "name": "Кинозалы 3",
+    "channel_id": "OnlineCinema.78977cbe0ea9",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-a/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 512,
+      "height": 384
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.8,
+    "checked_at": "2026-09-06T07:23:45.926890+00:00",
+    "error": ""
+  },
+  {
+    "index": 468,
+    "name": "Кинозалы 3",
+    "channel_id": "OnlineCinema.78977cbe0ea9",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-a/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 512,
+      "height": 384
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 3.8,
+    "checked_at": "2026-09-06T07:23:45.203506+00:00",
+    "error": ""
+  },
+  {
+    "index": 469,
+    "name": "Кинозалы 4",
+    "channel_id": "OnlineCinema.b122f080964c",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-b/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 704,
+      "height": 576
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 5.6,
+    "checked_at": "2026-09-06T07:23:47.971033+00:00",
+    "error": ""
+  },
+  {
+    "index": 470,
+    "name": "Кинозалы 5",
+    "channel_id": "OnlineCinema.0388281567f1",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-c/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 718,
+      "height": 544
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 5.7,
+    "checked_at": "2026-09-06T07:23:48.675321+00:00",
+    "error": ""
+  },
+  {
+    "index": 471,
+    "name": "Кинозалы 5",
+    "channel_id": "OnlineCinema.0388281567f1",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-c/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 718,
+      "height": 544
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.2,
+    "checked_at": "2026-09-06T07:23:47.331010+00:00",
+    "error": ""
+  },
+  {
+    "index": 472,
+    "name": "Кинозалы 6",
+    "channel_id": "OnlineCinema.4a8c68df09e8",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-d/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 704,
+      "height": 556
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 5.4,
+    "checked_at": "2026-09-06T07:23:48.616669+00:00",
+    "error": ""
+  },
+  {
+    "index": 473,
+    "name": "Кинозалы 6",
+    "channel_id": "OnlineCinema.4a8c68df09e8",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-d/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 704,
+      "height": 556
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.4,
+    "checked_at": "2026-09-06T07:23:48.506428+00:00",
+    "error": ""
+  },
+  {
+    "index": 474,
+    "name": "Кинозалы 7",
+    "channel_id": "OnlineCinema.48a6043fc168",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-e/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 680,
+      "height": 560
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 5.5,
+    "checked_at": "2026-09-06T07:23:50.114223+00:00",
+    "error": ""
+  },
+  {
+    "index": 475,
+    "name": "Кинозалы 7",
+    "channel_id": "OnlineCinema.48a6043fc168",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-e/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 680,
+      "height": 560
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 3.7,
+    "checked_at": "2026-09-06T07:23:48.672003+00:00",
+    "error": ""
+  },
+  {
+    "index": 476,
+    "name": "Кинозалы 8",
+    "channel_id": "OnlineCinema.b2bf1a86e56c",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-g/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 634,
+      "height": 496
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.5,
+    "checked_at": "2026-09-06T07:23:49.743950+00:00",
+    "error": ""
+  },
+  {
+    "index": 477,
+    "name": "Кинозалы 8",
+    "channel_id": "OnlineCinema.b2bf1a86e56c",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-g/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 634,
+      "height": 496
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 3.4,
+    "checked_at": "2026-09-06T07:23:49.331426+00:00",
+    "error": ""
+  },
+  {
+    "index": 478,
+    "name": "Кинозалы 9",
+    "channel_id": "OnlineCinema.88254b4aa4d2",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-i/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 704,
+      "height": 528
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 5.8,
+    "checked_at": "2026-09-06T07:23:51.865612+00:00",
+    "error": ""
+  },
+  {
+    "index": 479,
+    "name": "Кинозалы 9",
+    "channel_id": "OnlineCinema.88254b4aa4d2",
+    "group": "Фільми | RUS",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-i/tracks-v1a1/mono.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 704,
+      "height": 528
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.1,
+    "checked_at": "2026-09-06T07:23:50.406604+00:00",
+    "error": ""
+  },
+  {
+    "index": 480,
     "name": "Киноман",
     "channel_id": "Kinoman.ru",
     "group": "Фільми | RUS",
@@ -8135,7 +9681,7 @@
     "error": "[tcp @ 0x9d2c90000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/kinoman/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 408,
+    "index": 481,
     "name": "Киномикс",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8158,7 +9704,7 @@
     "error": ""
   },
   {
-    "index": 409,
+    "index": 482,
     "name": "Киномикс",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8181,7 +9727,7 @@
     "error": ""
   },
   {
-    "index": 410,
+    "index": 483,
     "name": "КИНОМИКС",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8196,7 +9742,7 @@
     "error": "[tcp @ 0x73cc0c680] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/kinomix/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 411,
+    "index": 484,
     "name": "Киномикс",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8219,7 +9765,7 @@
     "error": ""
   },
   {
-    "index": 412,
+    "index": 485,
     "name": "Киномикс",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8234,7 +9780,7 @@
     "error": "[tcp @ 0xca8c0c700] Connection to tcp://tv.ttk.mx:9199 failed: Connection refused\nhttp://tv.ttk.mx:9199: Connection refused\n"
   },
   {
-    "index": 413,
+    "index": 486,
     "name": "Киномикс",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8257,7 +9803,7 @@
     "error": ""
   },
   {
-    "index": 414,
+    "index": 487,
     "name": "Киномикс",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8280,7 +9826,7 @@
     "error": ""
   },
   {
-    "index": 415,
+    "index": 488,
     "name": "Киномикс",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8303,7 +9849,7 @@
     "error": ""
   },
   {
-    "index": 416,
+    "index": 489,
     "name": "Киномикс (2)",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8326,7 +9872,7 @@
     "error": ""
   },
   {
-    "index": 417,
+    "index": 490,
     "name": "Киномикс (3)",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8346,7 +9892,7 @@
     }
   },
   {
-    "index": 418,
+    "index": 491,
     "name": "Киномикс HD",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8369,7 +9915,7 @@
     "error": ""
   },
   {
-    "index": 419,
+    "index": 492,
     "name": "Киномикс HD",
     "channel_id": "Kinomix.ru",
     "group": "Фільми | RUS",
@@ -8384,7 +9930,7 @@
     "error": "http://hls.stb.md/KINOMIX_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 420,
+    "index": 493,
     "name": "КиноНонСтоп",
     "channel_id": "OnlineCinema.724f517bb918",
     "group": "Фільми | RUS",
@@ -8407,7 +9953,7 @@
     "error": ""
   },
   {
-    "index": 421,
+    "index": 494,
     "name": "КиноНонСтоп",
     "channel_id": "OnlineCinema.724f517bb918",
     "group": "Фільми | RUS",
@@ -8430,7 +9976,7 @@
     "error": ""
   },
   {
-    "index": 422,
+    "index": 495,
     "name": "Кинопоказ",
     "channel_id": "Kinopokaz.ru",
     "group": "Фільми | RUS",
@@ -8453,7 +9999,7 @@
     "error": ""
   },
   {
-    "index": 423,
+    "index": 496,
     "name": "Кинопоказ",
     "channel_id": "Kinopokaz.ru",
     "group": "Фільми | RUS",
@@ -8468,7 +10014,7 @@
     "error": "[tcp @ 0x954c0c680] Failed to resolve hostname 31148.rafail1982.uz: nodename nor servname provided, or not known\nhttp://31148.rafail1982.uz/Kinopokaz/index.m3u8: Input/output error\n"
   },
   {
-    "index": 424,
+    "index": 497,
     "name": "Кинопоказ",
     "channel_id": "Kinopokaz.ru",
     "group": "Фільми | RUS",
@@ -8483,7 +10029,7 @@
     "error": "[tcp @ 0x7a8c6c080] Connection to tcp://tv.ttk.mx:9150 failed: Connection refused\nhttp://tv.ttk.mx:9150: Connection refused\n"
   },
   {
-    "index": 425,
+    "index": 498,
     "name": "Кинопоказ",
     "channel_id": "Kinopokaz.ru",
     "group": "Фільми | RUS",
@@ -8506,7 +10052,7 @@
     "error": ""
   },
   {
-    "index": 426,
+    "index": 499,
     "name": "Кинопоказ (2)",
     "channel_id": "Kinopokaz.ru",
     "group": "Фільми | RUS",
@@ -8529,7 +10075,7 @@
     "error": ""
   },
   {
-    "index": 427,
+    "index": 500,
     "name": "Кинопремьера",
     "channel_id": "Kinopremyera.ru",
     "group": "Фільми | RUS",
@@ -8552,7 +10098,7 @@
     "error": ""
   },
   {
-    "index": 428,
+    "index": 501,
     "name": "Кинопремьера",
     "channel_id": "Kinopremyera.ru",
     "group": "Фільми | RUS",
@@ -8575,7 +10121,7 @@
     "error": ""
   },
   {
-    "index": 429,
+    "index": 502,
     "name": "Кинопремьера HD",
     "channel_id": "Kinopremyera.ru",
     "group": "Фільми | RUS",
@@ -8590,7 +10136,7 @@
     "error": "http://195.64.140.147:10084/84: Operation timed out\n"
   },
   {
-    "index": 430,
+    "index": 503,
     "name": "Кинопремьера HD",
     "channel_id": "Kinopremyera.ru",
     "group": "Фільми | RUS",
@@ -8605,7 +10151,7 @@
     "error": "http://hls.stb.md/KINOPREMIERA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 431,
+    "index": 504,
     "name": "Кинопремьера HD",
     "channel_id": "Kinopremyera.ru",
     "group": "Фільми | RUS",
@@ -8620,7 +10166,7 @@
     "error": "[tcp @ 0x898c68080] Connection to tcp://tv.ttk.mx:9162 failed: Operation timed out\nhttp://tv.ttk.mx:9162: Operation timed out\n"
   },
   {
-    "index": 432,
+    "index": 505,
     "name": "Кинопроектор",
     "channel_id": "OnlineCinema.e881569c4470",
     "group": "Фільми | RUS",
@@ -8635,7 +10181,7 @@
     "error": "https://kinowalk.hopto.org/kinokjkh_live: Server returned 404 Not Found\n"
   },
   {
-    "index": 433,
+    "index": 506,
     "name": "Киносат",
     "channel_id": "KinoSat.ru",
     "group": "Фільми | RUS",
@@ -8650,7 +10196,7 @@
     "error": "http://195.64.140.147:10058/58: Operation timed out\n"
   },
   {
-    "index": 434,
+    "index": 507,
     "name": "Киносат",
     "channel_id": "KinoSat.ru",
     "group": "Фільми | RUS",
@@ -8673,7 +10219,7 @@
     "error": ""
   },
   {
-    "index": 435,
+    "index": 508,
     "name": "Киносат",
     "channel_id": "KinoSat.ru",
     "group": "Фільми | RUS",
@@ -8688,7 +10234,7 @@
     "error": "http://hls.stb.md/KINOMAN_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 436,
+    "index": 509,
     "name": "Киносат",
     "channel_id": "KinoSat.ru",
     "group": "Фільми | RUS",
@@ -8711,7 +10257,7 @@
     "error": ""
   },
   {
-    "index": 437,
+    "index": 510,
     "name": "КИНОСАТ (576p)",
     "channel_id": "KinoSat.ru",
     "group": "Фільми | RUS",
@@ -8731,7 +10277,7 @@
     }
   },
   {
-    "index": 438,
+    "index": 511,
     "name": "Киносвидание",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8746,7 +10292,7 @@
     "error": "http://195.64.140.147:10045/45: Operation timed out\n"
   },
   {
-    "index": 439,
+    "index": 512,
     "name": "Киносвидание",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8761,7 +10307,7 @@
     "error": "[tcp @ 0x892c0c680] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/kinosvidanie/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 440,
+    "index": 513,
     "name": "Киносвидание",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8776,7 +10322,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr3/kinosvidanie/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 441,
+    "index": 514,
     "name": "Киносвидание",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8791,7 +10337,7 @@
     "error": "http://hls.stb.md/KINO_SVIDANIE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 442,
+    "index": 515,
     "name": "Киносвидание",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8806,7 +10352,7 @@
     "error": "[tcp @ 0x986cac080] Connection to tcp://tv.ttk.mx:9164 failed: Operation timed out\nhttp://tv.ttk.mx:9164: Operation timed out\n"
   },
   {
-    "index": 443,
+    "index": 516,
     "name": "Киносвидание",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8829,7 +10375,7 @@
     "error": ""
   },
   {
-    "index": 444,
+    "index": 517,
     "name": "Киносвидание",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8852,7 +10398,7 @@
     "error": ""
   },
   {
-    "index": 445,
+    "index": 518,
     "name": "Киносвидание",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8875,7 +10421,7 @@
     "error": ""
   },
   {
-    "index": 446,
+    "index": 519,
     "name": "Киносвидание (2)",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8898,7 +10444,7 @@
     "error": ""
   },
   {
-    "index": 447,
+    "index": 520,
     "name": "Киносвидание (3)",
     "channel_id": "Kinosvidanie.ru",
     "group": "Фільми | RUS",
@@ -8918,7 +10464,7 @@
     }
   },
   {
-    "index": 448,
+    "index": 521,
     "name": "КиноСезон",
     "channel_id": "KinoSezon.ru",
     "group": "Фільми | RUS",
@@ -8941,7 +10487,7 @@
     "error": ""
   },
   {
-    "index": 449,
+    "index": 522,
     "name": "КиноСезон",
     "channel_id": "KinoSezon.ru",
     "group": "Фільми | RUS",
@@ -8956,7 +10502,7 @@
     "error": "[tcp @ 0x81cc90080] Connection to tcp://mhd116.iptv2022.com:443 failed: Operation timed out\nhttps://mhd116.iptv2022.com/x/yk2ksIdYOvALGKo7uWJTPA,1788763889/streaming/kinosezon/324/1/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 450,
+    "index": 523,
     "name": "Киносезон",
     "channel_id": "KinoSezon.ru",
     "group": "Фільми | RUS",
@@ -8979,7 +10525,7 @@
     "error": ""
   },
   {
-    "index": 451,
+    "index": 524,
     "name": "Киносемья",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -8994,7 +10540,7 @@
     "error": "[tcp @ 0xb18cac000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=kinosemya: Connection refused\n"
   },
   {
-    "index": 452,
+    "index": 525,
     "name": "Киносемья",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -9009,7 +10555,7 @@
     "error": "http://195.64.140.147:10042/42: Operation timed out\n"
   },
   {
-    "index": 453,
+    "index": 526,
     "name": "Киносемья",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -9024,7 +10570,7 @@
     "error": "[tcp @ 0xa87070000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/kinofamily/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 454,
+    "index": 527,
     "name": "Киносемья",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -9047,7 +10593,7 @@
     "error": ""
   },
   {
-    "index": 455,
+    "index": 528,
     "name": "Киносемья",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -9062,7 +10608,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr2/kinofamily/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 456,
+    "index": 529,
     "name": "Киносемья",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -9077,7 +10623,7 @@
     "error": "http://hls.stb.md/KINOSEMYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 457,
+    "index": 530,
     "name": "Киносемья",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -9092,7 +10638,7 @@
     "error": "[tcp @ 0xb46c0c700] Connection to tcp://tv.ttk.mx:9161 failed: Operation timed out\nhttp://tv.ttk.mx:9161: Operation timed out\n"
   },
   {
-    "index": 458,
+    "index": 531,
     "name": "Киносемья",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -9115,7 +10661,7 @@
     "error": ""
   },
   {
-    "index": 459,
+    "index": 532,
     "name": "Киносемья",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -9138,7 +10684,7 @@
     "error": ""
   },
   {
-    "index": 460,
+    "index": 533,
     "name": "Киносемья (2)",
     "channel_id": "Kinosemja.ru",
     "group": "Фільми | RUS",
@@ -9161,7 +10707,22 @@
     "error": ""
   },
   {
-    "index": 461,
+    "index": 534,
+    "name": "КиноСериалы",
+    "channel_id": "OnlineCinema.252fd765e3ab",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/zagar_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 1.2,
+    "checked_at": "2026-09-06T07:23:48.273481+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/zagar_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 535,
     "name": "Киносерия",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -9184,7 +10745,7 @@
     "error": ""
   },
   {
-    "index": 462,
+    "index": 536,
     "name": "КИНОСЕРИЯ",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -9199,7 +10760,7 @@
     "error": "[tcp @ 0x7c2c90000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/kinoseriya/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 463,
+    "index": 537,
     "name": "Киносерия",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -9214,7 +10775,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr3/kinoseriya/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 464,
+    "index": 538,
     "name": "Киносерия",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -9229,7 +10790,7 @@
     "error": "http://hls.stb.md/KINOSERYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 465,
+    "index": 539,
     "name": "Киносерия",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -9252,7 +10813,7 @@
     "error": ""
   },
   {
-    "index": 466,
+    "index": 540,
     "name": "Киносерия",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -9275,7 +10836,7 @@
     "error": ""
   },
   {
-    "index": 467,
+    "index": 541,
     "name": "Киносерия",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -9298,7 +10859,7 @@
     "error": ""
   },
   {
-    "index": 468,
+    "index": 542,
     "name": "Киносерия (2)",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -9313,7 +10874,7 @@
     "error": "[tcp @ 0xaef088000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=kinoseria: Connection refused\n"
   },
   {
-    "index": 469,
+    "index": 543,
     "name": "Киносерия (3)",
     "channel_id": "Kinoseriya.ru",
     "group": "Фільми | RUS",
@@ -9336,7 +10897,37 @@
     "error": ""
   },
   {
-    "index": 470,
+    "index": 544,
+    "name": "Кинотеатр без билетов",
+    "channel_id": "OnlineCinema.599d4948070d",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/x-x-vanes-x-x_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 1.3,
+    "checked_at": "2026-09-06T07:23:48.666653+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/x-x-vanes-x-x_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 545,
+    "name": "Кинотека",
+    "channel_id": "OnlineCinema.d3d3a3eebd73",
+    "group": "Фільми | RUS",
+    "url": "https://kinowalk.hopto.org/kinoteka_full_hd_top_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 1.7,
+    "checked_at": "2026-09-06T07:23:49.706578+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttps://kinowalk.hopto.org/kinoteka_full_hd_top_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 546,
     "name": "Киноужас",
     "channel_id": "Kinouzhas.ru",
     "group": "Фільми | RUS",
@@ -9359,7 +10950,7 @@
     "error": "80] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0x85ac88380] decode_slice_header error\n[h264 @ 0x85ac88380] no frame!\n[h264 @ 0x85ac88380] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0x85ac88380] decode_slice_header error\n[h264 @ 0x85ac88380] no frame!\n[h264 @ 0x85ac88380] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0x85ac88380] decode_slice_header error\n[h264 @ 0x85ac88380] no frame!\n[h264 @ 0x85ac88380] non-existing PPS 0 referenced\n    Last message repeated 1 times\n[h264 @ 0x85ac88380] decode_slice_header error\n[h264 @ 0x85ac88380] no frame!\n[h264 @ 0x85ac88380] mmco: unref short failure\n    Last message repeated 1 times\n[h264 @ 0x85ac88380] number of reference frames (0+5) exceeds max (4; probably corrupt input), discarding one\n[h264 @ 0x85ac88380] mmco: unref short failure\n    Last message repeated 3 times\n[h264 @ 0x85ac8ad80] reference picture missing during reorder\n    Last message repeated 1 times\n[h264 @ 0x85ac8ad80] Missing reference picture, default is 2147483647\n    Last message repeated 1 times\n[h264 @ 0x85ac8b100] reference picture missing during reorder\n    Last message repeated 1 times\n[h264 @ 0x85ac8b100] Missing reference picture, default is 65669\n    Last message repeated 1 times\n[h264 @ 0x85ac8b480] mmco: unref short failure\n[h264 @ 0x85ac8b480] reference picture missing during reorder\n[h264 @ 0x85ac8b480] Missing reference picture, default is 2147483647\n[h264 @ 0x85ac8bb80] mmco: unref short failure\n    Last message repeated 1 times\n[h264 @ 0x85ac8bb80] number of referen"
   },
   {
-    "index": 471,
+    "index": 547,
     "name": "КИНОУЖАС",
     "channel_id": "Kinouzhas.ru",
     "group": "Фільми | RUS",
@@ -9374,7 +10965,7 @@
     "error": "[tcp @ 0x718c0c680] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/kinouzhas/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 472,
+    "index": 548,
     "name": "Киноужас",
     "channel_id": "Kinouzhas.ru",
     "group": "Фільми | RUS",
@@ -9389,7 +10980,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr3/kinouzhas/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 473,
+    "index": 549,
     "name": "Киноужас",
     "channel_id": "Kinouzhas.ru",
     "group": "Фільми | RUS",
@@ -9404,7 +10995,7 @@
     "error": "[tcp @ 0x8f1070080] Connection to tcp://tv.ttk.mx:9193 failed: Connection refused\nhttp://tv.ttk.mx:9193: Connection refused\n"
   },
   {
-    "index": 474,
+    "index": 550,
     "name": "Киноужас",
     "channel_id": "Kinouzhas.ru",
     "group": "Фільми | RUS",
@@ -9427,9 +11018,9 @@
     "error": ""
   },
   {
-    "index": 475,
+    "index": 551,
     "name": "Киноужас",
-    "channel_id": "Kinouzhas.ru",
+    "channel_id": "OnlineCinema.7655e0ed8326",
     "group": "Фільми | RUS",
     "url": "https://kinowalk.hopto.org/kinouzhas_live",
     "status": "unstable",
@@ -9447,9 +11038,9 @@
     }
   },
   {
-    "index": 476,
+    "index": 552,
     "name": "КИНОУЖАС HD",
-    "channel_id": "Kinouzhas.ru",
+    "channel_id": "OnlineCinema.7655e0ed8326",
     "group": "Фільми | RUS",
     "url": "http://kinowalk.hopto.org/kinouzhas_live",
     "status": "unstable",
@@ -9462,7 +11053,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/kinouzhas_live: Invalid data found when processing input\n"
   },
   {
-    "index": 477,
+    "index": 553,
     "name": "Кинохит",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -9477,7 +11068,7 @@
     "error": "http://195.64.140.147:10046/46: Operation timed out\n"
   },
   {
-    "index": 478,
+    "index": 554,
     "name": "Кинохит",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -9492,7 +11083,7 @@
     "error": "[tcp @ 0xa18c74000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/kinohit/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 479,
+    "index": 555,
     "name": "Кинохит",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -9515,7 +11106,7 @@
     "error": ""
   },
   {
-    "index": 480,
+    "index": 556,
     "name": "Кинохит",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -9530,7 +11121,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr2/kinohit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 481,
+    "index": 557,
     "name": "Кинохит",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -9545,7 +11136,7 @@
     "error": "http://hls.stb.md/KINOHIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 482,
+    "index": 558,
     "name": "Кинохит",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -9560,7 +11151,7 @@
     "error": "[tcp @ 0xacb064080] Connection to tcp://tv.ttk.mx:9163 failed: Operation timed out\nhttp://tv.ttk.mx:9163: Operation timed out\n"
   },
   {
-    "index": 483,
+    "index": 559,
     "name": "КиноХит",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -9583,7 +11174,7 @@
     "error": ""
   },
   {
-    "index": 484,
+    "index": 560,
     "name": "Кинохит",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -9606,7 +11197,7 @@
     "error": ""
   },
   {
-    "index": 485,
+    "index": 561,
     "name": "Кинохит",
     "channel_id": "KinoHit.ru",
     "group": "Фільми | RUS",
@@ -9629,7 +11220,30 @@
     "error": ""
   },
   {
-    "index": 486,
+    "index": 562,
+    "name": "Кладовая Фильмов",
+    "channel_id": "OnlineCinema.410a3ba15c09",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/skladfilm_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 15.9,
+    "checked_at": "2026-09-06T07:24:04.125393+00:00",
+    "error": ""
+  },
+  {
+    "index": 563,
     "name": "Классика Кино",
     "channel_id": "MovieClassic.ru",
     "group": "Фільми | RUS",
@@ -9652,7 +11266,7 @@
     "error": ""
   },
   {
-    "index": 487,
+    "index": 564,
     "name": "Классика кино",
     "channel_id": "MovieClassic.ru",
     "group": "Фільми | RUS",
@@ -9667,7 +11281,7 @@
     "error": "[tcp @ 0x9eac0c780] Connection to tcp://mhd116.iptv2022.com:443 failed: Operation timed out\nhttps://mhd116.iptv2022.com/x/Ff38k2uHT_r-3ZoM7wEGmA,1788763889/streaming/k_kino/324/1/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 488,
+    "index": 565,
     "name": "Комедии",
     "channel_id": "OnlineCinema.4b6d131deb6b",
     "group": "Фільми | RUS",
@@ -9690,7 +11304,30 @@
     "error": ""
   },
   {
-    "index": 489,
+    "index": 566,
+    "name": "КОМЕДИИ 24/7",
+    "channel_id": "OnlineCinema.4b6d131deb6b",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/cmexye4ku_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 17.7,
+    "checked_at": "2026-09-06T07:24:06.234224+00:00",
+    "error": ""
+  },
+  {
+    "index": 567,
     "name": "Коновал",
     "channel_id": "OnlineCinema.dee55c7106de",
     "group": "Фільми | RUS",
@@ -9713,7 +11350,53 @@
     "error": ""
   },
   {
-    "index": 490,
+    "index": 568,
+    "name": "Коновал ТВ",
+    "channel_id": "OnlineCinema.dee55c7106de",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/www.konoval_tv_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 700
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 15.8,
+    "checked_at": "2026-09-06T07:24:04.375663+00:00",
+    "error": ""
+  },
+  {
+    "index": 569,
+    "name": "Любимое HD",
+    "channel_id": "Lyubimoe.ru",
+    "group": "Фільми | RUS",
+    "url": "http://192.162.64.99:5100/play/a02w/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 576
+    },
+    "audio": {
+      "codec_name": "mp2",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 4.1,
+    "checked_at": "2026-09-06T07:23:52.754426+00:00",
+    "error": ""
+  },
+  {
+    "index": 570,
     "name": "Любимое кино",
     "channel_id": "NasheLubimoeKino.ru",
     "group": "Фільми | RUS",
@@ -9736,7 +11419,7 @@
     "error": ""
   },
   {
-    "index": 491,
+    "index": 571,
     "name": "Любимое Кино",
     "channel_id": "NasheLubimoeKino.ru",
     "group": "Фільми | RUS",
@@ -9751,7 +11434,7 @@
     "error": "http://195.64.140.147:10091/91: Operation timed out\n"
   },
   {
-    "index": 492,
+    "index": 572,
     "name": "Любимое кино",
     "channel_id": "NasheLubimoeKino.ru",
     "group": "Фільми | RUS",
@@ -9766,7 +11449,7 @@
     "error": "[tcp @ 0x8cccd0000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/lubimoe_kino/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 493,
+    "index": 573,
     "name": "Мосфильм Золотая коллекция (1)",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -9786,7 +11469,7 @@
     }
   },
   {
-    "index": 494,
+    "index": 574,
     "name": "Мосфильм. Золотая коллекция",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -9809,7 +11492,7 @@
     "error": ""
   },
   {
-    "index": 495,
+    "index": 575,
     "name": "Мосфильм. Золотая коллекция",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -9824,7 +11507,7 @@
     "error": "http://195.64.140.147:10078/78: Operation timed out\n"
   },
   {
-    "index": 496,
+    "index": 576,
     "name": "Мосфильм. Золотая коллекция",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -9839,7 +11522,7 @@
     "error": "http://hls.stb.md/MOSFILM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 497,
+    "index": 577,
     "name": "Мосфильм. Золотая коллекция",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -9862,7 +11545,7 @@
     "error": ""
   },
   {
-    "index": 498,
+    "index": 578,
     "name": "Мосфильм. Золотая коллекция",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -9877,7 +11560,7 @@
     "error": "[tcp @ 0x76ec0c780] Connection to tcp://tv.ttk.mx:9169 failed: Connection refused\nhttp://tv.ttk.mx:9169: Connection refused\n"
   },
   {
-    "index": 499,
+    "index": 579,
     "name": "Мосфильм. Золотая коллекция",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -9900,7 +11583,7 @@
     "error": ""
   },
   {
-    "index": 500,
+    "index": 580,
     "name": "Мосфильм. Золотая коллекция HD",
     "channel_id": "MosfilmGoldCollection.ru",
     "group": "Фільми | RUS",
@@ -9915,7 +11598,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr4/mosfilm/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 501,
+    "index": 581,
     "name": "Мужское кино",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -9930,7 +11613,7 @@
     "error": "[tcp @ 0xa88c0c680] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=interesnoetv: Connection refused\n"
   },
   {
-    "index": 502,
+    "index": 582,
     "name": "Мужское Кино",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -9945,7 +11628,7 @@
     "error": "http://195.64.140.147:10051/51: Operation timed out\n"
   },
   {
-    "index": 503,
+    "index": 583,
     "name": "Мужское кино",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -9960,7 +11643,7 @@
     "error": "[tcp @ 0xb56c6c000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/muzhskoe_kino/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 504,
+    "index": 584,
     "name": "Мужское кино",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -9983,7 +11666,7 @@
     "error": ""
   },
   {
-    "index": 505,
+    "index": 585,
     "name": "Мужское кино",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -9998,7 +11681,7 @@
     "error": "http://hls.stb.md/MUJSKOE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 506,
+    "index": 586,
     "name": "Мужское кино",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -10021,7 +11704,7 @@
     "error": ""
   },
   {
-    "index": 507,
+    "index": 587,
     "name": "Мужское кино",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -10044,7 +11727,7 @@
     "error": ""
   },
   {
-    "index": 508,
+    "index": 588,
     "name": "Мужское кино (2)",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -10067,7 +11750,7 @@
     "error": ""
   },
   {
-    "index": 509,
+    "index": 589,
     "name": "Мужское Кино HD",
     "channel_id": "Muzhskoekino.ru",
     "group": "Фільми | RUS",
@@ -10082,7 +11765,7 @@
     "error": "[tcp @ 0x7d3068080] Connection to tcp://tv.ttk.mx:9165 failed: Operation timed out\nhttp://tv.ttk.mx:9165: Operation timed out\n"
   },
   {
-    "index": 510,
+    "index": 590,
     "name": "Мужской",
     "channel_id": "Muzhskoy.ru",
     "group": "Фільми | RUS",
@@ -10097,7 +11780,7 @@
     "error": "[tcp @ 0x70d068000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=muzhskoy: Connection refused\n"
   },
   {
-    "index": 511,
+    "index": 591,
     "name": "Мужской",
     "channel_id": "Muzhskoy.ru",
     "group": "Фільми | RUS",
@@ -10112,7 +11795,7 @@
     "error": "[tcp @ 0x893068000] Connection to tcp://iptv.mega.net.ru:8888 failed: Operation timed out\nhttp://iptv.mega.net.ru:8888/Mugskoi/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 512,
+    "index": 592,
     "name": "Мужской",
     "channel_id": "Muzhskoy.ru",
     "group": "Фільми | RUS",
@@ -10135,7 +11818,7 @@
     "error": ""
   },
   {
-    "index": 513,
+    "index": 593,
     "name": "Мы из 90-х",
     "channel_id": "OnlineCinema.721047c18907",
     "group": "Фільми | RUS",
@@ -10150,7 +11833,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/miiz90x_live: Invalid data found when processing input\n"
   },
   {
-    "index": 514,
+    "index": 594,
     "name": "Мы из 90-х",
     "channel_id": "OnlineCinema.721047c18907",
     "group": "Фільми | RUS",
@@ -10165,7 +11848,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttps://kinowalk.hopto.org/miiz90x_live: Invalid data found when processing input\n"
   },
   {
-    "index": 515,
+    "index": 595,
     "name": "Назад в СССР",
     "channel_id": "OnlineCinema.3e62997110e0",
     "group": "Фільми | RUS",
@@ -10188,7 +11871,7 @@
     "error": ""
   },
   {
-    "index": 516,
+    "index": 596,
     "name": "Назад в СССР",
     "channel_id": "OnlineCinema.3e62997110e0",
     "group": "Фільми | RUS",
@@ -10211,7 +11894,27 @@
     "error": ""
   },
   {
-    "index": 517,
+    "index": 597,
+    "name": "Наш кинопоказ HD",
+    "channel_id": "NashKinopokaz.ru",
+    "group": "Фільми | RUS",
+    "url": "http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2434/index.m3u8",
+    "status": "working",
+    "reason": "Video decoded successfully; no audio stream detected",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080
+    },
+    "audio": null,
+    "http_status": null,
+    "seconds": 1.3,
+    "checked_at": "2026-09-06T07:23:49.992839+00:00",
+    "error": ""
+  },
+  {
+    "index": 598,
     "name": "Наше HD",
     "channel_id": "Nashe.ru",
     "group": "Фільми | RUS",
@@ -10226,7 +11929,7 @@
     "error": "http://hls127.freeott.top:8080/Nashe_HD/video.m3u8: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 518,
+    "index": 599,
     "name": "НАШЕ НОВОЕ КИНО",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -10249,7 +11952,7 @@
     "error": ""
   },
   {
-    "index": 519,
+    "index": 600,
     "name": "Наше Новое Кино",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -10264,7 +11967,7 @@
     "error": "http://195.64.140.147:10053/53: Operation timed out\n"
   },
   {
-    "index": 520,
+    "index": 601,
     "name": "НАШЕ НОВОЕ КИНО",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -10279,7 +11982,7 @@
     "error": "[tcp @ 0x823088000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/nashe_novoe_kino/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 521,
+    "index": 602,
     "name": "Наше новое кино",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -10302,7 +12005,7 @@
     "error": ""
   },
   {
-    "index": 522,
+    "index": 603,
     "name": "Наше новое кино",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -10317,7 +12020,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=abr4/nashe_novoe_kino/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 523,
+    "index": 604,
     "name": "Наше новое кино",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -10332,7 +12035,7 @@
     "error": "http://hls.stb.md/NASHENOVOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 524,
+    "index": 605,
     "name": "Наше новое кино",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -10355,7 +12058,7 @@
     "error": ""
   },
   {
-    "index": 525,
+    "index": 606,
     "name": "Наше новое кино",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -10378,7 +12081,7 @@
     "error": ""
   },
   {
-    "index": 526,
+    "index": 607,
     "name": "Наше Новое Кино",
     "channel_id": "NasheNovoeKino.ru",
     "group": "Фільми | RUS",
@@ -10401,7 +12104,7 @@
     "error": ""
   },
   {
-    "index": 527,
+    "index": 608,
     "name": "Новый Русский (720p)",
     "channel_id": "NovyiRusskii.ru",
     "group": "Фільми | RUS",
@@ -10416,7 +12119,30 @@
     "error": "[tcp @ 0x9b7054080] Failed to resolve hostname live.15plusmg.ru: nodename nor servname provided, or not known\nhttps://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8: Input/output error\n"
   },
   {
-    "index": 528,
+    "index": 609,
+    "name": "Паранормальный архив",
+    "channel_id": "OnlineCinema.666ba30bd89f",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/paranormal404_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 18.3,
+    "checked_at": "2026-09-06T07:24:06.987519+00:00",
+    "error": ""
+  },
+  {
+    "index": 610,
     "name": "Патриот",
     "channel_id": "Patriot.ru",
     "group": "Фільми | RUS",
@@ -10439,7 +12165,7 @@
     "error": ""
   },
   {
-    "index": 529,
+    "index": 611,
     "name": "Первый ряд",
     "channel_id": "OnlineCinema.cb851674a6b0",
     "group": "Фільми | RUS",
@@ -10462,7 +12188,7 @@
     "error": ""
   },
   {
-    "index": 530,
+    "index": 612,
     "name": "Первый ряд",
     "channel_id": "OnlineCinema.cb851674a6b0",
     "group": "Фільми | RUS",
@@ -10485,7 +12211,7 @@
     "error": ""
   },
   {
-    "index": 531,
+    "index": 613,
     "name": "Родное Кино",
     "channel_id": "RodnoeKino.ru",
     "group": "Фільми | RUS",
@@ -10500,7 +12226,7 @@
     "error": "http://195.64.140.147:10052/52: Operation timed out\n"
   },
   {
-    "index": 532,
+    "index": 614,
     "name": "Родное кино",
     "channel_id": "RodnoeKino.ru",
     "group": "Фільми | RUS",
@@ -10515,7 +12241,7 @@
     "error": "[tcp @ 0x8a0ccc000] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/rodnoe_kino/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 533,
+    "index": 615,
     "name": "Родное кино",
     "channel_id": "RodnoeKino.ru",
     "group": "Фільми | RUS",
@@ -10530,7 +12256,7 @@
     "error": "http://hls.stb.md/RODNOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 534,
+    "index": 616,
     "name": "Родное кино",
     "channel_id": "RodnoeKino.ru",
     "group": "Фільми | RUS",
@@ -10553,7 +12279,7 @@
     "error": ""
   },
   {
-    "index": 535,
+    "index": 617,
     "name": "Родное кино",
     "channel_id": "RodnoeKino.ru",
     "group": "Фільми | RUS",
@@ -10576,7 +12302,7 @@
     "error": ""
   },
   {
-    "index": 536,
+    "index": 618,
     "name": "Родное Кино",
     "channel_id": "RodnoeKino.ru",
     "group": "Фільми | RUS",
@@ -10599,7 +12325,7 @@
     "error": ""
   },
   {
-    "index": 537,
+    "index": 619,
     "name": "Родное кино (2)",
     "channel_id": "RodnoeKino.ru",
     "group": "Фільми | RUS",
@@ -10619,7 +12345,7 @@
     }
   },
   {
-    "index": 538,
+    "index": 620,
     "name": "Родное кино (3)",
     "channel_id": "RodnoeKino.ru",
     "group": "Фільми | RUS",
@@ -10642,7 +12368,7 @@
     "error": ""
   },
   {
-    "index": 539,
+    "index": 621,
     "name": "Русский бестселлер",
     "channel_id": "RusskiyBestseller.ru",
     "group": "Фільми | RUS",
@@ -10665,7 +12391,7 @@
     "error": ""
   },
   {
-    "index": 540,
+    "index": 622,
     "name": "Русский Бестселлер",
     "channel_id": "RusskiyBestseller.ru",
     "group": "Фільми | RUS",
@@ -10680,7 +12406,7 @@
     "error": "http://195.64.140.147:10075/75: Operation timed out\n"
   },
   {
-    "index": 541,
+    "index": 623,
     "name": "Русский бестселлер",
     "channel_id": "RusskiyBestseller.ru",
     "group": "Фільми | RUS",
@@ -10695,7 +12421,7 @@
     "error": "[tcp @ 0x7f8c0c680] Failed to resolve hostname 31148.rafail1982.uz: nodename nor servname provided, or not known\nhttp://31148.rafail1982.uz/Russkiy_Bestseller/index.m3u8: Input/output error\n"
   },
   {
-    "index": 542,
+    "index": 624,
     "name": "Русский бестселлер",
     "channel_id": "RusskiyBestseller.ru",
     "group": "Фільми | RUS",
@@ -10718,7 +12444,7 @@
     "error": ""
   },
   {
-    "index": 543,
+    "index": 625,
     "name": "Русский бестселлер",
     "channel_id": "RusskiyBestseller.ru",
     "group": "Фільми | RUS",
@@ -10733,7 +12459,7 @@
     "error": "[tcp @ 0x960c0c780] Connection to tcp://tv.ttk.mx:9043 failed: Connection refused\nhttp://tv.ttk.mx:9043: Connection refused\n"
   },
   {
-    "index": 544,
+    "index": 626,
     "name": "Русский бестселлер",
     "channel_id": "RusskiyBestseller.ru",
     "group": "Фільми | RUS",
@@ -10756,7 +12482,7 @@
     "error": ""
   },
   {
-    "index": 545,
+    "index": 627,
     "name": "Русский детектив",
     "channel_id": "RusskiyDetektiv.ru",
     "group": "Фільми | RUS",
@@ -10779,7 +12505,7 @@
     "error": ""
   },
   {
-    "index": 546,
+    "index": 628,
     "name": "Русский Детектив",
     "channel_id": "RusskiyDetektiv.ru",
     "group": "Фільми | RUS",
@@ -10794,7 +12520,7 @@
     "error": "http://195.64.140.147:10077/77: Operation timed out\n"
   },
   {
-    "index": 547,
+    "index": 629,
     "name": "Русский детектив",
     "channel_id": "RusskiyDetektiv.ru",
     "group": "Фільми | RUS",
@@ -10809,7 +12535,7 @@
     "error": "[tcp @ 0xb0ec6c000] Failed to resolve hostname 31148.rafail1982.uz: nodename nor servname provided, or not known\nhttp://31148.rafail1982.uz/Russkiy_Detektiv/index.m3u8: Input/output error\n"
   },
   {
-    "index": 548,
+    "index": 630,
     "name": "Русский детектив",
     "channel_id": "RusskiyDetektiv.ru",
     "group": "Фільми | RUS",
@@ -10824,7 +12550,7 @@
     "error": "[tcp @ 0x8b906c080] Connection to tcp://tv.ttk.mx:9051 failed: Connection refused\nhttp://tv.ttk.mx:9051: Connection refused\n"
   },
   {
-    "index": 549,
+    "index": 631,
     "name": "Русский детектив",
     "channel_id": "RusskiyDetektiv.ru",
     "group": "Фільми | RUS",
@@ -10847,7 +12573,7 @@
     "error": ""
   },
   {
-    "index": 550,
+    "index": 632,
     "name": "Русский иллюзион",
     "channel_id": "RusskiyIllusion.ru",
     "group": "Фільми | RUS",
@@ -10870,7 +12596,7 @@
     "error": ""
   },
   {
-    "index": 551,
+    "index": 633,
     "name": "Русский Иллюзион",
     "channel_id": "RusskiyIllusion.ru",
     "group": "Фільми | RUS",
@@ -10893,7 +12619,7 @@
     "error": ""
   },
   {
-    "index": 552,
+    "index": 634,
     "name": "Русский иллюзион",
     "channel_id": "RusskiyIllusion.ru",
     "group": "Фільми | RUS",
@@ -10916,7 +12642,7 @@
     "error": ""
   },
   {
-    "index": 553,
+    "index": 635,
     "name": "Русский Иллюзион",
     "channel_id": "RusskiyIllusion.ru",
     "group": "Фільми | RUS",
@@ -10931,7 +12657,7 @@
     "error": "Playback check exceeded time limit"
   },
   {
-    "index": 554,
+    "index": 636,
     "name": "Русский Иллюзион",
     "channel_id": "RusskiyIllusion.ru",
     "group": "Фільми | RUS",
@@ -10954,7 +12680,7 @@
     "error": ""
   },
   {
-    "index": 555,
+    "index": 637,
     "name": "Русский иллюзион",
     "channel_id": "RusskiyIllusion.ru",
     "group": "Фільми | RUS",
@@ -10969,7 +12695,7 @@
     "error": "[tcp @ 0x9ecc0c700] Connection to tcp://tv.ttk.mx:9027 failed: Connection refused\nhttp://tv.ttk.mx:9027: Connection refused\n"
   },
   {
-    "index": 556,
+    "index": 638,
     "name": "Русский роман",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -10995,7 +12721,7 @@
     "error": ""
   },
   {
-    "index": 557,
+    "index": 639,
     "name": "Русский роман",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11018,7 +12744,7 @@
     "error": ""
   },
   {
-    "index": 558,
+    "index": 640,
     "name": "Русский Роман",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11033,7 +12759,7 @@
     "error": "http://195.64.140.147:10076/9976: Operation timed out\n"
   },
   {
-    "index": 559,
+    "index": 641,
     "name": "Русский роман",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11048,7 +12774,7 @@
     "error": "[tcp @ 0x748c0c700] Connection to tcp://31.210.208.171:8080 failed: Operation timed out\nhttp://31.210.208.171:8080/russian_roman/index.m3u8?token=+W2MSER: Operation timed out\n"
   },
   {
-    "index": 560,
+    "index": 642,
     "name": "Русский роман",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11063,7 +12789,7 @@
     "error": "[tcp @ 0x721070000] Failed to resolve hostname 31148.rafail1982.uz: nodename nor servname provided, or not known\nhttp://31148.rafail1982.uz/Russkiy_Roman/index.m3u8: Input/output error\n"
   },
   {
-    "index": 561,
+    "index": 643,
     "name": "Русский роман",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11086,7 +12812,7 @@
     "error": ""
   },
   {
-    "index": 562,
+    "index": 644,
     "name": "Русский Роман",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11101,7 +12827,7 @@
     "error": "http://arbiter.bolshoe.tv/?path=streaming/rus_roman/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==: Server returned 404 Not Found\n"
   },
   {
-    "index": 563,
+    "index": 645,
     "name": "Русский Роман",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11127,7 +12853,7 @@
     "error": ""
   },
   {
-    "index": 564,
+    "index": 646,
     "name": "Русский роман",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11150,7 +12876,7 @@
     "error": ""
   },
   {
-    "index": 565,
+    "index": 647,
     "name": "Русский Роман (1080p)",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11170,7 +12896,7 @@
     }
   },
   {
-    "index": 566,
+    "index": 648,
     "name": "Русский роман (2)",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11185,7 +12911,7 @@
     "error": "[tcp @ 0xb72ca8000] Failed to resolve hostname 31148.rafail1982.uz: nodename nor servname provided, or not known\nhttp://31148.rafail1982.uz/Russkiy_Roman_HD/index.m3u8: Input/output error\n"
   },
   {
-    "index": 567,
+    "index": 649,
     "name": "Русский роман (3)",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11211,7 +12937,7 @@
     "error": ""
   },
   {
-    "index": 568,
+    "index": 650,
     "name": "Русский роман HD",
     "channel_id": "Russkiyroman.ru",
     "group": "Фільми | RUS",
@@ -11226,7 +12952,7 @@
     "error": "[tcp @ 0x95704c080] Connection to tcp://tv.ttk.mx:9085 failed: Connection refused\nhttp://tv.ttk.mx:9085: Connection refused\n"
   },
   {
-    "index": 569,
+    "index": 651,
     "name": "Сити Эдем КиноАзия [Not 24/7]",
     "channel_id": "CityEdenKinoAsia.ru",
     "group": "Фільми | RUS",
@@ -11249,7 +12975,7 @@
     "error": ""
   },
   {
-    "index": 570,
+    "index": 652,
     "name": "Сити Эдем КиноАрт [Not 24/7]",
     "channel_id": "CityEdenKinoArt.ru",
     "group": "Фільми | RUS",
@@ -11272,7 +12998,7 @@
     "error": ""
   },
   {
-    "index": 571,
+    "index": 653,
     "name": "Сити Эдем КиноДетектив [Not 24/7]",
     "channel_id": "CityEdenKinoDetektiv.ru",
     "group": "Фільми | RUS",
@@ -11295,7 +13021,7 @@
     "error": ""
   },
   {
-    "index": 572,
+    "index": 654,
     "name": "Сити Эдем КиноДрама [Not 24/7]",
     "channel_id": "CityEdenKinoDrama.ru",
     "group": "Фільми | RUS",
@@ -11318,7 +13044,7 @@
     "error": ""
   },
   {
-    "index": 573,
+    "index": 655,
     "name": "Сити Эдем КиноКлассика [Not 24/7]",
     "channel_id": "CityEdenKinoKlassika.ru",
     "group": "Фільми | RUS",
@@ -11341,7 +13067,7 @@
     "error": ""
   },
   {
-    "index": 574,
+    "index": 656,
     "name": "Сити Эдем КиноКомедия [Not 24/7]",
     "channel_id": "CityEdenKinoKomediya.ru",
     "group": "Фільми | RUS",
@@ -11364,7 +13090,7 @@
     "error": ""
   },
   {
-    "index": 575,
+    "index": 657,
     "name": "Сити Эдем КиноМистика [Not 24/7]",
     "channel_id": "CityEdenKinoMistika.ru",
     "group": "Фільми | RUS",
@@ -11387,7 +13113,7 @@
     "error": ""
   },
   {
-    "index": 576,
+    "index": 658,
     "name": "Сити Эдем КиноСемья [Not 24/7]",
     "channel_id": "CityEdenKinoSemya.ru",
     "group": "Фільми | RUS",
@@ -11402,7 +13128,7 @@
     "error": "https://v2.catcast.tv/content/38128/index.m3u8: Server returned 5XX Server Error reply\n"
   },
   {
-    "index": 577,
+    "index": 659,
     "name": "Сити Эдем КиноФантастика [Not 24/7]",
     "channel_id": "CityEdenKinoFantastika.ru",
     "group": "Фільми | RUS",
@@ -11425,7 +13151,7 @@
     "error": ""
   },
   {
-    "index": 578,
+    "index": 660,
     "name": "Сити Эдем КиноЭкшен [Not 24/7]",
     "channel_id": "CityEdenKinoAction.ru",
     "group": "Фільми | RUS",
@@ -11448,7 +13174,7 @@
     "error": ""
   },
   {
-    "index": 579,
+    "index": 661,
     "name": "Смотрим 100% Классика",
     "channel_id": "Smotrim100Klassika.ru",
     "group": "Фільми | RUS",
@@ -11471,7 +13197,7 @@
     "error": "[tcp @ 0x9eb054080] Connection to tcp://stream.smotrim.ru:443 failed: Operation timed out\n[in#0 @ 0x9eac5c000] Error opening input: Operation timed out\nError opening input file https://stream.smotrim.ru/fasttv_hls/fasttv03/playlist_3.m3u8.\nError opening input files: Operation timed out\n"
   },
   {
-    "index": 580,
+    "index": 662,
     "name": "Советское кино",
     "channel_id": "SovetskoeKino.ru",
     "group": "Фільми | RUS",
@@ -11494,7 +13220,7 @@
     "error": ""
   },
   {
-    "index": 581,
+    "index": 663,
     "name": "Советское кино",
     "channel_id": "SovetskoeKino.ru",
     "group": "Фільми | RUS",
@@ -11517,7 +13243,7 @@
     "error": ""
   },
   {
-    "index": 582,
+    "index": 664,
     "name": "Советское кино",
     "channel_id": "SovetskoeKino.ru",
     "group": "Фільми | RUS",
@@ -11532,7 +13258,22 @@
     "error": "[tcp @ 0x74ec90080] Connection to tcp://mhd116.iptv2022.com:443 failed: Operation timed out\nhttps://mhd116.iptv2022.com/x/s609g3isAHWTy4GQPqMInw,1788763889/streaming/sovietmovs/324/1/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 583,
+    "index": 665,
+    "name": "СтримКино",
+    "channel_id": "OnlineCinema.e28c0f9932e3",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/channel30001568_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 1.1,
+    "checked_at": "2026-09-06T07:23:50.078820+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/channel30001568_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 666,
     "name": "ТВ-21+",
     "channel_id": "TV21.ru",
     "group": "Фільми | RUS",
@@ -11555,7 +13296,7 @@
     "error": ""
   },
   {
-    "index": 584,
+    "index": 667,
     "name": "Феникс плюс Кино (576p)",
     "channel_id": "FeniksplusKino.ru",
     "group": "Фільми | RUS",
@@ -11575,7 +13316,7 @@
     }
   },
   {
-    "index": 585,
+    "index": 668,
     "name": "Феникс+ Кино",
     "channel_id": "FeniksplusKino.ru",
     "group": "Фільми | RUS",
@@ -11590,7 +13331,7 @@
     "error": "[tcp @ 0xaa5050000] Connection to tcp://158.101.222.193:88 failed: Connection refused\nhttp://158.101.222.193:88/georgia_play.php?id=fenikspluskino: Connection refused\n"
   },
   {
-    "index": 586,
+    "index": 669,
     "name": "Феникс+ Кино",
     "channel_id": "FeniksplusKino.ru",
     "group": "Фільми | RUS",
@@ -11605,7 +13346,7 @@
     "error": "[tcp @ 0xa50cb0080] Connection to tcp://mhd116.iptv2022.com:443 failed: Operation timed out\nhttps://mhd116.iptv2022.com/x/tcy7s2r-y6tUKzwrnL45IA,1788763889/streaming/fenixkino/324/1/index.m3u8: Operation timed out\n"
   },
   {
-    "index": 587,
+    "index": 670,
     "name": "Феникс+кино",
     "channel_id": "FeniksplusKino.ru",
     "group": "Фільми | RUS",
@@ -11628,7 +13369,68 @@
     "error": ""
   },
   {
-    "index": 588,
+    "index": 671,
+    "name": "Фильмоскоп",
+    "channel_id": "OnlineCinema.4066db528697",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/filmscope_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 14.1,
+    "checked_at": "2026-09-06T07:24:03.435532+00:00",
+    "error": ""
+  },
+  {
+    "index": 672,
+    "name": "Фильмы сериалы",
+    "channel_id": "OnlineCinema.b89730fb54ca",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/id582512126_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 0.9,
+    "checked_at": "2026-09-06T07:23:50.594404+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/id582512126_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 673,
+    "name": "ФИЛЬМЫ&СЕРИАЛЫ",
+    "channel_id": "OnlineCinema.b89730fb54ca",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/films_serials_24_7_live_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 13.2,
+    "checked_at": "2026-09-06T07:24:02.960080+00:00",
+    "error": ""
+  },
+  {
+    "index": 674,
     "name": "Эквилибриум",
     "channel_id": "OnlineCinema.deca7823c507",
     "group": "Фільми | RUS",
@@ -11643,7 +13445,7 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/equilibrium_live: Invalid data found when processing input\n"
   },
   {
-    "index": 589,
+    "index": 675,
     "name": "Эквилибриум",
     "channel_id": "OnlineCinema.deca7823c507",
     "group": "Фільми | RUS",
@@ -11658,7 +13460,45 @@
     "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttps://kinowalk.hopto.org/equilibrium_live: Invalid data found when processing input\n"
   },
   {
-    "index": 590,
+    "index": 676,
+    "name": "Эра VHS",
+    "channel_id": "OnlineCinema.6ec3dd850a77",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/vhs90s_live",
+    "status": "unstable",
+    "reason": "HLS playlist responds, but video could not be read",
+    "video": null,
+    "audio": null,
+    "http_status": 200,
+    "seconds": 1.5,
+    "checked_at": "2026-09-06T07:23:51.530128+00:00",
+    "error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\nhttp://kinowalk.hopto.org/vhs90s_live: Invalid data found when processing input\n"
+  },
+  {
+    "index": 677,
+    "name": "𝕂𝔸ℂℂ𝔼𝕋𝔸",
+    "channel_id": "OnlineCinema.33784332cfeb",
+    "group": "Фільми | RUS",
+    "url": "http://kinowalk.hopto.org/kasseta_live",
+    "status": "working",
+    "reason": "Video decoded successfully; audio stream present",
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    },
+    "http_status": null,
+    "seconds": 13.3,
+    "checked_at": "2026-09-06T07:24:03.382522+00:00",
+    "error": ""
+  },
+  {
+    "index": 678,
     "name": "Film.Ua Drama",
     "channel_id": "FilmUADrama.ua",
     "group": "Фільми | RUS/UKR",
@@ -11673,7 +13513,7 @@
     "error": "http://hls.stb.md/FILMUA_DRAMA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I: Server returned 403 Forbidden (access denied)\n"
   },
   {
-    "index": 591,
+    "index": 679,
     "name": "FilmUADrama",
     "channel_id": "FilmUADrama.ua",
     "group": "Фільми | RUS/UKR",
@@ -11696,7 +13536,7 @@
     "error": ""
   },
   {
-    "index": 592,
+    "index": 680,
     "name": "FilmUADrama (1080p)",
     "channel_id": "FilmUADrama.ua",
     "group": "Фільми | RUS/UKR",
@@ -11719,7 +13559,7 @@
     "error": ""
   },
   {
-    "index": 593,
+    "index": 681,
     "name": "Nashe Lubimoe Kino Ukraine (1080p)",
     "channel_id": "NasheLubimoeKinoUkraine.ua",
     "group": "Фільми | RUS/UKR",
@@ -11742,7 +13582,7 @@
     "error": ""
   },
   {
-    "index": 594,
+    "index": 682,
     "name": "4ever Cinema (1080p)",
     "channel_id": "4everCinema.ua",
     "group": "Фільми | UKR",
@@ -11765,7 +13605,7 @@
     "error": ""
   },
   {
-    "index": 595,
+    "index": 683,
     "name": "AMC Europe",
     "channel_id": "AMCEurope.uk",
     "group": "Фільми | UKR",
@@ -11780,7 +13620,7 @@
     "error": "Playback check exceeded time limit"
   },
   {
-    "index": 596,
+    "index": 684,
     "name": "Bolt (1080p)",
     "channel_id": "Bolt.ua",
     "group": "Фільми | UKR",
@@ -11803,7 +13643,7 @@
     "error": ""
   },
   {
-    "index": 597,
+    "index": 685,
     "name": "Cine+",
     "channel_id": "CinePlus.ua",
     "group": "Фільми | UKR",
@@ -11826,7 +13666,7 @@
     "error": ""
   },
   {
-    "index": 598,
+    "index": 686,
     "name": "Cine+ Hit",
     "channel_id": "CinePlusHit.ua",
     "group": "Фільми | UKR",
@@ -11849,7 +13689,7 @@
     "error": ""
   },
   {
-    "index": 599,
+    "index": 687,
     "name": "Cine+ Legend",
     "channel_id": "CinePlusLegend.ua",
     "group": "Фільми | UKR",
@@ -11872,7 +13712,7 @@
     "error": ""
   },
   {
-    "index": 600,
+    "index": 688,
     "name": "Enter-Film (1080p)",
     "channel_id": "EnterFilm.ua",
     "group": "Фільми | UKR",
@@ -11895,7 +13735,7 @@
     "error": ""
   },
   {
-    "index": 601,
+    "index": 689,
     "name": "FilmUA Live",
     "channel_id": "FilmUALive.ua",
     "group": "Фільми | UKR",
@@ -11918,7 +13758,7 @@
     "error": ""
   },
   {
-    "index": 602,
+    "index": 690,
     "name": "Kinoliving (1080p)",
     "channel_id": "Kinoliving.ua",
     "group": "Фільми | UKR",
@@ -11941,7 +13781,7 @@
     "error": ""
   },
   {
-    "index": 603,
+    "index": 691,
     "name": "Kinowood (1080p)",
     "channel_id": "Kinowood.ua",
     "group": "Фільми | UKR",

@@ -29,7 +29,9 @@ SOURCES = [
 ] + [('naggdd/iptv', 'https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u', 'RU'),
     ('smolnp/IPTVru', 'https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVru.m3u', 'RU'),
     ('Dimonovich/TV', 'https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV', None),
-    ('substanc1/iptv-ukraine', 'https://raw.githubusercontent.com/substanc1/iptv-ukraine/main/streams/ua.m3u', None)]
+    ('substanc1/iptv-ukraine', 'https://raw.githubusercontent.com/substanc1/iptv-ukraine/main/streams/ua.m3u', None),
+    ('Spirt007/Tvru', 'https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u', None),
+    ('egno/egno.github.io', 'https://raw.githubusercontent.com/egno/egno.github.io/master/kino.m3u', None)]
 # Kids alone is too broad: retain cartoon-oriented channels, not every children's channel.
 CARTOON_IDS = set('''PLUSPLUS.ua PixelTV.ua MalyatkoTV.ua NikiJunior.ua NikiKids.ua CinePlusKids.ua
 KSTVNinjaTurtles.ua KSTVPawPatrol.ua KSTVSpongeBob.ua
@@ -112,6 +114,11 @@ def public_stream(url):
         return False
 
 
+def cinema_stream_key(url):
+    parts = urlsplit(url)
+    return parts.netloc.lower() + parts.path if parts.hostname == 'kinowalk.hopto.org' else url
+
+
 def main():
     urls = ['https://iptv-org.github.io/api/channels.json', 'https://iptv-org.github.io/api/feeds.json'] + [
         f'https://iptv-org.github.io/iptv/languages/{lang}.m3u' for lang in ('ukr','rus')
@@ -141,6 +148,7 @@ def main():
         for name in [c['name']] + c.get('alt_names', []):
             names[normalize(name)].add(c['id'])
     extra_channels = json.loads(EXTRA_PATH.read_text()) if EXTRA_PATH.exists() else {}
+    extra_by_url = {cinema_stream_key(u):v for v in extra_channels.values() for u in v.get('urls', [])}
     entries, seen, audit = [], set(), []
     counts, contributions = Counter(), Counter()
     for repo, source, country_hint in SOURCES:
@@ -152,12 +160,15 @@ def main():
                 _, title = split_extinf(line)
             except ValueError:
                 continue
+            extra = extra_by_url.get(cinema_stream_key(url))
             cid = attr(line,'tvg-id').split('@')[0]
             if cid not in database:
                 possible = names[normalize(title)]
                 if country_hint:
                     possible = {i for i in possible if database[i]['country'] == country_hint}
                 cid = next(iter(possible)) if len(possible) == 1 else ''
+            if extra:
+                cid = ''  # Exact reviewed cinema stream overrides a colliding broadcast-channel name.
             channel = database.get(cid, {})
             if channel.get('is_nsfw'):
                 continue
@@ -173,7 +184,7 @@ def main():
                 else:
                     langs = url_lang[url] or id_lang[cid] or (catalog_languages[cid] & {'ukr', 'rus'})
                     evidence = 'language playlist URL' if url_lang[url] else ('language playlist channel ID' if id_lang[cid] else 'channel feed language metadata')
-            extra = extra_channels.get(normalize(title)) if repo in ('naggdd/iptv','Dimonovich/TV') else None
+            extra = extra or (extra_channels.get(normalize(title)) if repo in ('naggdd/iptv','Dimonovich/TV','Spirt007/Tvru','egno/egno.github.io') else None)
             if not langs and not raw_languages and not cid and extra:
                 langs = set(extra['languages'])
                 evidence = extra['evidence'] + ' (inferred; audio language not verified)'

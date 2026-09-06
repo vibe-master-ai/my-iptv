@@ -5,7 +5,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/kinowalk_live",
+      "https://kinowalk.hopto.org/kinowalk_live"
+    ]
   },
   "legion": {
     "name": "Legion",
@@ -13,7 +17,10 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/legion-tv_live"
+    ]
   },
   "video_prokat": {
     "name": "Video_Prokat",
@@ -21,7 +28,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/video_prokat_live",
+      "http://kinowalk.hopto.org/video_prokat_live"
+    ]
   },
   "movietoper": {
     "name": "MovieToper",
@@ -29,7 +40,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/movietoper_live",
+      "http://kinowalk.hopto.org/movietoper_live"
+    ]
   },
   "timetohorror": {
     "name": "TimeToHorror",
@@ -37,7 +52,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/timetohorror_live",
+      "http://kinowalk.hopto.org/timetohorror_live"
+    ]
   },
   "timetomovie": {
     "name": "TimeToMovie",
@@ -45,7 +64,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/timetomovie_live",
+      "http://kinowalk.hopto.org/timetomovie_live"
+    ]
   },
   "blockbusterstime": {
     "name": "Blockbusters Time",
@@ -53,7 +76,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/blockbusterstime_live",
+      "http://kinowalk.hopto.org/blockbusterstime_live"
+    ]
   },
   "kinolampa": {
     "name": "Kinolampa",
@@ -61,7 +88,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/kinolampa_live",
+      "http://kinowalk.hopto.org/kinolampa_live"
+    ]
   },
   "videoarsenal": {
     "name": "VideoArsenal",
@@ -69,7 +100,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/videoarsenal_live",
+      "http://kinowalk.hopto.org/videoarsenal_live"
+    ]
   },
   "kinojam": {
     "name": "Kino Jam",
@@ -77,7 +112,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/kinojam_live",
+      "http://kinowalk.hopto.org/kinojam_live"
+    ]
   },
   "scripach": {
     "name": "Scripach",
@@ -85,7 +124,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/scripachtv_live",
+      "https://kinowalk.hopto.org/scripachtv_live"
+    ]
   },
   "selecaotv": {
     "name": "SeleCaoTV",
@@ -93,7 +136,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/selecaotv_live",
+      "https://kinowalk.hopto.org/selecaotv_live"
+    ]
   },
   "selecaotv1": {
     "name": "SeleCaoTV1",
@@ -101,7 +148,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/selecaotv1_live",
+      "https://kinowalk.hopto.org/selecaotv1_live"
+    ]
   },
   "serialtv": {
     "name": "SerialTV",
@@ -109,7 +160,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/serialtv_live",
+      "http://kinowalk.hopto.org/serialtv_live"
+    ]
   },
   "serial4u": {
     "name": "Serial4u",
@@ -117,7 +172,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/serial4u_live",
+      "http://kinowalk.hopto.org/serial4u_live"
+    ]
   },
   "киноужас": {
     "name": "Киноужас",
@@ -125,7 +184,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/kinouzhas_live",
+      "http://kinowalk.hopto.org/kinouzhas_live"
+    ]
   },
   "коновал": {
     "name": "Коновал",
@@ -133,7 +196,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/www.konoval_tv_live",
+      "https://kinowalk.hopto.org/www.konoval_tv_live"
+    ]
   },
   "alexfilms": {
     "name": "Alex.Films",
@@ -141,7 +208,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/alex.films_live",
+      "http://kinowalk.hopto.org/alex.films_live"
+    ]
   },
   "jtxonline": {
     "name": "JTX Online",
@@ -149,7 +220,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/jtxonline_live",
+      "http://kinowalk.hopto.org/jtxonline_live"
+    ]
   },
   "первыйряд": {
     "name": "Первый ряд",
@@ -157,7 +232,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/perviryad_live",
+      "http://kinowalk.hopto.org/perviryad_live"
+    ]
   },
   "baragozz": {
     "name": "Baragozz",
@@ -165,7 +244,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/baragozz_tv_live",
+      "https://kinowalk.hopto.org/baragozz_tv_live"
+    ]
   },
   "кассета": {
     "name": "Кассета",
@@ -173,7 +256,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/kasseta_live",
+      "https://kinowalk.hopto.org/kasseta_live"
+    ]
   },
   "мыиз90х": {
     "name": "Мы из 90-х",
@@ -181,7 +268,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/miiz90x_live",
+      "http://kinowalk.hopto.org/miiz90x_live"
+    ]
   },
   "aisman": {
     "name": "Aisman",
@@ -189,7 +280,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/aisman_live",
+      "http://kinowalk.hopto.org/aisman_live"
+    ]
   },
   "vhsforever": {
     "name": "VHS Forever",
@@ -197,7 +292,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/vhs-forever_live",
+      "http://kinowalk.hopto.org/vhs-forever_live"
+    ]
   },
   "lampotv": {
     "name": "LampoTV",
@@ -205,7 +304,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/lampotv_live",
+      "http://kinowalk.hopto.org/lampotv_live"
+    ]
   },
   "videochannel": {
     "name": "Video Channel",
@@ -213,15 +316,23 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/video_channel_live",
+      "http://kinowalk.hopto.org/video_channel_live"
+    ]
   },
   "swat2k": {
-    "name": "swat2k",
+    "name": "Serial Productions",
     "languages": [
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/swat2k_live",
+      "https://kinowalk.hopto.org/swat2k_live"
+    ]
   },
   "wfliq": {
     "name": "Wfliq",
@@ -229,7 +340,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/wfliq_live",
+      "http://kinowalk.hopto.org/wfliq_live"
+    ]
   },
   "snoochiesboochies": {
     "name": "Snoochies Boochies",
@@ -237,7 +352,10 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/sinema_live"
+    ]
   },
   "комедии": {
     "name": "Комедии",
@@ -245,7 +363,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/cmexye4ku_live",
+      "https://kinowalk.hopto.org/cmexye4ku_live"
+    ]
   },
   "эквилибриум": {
     "name": "Эквилибриум",
@@ -253,7 +375,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/equilibrium_live",
+      "http://kinowalk.hopto.org/equilibrium_live"
+    ]
   },
   "chowamigo": {
     "name": "ChowAmigo",
@@ -261,7 +387,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/chowamigo_live",
+      "http://kinowalk.hopto.org/chowamigo_live"
+    ]
   },
   "topmoment": {
     "name": "TopMoment",
@@ -269,7 +399,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/topmomentlive_live",
+      "http://kinowalk.hopto.org/topmomentlive_live"
+    ]
   },
   "назадвссср": {
     "name": "Назад в СССР",
@@ -277,7 +411,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/backtotheussr_live",
+      "http://kinowalk.hopto.org/backtotheussr_live"
+    ]
   },
   "videovk": {
     "name": "VideoVk",
@@ -285,7 +423,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/videovk_live",
+      "http://kinowalk.hopto.org/videovk_live"
+    ]
   },
   "inmuna": {
     "name": "InMuNa",
@@ -293,7 +435,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/inmuna_live",
+      "https://kinowalk.hopto.org/inmuna_live"
+    ]
   },
   "vhsкино": {
     "name": "VHS кино",
@@ -301,7 +447,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/and7610_live",
+      "http://kinowalk.hopto.org/and7610_live"
+    ]
   },
   "cinematime": {
     "name": "Cinema Time",
@@ -309,7 +459,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/cinematime_live",
+      "http://kinowalk.hopto.org/cinematime_live"
+    ]
   },
   "igrocomp": {
     "name": "IGROComp",
@@ -317,7 +471,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/igrocomp_live",
+      "https://kinowalk.hopto.org/igrocomp_live"
+    ]
   },
   "kycman": {
     "name": "Kycman",
@@ -325,7 +483,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/kycman_live",
+      "http://kinowalk.hopto.org/kycman_live"
+    ]
   },
   "djzour": {
     "name": "dj Zour",
@@ -333,7 +495,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/zsmedia_live",
+      "http://kinowalk.hopto.org/zsmedia_live"
+    ]
   },
   "кинононстоп": {
     "name": "КиноНонСтоп",
@@ -341,7 +507,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/nonestopmovie_live",
+      "http://kinowalk.hopto.org/nonestopmovie_live"
+    ]
   },
   "priest_kod": {
     "name": "Priest_kod",
@@ -349,7 +519,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/priest_kod_live",
+      "https://kinowalk.hopto.org/priest_kod_live"
+    ]
   },
   "амбергейт": {
     "name": "Амбергейт",
@@ -357,7 +531,10 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/ambergate_live"
+    ]
   },
   "кинопроектор": {
     "name": "Кинопроектор",
@@ -365,7 +542,10 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/kinokjkh_live"
+    ]
   },
   "tоny": {
     "name": "Tоny",
@@ -373,7 +553,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/ordinary_people_live",
+      "http://kinowalk.hopto.org/ordinary_people_live"
+    ]
   },
   "kinofon": {
     "name": "Kinofon",
@@ -381,7 +565,11 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/kinofon_live",
+      "http://kinowalk.hopto.org/kinofon_live"
+    ]
   },
   "kinomix": {
     "name": "KinoMix",
@@ -389,6 +577,685 @@
       "rus"
     ],
     "category": "movies",
-    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group"
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/yurich_kinomix_live",
+      "https://kinowalk.hopto.org/yurich_kinomix_live"
+    ]
+  },
+  "vktvcinema": {
+    "name": "VKTV HD CINEMA",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/vktv_hd_cinema_live"
+    ]
+  },
+  "kinowalkprime": {
+    "name": "Kinowalk prime",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/kinowalk_prime_live"
+    ]
+  },
+  "maksimfilms": {
+    "name": "Maksim Films",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/mmaxim0vich_live"
+    ]
+  },
+  "romeovideo": {
+    "name": "ROMEO Video",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/romantic_live"
+    ]
+  },
+  "видеокассетаvhs": {
+    "name": "Видеокассета VHS",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/vhs90e_live"
+    ]
+  },
+  "фильмысериалы": {
+    "name": "Фильмы сериалы",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/id582512126_live",
+      "http://kinowalk.hopto.org/films_serials_24_7_live_live"
+    ]
+  },
+  "serialproductions": {
+    "name": "Serial Productions",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/swat2k_live",
+      "https://kinowalk.hopto.org/swat2k_live"
+    ]
+  },
+  "videoserial": {
+    "name": "Video Serial",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/video_serial_live"
+    ]
+  },
+  "zubrilomfilm": {
+    "name": "ZubrilomFilm",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/zubrilomfilm_live"
+    ]
+  },
+  "эраvhs": {
+    "name": "Эра VHS",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/vhs90s_live"
+    ]
+  },
+  "vhspower": {
+    "name": "VHS Power",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/noir_live"
+    ]
+  },
+  "кладоваяфильмов": {
+    "name": "Кладовая Фильмов",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/skladfilm_live"
+    ]
+  },
+  "kinofilm": {
+    "name": "KinoFilm",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/poe2proxodim_live"
+    ]
+  },
+  "kinopro": {
+    "name": "KinoPro",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/kinopro_live"
+    ]
+  },
+  "кинотеатрбезбилетов": {
+    "name": "Кинотеатр без билетов",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/x-x-vanes-x-x_live"
+    ]
+  },
+  "фильмоскоп": {
+    "name": "Фильмоскоп",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/filmscope_live"
+    ]
+  },
+  "realstatefilms": {
+    "name": "Real State Films",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/rsf_live"
+    ]
+  },
+  "filmsserialseveryday": {
+    "name": "FilmsSerialsEveryDay",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/filmsserialseveryday_live"
+    ]
+  },
+  "кинотека": {
+    "name": "Кинотека",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "https://kinowalk.hopto.org/kinoteka_full_hd_top_live"
+    ]
+  },
+  "scorpioкино": {
+    "name": "SCORPIO КИНО",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/scorpio05_live"
+    ]
+  },
+  "dvdonline": {
+    "name": "DVD online",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/kinostream_rezerv_live"
+    ]
+  },
+  "bossfilm": {
+    "name": "BOSSFILM",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/bossfilm_live"
+    ]
+  },
+  "kinoshnik": {
+    "name": "Kinoshnik",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/kinoshnik_8_live"
+    ]
+  },
+  "kinofans": {
+    "name": "KinoFans",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/kinofans_live"
+    ]
+  },
+  "киносериалы": {
+    "name": "КиноСериалы",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/zagar_live"
+    ]
+  },
+  "стримкино": {
+    "name": "СтримКино",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/channel30001568_live"
+    ]
+  },
+  "k1n0man1a": {
+    "name": "K1n0man1a",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/kinomania_stream_live"
+    ]
+  },
+  "паранормальныйархив": {
+    "name": "Паранормальный архив",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/paranormal404_live"
+    ]
+  },
+  "smotrimvmeste": {
+    "name": "SmotrimVmeste",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context",
+    "urls": [
+      "http://kinowalk.hopto.org/frxnkl1n_live"
+    ]
+  },
+  "кинозалы1": {
+    "name": "Кинозалы 1",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba82/index.m3u8"
+    ]
+  },
+  "кинозалы2": {
+    "name": "Кинозалы 2",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-0/index.m3u8"
+    ]
+  },
+  "кинозалы3": {
+    "name": "Кинозалы 3",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-a/index.m3u8"
+    ]
+  },
+  "кинозалы4": {
+    "name": "Кинозалы 4",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-b/index.m3u8"
+    ]
+  },
+  "кинозалы5": {
+    "name": "Кинозалы 5",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-c/index.m3u8"
+    ]
+  },
+  "кинозалы6": {
+    "name": "Кинозалы 6",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-d/index.m3u8"
+    ]
+  },
+  "кинозалы7": {
+    "name": "Кинозалы 7",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-e/index.m3u8"
+    ]
+  },
+  "кинозалы8": {
+    "name": "Кинозалы 8",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-g/index.m3u8"
+    ]
+  },
+  "кинозалы9": {
+    "name": "Кинозалы 9",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-i/index.m3u8"
+    ]
+  },
+  "кинозалы10": {
+    "name": "Кинозалы 10",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-p/index.m3u8"
+    ]
+  },
+  "кинозалы11": {
+    "name": "Кинозалы 11",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-v/index.m3u8"
+    ]
+  },
+  "кинозалы12": {
+    "name": "Кинозалы 12",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rfilrms-z/index.m3u8"
+    ]
+  },
+  "кинозалы13": {
+    "name": "Кинозалы 13",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba64/index.m3u8"
+    ]
+  },
+  "кинозалы14": {
+    "name": "Кинозалы 14",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba65/index.m3u8"
+    ]
+  },
+  "retrovisionmovies": {
+    "name": "Retrovision Movies",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rvisionmovies/index.m3u8"
+    ]
+  },
+  "retrovisionclassic": {
+    "name": "Retrovision Classic",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rvisionclassic/index.m3u8"
+    ]
+  },
+  "retrovisionкинопанорама": {
+    "name": "Retrovision Кинопанорама",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list",
+    "urls": [
+      "https://lbgo.bozztv.com/07/ushba-rvisionkinopanorama/index.m3u8"
+    ]
+  },
+  "legiontv": {
+    "name": "Legion",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "https://kinowalk.hopto.org/legion-tv_live"
+    ]
+  },
+  "kinowalk_tv": {
+    "name": "Kinowalk",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/kinowalk_live",
+      "https://kinowalk.hopto.org/kinowalk_live"
+    ]
+  },
+  "scripachtv": {
+    "name": "Scripach",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/scripachtv_live",
+      "https://kinowalk.hopto.org/scripachtv_live"
+    ]
+  },
+  "selecaotv2": {
+    "name": "SeleCaoTV1",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/selecaotv1_live",
+      "https://kinowalk.hopto.org/selecaotv1_live"
+    ]
+  },
+  "kinomixюрич": {
+    "name": "KinoMix",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/yurich_kinomix_live",
+      "https://kinowalk.hopto.org/yurich_kinomix_live"
+    ]
+  },
+  "комедии247": {
+    "name": "Комедии",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/cmexye4ku_live",
+      "https://kinowalk.hopto.org/cmexye4ku_live"
+    ]
+  },
+  "baragozz_tv": {
+    "name": "Baragozz",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/baragozz_tv_live",
+      "https://kinowalk.hopto.org/baragozz_tv_live"
+    ]
+  },
+  "𝕂𝔸ℂℂ𝔼𝕋𝔸": {
+    "name": "Кассета",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/kasseta_live",
+      "https://kinowalk.hopto.org/kasseta_live"
+    ]
+  },
+  "igrocompfilms": {
+    "name": "IGROComp",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/igrocomp_live",
+      "https://kinowalk.hopto.org/igrocomp_live"
+    ]
+  },
+  "коновалтв": {
+    "name": "Коновал",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/www.konoval_tv_live",
+      "https://kinowalk.hopto.org/www.konoval_tv_live"
+    ]
+  },
+  "priestkod": {
+    "name": "Priest_kod",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/priest_kod_live",
+      "https://kinowalk.hopto.org/priest_kod_live"
+    ]
+  },
+  "inmunalive": {
+    "name": "InMuNa",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/inmuna_live",
+      "https://kinowalk.hopto.org/inmuna_live"
+    ]
+  },
+  "selecaotvфильмы": {
+    "name": "SeleCaoTV",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/selecaotv_live",
+      "https://kinowalk.hopto.org/selecaotv_live"
+    ]
+  },
+  "selecaotvсериалы": {
+    "name": "SeleCaoTV1",
+    "languages": [
+      "rus"
+    ],
+    "category": "movies",
+    "evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group",
+    "urls": [
+      "http://kinowalk.hopto.org/selecaotv1_live",
+      "https://kinowalk.hopto.org/selecaotv1_live"
+    ]
   }
 }

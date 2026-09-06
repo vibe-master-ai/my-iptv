@@ -19,9 +19,14 @@ working=[r for r in results if r['status']=='working']
 output=['#EXTM3U']
 for r in working:
  meta,url=entries[r['index']];assert url==r['url'];output.extend(meta+[url])
+cinema_output=['#EXTM3U']
+for r in working:
+    if r['channel_id'].startswith('OnlineCinema.'):
+        meta,url=entries[r['index']];cinema_output.extend(meta+[url])
+(root/'cinemas-working.m3u').write_text('\n'.join(cinema_output)+'\n')
 (root/'working.m3u').write_text('\n'.join(output)+'\n')
 counts=Counter(r['status'] for r in results)
-summary={'checked_from':min(r['checked_at'] for r in results),'checked_at':max(r['checked_at'] for r in results),'total_streams':len(results),'stream_results':dict(counts),'working_languages':dict(Counter(r['group'].split(' | ')[-1] for r in working)),'catalog_channels':sum(not k.startswith('OnlineCinema.') for k in channels),'online_cinemas':sum(k.startswith('OnlineCinema.') for k in channels),'total_channels':len(channels),'channels_with_working_stream':sum(any(r['status']=='working' for r in rs) for rs in channels.values())}
+summary={'checked_from':min(r['checked_at'] for r in results),'checked_at':max(r['checked_at'] for r in results),'total_streams':len(results),'stream_results':dict(counts),'working_languages':dict(Counter(r['group'].split(' | ')[-1] for r in working)),'catalog_channels':sum(not k.startswith('OnlineCinema.') for k in channels),'online_cinemas':sum(k.startswith('OnlineCinema.') for k in channels),'online_cinemas_working':sum(k.startswith('OnlineCinema.') and any(r['status']=='working' for r in rs) for k,rs in channels.items()),'total_channels':len(channels),'channels_with_working_stream':sum(any(r['status']=='working' for r in rs) for rs in channels.values())}
 (root/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
 def esc(s):return str(s).replace('|','\\|').replace('\n',' ')
 lines=['# Перевірка IPTV: фільми та мультфільми UKR/RUS','',f"Завершено: {summary['checked_at']} (UTC).",'',
@@ -36,6 +41,12 @@ for cid,rs in sorted(channels.items(),key=lambda x:x[0].lower()):
  n=sum(r['status']=='working' for r in rs)
  label='✅ Є робочий потік' if n else '; '.join(labels[s] for s in sorted({r['status'] for r in rs}))
  lines.append(f'| {esc(cid)} | {n}/{len(rs)} | {label} |')
+lines+=['','## Онлайн-кінозали','', '[Лише робочі кінозали — знімок перевірки](cinemas-working.m3u). Мови визначено за описом джерел; звук не розпізнавався.','', '| Кінозал | Робочих / усіх потоків |','|---|---:|']
+extra=json.loads((root.parent/'extra_channels.json').read_text())
+canonical={'OnlineCinema.'+m.hashlib.sha256(m.normalize(v['name']).encode()).hexdigest()[:12]:v['name'] for v in extra.values()}
+for cid,rs in sorted(channels.items(),key=lambda x:canonical.get(x[0],x[0]).casefold()):
+    if cid.startswith('OnlineCinema.'):
+        lines.append(f"| {esc(canonical.get(cid,rs[0]['name']))} | {sum(r['status']=='working' for r in rs)}/{len(rs)} |")
 lines+=['','## Кожне посилання','', '| № | Назва | Результат | Деталі | URL |','|---:|---|---|---|---|']
 for r in results:
  v=r.get('video') or {};quality=f"{v.get('codec_name','')} {v.get('width','')}×{v.get('height','')}" if v else ''

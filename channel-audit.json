@@ -2731,14 +2731,14 @@
   },
   {
     "name": "Киноужас",
-    "channel_id": "Kinouzhas.ru",
+    "channel_id": "OnlineCinema.7655e0ed8326",
     "languages": [
       "rus"
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
     "url": "https://kinowalk.hopto.org/kinouzhas_live",
-    "language_evidence": "language playlist channel ID"
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
     "name": "Коновал",
@@ -2863,14 +2863,14 @@
   },
   {
     "name": "swat2k",
-    "channel_id": "OnlineCinema.d2fea7ec86cf",
+    "channel_id": "OnlineCinema.e8a0006f9436",
     "languages": [
       "rus"
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
     "url": "https://kinowalk.hopto.org/swat2k_live",
-    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
   },
   {
     "name": "Wfliq",
@@ -3094,14 +3094,14 @@
   },
   {
     "name": "KinoMix",
-    "channel_id": "Kinomix.ru",
+    "channel_id": "OnlineCinema.c4ef82da72b2",
     "languages": [
       "rus"
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
     "url": "https://kinowalk.hopto.org/yurich_kinomix_live",
-    "language_evidence": "language playlist channel ID"
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
     "name": "Кино 1 International",
@@ -3124,6 +3124,193 @@
     "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
     "url": "https://kino-1.catcast.tv/content/40427/index.m3u8",
     "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Retrovision Кинопанорама",
+    "channel_id": "OnlineCinema.7de39dfe7280",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionkinopanorama/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Retrovision Movies",
+    "channel_id": "OnlineCinema.e2839cbc932b",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionmovies/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Retrovision Classic",
+    "channel_id": "OnlineCinema.26b107c82bce",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionclassic/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 1",
+    "channel_id": "OnlineCinema.4e3384fdb110",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba82/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 2",
+    "channel_id": "OnlineCinema.487c90bc0822",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-0/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 3",
+    "channel_id": "OnlineCinema.78977cbe0ea9",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-a/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 4",
+    "channel_id": "OnlineCinema.b122f080964c",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-b/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 5",
+    "channel_id": "OnlineCinema.0388281567f1",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-c/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 6",
+    "channel_id": "OnlineCinema.4a8c68df09e8",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-d/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 7",
+    "channel_id": "OnlineCinema.48a6043fc168",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-e/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 8",
+    "channel_id": "OnlineCinema.b2bf1a86e56c",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-g/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 9",
+    "channel_id": "OnlineCinema.88254b4aa4d2",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-i/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 10",
+    "channel_id": "OnlineCinema.b3c7fee642f2",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-p/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 11",
+    "channel_id": "OnlineCinema.36789c1d4f8e",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-v/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 12",
+    "channel_id": "OnlineCinema.69bbb53de099",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-z/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 13",
+    "channel_id": "OnlineCinema.6baed2a77228",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba64/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 14",
+    "channel_id": "OnlineCinema.4cf95760a580",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://lbgo.bozztv.com/07/ushba65/index.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
   },
   {
     "name": "Мужской",
@@ -4766,6 +4953,160 @@
     "language_evidence": "language playlist channel ID"
   },
   {
+    "name": "Кинозалы 1",
+    "channel_id": "OnlineCinema.4e3384fdb110",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba82/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 2",
+    "channel_id": "OnlineCinema.487c90bc0822",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-0/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 3",
+    "channel_id": "OnlineCinema.78977cbe0ea9",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-a/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 5",
+    "channel_id": "OnlineCinema.0388281567f1",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-c/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 6",
+    "channel_id": "OnlineCinema.4a8c68df09e8",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-d/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 7",
+    "channel_id": "OnlineCinema.48a6043fc168",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-e/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 8",
+    "channel_id": "OnlineCinema.b2bf1a86e56c",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-g/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 9",
+    "channel_id": "OnlineCinema.88254b4aa4d2",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-i/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 10",
+    "channel_id": "OnlineCinema.b3c7fee642f2",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-p/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 11",
+    "channel_id": "OnlineCinema.36789c1d4f8e",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-v/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинозалы 12",
+    "channel_id": "OnlineCinema.69bbb53de099",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rfilrms-z/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Retrovision Кинопанорама",
+    "channel_id": "OnlineCinema.7de39dfe7280",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionkinopanorama/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Retrovision Movies",
+    "channel_id": "OnlineCinema.e2839cbc932b",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionmovies/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
+    "name": "Retrovision Classic",
+    "channel_id": "OnlineCinema.26b107c82bce",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://lbgo.bozztv.com/07/ushba-rvisionclassic/tracks-v1a1/mono.m3u8",
+    "language_evidence": "naggdd/iptv Russian movie group, corroborated by egno/egno.github.io MOVIES list (inferred; audio language not verified)"
+  },
+  {
     "name": "Смотрим 100% Классика",
     "channel_id": "Smotrim100Klassika.ru",
     "languages": [
@@ -6273,6 +6614,72 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "VKTV HD CINEMA",
+    "channel_id": "OnlineCinema.9f5d66eb7022",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/vktv_hd_cinema_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "SmotrimVmeste",
+    "channel_id": "OnlineCinema.27dd43afe0a4",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/frxnkl1n_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "Видеокассета VHS",
+    "channel_id": "OnlineCinema.d76561f85173",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/vhs90e_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "Kinowalk_tv",
+    "channel_id": "OnlineCinema.ee02bd8ab8cd",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/kinowalk_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "Kinowalk prime",
+    "channel_id": "OnlineCinema.052a71748351",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/kinowalk_prime_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "ScripachTV",
+    "channel_id": "OnlineCinema.4561f8a49bfb",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/scripachtv_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
     "name": "SeleCaoTV",
     "channel_id": "OnlineCinema.39ff567dc99b",
     "languages": [
@@ -6281,6 +6688,17 @@
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://kinowalk.hopto.org/selecaotv_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "SeleCaoTV 2",
+    "channel_id": "OnlineCinema.78f6155fcb45",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/selecaotv1_live",
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
@@ -6295,6 +6713,17 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "KinoMix Юрич",
+    "channel_id": "OnlineCinema.c4ef82da72b2",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/yurich_kinomix_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
     "name": "Alex.Films",
     "channel_id": "OnlineCinema.2249357f99d8",
     "languages": [
@@ -6304,6 +6733,17 @@
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://kinowalk.hopto.org/alex.films_live",
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "Фильмы сериалы",
+    "channel_id": "OnlineCinema.b89730fb54ca",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/id582512126_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
   },
   {
     "name": "SerialTV",
@@ -6328,6 +6768,17 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "Maksim Films",
+    "channel_id": "OnlineCinema.fd61251ec9d7",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/mmaxim0vich_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
     "name": "VHS Forever",
     "channel_id": "OnlineCinema.f8bf269d703b",
     "languages": [
@@ -6339,6 +6790,17 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "ROMEO Video",
+    "channel_id": "OnlineCinema.dd6f8b3e26cb",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/romantic_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
     "name": "Эквилибриум",
     "channel_id": "OnlineCinema.deca7823c507",
     "languages": [
@@ -6348,6 +6810,28 @@
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://kinowalk.hopto.org/equilibrium_live",
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "КОМЕДИИ 24/7",
+    "channel_id": "OnlineCinema.4b6d131deb6b",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/cmexye4ku_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "Serial Productions",
+    "channel_id": "OnlineCinema.e8a0006f9436",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/swat2k_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
   },
   {
     "name": "Video Channel",
@@ -6370,6 +6854,17 @@
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://kinowalk.hopto.org/videovk_live",
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "Video Serial",
+    "channel_id": "OnlineCinema.32b38aa8063e",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/video_serial_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
   },
   {
     "name": "Aisman",
@@ -6405,6 +6900,28 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "ZubrilomFilm",
+    "channel_id": "OnlineCinema.816a4c92abbb",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/zubrilomfilm_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "Baragozz_TV",
+    "channel_id": "OnlineCinema.5a5be11b2b7d",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/baragozz_tv_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
     "name": "Мы из 90-х",
     "channel_id": "OnlineCinema.721047c18907",
     "languages": [
@@ -6414,6 +6931,17 @@
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://kinowalk.hopto.org/miiz90x_live",
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "ФИЛЬМЫ&СЕРИАЛЫ",
+    "channel_id": "OnlineCinema.b89730fb54ca",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/films_serials_24_7_live_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
   },
   {
     "name": "Video_Prokat",
@@ -6482,6 +7010,17 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "𝕂𝔸ℂℂ𝔼𝕋𝔸",
+    "channel_id": "OnlineCinema.33784332cfeb",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/kasseta_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
     "name": "Первый ряд",
     "channel_id": "OnlineCinema.cb851674a6b0",
     "languages": [
@@ -6526,6 +7065,17 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "Эра VHS",
+    "channel_id": "OnlineCinema.6ec3dd850a77",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/vhs90s_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
     "name": "Назад в СССР",
     "channel_id": "OnlineCinema.3e62997110e0",
     "languages": [
@@ -6534,6 +7084,39 @@
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://kinowalk.hopto.org/backtotheussr_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "VHS Power",
+    "channel_id": "OnlineCinema.65a572e3441a",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/noir_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "IGROComp Films",
+    "channel_id": "OnlineCinema.4675eb1623a5",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/igrocomp_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "Коновал ТВ",
+    "channel_id": "OnlineCinema.dee55c7106de",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/www.konoval_tv_live",
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
@@ -6548,6 +7131,17 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "KinoFilm",
+    "channel_id": "OnlineCinema.7ba4b7d0a542",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/poe2proxodim_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
     "name": "Wfliq",
     "channel_id": "OnlineCinema.53df2052dd32",
     "languages": [
@@ -6556,6 +7150,17 @@
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://kinowalk.hopto.org/wfliq_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "Priest Kod",
+    "channel_id": "OnlineCinema.e9b7cc7ec5e1",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/priest_kod_live",
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
@@ -6570,6 +7175,127 @@
     "language_evidence": "channel feed language metadata"
   },
   {
+    "name": "Кладовая Фильмов",
+    "channel_id": "OnlineCinema.410a3ba15c09",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/skladfilm_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "KinoPro",
+    "channel_id": "OnlineCinema.778279ba4ccd",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/kinopro_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинотеатр без билетов",
+    "channel_id": "OnlineCinema.599d4948070d",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/x-x-vanes-x-x_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "Фильмоскоп",
+    "channel_id": "OnlineCinema.4066db528697",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/filmscope_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "Real State Films",
+    "channel_id": "OnlineCinema.7cce3286bfe3",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/rsf_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "FilmsSerialsEveryDay",
+    "channel_id": "OnlineCinema.a794bfc472c6",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/filmsserialseveryday_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "Кинотека",
+    "channel_id": "OnlineCinema.d3d3a3eebd73",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://kinowalk.hopto.org/kinoteka_full_hd_top_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "SCORPIO КИНО",
+    "channel_id": "OnlineCinema.713edd449291",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/scorpio05_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "DVD online",
+    "channel_id": "OnlineCinema.ffbb0cbe8a11",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/kinostream_rezerv_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "BOSSFILM",
+    "channel_id": "OnlineCinema.4f39446368e1",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/bossfilm_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "Kinoshnik",
+    "channel_id": "OnlineCinema.599cb339acf3",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/kinoshnik_8_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
     "name": "Tоny",
     "channel_id": "OnlineCinema.bee02fc75b43",
     "languages": [
@@ -6579,6 +7305,50 @@
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://kinowalk.hopto.org/ordinary_people_live",
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
+    "name": "KinoFans",
+    "channel_id": "OnlineCinema.f6184d9633a6",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/kinofans_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "КиноСериалы",
+    "channel_id": "OnlineCinema.252fd765e3ab",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/zagar_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "СтримКино",
+    "channel_id": "OnlineCinema.e28c0f9932e3",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/channel30001568_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
+    "name": "K1n0man1a",
+    "channel_id": "OnlineCinema.dbf0577418c1",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/kinomania_stream_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
   },
   {
     "name": "VHS кино",
@@ -6592,6 +7362,17 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "Паранормальный архив",
+    "channel_id": "OnlineCinema.666ba30bd89f",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/paranormal404_live",
+    "language_evidence": "Dimonovich/TV dedicated online-cinema group; Russian movie-channel name/context (inferred; audio language not verified)"
+  },
+  {
     "name": "dj Zour",
     "channel_id": "OnlineCinema.60e19f24b77e",
     "languages": [
@@ -6603,15 +7384,26 @@
     "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
+    "name": "InMuNa Live",
+    "channel_id": "OnlineCinema.7a88c9c3eb73",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "http://kinowalk.hopto.org/inmuna_live",
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
+  },
+  {
     "name": "КИНОУЖАС HD",
-    "channel_id": "Kinouzhas.ru",
+    "channel_id": "OnlineCinema.7655e0ed8326",
     "languages": [
       "rus"
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://kinowalk.hopto.org/kinouzhas_live",
-    "language_evidence": "language playlist channel ID"
+    "language_evidence": "Russian-language repository naggdd/iptv, curated Kinowalk movie group (inferred; audio language not verified)"
   },
   {
     "name": "JTX Online",
@@ -6646,5 +7438,181 @@
     "source": "https://raw.githubusercontent.com/substanc1/iptv-ukraine/main/streams/ua.m3u",
     "url": "http://158.101.222.193:88/georgia_play.php?id=nikijunior",
     "language_evidence": "exact feed language metadata"
+  },
+  {
+    "name": "СТС Kids HD",
+    "channel_id": "STSkids.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "http://195.26.83.96:7006/play/a00z/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Мульт",
+    "channel_id": "Mult.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "http://flussonic.mkpnet.ru/tv-c8b065a591077c26/video.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viasat Kino Comedy HD",
+    "channel_id": "ViasatKinoComedy.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "http://ukr2.ukrainske.tv/493/video.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju TV1000",
+    "channel_id": "vijuTV1000.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju TV1000 Русское",
+    "channel_id": "vijuTV1000russkoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "https://stream8.cinerama.uz/1059/mono.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Любимое HD",
+    "channel_id": "Lyubimoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "http://192.162.64.99:5100/play/a02w/index.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Кино ТВ",
+    "channel_id": "KinoTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Наш кинопоказ HD",
+    "channel_id": "NashKinopokaz.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2434/index.m3u8",
+    "language_evidence": "channel feed language metadata"
+  },
+  {
+    "name": "Shot TV",
+    "channel_id": "ShotTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "http://hls127.freeott.top:8080/SHOT_TV/video.m3u",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju+ Premiere",
+    "channel_id": "vijuPlusPremiere.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "http://192.162.64.99:5200/play/a02f/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Viju+ Megahit HD",
+    "channel_id": "vijuPlusMegahit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u",
+    "url": "http://192.162.64.99:5200/play/a02e/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Nostalgia (576p)",
+    "channel_id": "Nostalgia.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/egno/egno.github.io/master/kino.m3u",
+    "url": "http://hls127.freeott.top:8080/Nostalgiya/video.m3u8",
+    "language_evidence": "exact feed language metadata"
+  },
+  {
+    "name": "Retro (576p)",
+    "channel_id": "Retro.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/egno/egno.github.io/master/kino.m3u",
+    "url": "http://stream.mcquack.net/191/index.m3u8",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Dushevnoe HD (1080p)",
+    "channel_id": "Dushevnoe.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/egno/egno.github.io/master/kino.m3u",
+    "url": "http://stream.mcquack.net/213/index.m3u8",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "Priklyucheniya HD (1080p)",
+    "channel_id": "Priklyucheniya.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/egno/egno.github.io/master/kino.m3u",
+    "url": "http://stream.mcquack.net/198/index.m3u8",
+    "language_evidence": "language playlist URL"
+  },
+  {
+    "name": "viju+ Planet HD (1080p)",
+    "channel_id": "vijuPlusPlanet.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/egno/egno.github.io/master/kino.m3u",
+    "url": "http://stream.mcquack.net/240/index.m3u8",
+    "language_evidence": "language playlist URL"
   }
 ]
