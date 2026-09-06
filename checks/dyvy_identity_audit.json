@@ -1,69 +1,9 @@
 [
   {
-    "index": 119,
-    "name": "Газун: Звірячі пригоди HD",
-    "slug": "gazun-zviriaci-prigodi-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/320722549d1751cf3f247855f937b982/22965/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-gazun-zviriaci-prigodi-hd.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 120,
-    "name": "Книга-мандрівка HD",
-    "slug": "kniga-mandrivka-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/caf1a3dfb505ffed0d024130f58c5cfa/23104/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-kniga-mandrivka-hd.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 121,
-    "name": "Козаки HD",
-    "slug": "kozaki-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/432aca3a1e345e339f35a30c8f65edce/22927/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-kozaki-hd.jpg",
-    "ocr": "gramme smn",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 122,
-    "name": "Малюк HD",
-    "slug": "maliuk-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/eddea82ad2755b24c4e168c5fc2ebd40/30691/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-maliuk-hd.jpg",
-    "ocr": "Yapibua HPA Nora :",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 123,
-    "name": "Мішо та Робін HD",
-    "slug": "miso-ta-robin-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/8d3bba7425e7c98c50f52ca1b52d3735/22962/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-miso-ta-robin-hd.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 320,
+    "index": 315,
     "name": "Beyond Discovery",
     "slug": "beyond-discovery",
-    "url": "https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34610/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34611/master.m3u8?subs=1",
     "status": "visual_reviewed",
     "frame_count": 3,
     "sample": "identity_evidence/dyvy-beyond-discovery.jpg",
@@ -72,10 +12,10 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 323,
+    "index": 318,
     "name": "Handyman",
     "slug": "handyman",
-    "url": "https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36562/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36564/master.m3u8?subs=1",
     "status": "visual_reviewed",
     "frame_count": 3,
     "sample": "identity_evidence/dyvy-handyman.jpg",
@@ -84,7 +24,7 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 326,
+    "index": 321,
     "name": "Hobby",
     "slug": "hobby",
     "url": "https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/35448/master.m3u8?subs=1",
@@ -96,7 +36,7 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 327,
+    "index": 322,
     "name": "Life Experience",
     "slug": "life-experience",
     "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36681/master.m3u8?subs=1",
@@ -108,10 +48,10 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 329,
+    "index": 324,
     "name": "PC tipps",
     "slug": "pc-tipps",
-    "url": "https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36457/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36462/master.m3u8?subs=1",
     "status": "visual_reviewed",
     "frame_count": 3,
     "sample": "identity_evidence/dyvy-pc-tipps.jpg",
@@ -120,7 +60,7 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 336,
+    "index": 331,
     "name": "Біографер",
     "slug": "biografer",
     "url": "https://playout-stream.adt-playout.top/player/video/a8f15eda80c50adb0e71943adc8015cf/4362/master.m3u8?subs=1",
@@ -132,22 +72,10 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 337,
-    "name": "Корисна програма HD",
-    "slug": "korisna-programa-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/cedebb6e872f539bef8c3f919874e9d7/7997/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-korisna-programa-hd.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 338,
+    "index": 332,
     "name": "Орел & Решка: The BEST",
     "slug": "orel-reska-the-best",
-    "url": "https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7504/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7600/master.m3u8?subs=1",
     "status": "visual_reviewed",
     "frame_count": 3,
     "sample": "identity_evidence/dyvy-orel-reska-the-best.jpg",
@@ -156,10 +84,10 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 339,
+    "index": 333,
     "name": "Орел і решка",
     "slug": "orel-i-reska",
-    "url": "https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2534/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2535/master.m3u8?subs=1",
     "status": "visual_reviewed",
     "frame_count": 3,
     "sample": "identity_evidence/dyvy-orel-i-reska.jpg",
@@ -168,7 +96,7 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 340,
+    "index": 334,
     "name": "Орел і Решка. Морський сезон",
     "slug": "orel-i-reska-morskii-sezon",
     "url": "https://playout-stream.adt-playout.top/player/video/fa7cdfad1a5aaf8370ebeda47a1ff1c3/6734/master.m3u8?subs=1",
@@ -180,10 +108,10 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 341,
+    "index": 335,
     "name": "Про Київ",
     "slug": "pro-kiyiv",
-    "url": "https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/26076/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/26064/master.m3u8?subs=1",
     "status": "visual_reviewed",
     "frame_count": 3,
     "sample": "identity_evidence/dyvy-pro-kiyiv.jpg",
@@ -192,19 +120,7 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 342,
-    "name": "Світ авто/мото техніки HD",
-    "slug": "svit-avtomoto-texniki-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/11b9842e0a271ff252c1903e7132cd68/19220/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-svit-avtomoto-texniki-hd.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 343,
+    "index": 336,
     "name": "Хащі",
     "slug": "xashhi",
     "url": "https://playout-stream.adt-playout.top/player/video/f2217062e9a397a1dca429e7d70bc6ca/2873/master.m3u8?subs=1",
@@ -216,145 +132,13 @@
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
   },
   {
-    "index": 435,
-    "name": "Action Prime HD",
-    "slug": "action-prime-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/e3796ae838835da0b6f6ea37bcf8bcb7/16146/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-action-prime-hd.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 437,
-    "name": "Comedy Prime HD",
-    "slug": "comedy-prime-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/92c8c96e4c37100777c7190b76d28233/15608/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-comedy-prime-hd.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 438,
-    "name": "Drama Prime HD",
-    "slug": "drama-prime-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/07cdfd23373b17c6b337251c22b7ea57/15836/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-drama-prime-hd.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 440,
-    "name": "Драма ТБ",
-    "slug": "drama-tb",
-    "url": "https://playout-stream.adt-playout.top/player/video/f7e6c85504ce6e82442c770f7c8606f0/6033/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-drama-tb.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 441,
+    "index": 430,
     "name": "Клон",
     "slug": "klon",
     "url": "https://playout-stream.adt-playout.top/player/video/05049e90fa4f5039a8cadc6acbb4b2cc/33709/master.m3u8?subs=1",
     "status": "visual_reviewed",
     "frame_count": 3,
     "sample": "identity_evidence/dyvy-klon.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 442,
-    "name": "Медичні серіали",
-    "slug": "medicni-seriali",
-    "url": "https://playout-stream.adt-playout.top/player/video/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e/6180/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-medicni-seriali.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 443,
-    "name": "Мелодрами UA",
-    "slug": "melodrami-ua",
-    "url": "https://playout-stream.adt-playout.top/player/video/bf8229696f7a3bb4700cfddef19fa23f/6095/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-melodrami-ua.jpg",
-    "ocr": "af |",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 444,
-    "name": "Найкращі мелодрами",
-    "slug": "naikrashhi-melodrami",
-    "url": "https://playout-stream.adt-playout.top/player/video/115f89503138416a242f40fb7d7f338e/6326/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-naikrashhi-melodrami.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 445,
-    "name": "Нюхач HD",
-    "slug": "niuxac-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/31fefc0e570cb3860f2a6d4b38c6490d/6292/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-niuxac-hd.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 446,
-    "name": "Речдок",
-    "slug": "recdok",
-    "url": "https://playout-stream.adt-playout.top/player/video/6c8349cc7260ae62e3b1396831a8398f/2618/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-recdok.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 447,
-    "name": "Речдок. Велика справа",
-    "slug": "recdok-velika-sprava",
-    "url": "https://playout-stream.adt-playout.top/player/video/3636638817772e42b59d74cff571fbb3/6841/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-recdok-velika-sprava.jpg",
-    "ocr": "",
-    "ocr_flags": [],
-    "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"
-  },
-  {
-    "index": 498,
-    "name": "Гумор ТБ HD",
-    "slug": "gumor-tb-hd",
-    "url": "https://playout-stream.adt-playout.top/player/video/53c3bce66e43be4f209556518c2fcb54/22372/master.m3u8?subs=1",
-    "status": "visual_reviewed",
-    "frame_count": 3,
-    "sample": "identity_evidence/dyvy-gumor-tb-hd.jpg",
     "ocr": "",
     "ocr_flags": [],
     "method": "3 frames over 12s from portable origin HLS; brightest frame OCR (eng) and manual topic/channel visual review"

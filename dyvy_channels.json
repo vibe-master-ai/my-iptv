@@ -5,8 +5,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "life-experience",
@@ -14,8 +14,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "orel-i-reska",
@@ -23,8 +23,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "orel-reska-the-best",
@@ -32,8 +32,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "orel-i-reska-morskii-sezon",
@@ -41,8 +41,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "korisna-programa-hd",
@@ -50,8 +50,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "pro-kiyiv",
@@ -59,8 +59,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "xashhi",
@@ -68,8 +68,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "svit-avtomoto-texniki-hd",
@@ -77,8 +77,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "beyond-discovery",
@@ -86,8 +86,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "pc-tipps",
@@ -95,8 +95,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "hobby",
@@ -104,8 +104,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "handyman",
@@ -113,8 +113,8 @@
     "kind": "Пізнавальні",
     "catalog_category": "education",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "drama-prime-hd",
@@ -122,8 +122,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "action-prime-hd",
@@ -131,8 +131,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "comedy-prime-hd",
@@ -140,8 +140,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "recdok",
@@ -149,8 +149,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "recdok-velika-sprava",
@@ -158,8 +158,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "niuxac-hd",
@@ -167,8 +167,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "klon",
@@ -176,8 +176,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "melodrami-ua",
@@ -185,8 +185,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "naikrashhi-melodrami",
@@ -194,8 +194,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "drama-tb",
@@ -203,8 +203,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "medicni-seriali",
@@ -212,8 +212,8 @@
     "kind": "Серіали",
     "catalog_category": "series",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "kozaki-hd",
@@ -221,8 +221,8 @@
     "kind": "Мультфільми",
     "catalog_category": "animation",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "miso-ta-robin-hd",
@@ -230,8 +230,8 @@
     "kind": "Мультфільми",
     "catalog_category": "animation",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "gazun-zviriaci-prigodi-hd",
@@ -239,8 +239,8 @@
     "kind": "Мультфільми",
     "catalog_category": "animation",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "kniga-mandrivka-hd",
@@ -248,8 +248,8 @@
     "kind": "Мультфільми",
     "catalog_category": "animation",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "maliuk-hd",
@@ -257,8 +257,8 @@
     "kind": "Мультфільми",
     "catalog_category": "animation",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "konkurent-ukrayina",
@@ -266,8 +266,8 @@
     "kind": "Українське ТБ",
     "catalog_category": "entertainment",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "lux-tv",
@@ -275,8 +275,8 @@
     "kind": "Українське ТБ",
     "catalog_category": "entertainment",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   },
   {
     "slug": "gumor-tb-hd",
@@ -284,7 +284,7 @@
     "kind": "Українське ТБ",
     "catalog_category": "entertainment",
     "language": "ukr",
-    "source": "DyvyTV public API (uk locale), package_block absent; portable origin HLS extracted from API player manifest",
-    "identity": "3 frames sampled from portable origin HLS on 2026-09-06; expected topic/channel content observed; no promo or entitlement marker"
+    "source": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
+    "identity": "Current publication requires technical ffprobe/ffmpeg plus 3-frame/OCR visual audit; this allowlist entry alone does not mark a stream verified"
   }
 ]
