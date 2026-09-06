@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-09-06T06:53:31.860842+00:00",
+  "total_streams": 234,
+  "stream_results": {
+    "unavailable": 63,
+    "working": 136,
+    "restricted": 29,
+    "unstable": 5,
+    "unconfirmed": 1
+  },
+  "total_channels": 116,
+  "channels_with_working_stream": 90
+}
