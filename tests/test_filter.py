@@ -142,4 +142,80 @@ class FilterTest(unittest.TestCase):
         self.assertEqual(by_url['https://example.com/tet'][1], 'Українське ТБ | UKR')
         self.assertEqual(by_url['https://example.com/mixed'][1], 'Українське ТБ | RUS/UKR')
 
+    def test_educational_streams_require_topical_category_and_target_language(self):
+        channels = [
+            {'id': 'Film.ua', 'name': 'Film UA', 'country': 'UA', 'categories': ['movies']},
+            {'id': 'Toon.ru', 'name': 'Toon', 'country': 'RU', 'categories': ['animation']},
+            {'id': 'History.ru', 'name': 'History', 'country': 'RU', 'categories': ['documentary']},
+            {'id': 'Science.ru', 'name': 'Science', 'country': 'RU', 'categories': ['science']},
+            {'id': 'Series.ru', 'name': 'Series', 'country': 'RU', 'categories': ['series']},
+            {'id': 'BigPlanet.ru', 'name': 'Big Planet', 'country': 'RU', 'categories': []},
+            {'id': 'DiscoveryChannel.ru', 'name': 'Discovery Channel', 'country': 'RU', 'categories': ['entertainment']},
+            {'id': 'SonyChannel.ru', 'name': 'Sony Channel', 'country': 'RU', 'categories': []},
+            {'id': 'ParamountComedy.ru', 'name': 'Paramount Comedy', 'country': 'RU', 'categories': ['comedy']},
+            {'id': 'scifi.ru', 'name': 'Sci-Fi', 'country': 'RU', 'categories': ['science']},
+            {'id': 'Sports.ru', 'name': 'Sports', 'country': 'RU', 'categories': ['sports']},
+            {'id': 'Foreign.ru', 'name': 'Foreign', 'country': 'RU', 'categories': ['documentary']},
+        ]
+
+        def entry(cid, url, extra=''):
+            return f'#EXTINF:-1 tvg-id="{cid}@SD" {extra},{cid}\nhttps://example.com/{url}\n'
+
+        source = '#EXTM3U\n' + ''.join([
+            entry('Film.ua', 'film'), entry('Toon.ru', 'toon'),
+            entry('History.ru', 'history'), entry('Science.ru', 'science'),
+            entry('Series.ru', 'series'),
+            entry('BigPlanet.ru', 'planet'), entry('scifi.ru', 'scifi'),
+            entry('Sports.ru', 'sports'), entry('Foreign.ru', 'foreign', 'tvg-language="eng"'),
+            '#EXTINF:-1 group-title="Popular",Discovery\nhttps://example.com/discovery\n',
+            '#EXTINF:-1 group-title="Кино и сериалы",.RED\nhttps://example.com/sony\n',
+            '#EXTINF:-1 group-title="Кино и сериалы",Paramount Comedy\nhttps://example.com/paramount\n',
+        ])
+        feeds = [
+            {'channel': 'Film.ua', 'id': 'SD', 'languages': ['ukr']},
+            {'channel': 'Toon.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'History.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'Science.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'Series.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'BigPlanet.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'DiscoveryChannel.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'SonyChannel.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'ParamountComedy.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'scifi.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'Sports.ru', 'id': 'SD', 'languages': ['rus']},
+            {'channel': 'Foreign.ru', 'id': 'SD', 'languages': ['rus']},
+        ]
+
+        def fetch(url):
+            if url.endswith('channels.json'):
+                return json.dumps(channels)
+            if url.endswith('feeds.json'):
+                return json.dumps(feeds)
+            if url.endswith('/languages/ukr.m3u'):
+                return '#EXTM3U\n' + entry('Film.ua', 'film')
+            if url.endswith('/languages/rus.m3u'):
+                return '#EXTM3U\n' + entry('Toon.ru', 'toon')
+            return source
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            with patch.object(m, 'EXTRA_PATH', root/'extra_channels.json'), \
+                 patch.object(m, 'ROOT', root), patch.object(m, 'OUT', root/'my-iptv.m3u'), \
+                 patch.object(m, 'fetch', side_effect=fetch), \
+                 patch.object(m, 'SOURCES', [('Dimonovich/TV', 'https://example.com/source.m3u', None)]):
+                m.main()
+                result = m.parse_entries((root/'my-iptv.m3u').read_text())
+
+        by_url = {url: m.attr(meta[0], 'group-title') for meta, url in result}
+        self.assertEqual(by_url['https://example.com/history'], 'Пізнавальні | RUS')
+        self.assertEqual(by_url['https://example.com/science'], 'Пізнавальні | RUS')
+        self.assertEqual(by_url['https://example.com/series'], 'Серіали | RUS')
+        self.assertEqual(by_url['https://example.com/planet'], 'Пізнавальні | RUS')
+        self.assertEqual(by_url['https://example.com/discovery'], 'Пізнавальні | RUS')
+        self.assertEqual(by_url['https://example.com/sony'], 'Серіали | RUS')
+        self.assertEqual(by_url['https://example.com/paramount'], 'Серіали | RUS')
+        self.assertNotIn('https://example.com/scifi', by_url)
+        self.assertNotIn('https://example.com/sports', by_url)
+        self.assertNotIn('https://example.com/foreign', by_url)
+
 if __name__ == '__main__': unittest.main()

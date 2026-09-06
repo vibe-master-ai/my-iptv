@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aggregate public movie/cartoon and Ukrainian broadcast streams with evidenced metadata."""
+"""Aggregate public movie/cartoon, Ukrainian broadcast and educational streams with evidenced metadata."""
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -16,10 +16,10 @@ import time
 ROOT = Path(__file__).resolve().parent
 EXTRA_PATH = ROOT / 'extra_channels.json'
 OUT = ROOT / 'my-iptv.m3u'
-POLICY = 'movies-cartoons-ukr-rus-ua-broadcast-v4'
+POLICY = 'movies-cartoons-ukr-rus-ua-broadcast-educational-series-v6'
 SOURCES = [
     ('iptv-org/iptv', f'https://iptv-org.github.io/iptv/categories/{category}.m3u', None)
-    for category in ('movies', 'animation', 'kids')
+    for category in ('movies', 'animation', 'kids', 'series', 'documentary', 'education', 'science', 'travel', 'outdoor')
 ] + [
     ('dearbulut/iptv', f'https://dearbulut.github.io/iptv/playlists/country/{country}.m3u', None)
     for country in ('ua', 'ru')
@@ -31,7 +31,11 @@ SOURCES = [
     ('Dimonovich/TV', 'https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV', None),
     ('substanc1/iptv-ukraine', 'https://raw.githubusercontent.com/substanc1/iptv-ukraine/main/streams/ua.m3u', None),
     ('Spirt007/Tvru', 'https://raw.githubusercontent.com/Spirt007/Tvru/Master/Rus.m3u', None),
-    ('egno/egno.github.io', 'https://raw.githubusercontent.com/egno/egno.github.io/master/kino.m3u', None)]
+    ('egno/egno.github.io', 'https://raw.githubusercontent.com/egno/egno.github.io/master/kino.m3u', None),
+    # Adam-ZS maintains separate current RU/UA snapshots with exact iptv-org IDs.
+    # They are used as alternative streams only after the same catalog/feed checks.
+    ('Adam-ZS/iptv-ru-ua', 'https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ru.m3u', 'RU'),
+    ('Adam-ZS/iptv-ru-ua', 'https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ua.m3u', 'UA')]
 # This catalog supplies the general/entertainment Ukrainian broadcast group.  It is
 # kept as a country-specific source so the broader Russian country playlist cannot
 # accidentally opt into the broadcast policy.
@@ -42,6 +46,48 @@ SOURCES.append(UKRAINE_SOURCE)
 # UA feeds still carry Ukrainian language metadata, so keep this narrow fallback
 # for the requested mainstream channels rather than admitting every Undefined row.
 UKRAINIAN_BROADCAST_FALLBACK_IDS = {'STB.ua', 'TET.ua'}
+# iptv-org categories are the primary topical gate.  These exact catalog IDs
+# are additionally admitted when a reviewed current source labels them
+# ``Undefined`` despite the channel's unambiguous educational identity.
+EDUCATIONAL_CATEGORIES = {'documentary', 'education', 'science', 'travel', 'outdoor'}
+EDUCATIONAL_FALLBACK_IDS = {
+    'BigPlanet.ru', 'TNVPlanet.ru', 'ZhivayaPlaneta.ru',
+    'ViasatExplore.ua', 'ViasatNature.ua', 'DiscoveryChannel.ru',
+}
+# Keep the science category from admitting a fictional/scifi stream.
+EDUCATIONAL_EXCLUDED_IDS = {'scifi.ru'}
+# Entertainment/series brands are admitted only by explicit catalog ID.  This
+# prevents a general Russian playlist from turning every entertainment row into
+# a series channel while retaining reviewed linear brands requested by the user.
+SERIES_FALLBACK_IDS = {'SonyChannel.ru', 'ParamountComedy.ru'}
+# A few active RU playlists omit tvg-id for the Discovery family.  These are
+# reviewed title aliases limited to those source repositories; the resulting
+# catalog/feed language evidence is still required below.
+SOURCE_TITLE_ALIASES = {
+    'naggdd/iptv': {
+        'discovery': 'DiscoveryChannel.ru',
+        'discoverychannel': 'DiscoveryChannel.ru',
+        'investigationdiscovery': 'InvestigationDiscovery.ru',
+    },
+    'smolnp/IPTVru': {
+        'discoverychannel': 'DiscoveryChannel.ru',
+        'red': 'SonyChannel.ru',
+        'black': 'SonyTurbo.ru',
+    },
+    'Spirt007/Tvru': {
+        'red': 'SonyChannel.ru',
+        'black': 'SonyTurbo.ru',
+    },
+    'Dimonovich/TV': {
+        'discovery': 'DiscoveryChannel.ru',
+        'discoverychannel': 'DiscoveryChannel.ru',
+        'investigationdiscovery': 'InvestigationDiscovery.ru',
+        'discoveryscience': 'DiscoveryScienceEurope.uk',
+        'red': 'SonyChannel.ru',
+        'black': 'SonyTurbo.ru',
+        'paramountcomedy': 'ParamountComedy.ru',
+    },
+}
 # Kids alone is too broad: retain cartoon-oriented channels, not every children's channel.
 CARTOON_IDS = set('''PLUSPLUS.ua PixelTV.ua MalyatkoTV.ua NikiJunior.ua NikiKids.ua CinePlusKids.ua
 KSTVNinjaTurtles.ua KSTVPawPatrol.ua KSTVSpongeBob.ua
@@ -172,11 +218,17 @@ def main():
                 continue
             extra = extra_by_url.get(cinema_stream_key(url))
             cid = attr(line,'tvg-id').split('@')[0]
+            alias_used = False
             if cid not in database:
-                possible = names[normalize(title)]
-                if country_hint:
-                    possible = {i for i in possible if database[i]['country'] == country_hint}
-                cid = next(iter(possible)) if len(possible) == 1 else ''
+                alias = SOURCE_TITLE_ALIASES.get(repo, {}).get(normalize(title), '')
+                if alias:
+                    cid = alias
+                    alias_used = True
+                else:
+                    possible = names[normalize(title)]
+                    if country_hint:
+                        possible = {i for i in possible if database[i]['country'] == country_hint}
+                    cid = next(iter(possible)) if len(possible) == 1 else ''
             if extra:
                 cid = ''  # Exact reviewed cinema stream overrides a colliding broadcast-channel name.
             channel = database.get(cid, {})
@@ -194,6 +246,8 @@ def main():
                 else:
                     langs = url_lang[url] or id_lang[cid] or (catalog_languages[cid] & {'ukr', 'rus'})
                     evidence = 'language playlist URL' if url_lang[url] else ('language playlist channel ID' if id_lang[cid] else 'channel feed language metadata')
+            if alias_used and evidence == 'channel feed language metadata':
+                evidence = 'reviewed source title alias + channel feed language metadata'
             extra = extra or (extra_channels.get(normalize(title)) if repo in ('naggdd/iptv','Dimonovich/TV','Spirt007/Tvru','egno/egno.github.io') else None)
             if not langs and not raw_languages and not cid and extra:
                 langs = set(extra['languages'])
@@ -207,8 +261,13 @@ def main():
             categories.update(x.strip().lower() for x in attr(line,'group-title').split(';'))
             if 'animation' in categories or cid in CARTOON_IDS:
                 kind = 'Мультфільми'
+            elif 'series' in categories or cid in SERIES_FALLBACK_IDS:
+                kind = 'Серіали'
             elif 'movies' in categories:
                 kind = 'Фільми'
+            elif cid not in EDUCATIONAL_EXCLUDED_IDS and (
+                    categories & EDUCATIONAL_CATEGORIES or cid in EDUCATIONAL_FALLBACK_IDS):
+                kind = 'Пізнавальні'
             elif (country_hint == 'UA' and channel.get('country') == 'UA'
                   and (categories & {'general', 'entertainment'}
                        or cid in UKRAINIAN_BROADCAST_FALLBACK_IDS)
