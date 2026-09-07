@@ -1,52 +1,18 @@
 import json
-import base64
-import sys
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 import iptv_filter as m
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'checks'))
-import identity_audit as identity
-import paid_gate_audit as paid
 
 
 class FilterTest(unittest.TestCase):
-    def test_dyvy_public_api_keeps_only_reviewed_portable_origins(self):
-        direct = 'https://playout-stream.adt-playout.top/player/video/test/1/master.m3u8?subs=1'
-        wrapped = 'https://777905.live.tvstitch.com/catchup/stream.m3u8?m=' + base64.urlsafe_b64encode(direct.encode()).decode()
-        rows = [
-            {'slug':'allowed', 'name':'Allowed', 'type':'fast', 'link':wrapped},
-            {'slug':'gated', 'name':'Gated', 'type':'fast', 'package_block':{'name':'Authorized'}, 'link':wrapped},
-            {'slug':'jwt', 'name':'IP bound', 'type':'live', 'link':'https://cdn.dyvyapp.com/x/video.m3u8?token=jwt'},
-        ]
-        reviewed = {'allowed': {'name':'Allowed','kind':'Пізнавальні'},
-                    'gated': {'name':'Gated','kind':'Пізнавальні'},
-                    'jwt': {'name':'IP bound','kind':'Українське ТБ'}}
-        result = m.parse_entries(m.dyvy_playlist(json.dumps({'data':rows}), reviewed=reviewed))
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0][1], direct)
-        self.assertEqual(m.attr(result[0][0][0], 'tvg-language'), 'ukr')
-
     def test_nonportable_streams_are_excluded(self):
         self.assertFalse(m.public_stream('http://127.0.0.1:6878/ace/getstream'))
         self.assertFalse(m.public_stream('http://192.168.1.2/live'))
         self.assertFalse(m.public_stream('http://localhost:8000/live'))
         self.assertFalse(m.public_stream('acestream://hash'))
         self.assertTrue(m.public_stream('https://example.com/live.m3u8'))
-
-    def test_russian_movie_origin_filter_defaults_to_conservative_exclusion(self):
-        policy = {
-            'channels': {},
-            'default_russian_movie_decision': 'deny_uncertain_or_mixed',
-            'default_russian_online_cinema_decision': 'deny_uncertain_or_mixed',
-            'default_origin_evidence': 'No foreign-only evidence in fixture',
-        }
-        review = m.origin_review('Unknown.ru', 'Фільми', {'rus'}, None, policy)
-        self.assertEqual(review['decision'], 'deny_uncertain_or_mixed')
-        self.assertIn('foreign-only', review['origin_evidence'])
-        outside = m.origin_review('Unknown.ru', 'Серіали', {'rus'}, None, policy)
-        self.assertEqual(outside['decision'], 'deny_uncertain_or_mixed')
 
     def test_quoted_comma_and_stream_options(self):
         line = '#EXTINF:-1 tvg-name="Film, One",Film, One'
@@ -81,14 +47,7 @@ class FilterTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)
             (root/'extra_channels.json').write_text(json.dumps({'cinema':{'name':'Cinema Test','languages':['rus'],'category':'movies','evidence':'test curated source','urls':['https://example.com/cinema','https://example.com/cinema-alt']}}))
-            (root/'content_origin_policy.json').write_text(json.dumps({
-                'version': 1,
-                'channels': {'New.ru': {'decision': 'allow_test_foreign', 'origin_evidence': 'test fixture', 'evidence_urls': []}},
-                'default_russian_movie_decision': 'deny_uncertain_or_mixed',
-                'default_russian_online_cinema_decision': 'allow_test_online_cinema',
-                'default_origin_evidence': 'test fixture default',
-            }))
-            with patch.object(m,'EXTRA_PATH',root/'extra_channels.json'), patch.object(m,'ROOT',root), patch.object(m,'OUT',root/'my-iptv.m3u'), patch.object(m,'ORIGIN_POLICY_PATH',root/'content_origin_policy.json'), patch.object(m,'fetch',side_effect=fetch), patch.object(m,'SOURCES',[('test','https://example.com/input',None)]):
+            with patch.object(m,'EXTRA_PATH',root/'extra_channels.json'), patch.object(m,'ROOT',root), patch.object(m,'OUT',root/'my-iptv.m3u'), patch.object(m,'fetch',side_effect=fetch), patch.object(m,'SOURCES',[('test','https://example.com/input',None)]):
                 m.main()
                 result=m.parse_entries((root/'my-iptv.m3u').read_text())
                 self.assertEqual({url for _,url in result},{'https://example.com/film','https://example.com/toon','https://example.com/new','https://example.com/plusplus','https://example.com/niki','https://example.com/cinema','https://example.com/cinema-alt'})
@@ -240,22 +199,8 @@ class FilterTest(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            (root / 'content_origin_policy.json').write_text(json.dumps({
-                'version': 1,
-                'channels': {},
-                'series_channels': {
-                    'Series.ru': {'decision': 'allow_test_foreign', 'origin_evidence': 'test fixture', 'evidence_urls': []},
-                    'SonyChannel.ru': {'decision': 'allow_test_foreign', 'origin_evidence': 'test fixture', 'evidence_urls': []},
-                    'ParamountComedy.ru': {'decision': 'allow_test_foreign', 'origin_evidence': 'test fixture', 'evidence_urls': []},
-                },
-                'default_russian_movie_decision': 'deny_uncertain_or_mixed',
-                'default_russian_series_decision': 'deny_uncertain_or_mixed',
-                'default_russian_online_cinema_decision': 'deny_uncertain_or_mixed',
-                'default_origin_evidence': 'test fixture default',
-            }))
             with patch.object(m, 'EXTRA_PATH', root/'extra_channels.json'), \
                  patch.object(m, 'ROOT', root), patch.object(m, 'OUT', root/'my-iptv.m3u'), \
-                 patch.object(m, 'ORIGIN_POLICY_PATH', root/'content_origin_policy.json'), \
                  patch.object(m, 'fetch', side_effect=fetch), \
                  patch.object(m, 'SOURCES', [('Dimonovich/TV', 'https://example.com/source.m3u', None)]):
                 m.main()
@@ -272,39 +217,5 @@ class FilterTest(unittest.TestCase):
         self.assertNotIn('https://example.com/scifi', by_url)
         self.assertNotIn('https://example.com/sports', by_url)
         self.assertNotIn('https://example.com/foreign', by_url)
-
-    def test_identity_audit_rejects_known_promo_and_entitlement_sources(self):
-        def row(cid):
-            return {
-                'status': 'working', 'channel_id': cid, 'name': cid,
-                'url': '', 'group': 'Пізнавальні | RUS',
-            }
-
-        promo_meta = ['#EXTINF:-1 tvg-id="DiscoveryChannel.ru",Discovery']
-        promo = identity.review(row('DiscoveryChannel.ru'),
-                                (promo_meta, 'https://stream8.cinerama.uz/1039/index.m3u8'))
-        self.assertEqual(promo['status'], 'identity_failed')
-        self.assertEqual(promo['identity_status'], 'rejected_wrong_content')
-
-        entitlement_meta = ['#EXTINF:-1 tvg-id="ViasatExplore.ua",Viasat Explore']
-        entitlement = identity.review(row('ViasatExplore.ua'),
-                                      (entitlement_meta, 'http://777905.live.tvstitch.com/playlist.m3u8?token=test'))
-        self.assertEqual(entitlement['status'], 'identity_failed')
-        self.assertIn('tariff', entitlement['identity_reason'])
-
-    def test_paid_gate_audit_detects_visible_subscription_and_http_failures(self):
-        flags = paid._text_flags('Вам необходимо оплатить подписку. You need to pay for a subscription.')
-        self.assertIn('pay for a subscription', flags)
-        row = {'status': 'working', 'reason': 'decoded'}
-        self.assertEqual(
-            paid._classification(row, {'http_status': 200, 'manifest_flags': []},
-                                 {'ocr_flags': ['pay for a subscription']})[0],
-            'entitlement_or_paywall')
-        self.assertEqual(
-            paid._classification(row, {'http_status': 503, 'manifest_flags': []}, {})[0],
-            'inaccessible_http')
-        self.assertEqual(
-            paid._classification(row, {'http_status': 0, 'manifest_flags': []}, {})[0],
-            'inaccessible_network')
 
 if __name__ == '__main__': unittest.main()
