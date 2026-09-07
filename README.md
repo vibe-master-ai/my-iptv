@@ -4,6 +4,12 @@
 
 https://raw.githubusercontent.com/vibe-master-ai/my-iptv/main/my-iptv.m3u
 
+OwnTV EPG Source:
+
+https://raw.githubusercontent.com/vibe-master-ai/my-iptv/main/epg/my-iptv.xml.gz
+
+Це окремий XMLTV-фід для точних `tvg-id` цього плейлиста. Він оновлюється разом із плейлистом і містить лише канали, для яких знайдено точний ID у публічних українському та російському XMLTV-джерелах. EPG додає розклад, але не створює архів або перемотування потоку. Деталі зіставлення: [epg/README.md](epg/README.md).
+
 Щоденне оновлення: 04:23 UTC через GitHub Actions, незалежно від комп'ютера. GitHub може затримувати запуски. Ручний запуск: Actions → Update IPTV playlist → Run workflow.
 
 ## Джерела

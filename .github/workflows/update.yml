@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - 'iptv_filter.py'
+      - 'epg/build_epg.py'
       - 'tests/**'
       - 'extra_channels.json'
       - '.github/workflows/update.yml'
@@ -26,13 +27,16 @@ jobs:
           python-version: '3.12'
       - name: Generate and validate playlist
         run: |
-          python -m unittest discover -s tests
           python iptv_filter.py
+      - name: Generate and validate OwnTV XMLTV feed
+        run: |
+          python epg/build_epg.py
+          python -m unittest discover -s tests
       - name: Publish playlist and update timestamp
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add my-iptv.m3u status.json channel-audit.json
+          git add my-iptv.m3u status.json channel-audit.json epg/my-iptv.xml.gz epg/report.json epg/README.md
           if ! git diff --cached --quiet; then
             git commit -m "Refresh IPTV playlist"
             git push
