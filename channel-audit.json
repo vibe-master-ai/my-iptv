@@ -363,6 +363,21 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "Hollywood Ukraine (576p)",
+    "channel_id": "HollywoodUkraine.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "url": "http://dtv.vol.net.ua/Hollywood-HD/index.m3u8",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "Indiyskoye Kino (576p)",
     "channel_id": "IndiyskoyeKino.ru",
     "languages": [
@@ -477,6 +492,21 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "Prokino (360p)",
+    "channel_id": "Prokino.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "url": "http://dtv.vol.net.ua/ProKino/index.m3u8",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "Silk Way Cinema (1080p) [Geo-blocked]",
     "channel_id": "SilkWayCinema.kz",
     "languages": [
@@ -512,14 +542,31 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "Viasat Kino",
+    "name": "Velvet. European Movies (1080p)",
+    "channel_id": "VelvetEuropeanMovies.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "url": "https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "allow_foreign_european_cinema",
+    "origin_evidence": "The channel identity explicitly limits the catalogue to European movies.",
+    "origin_evidence_urls": [
+      "https://iptv-org.github.io/api/channels.json"
+    ],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "Viasat Kino (576p)",
     "channel_id": "ViasatKino.ua",
     "languages": [
       "rus"
     ],
     "category": "Фільми",
     "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
-    "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104",
+    "url": "http://dtv.vol.net.ua/Viasat_Kino/index.m3u8",
     "language_evidence": "exact feed language metadata",
     "origin_decision": "allow_foreign_world_cinema",
     "origin_evidence": "Viasat describes the channel as world cinema, including Hollywood hits and international titles; the Russian track is localization.",
@@ -529,14 +576,14 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "Viasat Kino Action",
+    "name": "Viasat Kino Action (576p)",
     "channel_id": "ViasatKinoAction.ua",
     "languages": [
       "rus"
     ],
     "category": "Фільми",
     "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
-    "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105",
+    "url": "http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8",
     "language_evidence": "exact feed language metadata",
     "origin_decision": "allow_foreign_world_cinema",
     "origin_evidence": "Viasat describes the channel as Hollywood and European action cinema.",
@@ -648,6 +695,21 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "Detvora+ (1080p)",
+    "channel_id": "DetvoraPlus.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://iptv-org.github.io/iptv/categories/animation.m3u",
+    "url": "https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "Solnce (576p)",
     "channel_id": "Solnce.ru",
     "languages": [
@@ -693,14 +755,14 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "Cine+ Kids",
+    "name": "Cine+ Kids (576p)",
     "channel_id": "CinePlusKids.ua",
     "languages": [
       "ukr"
     ],
     "category": "Мультфільми",
     "source": "https://iptv-org.github.io/iptv/categories/kids.m3u",
-    "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540",
+    "url": "http://dtv.vol.net.ua/Cine_plus_Kids_HD/index.m3u8",
     "language_evidence": "exact feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -1154,6 +1216,23 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "Velvet. World Series (1080p)",
+    "channel_id": "VelvetWorldSeries.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://iptv-org.github.io/iptv/categories/series.m3u",
+    "url": "https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "allow_foreign_international_series",
+    "origin_evidence": "The channel identity explicitly indicates world series; it is retained as an international programme brand pending normal stream identity checks.",
+    "origin_evidence_urls": [
+      "https://iptv-org.github.io/api/channels.json"
+    ],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "365 days TV (576p)",
     "channel_id": "365daysTV.ru",
     "languages": [
@@ -1192,6 +1271,21 @@
     "category": "Пізнавальні",
     "source": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
     "url": "http://stream.mcquack.net/399/index.m3u8",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "DocuBox Russia",
+    "channel_id": "DocuBox.nl",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
+    "url": "http://dtv.vol.net.ua/DOCUBOX-HD/index.m3u8",
     "language_evidence": "exact feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -1274,14 +1368,14 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "National Geographic (576p)",
+    "name": "National Geographic (1080p)",
     "channel_id": "NationalGeographic.ru",
     "languages": [
       "rus"
     ],
     "category": "Пізнавальні",
     "source": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
-    "url": "http://stream.mcquack.net/116/index.m3u8",
+    "url": "http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8",
     "language_evidence": "exact feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -1304,14 +1398,14 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "National Geographic Wild (720p)",
+    "name": "National Geographic Wild (1080p)",
     "channel_id": "NationalGeographicWild.ua",
     "languages": [
       "ukr"
     ],
     "category": "Пізнавальні",
     "source": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
-    "url": "http://46.32.176.50/natgeowild/index.m3u8",
+    "url": "http://dtv.vol.net.ua:80/Nat-Geo-Wild_HD/index.m3u8",
     "language_evidence": "exact feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -1409,14 +1503,14 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "Viasat History (576p)",
+    "name": "Viasat History",
     "channel_id": "ViasatHistory.ua",
     "languages": [
       "ukr"
     ],
     "category": "Пізнавальні",
     "source": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
-    "url": "http://dtv.vol.net.ua/Viasat-History/index.m3u8",
+    "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ%3D%3D&master=78",
     "language_evidence": "exact feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -1696,6 +1790,21 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "Travelxp Russia (1080p)",
+    "channel_id": "Travelxp.in",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://iptv-org.github.io/iptv/categories/travel.m3u",
+    "url": "http://stream.mcquack.net/451/index.m3u8",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "Vkus (576p)",
     "channel_id": "Vkus.ru",
     "languages": [
@@ -1907,6 +2016,21 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "Cine+ Kids",
+    "channel_id": "CinePlusKids.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ua.m3u",
+    "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540",
+    "language_evidence": "explicit language tag",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "Viasat Explore",
     "channel_id": "ViasatExplore.ua",
     "languages": [
@@ -1915,21 +2039,6 @@
     "category": "Пізнавальні",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ua.m3u",
     "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMyOTgmc3Q9eWVMNVRuX0tiUlAwVWd0UjctYTBMZw%3D%3D&master=79",
-    "language_evidence": "explicit language tag",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Viasat History",
-    "channel_id": "ViasatHistory.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ua.m3u",
-    "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODYvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTM0ODYmc3Q9MVprUlhpb2xfODRPc2RMR2R0VDNzQQ%3D%3D&master=78",
     "language_evidence": "explicit language tag",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -1950,6 +2059,23 @@
     "origin_evidence": "Viasat describes the channel as world cinema, including Hollywood hits and international titles; the Russian track is localization.",
     "origin_evidence_urls": [
       "https://viasat.com.ua/channel/ViasatKinohd"
+    ],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "Viasat Kino Action",
+    "channel_id": "ViasatKinoAction.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ua.m3u",
+    "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105",
+    "language_evidence": "explicit language tag",
+    "origin_decision": "allow_foreign_world_cinema",
+    "origin_evidence": "Viasat describes the channel as Hollywood and European action cinema.",
+    "origin_evidence_urls": [
+      "https://viasat.com.ua/index.php/channel/ViasatKinoAction_HD"
     ],
     "origin_last_reviewed": "2026-09-06"
   },
@@ -1977,6 +2103,21 @@
     "category": "Пізнавальні",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv",
+    "language_evidence": "explicit language tag",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "Da Vinci (576p)",
+    "channel_id": "DaVinci.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "http://stream.mcquack.net/238/index.m3u8",
     "language_evidence": "explicit language tag",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -2014,53 +2155,6 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "Indiyskoye Kino (576p)",
-    "channel_id": "IndiyskoyeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv",
-    "language_evidence": "explicit language tag",
-    "origin_decision": "allow_foreign_indian_cinema",
-    "origin_evidence": "The channel identity is Indian cinema; this is foreign cinema with Russian localization.",
-    "origin_evidence_urls": [
-      "https://www.red-media.ru/wp-content/uploads/2022/03/Indijskoe-kino.pdf"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Istoriya (576p)",
-    "channel_id": "Istoriya.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv",
-    "language_evidence": "explicit language tag",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Moya Planeta (1080p)",
-    "channel_id": "MoyaPlaneta.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "http://stream.mcquack.net/124/index.m3u8",
-    "language_evidence": "explicit language tag",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
     "name": "Mult (1080p)",
     "channel_id": "Mult.ru",
     "languages": [
@@ -2069,6 +2163,21 @@
     "category": "Мультфільми",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "http://stream.mcquack.net/232/index.m3u8",
+    "language_evidence": "explicit language tag",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "Multimania (576p)",
+    "channel_id": "Multimania.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8",
     "language_evidence": "explicit language tag",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -2091,6 +2200,21 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "National Geographic (1080p)",
+    "channel_id": "NationalGeographic.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "http://stream.mcquack.net/116/index.m3u8",
+    "language_evidence": "explicit language tag",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "Nauka (1080p)",
     "channel_id": "Nauka.ru",
     "languages": [
@@ -2099,6 +2223,21 @@
     "category": "Пізнавальні",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "http://stream.mcquack.net/125/index.m3u8",
+    "language_evidence": "explicit language tag",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "Nick Jr. (576p)",
+    "channel_id": "NickJr.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "https://stream8.cinerama.uz/1501/playlist.m3u8",
     "language_evidence": "explicit language tag",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -2121,21 +2260,6 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "RT Documentary (1080p)",
-    "channel_id": "RTDocumentary.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8",
-    "language_evidence": "explicit language tag",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
     "name": "Solnce (576p)",
     "channel_id": "Solnce.ru",
     "languages": [
@@ -2143,7 +2267,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "http://217.114.191.150/Solnce/index.m3u8",
+    "url": "http://stream.mcquack.net/118/index.m3u8",
     "language_evidence": "explicit language tag",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -2174,21 +2298,6 @@
     "category": "Мультфільми",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "http://109.94.1.3:8080/132/index.m3u8",
-    "language_evidence": "explicit language tag",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "TiJi (576p)",
-    "channel_id": "TiJi.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8",
     "language_evidence": "explicit language tag",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -2369,6 +2478,23 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "Viju TV1000 Action (3)",
+    "channel_id": "vijuTV1000action.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "https://fs.uplink.kz/viju_tv1000_action/index.m3u8?token=onlinetv",
+    "language_evidence": "language playlist channel ID",
+    "origin_decision": "allow_foreign_world_cinema",
+    "origin_evidence": "viju describes TV1000 Action as Hollywood and world action cinema.",
+    "origin_evidence_urls": [
+      "https://viju.ru/tv-channels/viju-tv1000-action/"
+    ],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "Viju Explore",
     "channel_id": "vijuExplore.ru",
     "languages": [
@@ -2500,6 +2626,21 @@
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
     "url": "https://stream8.cinerama.uz/1039/index.m3u8",
+    "language_evidence": "reviewed source title alias + channel feed language metadata",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "Investigation Discovery",
+    "channel_id": "InvestigationDiscovery.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "http://stream.mcquack.net/205/index.m3u8",
     "language_evidence": "reviewed source title alias + channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -2676,21 +2817,6 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "Nickelodeon",
-    "channel_id": "Nickelodeon.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-    "url": "https://s70378.cdn.ngenix.net/nickelodeon/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
     "name": "Мультиландия",
     "channel_id": "Multilandia.ru",
     "languages": [
@@ -2788,7 +2914,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-    "url": "http://37.186.70.39:40/play/100/index.m3u8",
+    "url": "https://fs.uplink.kz/o/index.m3u8?token=onlinetv",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -2939,60 +3065,6 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "Amedia Hit",
-    "channel_id": "AmediaHit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-    "url": "http://158.101.222.193:88/georgia_play.php?id=amediahit",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "Amedia Hit's current programme includes Dexter, Bosch and other international series; Amedia states that it works with major world studios.",
-    "origin_evidence_urls": [
-      "https://amediatv.ru/amedia-hit/",
-      "https://amediatv.ru/"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Amedia Hit (2)",
-    "channel_id": "AmediaHit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-    "url": "http://tinyurl.com/TvZaTak65?id=amediahit",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "Amedia Hit's current programme includes Dexter, Bosch and other international series; Amedia states that it works with major world studios.",
-    "origin_evidence_urls": [
-      "https://amediatv.ru/amedia-hit/",
-      "https://amediatv.ru/"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Amedia Hit (3)",
-    "channel_id": "AmediaHit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-    "url": "http://37.186.70.39:40/play/54/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "Amedia Hit's current programme includes Dexter, Bosch and other international series; Amedia states that it works with major world studios.",
-    "origin_evidence_urls": [
-      "https://amediatv.ru/amedia-hit/",
-      "https://amediatv.ru/"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
     "name": "Amedia Premium",
     "channel_id": "AmediaPremium.ru",
     "languages": [
@@ -3000,43 +3072,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-    "url": "http://158.101.222.193:88/georgia_play.php?id=amediapremium",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "Amedia Premium is the Amedia channel for HBO and other world-studio premieres; Russian audio is localization.",
-    "origin_evidence_urls": [
-      "https://amediatv.ru/",
-      "https://amedia.ru/"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Amedia Premium (2)",
-    "channel_id": "AmediaPremium.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-    "url": "http://tinyurl.com/TvZaTak65?id=amediapremium",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "Amedia Premium is the Amedia channel for HBO and other world-studio premieres; Russian audio is localization.",
-    "origin_evidence_urls": [
-      "https://amediatv.ru/",
-      "https://amedia.ru/"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Amedia Premium (3)",
-    "channel_id": "AmediaPremium.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-    "url": "http://37.186.70.39:40/play/60/index.m3u8",
+    "url": "https://fs.uplink.kz/amedia_premium_hd/index.m3u8?token=onlinetv",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_foreign_international_series",
     "origin_evidence": "Amedia Premium is the Amedia channel for HBO and other world-studio premieres; Russian audio is localization.",
@@ -4175,7 +4211,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/DISCOVERY_CHANNEL_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/DISCOVERY_CHANNEL_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "reviewed source title alias + channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4190,7 +4226,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/HD_LIFE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/HD_LIFE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4205,7 +4241,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/IDXTRA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/IDXTRA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "reviewed source title alias + channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4220,7 +4256,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/VIASAT_NATHISTORYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/VIASAT_NATHISTORYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4235,7 +4271,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/NASHASYBYRI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/NASHASYBYRI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4250,7 +4286,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/PERVYY_KOSMICHESKIYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/PERVYY_KOSMICHESKIYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4265,7 +4301,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/DIKAYAOHOTA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/DIKAYAOHOTA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4280,7 +4316,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/DIKAYARIBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/DIKAYARIBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4295,7 +4331,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/DIKYI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/DIKYI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4310,7 +4346,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/OKHOTAIRYBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/OKHOTAIRYBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4325,7 +4361,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/OHOTNIK_IRIBALOV_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/OHOTNIK_IRIBALOV_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4341,7 +4377,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/FILMUA_DRAMA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/FILMUA_DRAMA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_ukrainian_exception",
     "origin_evidence": "Ukrainian broadcast exception retained under the repository policy for Ukrainian series.",
@@ -4358,7 +4394,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/BLACK_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/BLACK_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "reviewed source title alias + channel feed language metadata",
     "origin_decision": "allow_foreign_international_cinema",
     "origin_evidence": "Sony Turbo programming is an international action-movie channel built around non-Russian studio titles.",
@@ -4375,7 +4411,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/RED_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/RED_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "reviewed source title alias + channel feed language metadata",
     "origin_decision": "allow_foreign_international_series",
     "origin_evidence": "Sony Channel is an international studio/network brand; Russian-language feeds are localized foreign programming.",
@@ -4392,7 +4428,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/START_WORLD_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/START_WORLD_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_foreign_international_series",
     "origin_evidence": "START World describes series from France, Belgium, Chile and Turkey; it is retained as foreign programming even when catalog metadata places it under movies.",
@@ -4409,7 +4445,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/VIP_MEGAHITHD _H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/VIP_MEGAHITHD _H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_foreign_world_cinema",
     "origin_evidence": "viju describes Megahit as world masterpieces, international blockbusters and Oscar-winning cinema.",
@@ -4426,7 +4462,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KINOHIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/KINOHIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_foreign_world_cinema",
     "origin_evidence": "The current channel description calls KinoHit popular foreign cinema and the schedule describes films from Hollywood, Europe and Asia.",
@@ -4444,7 +4480,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KAPITAN_FANTASTIKA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/KAPITAN_FANTASTIKA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4459,7 +4495,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/MULIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/MULIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4474,7 +4510,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/RIJII_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+    "url": "http://hls.stb.md/RIJII_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -4489,217 +4525,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/CTC_KIDS_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Моя планета HD",
-    "channel_id": "MoyaPlaneta.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a07o/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Глазами Туриста HD",
-    "channel_id": "GlazamiTurista.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a06n/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Охота и Рыбалка",
-    "channel_id": "Okhotairybalka.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a065/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "viju+ Planet",
-    "channel_id": "vijuPlusPlanet.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a06s/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "viju TV1000 romantica",
-    "channel_id": "vijuTV1000romantica.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a06v/index.m3u8",
-    "language_evidence": "channel feed language metadata",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "viju describes TV1000 romantica as series from Brazil, Portugal, Turkey, Korea, China and Argentina.",
-    "origin_evidence_urls": [
-      "https://viasat.ru/brands/viju-tv1000-romantica",
-      "https://viasat.ru/tpost/1v8p0ftsk1-zapuskaem-novii-telekanal-viju"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "VIP Megahit",
-    "channel_id": "vijuPlusMegahit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a06j/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "allow_foreign_world_cinema",
-    "origin_evidence": "viju describes Megahit as world masterpieces, international blockbusters and Oscar-winning cinema.",
-    "origin_evidence_urls": [
-      "https://viju.ru/tv-channels/vijuplus-megahit/"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Amedia 2 HD",
-    "channel_id": "A2.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a07l/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "Amedia presents its premium channels as premieres from HBO and other world studios; the Russian audio track is localization.",
-    "origin_evidence_urls": [
-      "https://amediatv.ru/",
-      "https://amedia.ru/"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "ИНДИЙСКОЕ КИНО",
-    "channel_id": "IndiyskoyeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a062/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "allow_foreign_indian_cinema",
-    "origin_evidence": "The channel identity is Indian cinema; this is foreign cinema with Russian localization.",
-    "origin_evidence_urls": [
-      "https://www.red-media.ru/wp-content/uploads/2022/03/Indijskoe-kino.pdf"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Amedia Hit HD",
-    "channel_id": "AmediaHit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a06l/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "Amedia Hit's current programme includes Dexter, Bosch and other international series; Amedia states that it works with major world studios.",
-    "origin_evidence_urls": [
-      "https://amediatv.ru/amedia-hit/",
-      "https://amediatv.ru/"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": ".Red HD",
-    "channel_id": "SonyChannel.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a07k/index.m3u8",
-    "language_evidence": "reviewed source title alias + channel feed language metadata",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "Sony Channel is an international studio/network brand; Russian-language feeds are localized foreign programming.",
-    "origin_evidence_urls": [
-      "https://www.sonypictures.com/television"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Доктор",
-    "channel_id": "Doctor.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a06d/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Мульт HD",
-    "channel_id": "Mult.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a06m/index.m3u8",
-    "language_evidence": "language playlist channel ID",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "В гостях у сказки",
-    "channel_id": "Vgostyakhuskazki.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://5.134.87.9:8000/play/a061/index.m3u8",
+    "url": "http://hls.stb.md/CTC_KIDS_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -5845,55 +5671,6 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "ДетвораПлюс HD",
-    "channel_id": "DetvoraPlus.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8",
-    "language_evidence": "channel feed language metadata",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Velvet. Европейское кино HD",
-    "channel_id": "VelvetEuropeanMovies.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8",
-    "language_evidence": "channel feed language metadata",
-    "origin_decision": "allow_foreign_european_cinema",
-    "origin_evidence": "The channel identity explicitly limits the catalogue to European movies.",
-    "origin_evidence_urls": [
-      "https://iptv-org.github.io/api/channels.json"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Velvet. Мировые сериалы HD",
-    "channel_id": "VelvetWorldSeries.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8",
-    "language_evidence": "channel feed language metadata",
-    "origin_decision": "allow_foreign_international_series",
-    "origin_evidence": "The channel identity explicitly indicates world series; it is retained as an international programme brand pending normal stream identity checks.",
-    "origin_evidence_urls": [
-      "https://iptv-org.github.io/api/channels.json"
-    ],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
     "name": "Моя планета",
     "channel_id": "MoyaPlaneta.ru",
     "languages": [
@@ -5902,6 +5679,21 @@
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "https://fs.uplink.kz/moya_planeta/mono.m3u8?token=onlinetv",
+    "language_evidence": "language playlist channel ID",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "История",
+    "channel_id": "Istoriya.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -5959,6 +5751,23 @@
     "origin_evidence_urls": [
       "https://www.nastroykino.ru/kinohit/",
       "https://ntvplus.tv/channel/kinohit-55"
+    ],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "Индийское кино",
+    "channel_id": "IndiyskoyeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv",
+    "language_evidence": "language playlist channel ID",
+    "origin_decision": "allow_foreign_indian_cinema",
+    "origin_evidence": "The channel identity is Indian cinema; this is foreign cinema with Russian localization.",
+    "origin_evidence_urls": [
+      "https://www.red-media.ru/wp-content/uploads/2022/03/Indijskoe-kino.pdf"
     ],
     "origin_last_reviewed": "2026-09-06"
   },
@@ -6484,7 +6293,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/EZMvtuib03y8nQlVvSn3ew,1788807024/streaming/taina-galaxy/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/XxCBVXMUOPfYj4_JqYEMqA,1788850916/streaming/taina-galaxy/324/1/index.m3u8",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6499,7 +6308,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/rpUJ5rWIDuZsZgOMBIxeUA,1788807024/streaming/oribalke/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/nErXqmBp9Lfxdol_8ZqGnA,1788850916/streaming/oribalke/324/1/index.m3u8",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6514,7 +6323,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/_JHPmTPmNXUdrb2H4CDZWg,1788807024/streaming/tourist_eyes/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/A1YQ_u5uMZsgMOTJqYUqkA,1788850916/streaming/tourist_eyes/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6529,7 +6338,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/QKl0HvKM648fk7dClC_4Ww,1788807024/streaming/multimania/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/seZ8TSn8XamtZ2Rm0aroKA,1788850916/streaming/multimania/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6544,7 +6353,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/pALwY1anUnxoo99IoR9OPQ,1788807024/streaming/vkus_tv/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/xnrSlpUjoyFn6GfWUV1rXg,1788850916/streaming/vkus_tv/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6559,7 +6368,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/u6mtCDOuN3Xhk2VDssbQSQ,1788807024/streaming/rtdhd/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/YaOA7Uhi5rrell0sUXxVgg,1788850916/streaming/rtdhd/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6574,7 +6383,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/jT4RahDYsab6jRVq5tBDCQ,1788807024/streaming/np/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/CtGmAYIClzmRVpeOi2zwVA,1788850916/streaming/np/324/1/index.m3u8",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6589,8 +6398,8 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/fRUsQYjM4imbuWtoRxds0A,1788807024/streaming/travelxp/324/1/index.m3u8",
-    "language_evidence": "channel feed language metadata",
+    "url": "https://mhd116.iptv2022.com/x/CbglaBFwl63pGQeYeby0CA,1788850916/streaming/travelxp/324/1/index.m3u8",
+    "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
     "origin_evidence_urls": [],
@@ -6604,7 +6413,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/zTYjMKBHiys6ZDhwYR5Ejg,1788807024/streaming/silk_way_cinema/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/901poVtUd0Pga4cO3jbVnw,1788850916/streaming/silk_way_cinema/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_foreign_kazakh_cinema",
     "origin_evidence": "Silk Way Cinema states that most of its film programming is produced in Kazakhstan and by Kazakhfilm; Russian audio is localization, not Russian origin.",
@@ -6622,7 +6431,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/QKFnHZwxKYRYXujnCUmDtg,1788807024/streaming/we_tv/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/nThq6SQmHrbdbx40NSOIbg,1788850916/streaming/we_tv/324/1/index.m3u8",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6637,7 +6446,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/hvOnoc1T5Btw1B-FAJ-j5w,1788807024/streaming/nano/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/2zHYnHUIhCaWjnmZAzljNg,1788850916/streaming/nano/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6652,7 +6461,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://95.181.17.14/dvr02/mobile2/TravAdHD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://95.181.17.14/dvr02/mobile2/TravAdHD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6667,7 +6476,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/rtg/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/rtg/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6682,7 +6491,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/tnvpl/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/tnvpl/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6697,7 +6506,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/IQHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/IQHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6712,7 +6521,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/hd_eureka/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/hd_eureka/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6727,7 +6536,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/hdlife/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/hdlife/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6742,7 +6551,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/nashasibirHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/nashasibirHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6757,7 +6566,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/set/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/set/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "reviewed source title alias + channel feed language metadata",
     "origin_decision": "allow_foreign_international_series",
     "origin_evidence": "Sony Channel is an international studio/network brand; Russian-language feeds are localized foreign programming.",
@@ -6774,7 +6583,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/kinohit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/kinohit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_foreign_world_cinema",
     "origin_evidence": "The current channel description calls KinoHit popular foreign cinema and the schedule describes films from Hollywood, Europe and Asia.",
@@ -6792,7 +6601,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/india/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/india/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_foreign_indian_cinema",
     "origin_evidence": "The channel identity is Indian cinema; this is foreign cinema with Russian localization.",
@@ -6809,7 +6618,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr3/fan_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr3/fan_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6824,7 +6633,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/tv_1000_megahit_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/tv_1000_megahit_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_foreign_world_cinema",
     "origin_evidence": "viju describes Megahit as world masterpieces, international blockbusters and Oscar-winning cinema.",
@@ -6841,7 +6650,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/GingerHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/GingerHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6856,7 +6665,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/rtdhdru/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/rtdhdru/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6871,7 +6680,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/arsenal/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/arsenal/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6886,7 +6695,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/poehali/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/poehali/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6901,7 +6710,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://95.181.17.26/dvr01/hd1/dorama/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://95.181.17.26/dvr01/hd1/dorama/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "allow_foreign_asian_cinema",
     "origin_evidence": "The channel is dedicated to films and series from South Korea, Japan, China and Taiwan, with Russian voice localization.",
@@ -6919,7 +6728,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/tlum_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/tlum_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6934,7 +6743,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr4/mult/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr4/mult/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6949,7 +6758,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/multimania/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/multimania/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6964,7 +6773,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/strana/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/strana/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6979,7 +6788,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/detckiyHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/detckiyHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -6994,7 +6803,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/forkids/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/forkids/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -7009,7 +6818,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=FrQoLLwEA1OE3Lk0LJ12Xw&e=2088720683&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=kVxwr5Mk6jVDkfjTty6Zmw&e=2088764589&scheme=https",
     "language_evidence": "language playlist channel ID",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -7024,7 +6833,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=qMEkCHFcO5DocBetp2yTpA&e=2088720683&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=SM26NFAeQnp9wb6GX4fCRw&e=2088764589&scheme=https",
     "language_evidence": "reviewed source title alias + channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -7039,7 +6848,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/2d7fa51716500fba52586d594201777f/index.m3u8?s=UTG_LOtPbnc3XQ46rSi50w&e=2088720689&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/2d7fa51716500fba52586d594201777f/index.m3u8?s=iqwatppNRgEJfZUxPRGCsg&e=2088764612&scheme=https",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -7054,7 +6863,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/ee431650738a594119c3516ceda72775/index.m3u8?s=uzDmgK3hEfqd2ypWTQxbsQ&e=2088720698&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/ee431650738a594119c3516ceda72775/index.m3u8?s=w3lW0j7TEfVYSXXahN_dQw&e=2088764623&scheme=https",
     "language_evidence": "channel feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -7550,6 +7359,21 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "National Geographic Wild (720p)",
+    "channel_id": "NationalGeographicWild.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/substanc1/iptv-ukraine/main/streams/ua.m3u",
+    "url": "http://46.32.176.50/natgeowild/index.m3u8",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "Niki Junior",
     "channel_id": "NikiJunior.ua",
     "languages": [
@@ -7565,14 +7389,31 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "Viasat Nature (576p)",
-    "channel_id": "ViasatNature.ua",
+    "name": "Viasat Kino",
+    "channel_id": "ViasatKino.ua",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/substanc1/iptv-ukraine/main/streams/ua.m3u",
+    "url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "allow_foreign_world_cinema",
+    "origin_evidence": "Viasat describes the channel as world cinema, including Hollywood hits and international titles; the Russian track is localization.",
+    "origin_evidence_urls": [
+      "https://viasat.com.ua/channel/ViasatKinohd"
+    ],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
+    "name": "Viasat Explore (576p)",
+    "channel_id": "ViasatExplore.ua",
     "languages": [
       "ukr"
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/substanc1/iptv-ukraine/main/streams/ua.m3u",
-    "url": "http://dtv.vol.net.ua/Viasat-Nature/index.m3u8",
+    "url": "http://dtv.vol.net.ua/Viasat-Explore/index.m3u8",
     "language_evidence": "exact feed language metadata",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8282,6 +8123,21 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
+    "name": "Super+ (360p)",
+    "channel_id": "SuperPlus.ua",
+    "languages": [
+      "ukr"
+    ],
+    "category": "Українське ТБ",
+    "source": "https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ua.m3u",
+    "url": "http://dtv.vol.net.ua/super_plus/index.m3u8",
+    "language_evidence": "exact feed language metadata",
+    "origin_decision": "outside_foreign_origin_scope",
+    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
+    "origin_evidence_urls": [],
+    "origin_last_reviewed": "2026-09-06"
+  },
+  {
     "name": "Suspilne. Krym (1080p)",
     "channel_id": "SuspilneKrym.ua",
     "languages": [
@@ -8538,66 +8394,6 @@
     "origin_last_reviewed": "2026-09-06"
   },
   {
-    "name": "Drama Prime HD",
-    "channel_id": "Dyvy.drama-prime-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/07cdfd23373b17c6b337251c22b7ea57/15667/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Action Prime HD",
-    "channel_id": "Dyvy.action-prime-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/e3796ae838835da0b6f6ea37bcf8bcb7/15642/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Comedy Prime HD",
-    "channel_id": "Dyvy.comedy-prime-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/92c8c96e4c37100777c7190b76d28233/15821/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Гумор ТБ HD",
-    "channel_id": "Dyvy.gumor-tb-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Українське ТБ",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/53c3bce66e43be4f209556518c2fcb54/26188/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
     "name": "Біографер",
     "channel_id": "Dyvy.biografer.ua",
     "languages": [
@@ -8605,7 +8401,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/a8f15eda80c50adb0e71943adc8015cf/27298/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/a8f15eda80c50adb0e71943adc8015cf/27306/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8620,7 +8416,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36675/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36681/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8635,7 +8431,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/34535/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/35448/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8650,7 +8446,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36557/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36568/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8665,7 +8461,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2548/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2424/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8680,7 +8476,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7527/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7557/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8695,22 +8491,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/fa7cdfad1a5aaf8370ebeda47a1ff1c3/6736/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Корисна програма HD",
-    "channel_id": "Dyvy.korisna-programa-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/cedebb6e872f539bef8c3f919874e9d7/8140/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/fa7cdfad1a5aaf8370ebeda47a1ff1c3/6745/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8725,7 +8506,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/26065/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/26072/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8740,22 +8521,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/f2217062e9a397a1dca429e7d70bc6ca/26082/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Світ авто/мото техніки HD",
-    "channel_id": "Dyvy.svit-avtomoto-texniki-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/11b9842e0a271ff252c1903e7132cd68/19254/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/f2217062e9a397a1dca429e7d70bc6ca/2916/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8770,7 +8536,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34630/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34615/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8785,52 +8551,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36472/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Речдок",
-    "channel_id": "Dyvy.recdok.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/6c8349cc7260ae62e3b1396831a8398f/2629/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Речдок. Велика справа",
-    "channel_id": "Dyvy.recdok-velika-sprava.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/3636638817772e42b59d74cff571fbb3/6885/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Нюхач HD",
-    "channel_id": "Dyvy.niuxac-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/31fefc0e570cb3860f2a6d4b38c6490d/8848/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36449/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
@@ -8845,142 +8566,7 @@
     ],
     "category": "Серіали",
     "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/05049e90fa4f5039a8cadc6acbb4b2cc/33755/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Мелодрами UA",
-    "channel_id": "Dyvy.melodrami-ua.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/bf8229696f7a3bb4700cfddef19fa23f/6032/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Найкращі мелодрами",
-    "channel_id": "Dyvy.naikrashhi-melodrami.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/115f89503138416a242f40fb7d7f338e/6366/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Драма ТБ",
-    "channel_id": "Dyvy.drama-tb.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/f7e6c85504ce6e82442c770f7c8606f0/6038/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Медичні серіали",
-    "channel_id": "Dyvy.medicni-seriali.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Серіали",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e/6194/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Козаки HD",
-    "channel_id": "Dyvy.kozaki-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Мультфільми",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/432aca3a1e345e339f35a30c8f65edce/22937/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Мішо та Робін HD",
-    "channel_id": "Dyvy.miso-ta-robin-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Мультфільми",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/8d3bba7425e7c98c50f52ca1b52d3735/22960/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Газун: Звірячі пригоди HD",
-    "channel_id": "Dyvy.gazun-zviriaci-prigodi-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Мультфільми",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/320722549d1751cf3f247855f937b982/22966/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Книга-мандрівка HD",
-    "channel_id": "Dyvy.kniga-mandrivka-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Мультфільми",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/caf1a3dfb505ffed0d024130f58c5cfa/23103/master.m3u8?subs=1",
-    "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
-    "origin_decision": "outside_foreign_origin_scope",
-    "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",
-    "origin_evidence_urls": [],
-    "origin_last_reviewed": "2026-09-06"
-  },
-  {
-    "name": "Малюк HD",
-    "channel_id": "Dyvy.maliuk-hd.ua",
-    "languages": [
-      "ukr"
-    ],
-    "category": "Мультфільми",
-    "source": "https://dyvy.tv/api/v1/channels?provider-id=777905&limit=500",
-    "url": "https://playout-stream.adt-playout.top/player/video/eddea82ad2755b24c4e168c5fc2ebd40/30618/master.m3u8?subs=1",
+    "url": "https://playout-stream.adt-playout.top/player/video/05049e90fa4f5039a8cadc6acbb4b2cc/33763/master.m3u8?subs=1",
     "language_evidence": "DyvyTV public API (uk locale); generation requires package_block absent and a portable origin HLS from the public player manifest",
     "origin_decision": "outside_foreign_origin_scope",
     "origin_evidence": "Origin restriction applies only to Russian-language movie, series and online-cinema records.",

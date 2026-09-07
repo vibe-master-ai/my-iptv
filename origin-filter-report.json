@@ -9,8 +9,8 @@
     "note": "No reliable public EPG sample was required for this change; official channel descriptions are the primary evidence. EPG samples may support future reviews but cannot guarantee every future live programme.",
     "minimum_samples": 3
   },
-  "generated_at": "2026-09-06T19:40:53.016399+00:00",
-  "removed_streams": 813,
+  "generated_at": "2026-09-07T09:27:12.368520+00:00",
+  "removed_streams": 823,
   "removed_channel_ids": [
     "312Kino.kg",
     "5minuttishiny.ru",
@@ -215,7 +215,7 @@
   ],
   "removed_by_decision": {
     "deny_domestic_russian": 251,
-    "deny_uncertain_or_mixed": 562
+    "deny_uncertain_or_mixed": 572
   },
   "retained_foreign_movie_channel_ids": [
     "A2.ru",
@@ -1007,6 +1007,54 @@
       "language_evidence": "exact feed language metadata"
     },
     {
+      "name": "Velvet. Golden Collection (1080p)",
+      "channel_id": "VelvetGoldenCollection.ru",
+      "channel_id_raw": "VelvetGoldenCollection.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Scary (1080p)",
+      "channel_id": "VelvetScary.ru",
+      "channel_id_raw": "VelvetScary.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/NImhIFLevxCbtcP-.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Sovetskoe Kino (1080p)",
+      "channel_id": "VelvetSovetskoeKino.ru",
+      "channel_id_raw": "VelvetSovetskoeKino.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
       "name": "viju TV1000 russkoe (576p)",
       "channel_id": "vijuTV1000russkoe.ru",
       "channel_id_raw": "vijuTV1000russkoe.ru",
@@ -1625,6 +1673,60 @@
       "language_evidence": "exact feed language metadata"
     },
     {
+      "name": "Velvet. Mentovskiye Serialy (1080p)",
+      "channel_id": "VelvetMentovskiyeSerialy.ru",
+      "channel_id_raw": "VelvetMentovskiyeSerialy.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Серіали",
+      "source": "https://iptv-org.github.io/iptv/categories/series.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8",
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The channel identity explicitly targets Russian police/crime series and provides no foreign-only policy.",
+      "evidence_urls": [
+        "https://iptv-org.github.io/api/channels.json"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Series Hits (1080p)",
+      "channel_id": "VelvetSeriesHits.ru",
+      "channel_id_raw": "VelvetSeriesHits.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Серіали",
+      "source": "https://iptv-org.github.io/iptv/categories/series.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The generic series-hits identity does not establish foreign-only programming.",
+      "evidence_urls": [
+        "https://iptv-org.github.io/api/channels.json"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Svaty (1080p)",
+      "channel_id": "VelvetSvaty.ru",
+      "channel_id_raw": "VelvetSvaty.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Серіали",
+      "source": "https://iptv-org.github.io/iptv/categories/series.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The channel is branded around a regional Russian/Ukrainian scripted title and does not establish foreign-only programming.",
+      "evidence_urls": [
+        "https://iptv-org.github.io/api/channels.json"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
       "name": "viju+ Serial HD (1080p)",
       "channel_id": "vijuPlusSerial.ru",
       "channel_id_raw": "vijuPlusSerial.ru",
@@ -2184,7 +2286,7 @@
       ],
       "category": "Фільми",
       "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-      "url": "http://stream.mcquack.net/64/index.m3u8",
+      "url": "http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -2918,6 +3020,108 @@
       "language_evidence": "explicit language tag"
     },
     {
+      "name": "Velvet. Golden Collection (1080p)",
+      "channel_id": "VelvetGoldenCollection.ru",
+      "channel_id_raw": "VelvetGoldenCollection.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "explicit language tag"
+    },
+    {
+      "name": "Velvet. Mentovskiye Serialy (1080p)",
+      "channel_id": "VelvetMentovskiyeSerialy.ru",
+      "channel_id_raw": "VelvetMentovskiyeSerialy.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Серіали",
+      "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8",
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The channel identity explicitly targets Russian police/crime series and provides no foreign-only policy.",
+      "evidence_urls": [
+        "https://iptv-org.github.io/api/channels.json"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "explicit language tag"
+    },
+    {
+      "name": "Velvet. Scary (1080p)",
+      "channel_id": "VelvetScary.ru",
+      "channel_id_raw": "VelvetScary.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/NImhIFLevxCbtcP-.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "explicit language tag"
+    },
+    {
+      "name": "Velvet. Series Hits (1080p)",
+      "channel_id": "VelvetSeriesHits.ru",
+      "channel_id_raw": "VelvetSeriesHits.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Серіали",
+      "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The generic series-hits identity does not establish foreign-only programming.",
+      "evidence_urls": [
+        "https://iptv-org.github.io/api/channels.json"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "explicit language tag"
+    },
+    {
+      "name": "Velvet. Sovetskoe Kino (1080p)",
+      "channel_id": "VelvetSovetskoeKino.ru",
+      "channel_id_raw": "VelvetSovetskoeKino.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "explicit language tag"
+    },
+    {
+      "name": "Velvet. Svaty (1080p)",
+      "channel_id": "VelvetSvaty.ru",
+      "channel_id_raw": "VelvetSvaty.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Серіали",
+      "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The channel is branded around a regional Russian/Ukrainian scripted title and does not establish foreign-only programming.",
+      "evidence_urls": [
+        "https://iptv-org.github.io/api/channels.json"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "explicit language tag"
+    },
+    {
       "name": "viju+ Premiere (1080p)",
       "channel_id": "vijuPlusPremiere.ru",
       "channel_id_raw": "vijuPlusPremiere.ru",
@@ -3093,7 +3297,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-      "url": "http://31148.rafail1982.uz/Dom_Kino_Premium_HD/index.m3u8",
+      "url": "https://fs.uplink.kz/dom_kino_premium/index.m3u8?token=onlinetv",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Dom Kino Premium belongs to the Dom Kino domestic Russian cinema brand.",
       "evidence_urls": [
@@ -3174,6 +3378,44 @@
       ],
       "last_reviewed": "2026-09-06",
       "language_evidence": "language playlist channel ID"
+    },
+    {
+      "name": "Кинопремьера (2)",
+      "channel_id": "Kinopremyera.ru",
+      "channel_id_raw": "Kinopremyera.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+      "url": "https://fs.uplink.kz/kinopremiera_hd/index.m3u8?token=onlinetv",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "Nastroy Kino listings include both foreign and Russian premieres, so the channel cannot guarantee foreign-only content.",
+      "evidence_urls": [
+        "https://www.nastroykino.ru/kinopremyera",
+        "https://www.nastroykino.ru/news/44524/"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "language playlist channel ID"
+    },
+    {
+      "name": "Кинопремьера (3)",
+      "channel_id": "Kinopremyera.ru",
+      "channel_id_raw": "Kinopremyera.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+      "url": "http://5.188.159.128:8070/KINOPREMIERA/index.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "Nastroy Kino listings include both foreign and Russian premieres, so the channel cannot guarantee foreign-only content.",
+      "evidence_urls": [
+        "https://www.nastroykino.ru/kinopremyera",
+        "https://www.nastroykino.ru/news/44524/"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "language playlist URL"
     },
     {
       "name": "Киносерия",
@@ -3325,7 +3567,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-      "url": "http://158.101.222.193:88/georgia_play.php?id=interesnoetv",
+      "url": "https://stream8.cinerama.uz/1237/index.m3u8",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -3341,12 +3583,12 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
-      "url": "https://stream8.cinerama.uz/1237/index.m3u8",
+      "url": "http://stream.mcquack.net/107/index.m3u8",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
       "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
+      "language_evidence": "language playlist URL"
     },
     {
       "name": "Кинеко",
@@ -3913,6 +4155,22 @@
       "evidence_urls": [
         "https://www.gazprom-media.com/ru/business/partner/ntv"
       ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "language playlist channel ID"
+    },
+    {
+      "name": "Хит",
+      "channel_id": "Hit.ru",
+      "channel_id_raw": "Hit.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+      "url": "http://stream.mcquack.net/363/index.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
       "last_reviewed": "2026-09-06",
       "language_evidence": "language playlist channel ID"
     },
@@ -5522,7 +5780,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/DOM_KINO_PREMIUM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/DOM_KINO_PREMIUM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Dom Kino Premium belongs to the Dom Kino domestic Russian cinema brand.",
       "evidence_urls": [
@@ -5540,7 +5798,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/STARFAMILY_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/STARFAMILY_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -5556,7 +5814,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/KINOMAN_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/KINOMAN_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -5572,7 +5830,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/MOSFILM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/MOSFILM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Mosfilm Gold Collection is based on Soviet and Russian classics from Mosfilm.",
       "evidence_urls": [
@@ -5590,7 +5848,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/START_AIR_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/START_AIR_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_domestic_russian",
       "origin_evidence": "START describes START Air as carrying original START projects; current listings are Russian productions.",
       "evidence_urls": [
@@ -5608,7 +5866,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/TV1000RU_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/TV1000RU_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_domestic_russian",
       "origin_evidence": "viju explicitly describes TV1000 Russian as films and series made in Russia.",
       "evidence_urls": [
@@ -5626,7 +5884,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/VIP_PREMIERHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/VIP_PREMIERHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "The current viju+ Premiere schedule includes Russian productions alongside international premieres; it is excluded as mixed.",
       "evidence_urls": [
@@ -5645,7 +5903,7 @@
       ],
       "category": "Серіали",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/VIP_SERIALHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/VIP_SERIALHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "viju describes viju+ Serial as carrying both foreign and Russian projects; mixed programming cannot satisfy a foreign-only rule.",
       "evidence_urls": [
@@ -5664,7 +5922,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls1.stb.md/KINOTV_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls1.stb.md/KINOTV_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -5680,7 +5938,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/KINOMIX_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/KINOMIX_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "Nastroy Kino describes Kinomix as a mix of foreign and Russian cinema; mixed schedules are excluded.",
       "evidence_urls": [
@@ -5698,7 +5956,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/KINOPREMIERA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/KINOPREMIERA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "Nastroy Kino listings include both foreign and Russian premieres, so the channel cannot guarantee foreign-only content.",
       "evidence_urls": [
@@ -5717,7 +5975,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/KINO_SVIDANIE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/KINO_SVIDANIE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -5733,7 +5991,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/KINOSEMYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/KINOSEMYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -5749,7 +6007,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/KINOSERYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/KINOSERYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -5765,7 +6023,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/MUJSKOE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/MUJSKOE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -5781,7 +6039,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/NASHENOVOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/NASHENOVOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Nastroy Kino describes the channel as modern Russian cinema and domestic films.",
       "evidence_urls": [
@@ -5799,202 +6057,12 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://hls.stb.md/RODNOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8",
+      "url": "http://hls.stb.md/RODNOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODc2NDUwMSwiZXhwIjoxNzg4ODUwOTAxLCJpYXQiOjE3ODg3NjQ1MDEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.77n50F4IP8rMja8A82U7KyETII5dQBLr3vU4BNHgJ_w",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Nastroy Kino describes Rodnoe Kino as Soviet and Russian box-office leaders.",
       "evidence_urls": [
         "https://www.nastroykino.ru/rodnoe-kino/"
       ],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "НТВ Хит",
-      "channel_id": "NTVHit.ru",
-      "channel_id_raw": "NTVHit.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Серіали",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a05y/index.m3u8",
-      "decision": "deny_domestic_russian",
-      "origin_evidence": "Gazprom-Media identifies NTV-Hit as an NTV thematic channel and describes NTV as a major producer of Russian action series and original content.",
-      "evidence_urls": [
-        "https://www.gazprom-media.com/ru/business/partner/ntv"
-      ],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "VIP Premiere",
-      "channel_id": "vijuPlusPremiere.ru",
-      "channel_id_raw": "vijuPlusPremiere.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Фільми",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a06i/index.m3u8",
-      "decision": "deny_uncertain_or_mixed",
-      "origin_evidence": "The current viju+ Premiere schedule includes Russian productions alongside international premieres; it is excluded as mixed.",
-      "evidence_urls": [
-        "https://viju.ru/tv-channels/vijuplus-premiere/",
-        "https://viju.ru/movies/"
-      ],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "VIP Serial",
-      "channel_id": "vijuPlusSerial.ru",
-      "channel_id_raw": "vijuPlusSerial.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Серіали",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a06t/index.m3u8",
-      "decision": "deny_uncertain_or_mixed",
-      "origin_evidence": "viju describes viju+ Serial as carrying both foreign and Russian projects; mixed programming cannot satisfy a foreign-only rule.",
-      "evidence_urls": [
-        "https://viju.ru/tv-channels/vijuplus-serial/",
-        "https://viju.ru/movies/"
-      ],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "Киноман",
-      "channel_id": "Kinoman.ru",
-      "channel_id_raw": "Kinoman.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Фільми",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a05v/index.m3u8",
-      "decision": "deny_uncertain_or_mixed",
-      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
-      "evidence_urls": [],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "channel feed language metadata"
-    },
-    {
-      "name": "КИНОМИКС HD",
-      "channel_id": "Kinomix.ru",
-      "channel_id_raw": "Kinomix.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Фільми",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a06q/index.m3u8",
-      "decision": "deny_uncertain_or_mixed",
-      "origin_evidence": "Nastroy Kino describes Kinomix as a mix of foreign and Russian cinema; mixed schedules are excluded.",
-      "evidence_urls": [
-        "https://www.nastroykino.ru/kinomiks/"
-      ],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "Иллюзион+",
-      "channel_id": "IllusionPlus.ru",
-      "channel_id_raw": "IllusionPlus.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Фільми",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a05t/index.m3u8",
-      "decision": "deny_domestic_russian",
-      "origin_evidence": "Russian Illusion describes its programming as modern Russian cinema.",
-      "evidence_urls": [
-        "https://www.tv-stream.ru/channels/rusillusion"
-      ],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "МУЖСКОЕ КИНО",
-      "channel_id": "Muzhskoekino.ru",
-      "channel_id_raw": "Muzhskoekino.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Фільми",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a07t/index.m3u8",
-      "decision": "deny_uncertain_or_mixed",
-      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
-      "evidence_urls": [],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "Мосфильм. Золотая коллекция",
-      "channel_id": "MosfilmGoldCollection.ru",
-      "channel_id_raw": "MosfilmGoldCollection.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Фільми",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a07p/index.m3u8",
-      "decision": "deny_domestic_russian",
-      "origin_evidence": "Mosfilm Gold Collection is based on Soviet and Russian classics from Mosfilm.",
-      "evidence_urls": [
-        "https://mosfilmgold.ru/news/kinokanal-mosfilm-zolotaia-kollektsiia-nachal-svoio-veshchanie"
-      ],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "Кино ТВ HD",
-      "channel_id": "KinoTV.ru",
-      "channel_id_raw": "KinoTV.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Фільми",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a06r/index.m3u8",
-      "decision": "deny_uncertain_or_mixed",
-      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
-      "evidence_urls": [],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "Кинеко HD",
-      "channel_id": "Kineko.ru",
-      "channel_id_raw": "Kineko.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Фільми",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a063/index.m3u8",
-      "decision": "deny_uncertain_or_mixed",
-      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
-      "evidence_urls": [],
-      "last_reviewed": "2026-09-06",
-      "language_evidence": "language playlist channel ID"
-    },
-    {
-      "name": "Кино 24",
-      "channel_id": "Kino24.ru",
-      "channel_id_raw": "Kino24.ru",
-      "languages": [
-        "rus"
-      ],
-      "category": "Фільми",
-      "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://5.134.87.9:8000/play/a07c/index.m3u8",
-      "decision": "deny_uncertain_or_mixed",
-      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
-      "evidence_urls": [],
       "last_reviewed": "2026-09-06",
       "language_evidence": "language playlist channel ID"
     },
@@ -7535,7 +7603,7 @@
         "https://iptv-org.github.io/api/channels.json"
       ],
       "last_reviewed": "2026-09-06",
-      "language_evidence": "channel feed language metadata"
+      "language_evidence": "language playlist URL"
     },
     {
       "name": "Velvet. Советское кино HD",
@@ -7551,7 +7619,7 @@
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
       "last_reviewed": "2026-09-06",
-      "language_evidence": "channel feed language metadata"
+      "language_evidence": "language playlist URL"
     },
     {
       "name": "Velvet. Золотая коллекция HD",
@@ -7567,7 +7635,7 @@
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
       "last_reviewed": "2026-09-06",
-      "language_evidence": "channel feed language metadata"
+      "language_evidence": "language playlist URL"
     },
     {
       "name": "Velvet. Сериалы Хиты HD",
@@ -7585,7 +7653,7 @@
         "https://iptv-org.github.io/api/channels.json"
       ],
       "last_reviewed": "2026-09-06",
-      "language_evidence": "channel feed language metadata"
+      "language_evidence": "language playlist URL"
     },
     {
       "name": "Velvet. Ужасы HD",
@@ -7601,7 +7669,7 @@
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
       "last_reviewed": "2026-09-06",
-      "language_evidence": "channel feed language metadata"
+      "language_evidence": "language playlist URL"
     },
     {
       "name": "Velvet. Сваты HD",
@@ -7619,7 +7687,7 @@
         "https://iptv-org.github.io/api/channels.json"
       ],
       "last_reviewed": "2026-09-06",
-      "language_evidence": "channel feed language metadata"
+      "language_evidence": "language playlist URL"
     },
     {
       "name": "Дом кино",
@@ -8451,7 +8519,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "https://mhd116.iptv2022.com/x/BDdU0_u3RnjYxtlDXSEvLg,1788807024/streaming/fenixkino/324/1/index.m3u8",
+      "url": "https://mhd116.iptv2022.com/x/7DhSNLNNDCb3scvgZN5jdQ,1788850916/streaming/fenixkino/324/1/index.m3u8",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8467,7 +8535,7 @@
       ],
       "category": "Серіали",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "https://mhd116.iptv2022.com/x/1len6PJkyKAQp5yMrbTFOw,1788807024/streaming/mir_seriala/324/1/index.m3u8",
+      "url": "https://mhd116.iptv2022.com/x/2IY6UN0_rbkw7zrpYS6XnA,1788850916/streaming/mir_seriala/324/1/index.m3u8",
       "decision": "deny_domestic_russian",
       "origin_evidence": "The official channel description calls Mir Seriala a 24/7 channel of Russian television series.",
       "evidence_urls": [
@@ -8485,7 +8553,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "https://mhd116.iptv2022.com/x/jdCQfCZA7KDH2NRkZCbrQg,1788807024/streaming/quadrohd/324/1/index.m3u8",
+      "url": "https://mhd116.iptv2022.com/x/vUZZQjS-__4bGG151s2APw,1788850916/streaming/quadrohd/324/1/index.m3u8",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8501,7 +8569,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "https://mhd116.iptv2022.com/x/JZJJWXHCBtua_nyeMl8jnw,1788807024/streaming/det_kino/324/1/index.m3u8",
+      "url": "https://mhd116.iptv2022.com/x/NLrFe91qAm5dfeGXZN6O8A,1788850916/streaming/det_kino/324/1/index.m3u8",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8517,7 +8585,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "https://mhd116.iptv2022.com/x/IfLdyK8AJBIknknJVtxH5Q,1788807024/streaming/sovietmovs/324/1/index.m3u8",
+      "url": "https://mhd116.iptv2022.com/x/tnkVdNqilKmXoAq4URMW1g,1788850916/streaming/sovietmovs/324/1/index.m3u8",
       "decision": "deny_domestic_russian",
       "origin_evidence": "The channel identity explicitly denotes Soviet cinema, which belongs to the Russian/Soviet domestic catalogue requested for removal.",
       "evidence_urls": [
@@ -8535,7 +8603,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "https://mhd116.iptv2022.com/x/0T-ETJC-3ysKMA2hZz9jnQ,1788807024/streaming/k_kino/324/1/index.m3u8",
+      "url": "https://mhd116.iptv2022.com/x/DvQvZYP4J55Nx1VeBh1zLQ,1788850916/streaming/k_kino/324/1/index.m3u8",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8551,7 +8619,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "https://mhd116.iptv2022.com/x/DS1rdcwtLNzebTYd9_Ydng,1788807024/streaming/kinosezon/324/1/index.m3u8",
+      "url": "https://mhd116.iptv2022.com/x/KzxxNrulJxo4NnoCiTP8dg,1788850916/streaming/kinosezon/324/1/index.m3u8",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8567,7 +8635,7 @@
       ],
       "category": "Серіали",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "https://mhd116.iptv2022.com/x/QXrWSnbTeK6wSZ9aHJSZ5g,1788807024/streaming/sever_crimea24/324/1/index.m3u8",
+      "url": "https://mhd116.iptv2022.com/x/pNwQnvWkc44ivrQArWr-ww,1788850916/streaming/sever_crimea24/324/1/index.m3u8",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Gazprom-Media identifies NTV-Hit as an NTV thematic channel and describes NTV as a major producer of Russian action series and original content.",
       "evidence_urls": [
@@ -8585,7 +8653,7 @@
       ],
       "category": "Серіали",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr3/ntv-hit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr3/ntv-hit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Gazprom-Media identifies NTV-Hit as an NTV thematic channel and describes NTV as a major producer of Russian action series and original content.",
       "evidence_urls": [
@@ -8603,7 +8671,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=streaming/rusillusion/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=streaming/rusillusion/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Russian Illusion is a Russian cinema brand and is excluded from the foreign-film subset.",
       "evidence_urls": [
@@ -8621,7 +8689,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr2/illusionplus/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr2/illusionplus/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Russian Illusion describes its programming as modern Russian cinema.",
       "evidence_urls": [
@@ -8639,7 +8707,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=streaming/rus_roman/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=streaming/rus_roman/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_domestic_russian",
       "origin_evidence": "The published program is built around Russian domestic TV films and melodramas.",
       "evidence_urls": [
@@ -8658,7 +8726,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr3/shot_tv/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr3/shot_tv/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8674,7 +8742,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=streaming/fenixkino/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=streaming/fenixkino/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8690,7 +8758,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr2/kinofamily/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr2/kinofamily/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8706,7 +8774,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr3/kinoseriya/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr3/kinoseriya/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8722,7 +8790,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr3/kinouzhas/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr3/kinouzhas/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8738,7 +8806,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr3/kinosvidanie/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr3/kinosvidanie/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
       "evidence_urls": [],
@@ -8754,7 +8822,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr4/nashe_novoe_kino/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr4/nashe_novoe_kino/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Nastroy Kino describes the channel as modern Russian cinema and domestic films.",
       "evidence_urls": [
@@ -8772,7 +8840,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr4/mosfilm/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr4/mosfilm/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Mosfilm Gold Collection is based on Soviet and Russian classics from Mosfilm.",
       "evidence_urls": [
@@ -8790,7 +8858,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://arbiter.bolshoe.tv/?path=abr2/tv1000_premium_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://arbiter.bolshoe.tv/?path=abr2/tv1000_premium_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_uncertain_or_mixed",
       "origin_evidence": "The current viju+ Premiere schedule includes Russian productions alongside international premieres; it is excluded as mixed.",
       "evidence_urls": [
@@ -8809,7 +8877,7 @@
       ],
       "category": "Фільми",
       "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-      "url": "http://95.181.17.18/dvr01/sd2/domkino/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
+      "url": "http://95.181.17.18/dvr01/sd2/domkino/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjYgNzowMTo1OCBBTSZoYXNoX3ZhbHVlPVNzSlJjMkF0cFNNSXFnRFhJMm5RT3c9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==",
       "decision": "deny_domestic_russian",
       "origin_evidence": "Dom Kino describes a library of domestic Russian films and Russian cinema.",
       "evidence_urls": [
@@ -13548,6 +13616,108 @@
       "origin_evidence": "TV 21 International uses the same mixed world and Russian film catalogue; no foreign-only schedule is established.",
       "evidence_urls": [
         "https://tv21m.ru/"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Golden Collection (1080p)",
+      "channel_id": "VelvetGoldenCollection.ru",
+      "channel_id_raw": "VelvetGoldenCollection.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Mentovskiye Serialy (1080p)",
+      "channel_id": "VelvetMentovskiyeSerialy.ru",
+      "channel_id_raw": "VelvetMentovskiyeSerialy.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Серіали",
+      "source": "https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8",
+      "decision": "deny_domestic_russian",
+      "origin_evidence": "The channel identity explicitly targets Russian police/crime series and provides no foreign-only policy.",
+      "evidence_urls": [
+        "https://iptv-org.github.io/api/channels.json"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Scary (1080p)",
+      "channel_id": "VelvetScary.ru",
+      "channel_id_raw": "VelvetScary.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/NImhIFLevxCbtcP-.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Series Hits (1080p)",
+      "channel_id": "VelvetSeriesHits.ru",
+      "channel_id_raw": "VelvetSeriesHits.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Серіали",
+      "source": "https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The generic series-hits identity does not establish foreign-only programming.",
+      "evidence_urls": [
+        "https://iptv-org.github.io/api/channels.json"
+      ],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Sovetskoe Kino (1080p)",
+      "channel_id": "VelvetSovetskoeKino.ru",
+      "channel_id_raw": "VelvetSovetskoeKino.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Фільми",
+      "source": "https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "No current public description establishes a foreign-only programming policy; the channel is excluded from the foreign-film verified subset until that evidence is available.",
+      "evidence_urls": [],
+      "last_reviewed": "2026-09-06",
+      "language_evidence": "exact feed language metadata"
+    },
+    {
+      "name": "Velvet. Svaty (1080p)",
+      "channel_id": "VelvetSvaty.ru",
+      "channel_id_raw": "VelvetSvaty.ru",
+      "languages": [
+        "rus"
+      ],
+      "category": "Серіали",
+      "source": "https://raw.githubusercontent.com/Adam-ZS/iptv-ru-ua/main/sources/ru.m3u",
+      "url": "https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8",
+      "decision": "deny_uncertain_or_mixed",
+      "origin_evidence": "The channel is branded around a regional Russian/Ukrainian scripted title and does not establish foreign-only programming.",
+      "evidence_urls": [
+        "https://iptv-org.github.io/api/channels.json"
       ],
       "last_reviewed": "2026-09-06",
       "language_evidence": "exact feed language metadata"
