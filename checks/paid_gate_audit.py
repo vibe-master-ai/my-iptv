@@ -31,6 +31,7 @@ import iptv_filter as m
 ROOT = Path(__file__).resolve().parent
 SNAPSHOT = ROOT / "working.m3u"
 OUTPUT = ROOT / "paid_gate_audit.json"
+EXCLUSIONS = ROOT / "paid_gate_exclusions.json"
 FRAME_DIR = ROOT / "identity_evidence" / "paid-gate"
 MAX_BODY = 64 * 1024
 
@@ -259,10 +260,17 @@ def audit(recheck_technical: bool = False) -> list[dict]:
                     "http": http[i], "frame": frames[i],
                     "classification": classification, "classification_reason": reason})
         output.append(row)
+    historical_exclusions = []
+    if EXCLUSIONS.exists():
+        try:
+            historical_exclusions = json.loads(EXCLUSIONS.read_text()).get("entries", [])
+        except (OSError, json.JSONDecodeError):
+            historical_exclusions = []
     payload = {"audit_started_at": started,
                "audit_finished_at": datetime.now(timezone.utc).isoformat(),
                "snapshot": str(SNAPSHOT.name), "entries": output,
-               "summary": dict(Counter(r["classification"] for r in output))}
+               "summary": dict(Counter(r["classification"] for r in output)),
+               "historical_exclusions": historical_exclusions}
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps(payload["summary"], ensure_ascii=False, indent=2))
     return output

@@ -10,7 +10,7 @@ http://stream.mcquack.net/420/index.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="FAN.ru",Fan HD
 http://5.9.11.197:57419/chu-404/mpegts
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="FAN.ru",Fan HD
-http://arbiter.bolshoe.tv/?path=abr3/fan_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr3/fan_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="GulliGirl.ru",Gulli Girl
 http://195.64.140.147:10122/122
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="GulliGirl.ru",Gulli girl
@@ -100,9 +100,9 @@ https://stream8.cinerama.uz/1406/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/capfantast.png"  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="KapitanFantastika.ru",Капитан Фантастика
 https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="KapitanFantastika.ru",Капитан фантастика HD
-http://arbiter.bolshoe.tv/?path=abr1/GingerHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr1/GingerHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="KapitanFantastika.ru",Капитан Фантастика HD
-http://hls.stb.md/KAPITAN_FANTASTIKA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/KAPITAN_FANTASTIKA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="KinoMult.ru",Киномульт
 http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/20009/index.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="SuperGeroi.ru",Малыш
@@ -114,11 +114,11 @@ http://195.64.140.147:10132/132
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Mult.ru",МУЛЬТ
 http://31.210.208.171:8080/mult/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Mult.ru",Мульт
-http://arbiter.bolshoe.tv/?path=abr4/mult/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr4/mult/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/mult.png" group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Mult.ru",Мульт
 http://flussonic.mkpnet.ru/tv-c8b065a591077c26/video.m3u8
 #EXTINF:-1  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Mult.ru",Мульт
-http://hls.stb.md/MULIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/MULIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/mult.png"  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Mult.ru",Мульт
 http://iptv.mega.net.ru:8888/Mul_t/index.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Mult.ru",Мульт
@@ -140,7 +140,7 @@ http://31.210.208.171:8080/mult_HD/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Mult.ru",Мульт HD
 http://5.134.87.9:8000/play/a06m/index.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Mult.ru",Мульт HD
-http://arbiter.bolshoe.tv/?path=abr2/tlum_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/tlum_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Mult.ru",Мульт HD
 http://tv.ttk.mx:9086
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/multimuzyka.png"  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multimuzyka.ru",Мульт и Музыка
@@ -150,14 +150,14 @@ http://195.64.140.147:10135/135
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multilandia.ru",Мультиландия
 http://31.148.48.15/Multilandiya/index.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multilandia.ru",Мультиландия
-http://arbiter.bolshoe.tv/?path=streaming/multimania/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=streaming/multimania/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/multimania.png"  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multilandia.ru",Мультиландия
 http://fs.uplink.kz/multilandia/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multilandia.ru",Мультиландия
 https://flussonic.mkpnet.ru/tv-89530153f25733fe/video.m3u8
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/96/logo_256_1669621639.png" group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multilandia.ru",Мультиландия
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/bLogxD922711KjKNOqvPiQ,1788763889/streaming/multimania/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/QKl0HvKM648fk7dClC_4Ww,1788807024/streaming/multimania/324/1/index.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multilandia.ru",Мультиландия
 https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multilandia.ru",Мультиландия (2)
@@ -173,7 +173,7 @@ http://31.148.48.15/Multimuzika/index.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multimuzyka.ru",Мультимузыка
 http://31.210.208.171:8080/mult_i_muzika/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multimuzyka.ru",Мультимузыка
-http://arbiter.bolshoe.tv/?path=streaming/strana/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=streaming/strana/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Multimuzyka.ru",Мультимузыка
 http://tv.ttk.mx:9045
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="O.ru",О!
@@ -185,7 +185,7 @@ http://fs.uplink.kz/o/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="O.ru",О!
 http://tv.ttk.mx:9092
 #EXTINF:-1  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Ryzhiy.ru",Рыжий
-http://hls.stb.md/RIJII_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/RIJII_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Ryzhiy.ru",Рыжий
 https://stream8.cinerama.uz/1407/index.m3u8
 #EXTINF:-1  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Smotrim100Detskoe.ru",Смотрим 100% Детское
@@ -203,7 +203,7 @@ http://37.186.70.39:40/play/97/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/sts-kids-hd.png"  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="STSkids.ru",СТС Kids
 http://flussonic.mkpnet.ru/tv-4af112c31b77e2a8/video.m3u8
 #EXTINF:-1  group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="STSkids.ru",СТС Kids
-http://hls.stb.md/CTC_KIDS_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/CTC_KIDS_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="STSkids.ru",СТС Kids
 http://hls127.freeott.top:8080/STS_Kids/video.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="STSkids.ru",СТС Kids
@@ -223,7 +223,7 @@ http://185.46.16.239:8000/Detskiy
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Unikum.ru",Уникум
 http://195.64.140.147:10131/131
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Unikum.ru",Уникум
-http://arbiter.bolshoe.tv/?path=streaming/forkids/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=streaming/forkids/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Unikum.ru",Уникум
 http://tv.ttk.mx:9026
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Unikum.ru",Уникум
@@ -233,7 +233,7 @@ https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Unikum.ru",Уникум (2)
 http://31148.rafail1982.uz/Detskiy/index.m3u8
 #EXTINF:-1 group-title="Мультфільми | RUS" tvg-language="rus" tvg-id="Unikum.ru",Уникум HD
-http://arbiter.bolshoe.tv/?path=abr1/detckiyHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr1/detckiyHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 tvg-id="CinePlusKids.ua@SD" tvg-logo="https://i.imgur.com/lmfc2u4.png" http-referrer="http://live.tvstitch.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Мультфільми | UKR" tvg-language="ukr",Cine+ Kids
 #EXTVLCOPT:http-referrer=http://live.tvstitch.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
@@ -250,6 +250,16 @@ http://stream.mcquack.net/323/index.m3u8
 #EXTINF:-1 tvg-id="PLUSPLUS.ua@SD" tvg-logo="https://i.imgur.com/9bPhStm.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Мультфільми | UKR" tvg-language="ukr",PLUSPLUS (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/339/index.m3u8
+#EXTINF:-1 tvg-id="Dyvy.gazun-zviriaci-prigodi-hd.ua" tvg-name="Газун: Звірячі пригоди HD" group-title="Мультфільми | UKR" tvg-language="ukr",Газун: Звірячі пригоди HD
+https://playout-stream.adt-playout.top/player/video/320722549d1751cf3f247855f937b982/22966/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.kniga-mandrivka-hd.ua" tvg-name="Книга-мандрівка HD" group-title="Мультфільми | UKR" tvg-language="ukr",Книга-мандрівка HD
+https://playout-stream.adt-playout.top/player/video/caf1a3dfb505ffed0d024130f58c5cfa/23103/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.kozaki-hd.ua" tvg-name="Козаки HD" group-title="Мультфільми | UKR" tvg-language="ukr",Козаки HD
+https://playout-stream.adt-playout.top/player/video/432aca3a1e345e339f35a30c8f65edce/22937/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.maliuk-hd.ua" tvg-name="Малюк HD" group-title="Мультфільми | UKR" tvg-language="ukr",Малюк HD
+https://playout-stream.adt-playout.top/player/video/eddea82ad2755b24c4e168c5fc2ebd40/30618/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.miso-ta-robin-hd.ua" tvg-name="Мішо та Робін HD" group-title="Мультфільми | UKR" tvg-language="ukr",Мішо та Робін HD
+https://playout-stream.adt-playout.top/player/video/8d3bba7425e7c98c50f52ca1b52d3735/22960/master.m3u8?subs=1
 #EXTINF:-1 tvg-name="Піксель TV" tvg-logo="https://i.imgur.com/ECro8Ah.png" tvg-id="PixelTV.ua" tvg-chno="25" tvg-country="UA" group-title="Мультфільми | UKR" tvg-language="ukr",Піксель TV
 https://cdn15.live-tv.cloud/ua_infinitas_tv/pixel-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="365daysTV.ru@SD" tvg-logo="https://i.imgur.com/NfnAiTR.png" group-title="Пізнавальні | RUS" tvg-language="rus",365 days TV (576p)
@@ -288,9 +298,9 @@ http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
 https://stream8.cinerama.uz/1039/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="DiscoveryChannel.ru",Discovery Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=V6njVFUoFAZSeYNutZxL_g&e=2088677562&scheme=https
+https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=qMEkCHFcO5DocBetp2yTpA&e=2088720683&scheme=https
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-type="flussonic" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="DiscoveryChannel.ru",Discovery Channel HD
-http://hls.stb.md/DISCOVERY_CHANNEL_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/DISCOVERY_CHANNEL_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="DiscoveryScienceEurope.uk",Discovery Science
 https://stream8.cinerama.uz/1040/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Doctor.ru" tvg-name="Doctor" tvg-logo="https://i.imgur.com/VNirxxn.png" tvg-country="RU" nexus-score="100" group-title="Пізнавальні | RUS" tvg-language="rus",Doctor (1080p)
@@ -299,11 +309,11 @@ http://stream.mcquack.net/80/index.m3u8
 https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="HHQ.ru",HHQ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://bl.rutube.ru/livestream/2d7fa51716500fba52586d594201777f/index.m3u8?s=LL6wZuR9QbfTZXShLxZG8A&e=2088677572&scheme=https
+https://bl.rutube.ru/livestream/2d7fa51716500fba52586d594201777f/index.m3u8?s=UTG_LOtPbnc3XQ46rSi50w&e=2088720689&scheme=https
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="InvestigationDiscovery.ru",Investigation Discovery
 http://195.64.140.147:10152/152
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-type="flussonic" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="InvestigationDiscovery.ru",Investigation Discovery HD
-http://hls.stb.md/IDXTRA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/IDXTRA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 tvg-id="Istoriya.ru@SD" tvg-logo="https://i.imgur.com/eEjPail.png" group-title="Пізнавальні | RUS" tvg-language="rus",Istoriya (576p)
 http://hls127.freeott.top:8080/Istoriya/video.m3u8
 #EXTINF:-1 tvg-id="Istoriya.ru" tvg-name="Istoriya" tvg-logo="https://i.imgur.com/eEjPail.png" tvg-country="RU" nexus-score="100" group-title="Пізнавальні | RUS" tvg-language="rus",Istoriya (576p)
@@ -347,9 +357,9 @@ https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru@Russian" tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Пізнавальні | RUS" tvg-language="rus",RT Documentary Russian (1080p)
 https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="RTDocumentary.ru",RT Д HD
-http://arbiter.bolshoe.tv/?path=abr2/rtdhdru/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/rtdhdru/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="RTGTV.ru",RTG TV
-http://arbiter.bolshoe.tv/?path=streaming/rtg/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=streaming/rtg/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="RTGTV.ru",RTG TV
 http://hls127.freeott.top:8080/RTG_TV/video.m3u8
 #EXTINF:-1 tvg-id="RTGTV.ru@SD" tvg-logo="https://i.imgur.com/ZMKPAho.png" group-title="Пізнавальні | RUS" tvg-language="rus",RTG TV (720p)
@@ -360,7 +370,7 @@ http://stream.mcquack.net/164/index.m3u8
 https://flussonic.mkpnet.ru/tv-501eac834b24c3cf/video.m3u8
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/10098/logo_256_1658733845.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="RTDocumentary.ru",RTД
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/7PQz4yKAkMkO1_XC77oerg,1788763889/streaming/rtdhd/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/u6mtCDOuN3Xhk2VDssbQSQ,1788807024/streaming/rtdhd/324/1/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="RTDocumentary.ru",RTД
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="RTDocumentary.ru",RTД (2)
@@ -399,12 +409,12 @@ http://31.148.48.15/Travel_Adventure_HD/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TravelPlusAdventure.ru",Travel+Adventure (2)
 http://77.232.131.211/TravelAdventureHD/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TravelPlusAdventure.ru",Travel+Adventure HD
-http://95.181.17.14/dvr02/mobile2/TravAdHD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://95.181.17.14/dvr02/mobile2/TravAdHD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 tvg-id="TravelPlusAdventure.ru@HD" tvg-logo="https://i.imgur.com/AlpdXC4.png" group-title="Пізнавальні | RUS" tvg-language="rus",Travel+Adventure HD (1080p)
 http://stream.mcquack.net/206/index.m3u8
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/12384/logo_256_1655390600.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Travelxp.in",Travelxp HD
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/On1X06Oa_M9IwGzf4hmGYw,1788763889/streaming/travelxp/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/fRUsQYjM4imbuWtoRxds0A,1788807024/streaming/travelxp/324/1/index.m3u8
 #EXTINF:-1 tvg-id="TV8.md@SD" tvg-logo="https://i.imgur.com/Rsn4oUh.png" group-title="Пізнавальні | RUS" tvg-language="rus",TV8 [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
 #EXTINF:-1 tvg-logo="https://naggdd.github.io/iptv/logos/viju_explore.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="vijuExplore.ru",Viju Explore
@@ -432,7 +442,7 @@ http://195.64.140.147:10147/147
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="vijuPlusPlanet.ru",viju+ Planet
 http://5.134.87.9:8000/play/a06s/index.m3u8
 #EXTINF:-1  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="vijuPlusPlanet.ru",Viju+ Planet
-http://hls.stb.md/VIASAT_NATHISTORYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/VIASAT_NATHISTORYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 tvg-id="vijuPlusPlanet.ru@HD" tvg-logo="https://i.imgur.com/9Weqdsk.png" group-title="Пізнавальні | RUS" tvg-language="rus",viju+ Planet HD (1080p)
 http://stream.mcquack.net/240/index.m3u8
 #EXTINF:-1 tvg-id="Vkus.ru@SD" tvg-logo="https://www.cableman.ru/sites/default/files/logo%20%287%29%20%281%29.png" group-title="Пізнавальні | RUS" tvg-language="rus",Vkus (576p)
@@ -440,17 +450,17 @@ http://178.134.1.158:8081/vkus/index.m3u8
 #EXTINF:-1 tvg-id="ZhivayaPlaneta.ru" tvg-name="Zhivaya Planeta" tvg-logo="https://i.imgur.com/onNv1tM.png" tvg-country="RU" nexus-score="100" group-title="Пізнавальні | RUS" tvg-language="rus",Zhivaya Planeta (576p)
 https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Arsenal.ru",Арсенал
-http://arbiter.bolshoe.tv/?path=abr2/arsenal/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/arsenal/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Arsenal.ru",Арсенал
 https://stream8.cinerama.uz/1414/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Arsenal.ru",Арсенал HD
 http://195.64.140.147:10157/157
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/28561/logo_256_1727870097.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Vkus.ru",ВКУС
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/EzbtrLgmx_lEyxAp2dzwCw,1788763889/streaming/vkus_tv/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/pALwY1anUnxoo99IoR9OPQ,1788807024/streaming/vkus_tv/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/10676/logo_256_1660828620.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="GlazamiTurista.ru",Глазами туриста
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/rJqE2YeX_UVYsY1X1dCwrA,1788763889/streaming/tourist_eyes/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/_JHPmTPmNXUdrb2H4CDZWg,1788807024/streaming/tourist_eyes/324/1/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="GlazamiTurista.ru",Глазами туриста
 https://stream8.cinerama.uz/1423/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="GlazamiTurista.ru",Глазами Туриста HD
@@ -461,17 +471,17 @@ http://195.64.140.147:10117/117
 http://iptv.mega.net.ru:8888/Dialogi_o_ribalke/index.m3u8
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/10352/logo_256_1658734446.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Dialogiorybalke.ru",Диалоги о рыбалке
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/WM0jWfv2JmInUzc0lSVQnA,1788763889/streaming/oribalke/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/rpUJ5rWIDuZsZgOMBIxeUA,1788807024/streaming/oribalke/324/1/index.m3u8
 #EXTINF:-1  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Dikayaokhota.ru",Дикая охота HD
-http://hls.stb.md/DIKAYAOHOTA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/DIKAYAOHOTA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Dikayaokhota.ru",Дикая охота HD
 https://stream8.cinerama.uz/1412/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Dikayarybalka.ru",Дикая рыбалка HD
-http://hls.stb.md/DIKAYARIBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/DIKAYARIBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Dikij.ru",Дикий
 http://195.64.140.147:10139/139
 #EXTINF:-1  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Dikij.ru",Дикий
-http://hls.stb.md/DIKYI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/DIKYI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Dikij.ru",Дикий
 https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Doctor.ru",Доктор
@@ -550,20 +560,20 @@ http://185.46.16.239:8000/Planeta_HD
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="MoyaPlaneta.ru",Моя планета HD
 http://5.134.87.9:8000/play/a07o/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="MoyaPlaneta.ru",Моя планета HD
-http://arbiter.bolshoe.tv/?path=abr1/IQHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr1/IQHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="MoyaPlaneta.ru",Моя планета HD
 http://tv.ttk.mx:9087
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/morskoy.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Moyastikhiya.ru",Моя стихия
 http://iptv.mega.net.ru:8888/Moya_stihiya/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="MY.ru",Мы
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://bl.rutube.ru/livestream/ee431650738a594119c3516ceda72775/index.m3u8?s=HNFoO39ll0AO8Jlto_ypRA&e=2088677585&scheme=https
+https://bl.rutube.ru/livestream/ee431650738a594119c3516ceda72775/index.m3u8?s=uzDmgK3hEfqd2ypWTQxbsQ&e=2088720698&scheme=https
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/26727/logo_256_1718620704.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="MY.ru",Мы
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/vqoh26gBm6xKxQKatKVTZg,1788763889/streaming/we_tv/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/QKFnHZwxKYRYXujnCUmDtg,1788807024/streaming/we_tv/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/10093/logo_256_1658737031.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Nano.ru",Нано
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/iPcitggILCcB59Kf_jswPQ,1788763889/streaming/nano/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/hvOnoc1T5Btw1B-FAJ-j5w,1788807024/streaming/nano/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/nauka-20.png"  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Nauka.ru",Наука
 http://iptv.mega.net.ru:8888/Nauka_2_0/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Nauka.ru",Наука
@@ -575,9 +585,9 @@ https://stream8.cinerama.uz/1248/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="NashaSibir.ru",Наша Сибирь
 https://stream8.cinerama.uz/1424/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="NashaSibir.ru",Наша Сибирь HD
-http://arbiter.bolshoe.tv/?path=abr1/nashasibirHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr1/nashasibirHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="NashaSibir.ru",Наша Сибирь HD
-http://hls.stb.md/NASHASYBYRI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/NASHASYBYRI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="NashaTema.ru",Наша Тема
 http://195.64.140.147:10172/172
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="NashaTema.ru",Наша тема
@@ -590,13 +600,13 @@ https://flussonic.mkpnet.ru/tv-c922a9201f5073f8/video.m3u8
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/10386/logo_256_1658737079.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Neizvestnayaplaneta.ru",Неизвестная планета
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/47xnv8ItCqSDs_gmCjLgIQ,1788763889/streaming/np/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/jT4RahDYsab6jRVq5tBDCQ,1788807024/streaming/np/324/1/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Okhotairybalka.ru",Охота и Рыбалка
 http://195.64.140.147:10039/39
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Okhotairybalka.ru",Охота и Рыбалка
 http://5.134.87.9:8000/play/a065/index.m3u8
 #EXTINF:-1  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Okhotairybalka.ru",Охота и рыбалка
-http://hls.stb.md/OKHOTAIRYBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/OKHOTAIRYBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/oxota-i-rybalka.png"  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Okhotairybalka.ru",Охота и рыбалка
 http://iptv.mega.net.ru:8888/Ohota_i_Ribalka/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Okhotairybalka.ru",Охота и рыбалка
@@ -609,25 +619,25 @@ https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8
 http://195.64.140.147:10162/162
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Ohotnikirybolov.ru",Охотник и рыболов
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=vYCmLclOucYNY5BCQjSTUQ&e=2088677561&scheme=https
+https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=FrQoLLwEA1OE3Lk0LJ12Xw&e=2088720683&scheme=https
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Ohotnikirybolov.ru",Охотник и рыболов
 https://stream8.cinerama.uz/1413/index.m3u8
 #EXTINF:-1  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Ohotnikirybolov.ru",Охотник и рыболов HD
-http://hls.stb.md/OHOTNIK_IRIBALOV_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/OHOTNIK_IRIBALOV_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="OhotnikirybolovInt.ru",Охотник и рыболов Int.
 https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=QzqPo5cuxaeOJDvPy-nBvg&e=2070623488&scheme=https
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="PervyyKosmicheskiy.ru",Первый космический
-http://arbiter.bolshoe.tv/?path=abr2/hd_eureka/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/hd_eureka/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="PervyyKosmicheskiy.ru",Первый космический
 https://stream8.cinerama.uz/1415/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/kosmichesky.png"  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="PervyyKosmicheskiy.ru",Первый космический
 https://stream8.cinerama.uz/1415/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="PervyyKosmicheskiy.ru",Первый Космический HD
-http://hls.stb.md/PERVYY_KOSMICHESKIYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/PERVYY_KOSMICHESKIYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Poehali.ru",Поехали!
 http://195.64.140.147:10168/168
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Poehali.ru",Поехали!
-http://arbiter.bolshoe.tv/?path=abr2/poehali/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/poehali/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/poexali.png"  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Poehali.ru",Поехали!
 http://iptv.mega.net.ru:8888/Poehali/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="Poehali.ru",Поехали!
@@ -638,20 +648,20 @@ http://31.148.48.15/Poehali/index.m3u8
 https://stream.smotrim.ru/fasttv_hls/fasttv06/playlist_3.m3u8
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/10830/logo_256_1660892108.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TaynyGalaktiki.ru",Тайны Галактики
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/MCvNaQZVExDcq3chnp4cTQ,1788763889/streaming/taina-galaxy/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/EZMvtuib03y8nQlVvSn3ew,1788807024/streaming/taina-galaxy/324/1/index.m3u8
 #EXTINF:-1 tvg-id="Teleputeshestviya.ru@SD" tvg-logo="https://i.imgur.com/eXJm1n3.png" group-title="Пізнавальні | RUS" tvg-language="rus",Телепутешествия (576p)
 http://31.148.48.15/Teleputeshestviya/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnv.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TNVPlanet.ru",ТНВ Планета
 http://planeta.mediacdn.ru/cdn/tnvplanet/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TNVPlanet.ru",ТНВ-Планета
-http://arbiter.bolshoe.tv/?path=streaming/tnvpl/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=streaming/tnvpl/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TNVPlanet.ru",ТНВ-Планета
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_TNV/variant.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TochkaRF.ru",Точка РФ
-http://arbiter.bolshoe.tv/?path=abr2/hdlife/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/hdlife/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1  group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TochkaRF.ru",Точка РФ
-http://hls.stb.md/HD_LIFE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/HD_LIFE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/hdl.png" group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TochkaRF.ru",Точка РФ
 http://iptv.mega.net.ru:8888/HD_Life/index.m3u8
 #EXTINF:-1 group-title="Пізнавальні | RUS" tvg-language="rus" tvg-id="TochkaRF.ru",Точка РФ
@@ -676,7 +686,7 @@ http://stream.mcquack.net/357/index.m3u8
 #EXTINF:-1 tvg-id="BamBarBiaTV.ua@SD" tvg-logo="https://i.imgur.com/zdRvy87.png" group-title="Пізнавальні | UKR" tvg-language="ukr",BamBarBia TV (720p) [Not 24/7]
 http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Dyvy.beyond-discovery.ua" tvg-name="Beyond Discovery" group-title="Пізнавальні | UKR" tvg-language="ukr",Beyond Discovery
-https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34628/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/8bf1211fd4b7b94528899de0a43b9fb3/34630/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="ChemodanTV.ua@SD" tvg-logo="https://i.imgur.com/1WjGN8u.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Пізнавальні | UKR" tvg-language="ukr",Chemodan TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/399/index.m3u8
@@ -684,20 +694,20 @@ http://stream.mcquack.net/399/index.m3u8
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8
 #EXTINF:-1 tvg-id="Dyvy.handyman.ua" tvg-name="Handyman" group-title="Пізнавальні | UKR" tvg-language="ukr",Handyman
-https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36548/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/00ec53c4682d36f5c4359f4ae7bd7ba1/36557/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="HistoryUkraine.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/960px-History_%282021%29.svg.png" group-title="Пізнавальні | UKR" tvg-language="ukr",History Ukraine
 http://dtv.vol.net.ua/History_HD/index.m3u8
 #EXTINF:-1 tvg-id="History2Ukraine.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/960px-History2_logo_%282022%29.svg.png" group-title="Пізнавальні | UKR" tvg-language="ukr",History2 Ukraine (360p)
 http://dtv.vol.net.ua/H2-HD/index.m3u8
 #EXTINF:-1 tvg-id="Dyvy.hobby.ua" tvg-name="Hobby" group-title="Пізнавальні | UKR" tvg-language="ukr",Hobby
-https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/34543/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/142949df56ea8ae0be8b5306971900a4/34535/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Dyvy.life-experience.ua" tvg-name="Life Experience" group-title="Пізнавальні | UKR" tvg-language="ukr",Life Experience
-https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36681/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/beed13602b9b0e6ecb5b568ff5058f07/36675/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="NationalGeographicWild.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Пізнавальні | UKR" tvg-language="ukr",National Geographic Wild (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://46.32.176.50/natgeowild/index.m3u8
 #EXTINF:-1 tvg-id="Dyvy.pc-tipps.ua" tvg-name="PC tipps" group-title="Пізнавальні | UKR" tvg-language="ukr",PC tipps
-https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36502/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/bca82e41ee7b0833588399b1fcd177c7/36472/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Rybalka.ua@SD" tvg-logo="https://i.imgur.com/NafW0xT.png" group-title="Пізнавальні | UKR" tvg-language="ukr",Rybalka (1080p)
 https://dash2.antik.sk/live/test_rybalka_tv_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="ViasatExplore.ua" tvg-name="Viasat Explore" tvg-logo="https://i.imgur.com/RBqKj6R.png" tvg-country="UA" nexus-score="100" group-title="Пізнавальні | UKR" tvg-language="ukr",Viasat Explore
@@ -718,14 +728,18 @@ http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI
 http://dtv.vol.net.ua/Viasat-Nature/index.m3u8
 #EXTINF:-1 tvg-id="Dyvy.biografer.ua" tvg-name="Біографер" group-title="Пізнавальні | UKR" tvg-language="ukr",Біографер
 https://playout-stream.adt-playout.top/player/video/a8f15eda80c50adb0e71943adc8015cf/27298/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.korisna-programa-hd.ua" tvg-name="Корисна програма HD" group-title="Пізнавальні | UKR" tvg-language="ukr",Корисна програма HD
+https://playout-stream.adt-playout.top/player/video/cedebb6e872f539bef8c3f919874e9d7/8140/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Dyvy.orel-reska-the-best.ua" tvg-name="Орел & Решка: The BEST" group-title="Пізнавальні | UKR" tvg-language="ukr",Орел & Решка: The BEST
-https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7713/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/8f53295a73878494e9bc8dd6c3c7104f/7527/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Dyvy.orel-i-reska.ua" tvg-name="Орел і решка" group-title="Пізнавальні | UKR" tvg-language="ukr",Орел і решка
-https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2547/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/f7177163c833dff4b38fc8d2872f1ec6/2548/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Dyvy.orel-i-reska-morskii-sezon.ua" tvg-name="Орел і Решка. Морський сезон" group-title="Пізнавальні | UKR" tvg-language="ukr",Орел і Решка. Морський сезон
-https://playout-stream.adt-playout.top/player/video/fa7cdfad1a5aaf8370ebeda47a1ff1c3/6714/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/fa7cdfad1a5aaf8370ebeda47a1ff1c3/6736/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Dyvy.pro-kiyiv.ua" tvg-name="Про Київ" group-title="Пізнавальні | UKR" tvg-language="ukr",Про Київ
-https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/26072/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/4e732ced3463d06de0ca9a15b6153677/26065/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.svit-avtomoto-texniki-hd.ua" tvg-name="Світ авто/мото техніки HD" group-title="Пізнавальні | UKR" tvg-language="ukr",Світ авто/мото техніки HD
+https://playout-stream.adt-playout.top/player/video/11b9842e0a271ff252c1903e7132cd68/19254/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Dyvy.xashhi.ua" tvg-name="Хащі" group-title="Пізнавальні | UKR" tvg-language="ukr",Хащі
 https://playout-stream.adt-playout.top/player/video/f2217062e9a397a1dca429e7d70bc6ca/26082/master.m3u8?subs=1
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sony.png" group-title="Серіали | RUS" tvg-language="rus" tvg-id="SonyChannel.ru",.Red
@@ -739,9 +753,9 @@ http://5.188.159.128:8070/RED/index.m3u8
 #EXTINF:-1 group-title="Серіали | RUS" tvg-language="rus" tvg-id="SonyChannel.ru",.Red
 http://5.9.11.197:57419/chu-97/mpegts
 #EXTINF:-1 group-title="Серіали | RUS" tvg-language="rus" tvg-id="SonyChannel.ru",.Red
-http://arbiter.bolshoe.tv/?path=streaming/set/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=streaming/set/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-type="flussonic" group-title="Серіали | RUS" tvg-language="rus" tvg-id="SonyChannel.ru",.RED
-http://hls.stb.md/RED_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/RED_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Серіали | RUS" tvg-language="rus" tvg-id="SonyChannel.ru",.Red HD
 http://5.134.87.9:8000/play/a07k/index.m3u8
 #EXTINF:-1 group-title="Серіали | RUS" tvg-language="rus" tvg-id="A2.ru",Amedia 2
@@ -826,7 +840,7 @@ http://iptv.mega.net.ru:8888/Fox_Life/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://82.78.243.219:45739/play/a01p/index.m3u8
 #EXTINF:-1  group-title="Серіали | RUS/UKR" tvg-language="rus;ukr" tvg-id="FilmUADrama.ua",Film.Ua Drama
-http://hls.stb.md/FILMUA_DRAMA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/FILMUA_DRAMA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 tvg-id="FilmUADrama.ua@SD" group-title="Серіали | RUS/UKR" tvg-language="rus;ukr",FilmUADrama
 https://dash2.antik.sk/live/test_film_drama_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="FilmUADrama.ua@SD" tvg-logo="https://i.imgur.com/Hnwsh5d.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Серіали | RUS/UKR" tvg-language="rus;ukr",FilmUADrama (1080p)
@@ -834,14 +848,34 @@ https://dash2.antik.sk/live/test_film_drama_atktv/playlist.m3u8
 http://88.99.215.227/FilmUADrama/index.m3u8
 #EXTINF:-1 tvg-id="4everDrama.ua@SD" tvg-logo="https://i.imgur.com/CD3vZU6.png" group-title="Серіали | UKR" tvg-language="ukr",4ever Drama (1080p)
 http://stream.mcquack.net/260/index.m3u8
+#EXTINF:-1 tvg-id="Dyvy.action-prime-hd.ua" tvg-name="Action Prime HD" group-title="Серіали | UKR" tvg-language="ukr",Action Prime HD
+https://playout-stream.adt-playout.top/player/video/e3796ae838835da0b6f6ea37bcf8bcb7/15642/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Bolt.ua@SD" tvg-logo="https://i.imgur.com/YdIHXOR.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Серіали | UKR" tvg-language="ukr",Bolt (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/73/index.m3u8
+#EXTINF:-1 tvg-id="Dyvy.comedy-prime-hd.ua" tvg-name="Comedy Prime HD" group-title="Серіали | UKR" tvg-language="ukr",Comedy Prime HD
+https://playout-stream.adt-playout.top/player/video/92c8c96e4c37100777c7190b76d28233/15821/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.drama-prime-hd.ua" tvg-name="Drama Prime HD" group-title="Серіали | UKR" tvg-language="ukr",Drama Prime HD
+https://playout-stream.adt-playout.top/player/video/07cdfd23373b17c6b337251c22b7ea57/15667/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Tviyserial.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Tviy_Serial.svg/250px-Tviy_Serial.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Серіали | UKR" tvg-language="ukr",Tviy serial (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/466/index.m3u8
+#EXTINF:-1 tvg-id="Dyvy.drama-tb.ua" tvg-name="Драма ТБ" group-title="Серіали | UKR" tvg-language="ukr",Драма ТБ
+https://playout-stream.adt-playout.top/player/video/f7e6c85504ce6e82442c770f7c8606f0/6038/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="Dyvy.klon.ua" tvg-name="Клон" group-title="Серіали | UKR" tvg-language="ukr",Клон
-https://playout-stream.adt-playout.top/player/video/05049e90fa4f5039a8cadc6acbb4b2cc/33714/master.m3u8?subs=1
+https://playout-stream.adt-playout.top/player/video/05049e90fa4f5039a8cadc6acbb4b2cc/33755/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.medicni-seriali.ua" tvg-name="Медичні серіали" group-title="Серіали | UKR" tvg-language="ukr",Медичні серіали
+https://playout-stream.adt-playout.top/player/video/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e/6194/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.melodrami-ua.ua" tvg-name="Мелодрами UA" group-title="Серіали | UKR" tvg-language="ukr",Мелодрами UA
+https://playout-stream.adt-playout.top/player/video/bf8229696f7a3bb4700cfddef19fa23f/6032/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.naikrashhi-melodrami.ua" tvg-name="Найкращі мелодрами" group-title="Серіали | UKR" tvg-language="ukr",Найкращі мелодрами
+https://playout-stream.adt-playout.top/player/video/115f89503138416a242f40fb7d7f338e/6366/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.niuxac-hd.ua" tvg-name="Нюхач HD" group-title="Серіали | UKR" tvg-language="ukr",Нюхач HD
+https://playout-stream.adt-playout.top/player/video/31fefc0e570cb3860f2a6d4b38c6490d/8848/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.recdok.ua" tvg-name="Речдок" group-title="Серіали | UKR" tvg-language="ukr",Речдок
+https://playout-stream.adt-playout.top/player/video/6c8349cc7260ae62e3b1396831a8398f/2629/master.m3u8?subs=1
+#EXTINF:-1 tvg-id="Dyvy.recdok-velika-sprava.ua" tvg-name="Речдок. Велика справа" group-title="Серіали | UKR" tvg-language="ukr",Речдок. Велика справа
+https://playout-stream.adt-playout.top/player/video/3636638817772e42b59d74cff571fbb3/6885/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="BlackSeaTV.ua@SD" tvg-logo="https://i.imgur.com/D8YJzHV.png" http-user-agent="curl/8.16.0" group-title="Українське ТБ | RUS/UKR" tvg-language="rus;ukr",Black Sea TV
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.0.136/index.m3u8
@@ -971,6 +1005,8 @@ http://stream.mcquack.net/341/index.m3u8
 http://stream.mcquack.net/327/index.m3u8
 #EXTINF:-1 tvg-id="BaltaTV.ua@SD" tvg-logo="https://cdn.teleon.tv/logo/balta-tv-ua.png" group-title="Українське ТБ | UKR" tvg-language="ukr",Балта ТВ (768p)
 http://194.50.51.34/playlist.m3u8
+#EXTINF:-1 tvg-id="Dyvy.gumor-tb-hd.ua" tvg-name="Гумор ТБ HD" group-title="Українське ТБ | UKR" tvg-language="ukr",Гумор ТБ HD
+https://playout-stream.adt-playout.top/player/video/53c3bce66e43be4f209556518c2fcb54/26188/master.m3u8?subs=1
 #EXTINF:-1 tvg-id="NTKTV.ua@SD" tvg-logo="https://www.ntktv.ua/bitrix/templates/ntk_copy/images/logo.png" group-title="Українське ТБ | UKR" tvg-language="ukr",НТК ТВ (1080p) [Not 24/7]
 https://stream.ntktv.ua/s/ntk/ntk.m3u8
 #EXTINF:-1 tvg-id="OrbitaTV.ua@SD" tvg-logo="https://i.ibb.co/Bj4T9wB/logo-Orbita-fin14.png" group-title="Українське ТБ | UKR" tvg-language="ukr",Орбіта ТВ (360p) [Not 24/7]
@@ -983,7 +1019,7 @@ http://46.175.163.130/ks_plus/index.m3u8
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="SonyTurbo.ru",.Black
 http://195.64.140.147:10087/87
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-type="flussonic" group-title="Фільми | RUS" tvg-language="rus" tvg-id="SonyTurbo.ru",.BLACK
-http://hls.stb.md/BLACK_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/BLACK_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="Фільми | RUS" tvg-language="rus" tvg-id="SonyTurbo.ru",.black
 http://stream.mcquack.net/263/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/bollywood-hd.png"  group-title="Фільми | RUS" tvg-language="rus" tvg-id="Bollywood.ru",Bollywood HD
@@ -1045,13 +1081,13 @@ http://stream.mcquack.net/465/index.m3u8
 http://stream.mcquack.net/126/index.m3u8
 #EXTINF:-1 tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/19734/logo_256_1697699059.png" group-title="Фільми | RUS" tvg-language="rus" tvg-id="SilkWayCinema.kz",Silk Way Cinema
 #EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"6.0.9","version_code":"911","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
-https://mhd116.iptv2022.com/x/KljJhmOwzKuPGd7eobs_Eg,1788763889/streaming/silk_way_cinema/324/1/index.m3u8
+https://mhd116.iptv2022.com/x/zTYjMKBHiys6ZDhwYR5Ejg,1788807024/streaming/silk_way_cinema/324/1/index.m3u8
 #EXTINF:-1 tvg-id="SilkWayCinema.kz@SD" tvg-logo="https://www.cableman.ru/sites/default/files/Silk-way-CINEMA.png" group-title="Фільми | RUS" tvg-language="rus",Silk Way Cinema (1080p) [Geo-blocked]
 https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8
 #EXTINF:-1 tvg-id="STARTWorld.ru@SD" tvg-logo="https://images.iptv.rt.ru/images/d6iist8mifeailfopupg.png" group-title="Фільми | RUS" tvg-language="rus",START World (576p)
 https://fs.uplink.kz/start_world/mono.m3u8?token=onlinetv
 #EXTINF:-1  group-title="Фільми | RUS" tvg-language="rus" tvg-id="STARTWorld.ru",Start World HD
-http://hls.stb.md/START_WORLD_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/START_WORLD_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 tvg-name="Velvet. Европейское кино HD" tvg-logo="https://cdn.rostelekom-tv.xyz/picons/e4351d9b387c625d.png"  group-title="Фільми | RUS" tvg-language="rus" tvg-id="VelvetEuropeanMovies.ru",Velvet. Европейское кино HD
 https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8
 #EXTINF:-1 tvg-id="ViasatKino.ua@SD" tvg-logo="https://i.imgur.com/io0WAkA.png" http-referrer="http://live.tvstitch.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Фільми | RUS" tvg-language="rus",Viasat Kino
@@ -1103,15 +1139,15 @@ http://5.9.11.197:57419/chu-105/mpegts
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="vijuPlusMegahit.ru",VIP Megahit HD
 http://195.64.140.147:10071/71
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="vijuPlusMegahit.ru",VIP Megahit HD
-http://arbiter.bolshoe.tv/?path=abr2/tv_1000_megahit_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/tv_1000_megahit_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-type="flussonic" group-title="Фільми | RUS" tvg-language="rus" tvg-id="vijuPlusMegahit.ru",ViP Megahit HD
-http://hls.stb.md/VIP_MEGAHITHD _H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/VIP_MEGAHITHD _H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="vijuPlusMegahit.ru",VIP Megahit HD
 https://flussonic.mkpnet.ru/tv-3d1cedf99303d057/video.m3u8
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="Dorama.ru",ДОРАМА
 http://31.210.208.171:8080/dorama/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="Dorama.ru",Дорама
-http://95.181.17.26/dvr01/hd1/dorama/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://95.181.17.26/dvr01/hd1/dorama/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="Dorama.ru",Дорама
 https://fs.uplink.kz/dorama/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="Dorama.ru",Дорама
@@ -1149,7 +1185,7 @@ http://5.134.87.9:8000/play/a062/index.m3u8
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="IndiyskoyeKino.ru",Индийское кино
 http://5.9.11.197:57419/chu-115/mpegts
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="IndiyskoyeKino.ru",Индийское кино
-http://arbiter.bolshoe.tv/?path=abr1/india/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr1/india/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="IndiyskoyeKino.ru",Индийское Кино
 https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="IndiyskoyeKino.ru",Индийское кино (2)
@@ -1163,9 +1199,9 @@ http://31.210.208.171:8080/kinohit/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="KinoHit.ru",Кинохит
 http://5.9.11.197:57419/chu-118/mpegts
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="KinoHit.ru",Кинохит
-http://arbiter.bolshoe.tv/?path=abr2/kinohit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MTozMiBBTSZoYXNoX3ZhbHVlPXhHMjRJNjlqOWFGSmQ4RURwU3RqZ0E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
+http://arbiter.bolshoe.tv/?path=abr2/kinohit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjYgNjo1MDoyNiBQTSZoYXNoX3ZhbHVlPTNvR0pLWkM0MXdDbG5xbi9GZnRQa1E9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-type="flussonic" group-title="Фільми | RUS" tvg-language="rus" tvg-id="KinoHit.ru",Кинохит
-http://hls.stb.md/KINOHIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODY3NzQ3NCwiZXhwIjoxNzg4NzYzODc0LCJpYXQiOjE3ODg2Nzc0NzQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.bkT7i6A2Ro4QhQfx9Mj97XWe2Qa7eBNAqJdr7YH0H1I
+http://hls.stb.md/KINOHIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4ODcyMDE0NCwiZXhwIjoxNzg4ODA2NTQ0LCJpYXQiOjE3ODg3MjAxNDQsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.Bg2T23D8CwJPzkLj_m_d--vMZAFOp__Jw7mZvtdV8C8
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="KinoHit.ru",Кинохит
 http://tv.ttk.mx:9163
 #EXTINF:-1 group-title="Фільми | RUS" tvg-language="rus" tvg-id="KinoHit.ru",КиноХит
