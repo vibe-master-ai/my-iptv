@@ -1,33 +1,33 @@
 {
   "policy": "movies-cartoons-ukr-rus-ua-broadcast-educational-series-v6",
-  "updated_at": "2026-09-09T09:00:50.582200+00:00",
-  "streams": 1025,
-  "unique_channel_ids": 396,
+  "updated_at": "2026-09-10T08:59:39.844664+00:00",
+  "streams": 1026,
+  "unique_channel_ids": 397,
   "categories": {
     "Фільми | UKR": 11,
-    "Фільми | RUS": 535,
-    "Серіали | RUS": 85,
+    "Фільми | RUS": 533,
+    "Серіали | RUS": 84,
     "Серіали | UKR": 3,
-    "Мультфільми | RUS": 111,
+    "Мультфільми | RUS": 114,
     "Серіали | RUS/UKR": 4,
     "Фільми | RUS/UKR": 1,
     "Мультфільми | UKR": 8,
     "Пізнавальні | RUS": 196,
     "Пізнавальні | UKR": 12,
     "Пізнавальні | RUS/UKR": 4,
-    "Українське ТБ | UKR": 50,
+    "Українське ТБ | UKR": 51,
     "Українське ТБ | RUS/UKR": 5
   },
   "source_contributions": {
     "iptv-org/iptv": 218,
-    "dearbulut/iptv": 30,
+    "dearbulut/iptv": 28,
     "Free-TV/IPTV": 1,
-    "naggdd/iptv": 180,
-    "smolnp/IPTVru": 47,
-    "Dimonovich/TV": 465,
+    "naggdd/iptv": 181,
+    "smolnp/IPTVru": 46,
+    "Dimonovich/TV": 466,
     "substanc1/iptv-ukraine": 7,
-    "Spirt007/Tvru": 18,
+    "Spirt007/Tvru": 19,
     "egno/egno.github.io": 4,
-    "Adam-ZS/iptv-ru-ua": 55
+    "Adam-ZS/iptv-ru-ua": 56
   }
 }
