@@ -1,18 +1,18 @@
 {
   "policy": "movies-cartoons-ukr-rus-ua-broadcast-educational-series-v6",
-  "updated_at": "2026-09-14T09:57:32.117268+00:00",
-  "streams": 1026,
-  "unique_channel_ids": 396,
+  "updated_at": "2026-09-15T09:28:52.874581+00:00",
+  "streams": 1014,
+  "unique_channel_ids": 395,
   "categories": {
     "Фільми | UKR": 11,
-    "Фільми | RUS": 535,
-    "Серіали | RUS": 83,
+    "Фільми | RUS": 532,
+    "Серіали | RUS": 79,
     "Серіали | UKR": 3,
-    "Мультфільми | RUS": 113,
+    "Мультфільми | RUS": 110,
     "Серіали | RUS/UKR": 4,
     "Фільми | RUS/UKR": 1,
     "Мультфільми | UKR": 8,
-    "Пізнавальні | RUS": 196,
+    "Пізнавальні | RUS": 194,
     "Пізнавальні | UKR": 12,
     "Пізнавальні | RUS/UKR": 4,
     "Українське ТБ | UKR": 51,
@@ -20,14 +20,14 @@
   },
   "source_contributions": {
     "iptv-org/iptv": 218,
-    "dearbulut/iptv": 36,
+    "dearbulut/iptv": 34,
     "Free-TV/IPTV": 1,
     "naggdd/iptv": 205,
     "smolnp/IPTVru": 23,
-    "Dimonovich/TV": 461,
+    "Dimonovich/TV": 450,
     "substanc1/iptv-ukraine": 4,
     "Spirt007/Tvru": 18,
-    "egno/egno.github.io": 4,
+    "egno/egno.github.io": 5,
     "Adam-ZS/iptv-ru-ua": 56
   }
 }
