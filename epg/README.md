@@ -1,15 +1,15 @@
 # OwnTV EPG
 
-Generated **2026-09-27T10:03:56Z** from the checked-in playlist `my-iptv.m3u`.
+Generated **2026-09-28T11:01:21Z** from the checked-in playlist `my-iptv.m3u`.
 The public OwnTV XMLTV source is:
 
 `https://raw.githubusercontent.com/vibe-master-ai/my-iptv/main/epg/my-iptv.xml.gz`
 
 ## Mapping
 
-- Playlist channel identities after removing only the `@feed` qualifier: **406**.
-- Exact XMLTV channel IDs retained: **49** (12.1%).
-- Programme events retained: **5561**.
+- Playlist channel identities after removing only the `@feed` qualifier: **403**.
+- Exact XMLTV channel IDs retained: **49** (12.2%).
+- Programme events retained: **10527**.
 - Duplicate programme keys removed across source feeds: **0**.
 - Source channel IDs with no programme were omitted: **0**.
 
@@ -17,8 +17,8 @@ Mapping is exact by `tvg-id` base ID. The builder does not map by a similar name
 
 ## Sources at build time
 
-- **Ukraine**: `https://iptv-epg.org/files/epg-ua.xml.gz`; HTTP `200`, `application/gzip`, Last-Modified `Sun, 27 Sep 2026 08:16:15 GMT`; 231 source channels / 15239 programmes (20260926210000 +0000 → 20261004010600 +0000).
-- **Russia**: `https://iptv-epg.org/files/epg-ru.xml.gz`; HTTP `200`, `application/gzip`, Last-Modified `Sun, 27 Sep 2026 08:15:51 GMT`; 223 source channels / 49535 programmes (20260926210000 +0000 → 20261004030500 +0000).
+- **Ukraine**: `https://iptv-epg.org/files/epg-ua.xml.gz`; HTTP `200`, `application/gzip`, Last-Modified `Mon, 28 Sep 2026 11:01:17 GMT`; 231 source channels / 49951 programmes (20260927210000 +0000 → 20261005003600 +0000).
+- **Russia**: `https://iptv-epg.org/files/epg-ru.xml.gz`; HTTP `200`, `application/gzip`, Last-Modified `Mon, 28 Sep 2026 11:01:18 GMT`; 223 source channels / 49264 programmes (20260927210000 +0000 → 20261005030000 +0000).
 
 The feeds are public country XMLTV feeds from [IPTV-EPG.org](https://iptv-epg.org/guides). Their schedule horizon and channel contents can change. XMLTV programme times retain the source timestamps and timezone offsets.
 
