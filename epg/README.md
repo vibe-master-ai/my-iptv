@@ -1,15 +1,15 @@
 # OwnTV EPG
 
-Generated **2026-09-29T10:45:34Z** from the checked-in playlist `my-iptv.m3u`.
+Generated **2026-09-30T10:33:31Z** from the checked-in playlist `my-iptv.m3u`.
 The public OwnTV XMLTV source is:
 
 `https://raw.githubusercontent.com/vibe-master-ai/my-iptv/main/epg/my-iptv.xml.gz`
 
 ## Mapping
 
-- Playlist channel identities after removing only the `@feed` qualifier: **403**.
+- Playlist channel identities after removing only the `@feed` qualifier: **401**.
 - Exact XMLTV channel IDs retained: **49** (12.2%).
-- Programme events retained: **10308**.
+- Programme events retained: **9295**.
 - Duplicate programme keys removed across source feeds: **0**.
 - Source channel IDs with no programme were omitted: **0**.
 
@@ -17,8 +17,8 @@ Mapping is exact by `tvg-id` base ID. The builder does not map by a similar name
 
 ## Sources at build time
 
-- **Ukraine**: `https://iptv-epg.org/files/epg-ua.xml.gz`; HTTP `200`, `application/gzip`, Last-Modified `Tue, 29 Sep 2026 10:45:29 GMT`; 231 source channels / 46264 programmes (20260928210000 +0000 → 20261005235800 +0000).
-- **Russia**: `https://iptv-epg.org/files/epg-ru.xml.gz`; HTTP `200`, `application/gzip`, Last-Modified `Tue, 29 Sep 2026 08:00:19 GMT`; 223 source channels / 44466 programmes (20260928210000 +0000 → 20261005234000 +0000).
+- **Ukraine**: `https://iptv-epg.org/files/epg-ua.xml.gz`; HTTP `200`, `application/gzip`, Last-Modified `Wed, 30 Sep 2026 08:13:47 GMT`; 231 source channels / 40612 programmes (20260929210000 +0000 → 20261006234300 +0000).
+- **Russia**: `https://iptv-epg.org/files/epg-ru.xml.gz`; HTTP `200`, `application/gzip`, Last-Modified `Wed, 30 Sep 2026 08:13:36 GMT`; 223 source channels / 38077 programmes (20260929210000 +0000 → 20261006034000 +0000).
 
 The feeds are public country XMLTV feeds from [IPTV-EPG.org](https://iptv-epg.org/guides). Their schedule horizon and channel contents can change. XMLTV programme times retain the source timestamps and timezone offsets.
 
