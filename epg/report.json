@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-30T10:33:31Z",
+  "generated_at": "2026-10-01T11:01:18Z",
   "playlist": "my-iptv.m3u",
   "output": "epg/my-iptv.xml.gz",
   "sources": [
     {
       "name": "Ukraine",
       "url": "https://iptv-epg.org/files/epg-ua.xml.gz",
-      "last_modified": "Wed, 30 Sep 2026 08:13:47 GMT",
+      "last_modified": "Thu, 01 Oct 2026 09:44:50 GMT",
       "content_type": "application/gzip",
       "content_length": "",
       "channels": 231,
-      "programmes": 40612,
-      "programme_start": "20260929210000 +0000",
-      "programme_stop": "20261006234300 +0000"
+      "programmes": 34663,
+      "programme_start": "20260930210000 +0000",
+      "programme_stop": "20261007235700 +0000"
     },
     {
       "name": "Russia",
       "url": "https://iptv-epg.org/files/epg-ru.xml.gz",
-      "last_modified": "Wed, 30 Sep 2026 08:13:36 GMT",
+      "last_modified": "Thu, 01 Oct 2026 09:44:38 GMT",
       "content_type": "application/gzip",
       "content_length": "",
       "channels": 223,
-      "programmes": 38077,
-      "programme_start": "20260929210000 +0000",
-      "programme_stop": "20261006034000 +0000"
+      "programmes": 44547,
+      "programme_start": "20260930210000 +0000",
+      "programme_stop": "20261008020000 +0000"
     }
   ],
   "stats": {
@@ -31,9 +31,9 @@
     "matched_source_channel_ids": 49,
     "mapped_channel_ids": 49,
     "coverage_percent": 12.2,
-    "programme_events": 9295,
+    "programme_events": 9596,
     "duplicate_programmes_removed": 0,
     "source_channel_ids_without_programmes": 0
   },
-  "sha256": "2308172a8bf0534d94afc82982f207997764c8f7fa39dc457970c7700c5cdbf2"
+  "sha256": "70cbf755365087bee293e92a3190c113698c8278a69f382499d72daee0245c24"
 }
