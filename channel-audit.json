@@ -2667,6 +2667,28 @@
     "language_evidence": "explicit language tag"
   },
   {
+    "name": "365 days TV (576p)",
+    "channel_id": "365daysTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Amedia Hit (1080p)",
+    "channel_id": "AmediaHit.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Серіали",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "http://flussonic.linkintel.ru/amedia-hit/index.m3u8",
+    "language_evidence": "explicit language tag"
+  },
+  {
     "name": "Big Planet (576p)",
     "channel_id": "BigPlanet.ru",
     "languages": [
@@ -2696,7 +2718,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv",
+    "url": "http://stream.mcquack.net/238/index.m3u8",
     "language_evidence": "explicit language tag"
   },
   {
@@ -2722,17 +2744,6 @@
     "language_evidence": "explicit language tag"
   },
   {
-    "name": "Dom kino (576p)",
-    "channel_id": "Domkino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "http://88.212.15.19/live/test_dom_kino/playlist.m3u8",
-    "language_evidence": "explicit language tag"
-  },
-  {
     "name": "FAN (1080p)",
     "channel_id": "FAN.ru",
     "languages": [
@@ -2752,6 +2763,28 @@
     "category": "Фільми",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "http://stream.mcquack.net/363/index.m3u8",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Illusion+ (1080p)",
+    "channel_id": "IllusionPlus.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "http://str2.iptvhd.ru:8080/Illyuzion/index.m3u8",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Indiyskoye Kino (576p)",
+    "channel_id": "IndiyskoyeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv",
     "language_evidence": "explicit language tag"
   },
   {
@@ -2796,6 +2829,17 @@
     "category": "Фільми",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "http://stream.mcquack.net/171/index.m3u8",
+    "language_evidence": "explicit language tag"
+  },
+  {
+    "name": "Kino TV (1080p)",
+    "channel_id": "KinoTV.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "http://stream.mcquack.net/221/index.m3u8",
     "language_evidence": "explicit language tag"
   },
   {
@@ -2898,17 +2942,6 @@
     "language_evidence": "explicit language tag"
   },
   {
-    "name": "Nick Jr. (576p)",
-    "channel_id": "NickJr.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://stream8.cinerama.uz/1501/playlist.m3u8",
-    "language_evidence": "explicit language tag"
-  },
-  {
     "name": "NTV-Hit (576p)",
     "channel_id": "NTVHit.ru",
     "languages": [
@@ -2928,17 +2961,6 @@
     "category": "Пізнавальні",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "http://88.212.15.19/live/test_poehali/playlist.m3u8",
-    "language_evidence": "explicit language tag"
-  },
-  {
-    "name": "Rodnoe Kino (576p)",
-    "channel_id": "RodnoeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv",
     "language_evidence": "explicit language tag"
   },
   {
@@ -2982,7 +3004,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "http://217.114.191.150/Solnce/index.m3u8",
+    "url": "http://stream.mcquack.net/118/index.m3u8",
     "language_evidence": "explicit language tag"
   },
   {
@@ -3008,6 +3030,17 @@
     "language_evidence": "explicit language tag"
   },
   {
+    "name": "TiJi (576p)",
+    "channel_id": "TiJi.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Мультфільми",
+    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+    "url": "https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8",
+    "language_evidence": "explicit language tag"
+  },
+  {
     "name": "TNV-Planet (576p)",
     "channel_id": "TNVPlanet.ru",
     "languages": [
@@ -3015,7 +3048,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "https://fs.uplink.kz/tnv/mono.m3u8?token=onlinetv",
+    "url": "https://planeta.mediacdn.ru/cdn/tnvplanet/playlist.m3u8",
     "language_evidence": "explicit language tag"
   },
   {
@@ -3027,17 +3060,6 @@
     "category": "Пізнавальні",
     "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
     "url": "http://str2.iptvhd.ru:8080/Sovershenno_sekretno/index.m3u8",
-    "language_evidence": "explicit language tag"
-  },
-  {
-    "name": "Travel+Adventure (1080p)",
-    "channel_id": "TravelPlusAdventure.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-    "url": "http://77.232.131.211/TravelAdventureHD/index.m3u8",
     "language_evidence": "explicit language tag"
   },
   {
@@ -5175,6 +5197,17 @@
     "language_evidence": "language playlist channel ID"
   },
   {
+    "name": "Travel+Adventure (2)",
+    "channel_id": "TravelPlusAdventure.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",
+    "url": "http://77.232.131.211/TravelAdventureHD/index.m3u8",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
     "name": "Animal Planet",
     "channel_id": "AnimalPlanet.ru",
     "languages": [
@@ -5677,7 +5710,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/DISCOVERY_CHANNEL_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/DISCOVERY_CHANNEL_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "reviewed source title alias + channel feed language metadata"
   },
   {
@@ -5688,7 +5721,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/HD_LIFE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/HD_LIFE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5699,7 +5732,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/IDXTRA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/IDXTRA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "reviewed source title alias + channel feed language metadata"
   },
   {
@@ -5710,7 +5743,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/VIASAT_NATHISTORYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/VIASAT_NATHISTORYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5721,7 +5754,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/NASHASYBYRI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/NASHASYBYRI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -5732,7 +5765,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/PERVYY_KOSMICHESKIYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/PERVYY_KOSMICHESKIYHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5743,7 +5776,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/DIKAYAOHOTA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/DIKAYAOHOTA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5754,7 +5787,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/DIKAYARIBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/DIKAYARIBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5765,7 +5798,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/DIKYI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/DIKYI_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5776,7 +5809,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/OKHOTAIRYBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/OKHOTAIRYBALKA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5787,7 +5820,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/OHOTNIK_IRIBALOV_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/OHOTNIK_IRIBALOV_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5798,7 +5831,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/DOM_KINO_PREMIUM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/DOM_KINO_PREMIUM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5810,7 +5843,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/FILMUA_DRAMA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/FILMUA_DRAMA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5821,7 +5854,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/BLACK_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/BLACK_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "reviewed source title alias + channel feed language metadata"
   },
   {
@@ -5832,7 +5865,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/RED_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/RED_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "reviewed source title alias + channel feed language metadata"
   },
   {
@@ -5843,7 +5876,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/STARFAMILY_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/STARFAMILY_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5854,7 +5887,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KINOMAN_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/KINOMAN_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5865,7 +5898,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/MOSFILM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/MOSFILM_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5876,7 +5909,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/START_AIR_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/START_AIR_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5887,7 +5920,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/START_WORLD_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/START_WORLD_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5898,7 +5931,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/TV1000RU_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/TV1000RU_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5909,7 +5942,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/VIP_MEGAHITHD _H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/VIP_MEGAHITHD _H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5920,7 +5953,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/VIP_PREMIERHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/VIP_PREMIERHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5931,7 +5964,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/VIP_SERIALHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/VIP_SERIALHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5942,7 +5975,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls1.stb.md/KINOTV_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls1.stb.md/KINOTV_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5953,7 +5986,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KINOMIX_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/KINOMIX_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5964,7 +5997,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KINOPREMIERA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/KINOPREMIERA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5975,7 +6008,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KINO_SVIDANIE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/KINO_SVIDANIE_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5986,7 +6019,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KINOSEMYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/KINOSEMYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -5997,7 +6030,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KINOSERYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/KINOSERYA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -6008,7 +6041,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KINOHIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/KINOHIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -6019,7 +6052,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/MUJSKOE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/MUJSKOE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -6030,7 +6063,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/NASHENOVOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/NASHENOVOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -6041,7 +6074,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/RODNOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/RODNOIE_KINO_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -6052,7 +6085,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/KAPITAN_FANTASTIKA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/KAPITAN_FANTASTIKA_HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -6063,7 +6096,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/MULIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/MULIT_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -6074,7 +6107,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/RIJII_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/RIJII_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -6085,7 +6118,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://hls.stb.md/CTC_KIDS_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDgzNzI0NiwiZXhwIjoxNzkwOTIzNjQ2LCJpYXQiOjE3OTA4MzcyNDYsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.dfqzSS4WNqbpl0fvbVG7tGY7nR67EVLYC52twaBm8qg",
+    "url": "http://hls.stb.md/CTC_KIDS_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5MDkyNDIzMiwiZXhwIjoxNzkxMDEwNjMyLCJpYXQiOjE3OTA5MjQyMzIsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.R2JhgzaCY4s26-N97SEBcivCUUmA6rWkIYCA4WEKSag",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -6375,424 +6408,6 @@
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://stream.mcquack.net/93/tracks-v1a1/mono.ts.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Поехали!",
-    "channel_id": "Poehali.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/poexali/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Живая Планета",
-    "channel_id": "ZhivayaPlaneta.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/jivayaplaneta/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Моя планета",
-    "channel_id": "MoyaPlaneta.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/moyaplaneta/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Big Planet",
-    "channel_id": "BigPlanet.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/bigplanet/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Дикий",
-    "channel_id": "Dikij.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/dikiy/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Охота и Рыбалка",
-    "channel_id": "Okhotairybalka.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/oxotoiribalka/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "История",
-    "channel_id": "Istoriya.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/istoriya/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Кто есть кто",
-    "channel_id": "Ktoestkto.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/ktoestkto/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Иллюзион+",
-    "channel_id": "IllusionPlus.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/illuzion/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Русский Иллюзион",
-    "channel_id": "RusskiyIllusion.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/russkiyiluzion/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Еврокино",
-    "channel_id": "Evrokino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/eurokino/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Мир сериала",
-    "channel_id": "MirSeriala.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/mirseriala/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Мужское кино HD",
-    "channel_id": "Muzhskoekino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/MujskoeKinoHD/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Hollywood HD",
-    "channel_id": "Hollywood.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/HollywoodHD/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "VIP Megahit HD",
-    "channel_id": "vijuPlusMegahit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/VIPMegahitHD/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "VIP Premiere HD",
-    "channel_id": "vijuPlusPremiere.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/VIPPremiereHD/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "VIP Serial HD",
-    "channel_id": "vijuPlusSerial.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/ViasatSportHD/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Дом кино",
-    "channel_id": "Domkino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/domkino/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Дом Кино Премиум HD",
-    "channel_id": "DomkinoPremium.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/DomKinoPremiumHD/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": ".Black",
-    "channel_id": "SonyTurbo.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/sonyturbo/index.m3u8",
-    "language_evidence": "reviewed source title alias + channel feed language metadata"
-  },
-  {
-    "name": "Русский Детектив",
-    "channel_id": "RusskiyDetektiv.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/russkiydetektiv/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Русский Роман",
-    "channel_id": "Russkiyroman.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/russkiyroman/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Кинохит",
-    "channel_id": "KinoHit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/kinoxit/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Киномикс HD",
-    "channel_id": "Kinomix.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/kinomiks/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Киносемья HD",
-    "channel_id": "Kinosemja.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/kinosemya/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Индийское Кино",
-    "channel_id": "IndiyskoyeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/indiskoekino/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Киносвидание",
-    "channel_id": "Kinosvidanie.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/kinosvidanie/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Родное Кино",
-    "channel_id": "RodnoeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/rodnoekino/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Amedia 2",
-    "channel_id": "A2.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/amedia2/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Amedia Hit",
-    "channel_id": "AmediaHit.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/amediahit/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Amedia Premium",
-    "channel_id": "AmediaPremium.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/AmediaPremium/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Amedia Premium HD",
-    "channel_id": "AmediaPremium.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/AmediaPremiumHD/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Любимое Кино",
-    "channel_id": "NasheLubimoeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/lubimoekino/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Сапфир",
-    "channel_id": "Saphire.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/foxlife/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Кинеко",
-    "channel_id": "Kineko.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/foxrussia/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Уникум",
-    "channel_id": "Unikum.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/detskiy/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Мульт",
-    "channel_id": "Mult.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/mult/index.m3u8",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Мульт HD",
-    "channel_id": "Mult.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://46.32.176.50/MultHD/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -9070,259 +8685,6 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a03a",
-    "language_evidence": "reviewed source title alias + channel feed language metadata"
-  },
-  {
-    "name": "DocuBox",
-    "channel_id": "DocuBox.nl",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a00q",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Investigation Discovery",
-    "channel_id": "InvestigationDiscovery.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a03b",
-    "language_evidence": "reviewed source title alias + channel feed language metadata"
-  },
-  {
-    "name": "TRAVEL+ADVENTURE",
-    "channel_id": "TravelPlusAdventure.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a022",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Дикая охота HD",
-    "channel_id": "Dikayaokhota.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a01k",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Дикая рыбалка HD",
-    "channel_id": "Dikayarybalka.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a01j",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Дикий",
-    "channel_id": "Dikij.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a00c",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Amedia 2",
-    "channel_id": "A2.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Серіали",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a017",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "START Air",
-    "channel_id": "STARTAir.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a020",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "START World",
-    "channel_id": "STARTWorld.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a021",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Star Family",
-    "channel_id": "StarFamily.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a004",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Дом кино",
-    "channel_id": "Domkino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a00e",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Еврокино",
-    "channel_id": "Evrokino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a01p",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "ИНДИЙСКОЕ КИНО",
-    "channel_id": "IndiyskoyeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a02k",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "КИНОСВИДАНИЕ",
-    "channel_id": "Kinosvidanie.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a00b",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "КИНОСЕРИЯ",
-    "channel_id": "Kinoseriya.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a02z",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Наше новое кино",
-    "channel_id": "NasheNovoeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a01f",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Родное кино",
-    "channel_id": "RodnoeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a00d",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Мужской",
-    "channel_id": "Muzhskoy.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a015",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Русский Бестселлер",
-    "channel_id": "RusskiyBestseller.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a006",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Русский Детектив",
-    "channel_id": "RusskiyDetektiv.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a003",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Русский Роман",
-    "channel_id": "Russkiyroman.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a002",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Русский иллюзион",
-    "channel_id": "RusskiyIllusion.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://178.68.244.231:81/play/a01o",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
-    "name": "Discovery Channel",
-    "channel_id": "DiscoveryChannel.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Пізнавальні",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "http://5.188.159.128:8070/DiscoveryChannel/tracks-v1a1/mono.m3u8",
     "language_evidence": "reviewed source title alias + channel feed language metadata"
   },
@@ -9448,17 +8810,6 @@
     "language_evidence": "language playlist channel ID"
   },
   {
-    "name": "Индийское кино",
-    "channel_id": "IndiyskoyeKino.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Фільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv",
-    "language_evidence": "language playlist channel ID"
-  },
-  {
     "name": "Киномикс",
     "channel_id": "Kinomix.ru",
     "languages": [
@@ -9467,6 +8818,17 @@
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "https://fs.uplink.kz/kinomix/mono.m3u8?token=onlinetv",
+    "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "Родное кино",
+    "channel_id": "RodnoeKino.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Фільми",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -9523,6 +8885,17 @@
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
     "url": "https://fs.uplink.kz/start_air/mono.m3u8?token=onlinetv",
     "language_evidence": "language playlist channel ID"
+  },
+  {
+    "name": "ТНВ-Планета",
+    "channel_id": "TNVPlanet.ru",
+    "languages": [
+      "rus"
+    ],
+    "category": "Пізнавальні",
+    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
+    "url": "https://fs.uplink.kz/tnv/mono.m3u8?token=onlinetv",
+    "language_evidence": "language playlist URL"
   },
   {
     "name": "В гостях у сказки",
@@ -10247,7 +9620,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/fRkuuVJAtgBGXzc5o0RR6Q,1790923854/streaming/fenixkino/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/FVl6em_VyWBV0cyaslG9MQ,1791010651/streaming/fenixkino/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10258,7 +9631,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/buzdLyoOPUkWjysSuhzKMQ,1790923854/streaming/taina-galaxy/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/fCge8jCRUJU1_19it8473w,1791010651/streaming/taina-galaxy/324/1/index.m3u8",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10269,7 +9642,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/uMDsso7PiAT4uxaihUC_kA,1790923854/streaming/oribalke/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/Lq1L4qlgHtB4V8aBMTp9tA,1791010651/streaming/oribalke/324/1/index.m3u8",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10280,7 +9653,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/IHzFQLJWDwkpRrPVJvW4vw,1790923854/streaming/tourist_eyes/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/sc1INahTaBQB9_0dDHDVPg,1791010651/streaming/tourist_eyes/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10291,7 +9664,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/QN0uWLEMwG8SSu4p8VCv3w,1790923854/streaming/mir_seriala/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/3-tyFGm6M_VBTzLdiA3LjQ,1791010651/streaming/mir_seriala/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10302,7 +9675,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/aMaPY3jXdc6SA_08HUppiQ,1790923854/streaming/multimania/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/UAtEZUSfyeMmF-MC2fnDiA,1791010651/streaming/multimania/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10313,7 +9686,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/JZPAD6MW-KSI4b1blDXR9w,1790923854/streaming/quadrohd/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/rkhXosVUZ5LuYl1tfFABxQ,1791010651/streaming/quadrohd/324/1/index.m3u8",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10324,7 +9697,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/4ggQkjVBHodZFqypN8i8xA,1790923854/streaming/det_kino/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/jMnLeHwCevd_N_iUHyWAkw,1791010651/streaming/det_kino/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10335,7 +9708,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/ELsvk6aSO1NeThjR4_u4pQ,1790923854/streaming/sovietmovs/324/1/index.m3u8?bundle=appBundle&app_name=appName&ifa=idfa&device_id=did",
+    "url": "https://mhd116.iptv2022.com/x/T9l5VMfsdNIoaL-9ILSuSw,1791010651/streaming/sovietmovs/324/1/index.m3u8?bundle=appBundle&app_name=appName&ifa=idfa&device_id=did",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10346,7 +9719,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/87kDrjLj7Qlj8TtIzDIAAQ,1790923854/streaming/vkus_tv/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/TH05TMkA1B2LcsHvFRRRQg,1791010651/streaming/vkus_tv/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10357,7 +9730,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/bzZWh-qaJoq7ChLJFBsq2w,1790923854/streaming/k_kino/324/1/index.m3u8?bundle=appBundle&app_name=appName&ifa=idfa&device_id=did",
+    "url": "https://mhd116.iptv2022.com/x/35VDHLNQa5UOWk3hZRGSTQ,1791010651/streaming/k_kino/324/1/index.m3u8?bundle=appBundle&app_name=appName&ifa=idfa&device_id=did",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10368,7 +9741,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/3Pd4BDWyaYtzsBcliKl5wQ,1790923854/streaming/kinosezon/324/1/index.m3u8?bundle=appBundle&app_name=appName&ifa=idfa&device_id=did",
+    "url": "https://mhd116.iptv2022.com/x/D9Z0wjdmB37aNqodie9SZA,1791010651/streaming/kinosezon/324/1/index.m3u8?bundle=appBundle&app_name=appName&ifa=idfa&device_id=did",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10379,7 +9752,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/KYvVOhRdubiTySNQXvoNoA,1790923854/streaming/rtdhd/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/hUBzRkyGRLIZEHvxDkZLaw,1791010651/streaming/rtdhd/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10390,7 +9763,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/PRyQ6cAMjr9dCg0ijMwQDQ,1790923854/streaming/np/324/1/index.m3u8?bundle=appBundle&app_name=appName&ifa=idfa&device_id=did",
+    "url": "https://mhd116.iptv2022.com/x/OxoLvH_AjVCfu6PGwF-OVA,1791010651/streaming/np/324/1/index.m3u8?bundle=appBundle&app_name=appName&ifa=idfa&device_id=did",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10401,7 +9774,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/Bph8jh4n2wZc097WDl6r5w,1790923854/streaming/travelxp/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/j7ap3f1ibIhaxleN7Vo15w,1791010651/streaming/travelxp/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10412,7 +9785,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/XTcxtUJfKqJ9HXROn8EaNg,1790923854/streaming/silk_way_cinema/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/UY32-d-SZreCb5AgTqiejg,1791010651/streaming/silk_way_cinema/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10423,7 +9796,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/Fv9tMnbqvJKtTKrelo226A,1790923854/streaming/we_tv/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/hw2hAh0Gr7141m0yr8-xwQ,1791010651/streaming/we_tv/324/1/index.m3u8",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10434,7 +9807,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/7OULvNQwjelBlFh3HXJu2Q,1790923854/streaming/nano/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/9gw4akpwESVjghUFtBY2Hw,1791010651/streaming/nano/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10445,7 +9818,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://mhd116.iptv2022.com/x/zbhd1OEmAkmi94d8oFTJ-w,1790923854/streaming/sever_crimea24/324/1/index.m3u8",
+    "url": "https://mhd116.iptv2022.com/x/7Ypyqod0zs5nIXvNBKL94A,1791010651/streaming/sever_crimea24/324/1/index.m3u8",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10456,7 +9829,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr3/ntv-hit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr3/ntv-hit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10467,7 +9840,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://95.181.17.14/dvr02/mobile2/TravAdHD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://95.181.17.14/dvr02/mobile2/TravAdHD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10478,7 +9851,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/rtg/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/rtg/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10489,7 +9862,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/tnvpl/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/tnvpl/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10500,7 +9873,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/IQHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/IQHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10511,7 +9884,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/hd_eureka/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/hd_eureka/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10522,7 +9895,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/hdlife/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/hdlife/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10533,7 +9906,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/nashasibirHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/nashasibirHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10544,7 +9917,7 @@
     ],
     "category": "Серіали",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/set/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/set/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "reviewed source title alias + channel feed language metadata"
   },
   {
@@ -10555,7 +9928,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/rusillusion/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/rusillusion/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10566,7 +9939,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/illusionplus/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/illusionplus/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10577,7 +9950,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/rus_roman/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/rus_roman/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10588,7 +9961,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr3/shot_tv/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr3/shot_tv/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10599,7 +9972,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/fenixkino/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/fenixkino/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10610,7 +9983,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/kinofamily/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/kinofamily/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10621,7 +9994,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr3/kinoseriya/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr3/kinoseriya/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10632,7 +10005,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/kinohit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/kinohit/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10643,7 +10016,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/india/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/india/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10654,7 +10027,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr3/kinouzhas/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr3/kinouzhas/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10665,7 +10038,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr3/kinosvidanie/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr3/kinosvidanie/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10676,7 +10049,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr4/nashe_novoe_kino/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr4/nashe_novoe_kino/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10687,7 +10060,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr4/mosfilm/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr4/mosfilm/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10698,7 +10071,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr3/fan_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr3/fan_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10709,7 +10082,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/tv1000_premium_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/tv1000_premium_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10720,7 +10093,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/tv_1000_megahit_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/tv_1000_megahit_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10731,7 +10104,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://95.181.17.18/dvr01/sd2/domkino/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://95.181.17.18/dvr01/sd2/domkino/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10742,7 +10115,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/GingerHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/GingerHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10753,7 +10126,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/rtdhdru/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/rtdhdru/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10764,7 +10137,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/arsenal/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/arsenal/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10775,7 +10148,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/poehali/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/poehali/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10786,7 +10159,7 @@
     ],
     "category": "Фільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://95.181.17.26/dvr01/hd1/dorama/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://95.181.17.26/dvr01/hd1/dorama/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10797,7 +10170,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr2/tlum_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr2/tlum_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10808,7 +10181,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr4/mult/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr4/mult/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10819,7 +10192,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/multimania/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/multimania/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10830,7 +10203,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/strana/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/strana/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10841,7 +10214,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=abr1/detckiyHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=abr1/detckiyHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10852,7 +10225,7 @@
     ],
     "category": "Мультфільми",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "http://arbiter.bolshoe.tv/?path=streaming/forkids/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMS8yMDI2IDY6NTA6NTYgQU0maGFzaF92YWx1ZT1ydGxFZXZGUnRCNHIwVXdQRXE1dUV3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
+    "url": "http://arbiter.bolshoe.tv/?path=streaming/forkids/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMi8yMDI2IDY6NTc6MzcgQU0maGFzaF92YWx1ZT1VNkVtMjN0VUZZZWdoV2QrV2g4OUF3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10863,7 +10236,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=llw7vTRb90llRr4OihcbSQ&e=2090837524&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=V6IDt9EQ9-ehNESKSnYk9g&e=2090924339&scheme=https",
     "language_evidence": "language playlist channel ID"
   },
   {
@@ -10874,7 +10247,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=SUQ5RU3iZH1KlQhdV-1k0A&e=2090837524&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=DW5GSWgTnO2ruPE4nbd20g&e=2090924340&scheme=https",
     "language_evidence": "reviewed source title alias + channel feed language metadata"
   },
   {
@@ -10885,7 +10258,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/a91d58870b9a0d23b2309d020ac4b354/index.m3u8?s=27q4IKa_lsZ9ibntr06pgQ&e=2090837525&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/a91d58870b9a0d23b2309d020ac4b354/index.m3u8?s=nYgr0avrj4esuHXwxUZCpQ&e=2090924341&scheme=https",
     "language_evidence": "reviewed source title alias + channel feed language metadata"
   },
   {
@@ -10896,7 +10269,7 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/2d7fa51716500fba52586d594201777f/index.m3u8?s=_Ud-_hG1p_ZcirCF1foERg&e=2090837532&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/2d7fa51716500fba52586d594201777f/index.m3u8?s=n0FA8FypIr1DYvt46n-13A&e=2090924360&scheme=https",
     "language_evidence": "channel feed language metadata"
   },
   {
@@ -10907,19 +10280,8 @@
     ],
     "category": "Пізнавальні",
     "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/ee431650738a594119c3516ceda72775/index.m3u8?s=BVtG5mUk0GepPl3d7mjeHw&e=2090837538&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/ee431650738a594119c3516ceda72775/index.m3u8?s=invWogoEWwYiS1T_S70pMg&e=2090924369&scheme=https",
     "language_evidence": "channel feed language metadata"
-  },
-  {
-    "name": "Мультиландия",
-    "channel_id": "Multilandia.ru",
-    "languages": [
-      "rus"
-    ],
-    "category": "Мультфільми",
-    "source": "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV",
-    "url": "https://bl.rutube.ru/livestream/6947be59fd96d84b978d8a831f82bc30/index.m3u8?s=PrytQFFel9I3GTeLYL2emw&e=2090837559&scheme=https",
-    "language_evidence": "language playlist channel ID"
   },
   {
     "name": "ИСТОРИЯ",
